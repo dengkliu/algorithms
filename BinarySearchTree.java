@@ -1,4 +1,4 @@
-public class BinaryTree{
+public class BinarySearchTree{
 	Node root;
 
 	public void addNode(int key, String name){
