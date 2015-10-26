@@ -1,4 +1,5 @@
 public class BinarySearchTree{
+	
 	Node root;
 
 	public void addNode(int key, String name){
@@ -22,7 +23,6 @@ public class BinarySearchTree{
 						parent.rightChild=newNode;
 						return;
 					}
-
 				}
 			}
 		}
