@@ -11,7 +11,6 @@ public class Permutation{
 		}
 
 		perm(15, list);
-
 	}
 
 	public static void perm(Integer n, int[] list){
