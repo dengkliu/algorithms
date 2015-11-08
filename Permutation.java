@@ -4,19 +4,19 @@ public class Permutation{
 
 	public static void  main(String agrs[]) {
 
-		int[] list= new int[15];
+		int[] list= new int[8];
 
 		for(int i=0; i<15; i++){
 			list[i]=0;
 		}
 
-		perm(15, list);
+		perm(8, list);
 	}
 
 	public static void perm(Integer n, int[] list){
 		if (n==0) print(list);
 		else{
-			for(int i=0; i<15; i++){
+			for(int i=0; i<8; i++){
 				if(list[i]==0){
 					list[i]=n;
 					perm(n-1, list);
@@ -27,10 +27,9 @@ public class Permutation{
 	}
 
 	public static void print(int[] list){
-		for(int i=0; i<15; i++){
+		for(int i=0; i<8; i++){
 			System.out.print(list[i]);
 		}
 		System.out.println(' ');
-
 	}
 }
