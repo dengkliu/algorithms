@@ -1,4 +1,5 @@
 # Algorithms
 
 ## Prefix Sum
-* [Definition](https://github.com/dengkliu/algorithms/blob/master/PrefixSum.java) 
+* 1 dimentional arrary - [Definition](https://github.com/dengkliu/algorithms/blob/master/PrefixSum.java) 
+* 2 dimentional arrary - 
