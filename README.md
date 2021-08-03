@@ -30,3 +30,11 @@
   * Longest Increasing Subsequence 
 
 ## Topological Order (Medium)
+
+## Useful data structures
+* Union Find
+* Trie
+* Segment Tree
+* Binary Indexed Tree
+* Heap
+* Skip List
