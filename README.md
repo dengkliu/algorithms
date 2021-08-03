@@ -38,12 +38,12 @@
 * Factorization - https://www.lintcode.com/problem/652/
 
 ## Useful data structures
-* Union Find
-* Trie
-* Segment Tree
-* Binary Indexed Tree
-* Heap (Priority Queue)
-* Skip List
+### Union Find
+### Trie
+### Segment Tree
+### Binary Indexed Tree
+### Heap (Priority Queue)
+### Skip List
 
 ### Tips
 * First go through brute force approach
