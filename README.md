@@ -11,7 +11,7 @@
 * 1 dimentional array - [Definition](https://github.com/dengkliu/algorithms/blob/master/PrefixSum.java) 
 * 2 dimentional array - [Definition](https://github.com/dengkliu/algorithms/blob/master/prefixSum2Dimention.java)
 * Related coding questions
-  * Maximum Subarray
+  * Maximum Subarray - https://www.lintcode.com/problem/41/
   * Subarrary sum equals to K II - https://www.lintcode.com/problem/1844/
   * Find words - https://www.lintcode.com/problem/194/
   * 
