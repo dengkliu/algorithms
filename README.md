@@ -26,7 +26,7 @@
 
 ## Dynamic Programming (Hard)
 * Related coding questions
-  * Longest Common Subsequence
+  * Longest Common Subsequence - https://www.lintcode.com/problem/77/
   * Longest Increasing Subsequence 
 
 ## Topological Order (Medium)
