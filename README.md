@@ -11,8 +11,8 @@
 * 1 dimentional array - [Definition](https://github.com/dengkliu/algorithms/blob/master/PrefixSum.java) 
 * 2 dimentional array - [Definition](https://github.com/dengkliu/algorithms/blob/master/prefixSum2Dimention.java)
 * Related coding questions
-  * Subarrary sum equals to K II
-  * Find words
+  * Subarrary sum equals to K II - https://www.lintcode.com/problem/1844/
+  * Find words - https://www.lintcode.com/problem/194/
 
 ## Two Pointers (Medium)
 
