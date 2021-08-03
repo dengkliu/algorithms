@@ -36,5 +36,5 @@
 * Trie
 * Segment Tree
 * Binary Indexed Tree
-* Heap
+* Heap (Priority Queue)
 * Skip List
