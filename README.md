@@ -7,8 +7,9 @@
 * Merge sort
 
 ## Prefix Sum
-* 1 dimentional arrary - [Definition](https://github.com/dengkliu/algorithms/blob/master/PrefixSum.java) 
-* 2 dimentional arrary - [Definition](https://github.com/dengkliu/algorithms/blob/master/prefixSum2Dimention.java)
+* Mostly used for getting the subarray sum, if the subarray is **immutable**.
+* 1 dimentional array - [Definition](https://github.com/dengkliu/algorithms/blob/master/PrefixSum.java) 
+* 2 dimentional array - [Definition](https://github.com/dengkliu/algorithms/blob/master/prefixSum2Dimention.java)
 * Related coding questions
   * Find words
 
