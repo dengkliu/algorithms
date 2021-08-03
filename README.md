@@ -33,6 +33,7 @@
 
 ## Others
 * Greatest Common Divisor - https://www.lintcode.com/problem/845/
+* Factorization - https://www.lintcode.com/problem/652/
 
 ## Useful data structures
 * Union Find
