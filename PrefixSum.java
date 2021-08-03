@@ -7,14 +7,17 @@ public class PrefixSum {
 
 	// sum from A[i] to A[j] is prefixSum[j+1] - prefixSum[i]
 
-	int[] prefixSum = new int[A.length + 1];
+	public int[] getPrefixSum () {
+		
+		int[] prefixSum = new int[A.length + 1];
 
-	prefixSum[0] = 0;
-
-	public void getPrefixSum () {
+	        prefixSum[0] = 0;
+		
 		for (int i = 1; i < prefixSum.length; i ++) {
 			prefixSum[i] = prefixSum[i-1] + A[i-1];
 		}
+		
+		return prefixSum;
 
 	}
 }
