@@ -12,7 +12,8 @@
 * 2 dimentional array - [Definition](https://github.com/dengkliu/algorithms/blob/master/prefixSum2Dimention.java)
 * Related coding questions
   * Maximum Subarray - https://www.lintcode.com/problem/41/
-  * Subarrary sum equals to K II - https://www.lintcode.com/problem/1844/
+  * Shortest Subarray sum equals to K II - https://www.lintcode.com/problem/1844/
+  * Shortest Subarray sum at least K - https://www.lintcode.com/problem/1507/
   * Find words - https://www.lintcode.com/problem/194/
   * 
 
