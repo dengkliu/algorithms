@@ -1,4 +1,4 @@
-public class prefixSumTwoDimention {
+public class prefixSum2Dimention {
 
 	// S[i][j] = sum(A[u][v]) where 0 <= u <= i, 0 <= v <= j.
 	// 以这个元素为右下角的矩阵的所有元素之和
