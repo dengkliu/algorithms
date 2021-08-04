@@ -27,6 +27,10 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 
 ## BFS (Easy)
 * [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java)
+* **Get Topological Order**
+  * In-degree and Out-degree. Starting point has 0 in-degree. 
+  * How to verify there exists topologifcal order - After BSF, whether the sequence length is equal to the total number of nodes
+  * [Solution](https://www.jiuzhang.com/problem/topological-sorting/#tag-lang-java)
 
 
 ## DFS (Hard)
@@ -37,8 +41,6 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 * Related coding questions
   * Longest Common Subsequence - https://www.lintcode.com/problem/77/
   * Longest Increasing Subsequence 
-
-## Topological Order (Medium)
 
 ## Others
 * Greatest Common Divisor - https://www.lintcode.com/problem/845/
