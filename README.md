@@ -25,9 +25,11 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 
 ## Divide & Conquer (Easy)
 
-## BSF (Easy)
+## BFS (Easy)
+* [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java)
 
-## DSF (Hard)
+
+## DFS (Hard)
 
 ## Binary Tree Traversal (Easy)
 
