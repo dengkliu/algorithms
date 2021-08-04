@@ -31,6 +31,8 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
   * In-degree and Out-degree. Starting point has 0 in-degree. 
   * How to verify there exists topologifcal order - After BSF, whether the sequence length is equal to the total number of nodes
   * [Solution](https://www.jiuzhang.com/problem/topological-sorting/#tag-lang-java)
+*  **Get shortest Path**
+  * Kight Shortest Path II - https://www.lintcode.com/problem/630
 
 
 ## DFS (Hard)
