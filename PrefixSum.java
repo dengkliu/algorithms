@@ -1,4 +1,4 @@
-public class PrefixSum 
+public class PrefixSum {
 
 // prefixSum[i] = A[0] + A[1] + ... + A[i-1] the sum of first i numbers
 // sum from A[i] to A[j] is prefixSum[j+1] - prefixSum[i]
