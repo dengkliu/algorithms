@@ -41,6 +41,11 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
      * The Maze II - https://www.lintcode.com/problem/789
 
 ## DFS (Hard)
+* Divide and Conquer. 
+  * What should be returned form next level?
+  * What is the result at each level?
+* The diameter of binary tree - https://www.lintcode.com/problem/1181
+* 
 
 ## Binary Tree Traversal (Easy)
 
