@@ -31,7 +31,7 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
   * In-degree and Out-degree. Starting point has 0 in-degree. 
   * How to verify there exists topologifcal order - After BSF, whether the sequence length is equal to the total number of nodes
   * [Solution](https://www.jiuzhang.com/problem/topological-sorting/#tag-lang-java)
-*  **Get shortest Path**
+*  **Get Shortest Path**
    * Simple graph (no direction, no weights on each edge, same distance to nodes in next layer)
      * Kight Shortest Path II - https://www.lintcode.com/problem/630
      * Build Post Office II - https://www.lintcode.com/problem/573
@@ -39,13 +39,16 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
    * Complex graph - Shortest Path Faster Algorithm (SPFA) 
      * Modern Ludo I - https://www.lintcode.com/problem/1565
      * The Maze II - https://www.lintcode.com/problem/789
+* **Connectivity**
+* **Longest Path on a Tree**
+  * Longest path on a tree - https://www.lintcode.com/problem/1469
 
 ## DFS (Hard)
 * Divide and Conquer. 
   * What should be returned form next level?
   * What is the result at each level?
+### Coding Problems
 * The diameter of binary tree - https://www.lintcode.com/problem/1181
-* 
 
 ## Binary Tree Traversal (Easy)
 
