@@ -72,4 +72,4 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 * First go through brute force approach
 * Seek for optimal time complextiy you can achieve
   * If brute force is O(N), you should think about O(logn)
-* StringBuilder is not thread safe, StringBuffer is
+* StringBuilder is not thread safe, but StringBuffer is.
