@@ -49,6 +49,8 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 * Factorization - https://www.lintcode.com/problem/652/
 
 ## Useful data structures
+### General Data Structures
+* [Time Complexity Analysis](https://github.com/dengkliu/algorithms/blob/master/ds)
 ### Union Find
 ### Trie
 ### Segment Tree
