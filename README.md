@@ -10,8 +10,8 @@
 Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**.
 
 ### Definition
-* 1 dimentional array - [Definition](https://github.com/dengkliu/algorithms/blob/master/PrefixSum.java) 
-* 2 dimentional array - [Definition](https://github.com/dengkliu/algorithms/blob/master/prefixSum2Dimention.java)
+* [1 dimentional array](https://github.com/dengkliu/algorithms/blob/master/PrefixSum.java) 
+* [2 dimentional array](https://github.com/dengkliu/algorithms/blob/master/prefixSum2Dimention.java)
 
 ### Coding Problems
 * Maximum Subarray - https://www.lintcode.com/problem/41/
