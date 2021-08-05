@@ -23,6 +23,9 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 
 ## Binary Search (Medium)
 
+### Coding Problems
+* Maximum Number in Mountain Sequence - https://www.lintcode.com/problem/585
+
 ## Divide & Conquer (Easy)
 
 ## BFS (Easy)
