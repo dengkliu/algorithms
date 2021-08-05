@@ -32,8 +32,13 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
   * How to verify there exists topologifcal order - After BSF, whether the sequence length is equal to the total number of nodes
   * [Solution](https://www.jiuzhang.com/problem/topological-sorting/#tag-lang-java)
 *  **Get shortest Path**
-  * Kight Shortest Path II - https://www.lintcode.com/problem/630
-
+   * Simple graph (no direction, no weights on each edge, same distance to nodes in next layer)
+     * Kight Shortest Path II - https://www.lintcode.com/problem/630
+     * Build Post Office II - https://www.lintcode.com/problem/573
+     * Sliding Puzzle II - https://www.lintcode.com/problem/794
+   * Complex graph - Shortest Path Faster Algorithm (SPFA) 
+     * Modern Ludo I - https://www.lintcode.com/problem/1565
+     * The Maze II - https://www.lintcode.com/problem/789
 
 ## DFS (Hard)
 
