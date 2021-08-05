@@ -9,16 +9,15 @@ public class PrefixSum {
 	
 	// O(N)
 	public int[] getPrefixSum () {
-		
+
 		int[] prefixSum = new int[A.length + 1];
 
-	        prefixSum[0] = 0;
-		
-		for (int i = 1; i < prefixSum.length; i ++) {
+	    prefixSum[0] = 0;
+
+	    for (int i = 1; i < A.length + 1; i ++) {
 			prefixSum[i] = prefixSum[i-1] + A[i-1];
 		}
-		
-		return prefixSum;
 
+		return prefixSum;
 	}
 }
