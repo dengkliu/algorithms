@@ -15,8 +15,8 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 
 ### Coding Problems
 * Maximum Subarray - https://www.lintcode.com/problem/41/
-* Shortest Subarray sum equals to K II - https://www.lintcode.com/problem/1844/
-* Shortest Subarray sum at least K - https://www.lintcode.com/problem/1507/
+* Shortest Subarray Sum Equals to K II - https://www.lintcode.com/problem/1844/
+* Shortest Subarray Sum At Least K - https://www.lintcode.com/problem/1507/
 * Find words - https://www.lintcode.com/problem/194/
 
 ## Two Pointers (Medium)
