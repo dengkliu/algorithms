@@ -1,7 +1,9 @@
 // Java 普通BSF模板
 
 // ArrayDeque is faster than linkedlist for adding elements
+// Queue to store nodes while searching
 Queue<Integer> queue = new ArrayDeque<>();
+// Set to store visited nodes
 HashSet<Integer> visited = new HashSet<>();
 
 // 初始点入队
@@ -68,7 +70,7 @@ while (!queue.isEmpty()) {
 
 // 更推荐版本 记录distance到每个节点
 
-Queue<Integer> queue = new LinkedList<>();
+Queue<Integer> queue = new ArrayDeque<>();
 HashMap<Integer, Integer> visited = new HashMap<>();
 
 // 初始点入队
