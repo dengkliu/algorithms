@@ -48,12 +48,13 @@ public class Solution {
 
         // Starting from adding 1 number
         for (int i = 1; i < n + 1; i ++) {
-        	prefixSum[i] = prefixSum[i-1] + nums[i-1];
+            prefixSum[i] = prefixSum[i-1] + nums[i-1];
 
-        	// Now get the maximum subarray ending in this number
-        	result = Math.max(result, minPrefixSum);
+            // Now get the maximum subarray ending in this number
+            // by substracting the previous minimum prefix sum
+            result = Math.max(result, minPrefixSum);
 
-        	// Updating the minimum prefix sum
+            // Updating the minimum prefix sum
         	minPrefixSum = Math.min(minPrefixSum, prefixSum[i]);
         }
 
