@@ -1,3 +1,4 @@
+// https://www.lintcode.com/problem/41/
 // Given an array of integers, find a contiguous subarray which has the largest sum.
 // nums = [−2,2,−3,4,−1,2,1,−5,3] output 6 = [4, -1, 2, 1]
 // Time complexity: O(n)
