@@ -68,7 +68,7 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 ### Heap (Priority Queue)
 ### Skip List
 
-### Tips
+## Tips
 * First go through brute force approach
 * Seek for optimal time complextiy you can achieve
   * If brute force is O(N), you should think about O(logn)
