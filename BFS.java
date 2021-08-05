@@ -1,8 +1,6 @@
 // Java 普通BSF模板
 
 // ArrayDeque is faster than linkedlist for adding elements
-// Linkedlist 1.add() -- O(1) add to the tail 2.poll() -- O(1) remove the head. 3. get(), add(index, element), remove(index), remove(element), contains() --O(n)
-// 
 Queue<Integer> queue = new ArrayDeque<>();
 HashSet<Integer> visited = new HashSet<>();
 
