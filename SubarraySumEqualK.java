@@ -11,7 +11,8 @@
 //    calculate the sum for each of them, and check if it is K
 //    for (int start = 0; start < n; start ++) {
 //        for (int end = start + 1; end < n; end ++) {
-//             ...  
+//             for (int k = start; k < end; k ++) {
+//             }
 //        }
 //    }
 // 2. Calculate Prefix Sum beforehand. Don't need to calculate the sum of subarray again.
@@ -20,6 +21,8 @@
 // 3. Let's think in this way. We just need to enumerate the end. The start must be at the index
 //    which make sure that prefixSum[end] - prefixSum[start -1] is the K. We can keep tracking the subarray length.
 //    How do we find prefixSum[start-1] in O(1) time? We can use hashmap. Hashmap checks key existance in O(1) time
+//    So we can have a hashmap with sum to index pair. 
+//    We enumerate the end from index 0 to n-1, for each one we look up the hashmap. 
 //    This can be done in O(N)
 
 public class Solution {
