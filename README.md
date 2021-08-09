@@ -83,6 +83,6 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 * Follow up questions
   * Constant -> Variable (2 sum -> k sum)
   * 1 dimentsion -> 2 dimension
-  * == k => >= k
+  * == k -> >= k
   * shortest -> longest
   * postive -> negative
