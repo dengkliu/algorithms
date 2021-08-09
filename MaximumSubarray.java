@@ -12,16 +12,17 @@
 //    O(N^3)
 //    for (int start = 0; start < n; start ++) {
 //        for (int end = start + 1; end < n; end ++) {
-//             ...	
+//             for (int k = start; k < end; k ++) {
+//             }
 //        }
 //    }
 // 2. Calculate Prefix Sum beforehand. Don't need to calculate the sum of subarray again.
 //    Still need to enumerate the start and end of the subarray. There are N^2 combinations
 //    O(N^2)
 // 3. Let's think in this way. We just need to enumerate the end. The start must be at the index
-//    which make sure prefixSum[start] is the minimum among 0 to end. 
-//    So prefixSum[end + 1] - prefixSum[start] is the maximum.
-//    This can be done in O(N), we always record the minimum prefix sum 
+//    which prefixSum[start] is the minimum among 0 to end, to make prefixSum[end + 1] - prefixSum[start] the maximum.
+//    The minimim prefixSum[start] among 0 to end can be found while enumerate the end, and it is O(1) time to fetch it later
+//    Enumerating the end can be done in O(N)
 
 public class Solution {
     /**
