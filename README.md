@@ -86,5 +86,5 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
   * == k -> >= k
   * shortest -> longest
   * postive -> negative
-* Immutable -> Mutable
-* Static input -> Data stream
+  * Immutable -> Mutable
+  * Static input -> Data stream
