@@ -36,6 +36,9 @@
 
 // for binary search, we are looking for OOO|XXX pattern 
 // so we know whether to choose right or left
-// so we want to do sum>=K and length <= x
-//
+// so we want to do binary searhc on (sum>=K and length <= x)
+// To do this: 1. We enumerate the end 2. We keep a window of size k, and enumerate the start in the window.
+// The overall time complexity is NlogN.
+
+
 
