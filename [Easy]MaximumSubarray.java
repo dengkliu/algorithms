@@ -20,9 +20,11 @@
 // 2. Calculate Prefix Sum beforehand. Don't need to calculate the sum of subarray again.
 //    Still need to enumerate the start and end of the subarray. There are N^2 combinations
 //    O(N^2)
-// 3. Let's think in this way. We just need to enumerate the end. The start must be at the index
-//    which prefixSum[start] is the minimum among 0 to end, to make prefixSum[end + 1] - prefixSum[start] the maximum.
-//    The minimim prefixSum[start] among 0 to end can be found while enumerate the end, and it is O(1) time to fetch it later
+// 3. Let's think in this way. We just need to enumerate the end. 
+//    We don't have length constraint and we don't know where the start can be, but we know for an end, the start must
+//    be from 0 to end - 1. The start must be at the index which prefixSum[start] is the minimum among 0 to end, 
+//    to make prefixSum[end + 1] - prefixSum[start] the maximum.  The minimim prefixSum[start] among 0 to end can 
+//    be found while enumerate the end, and it is O(1) time to fetch it later
 //    Enumerating the end can be done in O(N)
 
 public class Solution {
