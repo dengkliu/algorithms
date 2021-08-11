@@ -10,7 +10,7 @@
 // [5, -1, 2, 3, 1] K = 8
 // Output: 4 [5, -1, 2, 3]
 
-// Brute Force - enumerate the start and end of the subarray, 
+// 1. Brute Force - enumerate the start and end of the subarray, 
 //    calculate the sum for each of them, and check if it >= K
 //    for (int start = 0; start < n; start ++) {
 //        for (int end = start + 1; end < n; end ++) {
