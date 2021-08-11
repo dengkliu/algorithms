@@ -19,7 +19,8 @@
 //    Still need to enumerate the start and end of the subarray. There are N^2 combinations
 //    O(N^2)
 // 3. Let's think in this way. We just need to enumerate the end. The start must be at the index
-//    which make sure that prefixSum[end] - prefixSum[start -1] is the K. We can keep tracking the subarray length.
+//    which make sure that prefixSum[end] - prefixSum[start -1] is the K. We don't have length constraints here, so the start 
+//    can be from 0 to end - 1. We can keep tracking the subarray length.
 //    How do we find prefixSum[start-1] in O(1) time? We can use hashmap. Hashmap checks key existance in O(1) time
 //    So we can have a hashmap with sum to index pair. 
 //    We enumerate the end from index 0 to n-1, for each one we look up the hashmap. 
