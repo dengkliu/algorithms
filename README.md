@@ -18,7 +18,7 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 * [Shortest Subarray Sum Equals to K II](https://github.com/dengkliu/algorithms/blob/master/SubarraySumEqualK.java)
 * [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/%5BHard%5DShortedSubarraySumAtLeastK.java)
 * [Matrix Restoration](https://github.com/dengkliu/algorithms/blob/master/MatrixRestoration.java)
-* [Product of Array Except Itself] (https://github.com/dengkliu/algorithms/blob/master/ProductOfArrayExceptSelf.java)
+* [Product of Array Except Itself](https://github.com/dengkliu/algorithms/blob/master/ProductOfArrayExceptSelf.java)
 * Find words - https://www.lintcode.com/problem/194/
 
 ## Two Pointers (Medium)
