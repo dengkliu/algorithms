@@ -96,3 +96,7 @@ Scanning line is usuallly used to solve interval related problems.
   * postive -> negative
   * Immutable -> Mutable
   * Static input -> Data stream
+
+## Other coding question
+
+* https://www.lintcode.com/problem/1877
