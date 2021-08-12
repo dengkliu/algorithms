@@ -6,7 +6,7 @@
 * Quick sort
 * Merge sort
 
-## Prefix Sum
+## Prefix Sum 前缀和
 Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**.
 
 ### Definition
@@ -22,16 +22,16 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java)
 * Find words - https://www.lintcode.com/problem/194/
 
-## Two Pointers (Medium)
+## Scanning Line 扫描线
 
-## Binary Search (Medium)
+## Two Pointers (Medium) 双指针
+
+## Binary Search (Medium) 二分法
 
 ### Coding Problems
 * Maximum Number in Mountain Sequence - https://www.lintcode.com/problem/585
 
-## Divide & Conquer (Easy)
-
-## BFS (Easy)
+## BFS (Easy) 宽度优先搜索
 * [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java)
 * **Get Topological Order**
   * In-degree and Out-degree. Starting point has 0 in-degree. 
@@ -49,7 +49,7 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 * **Longest Path on a Tree**
   * Longest path on a tree - https://www.lintcode.com/problem/1469
 
-## DFS (Hard)
+## DFS (Hard) 深度优先搜索
 * Divide and Conquer. 
   * What should be returned form next level?
   * What is the result at each level?
@@ -58,7 +58,7 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 
 ## Binary Tree Traversal (Easy)
 
-## Dynamic Programming (Hard)
+## Dynamic Programming (Hard) 动态规划
 * Related coding questions
   * Longest Common Subsequence - https://www.lintcode.com/problem/77/
   * Longest Increasing Subsequence 
