@@ -24,6 +24,11 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 
 ## Scanning Line 扫描线
 
+Scanning line is usuallly used to solve interval related problems. 
+
+### Coding Problems
+*  Number of Airplanes in the Sky
+
 ## Two Pointers (Medium) 双指针
 
 ## Binary Search (Medium) 二分法
