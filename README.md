@@ -71,6 +71,7 @@ Scanning line is usuallly used to solve interval related problems.
 ## Others
 * Greatest Common Divisor - https://www.lintcode.com/problem/845/
 * Factorization - https://www.lintcode.com/problem/652/
+* https://www.lintcode.com/problem/1877
 
 ## Useful data structures
 ### General Data Structures
@@ -98,5 +99,3 @@ Scanning line is usuallly used to solve interval related problems.
   * Static input -> Data stream
 
 ## Other coding question
-
-* https://www.lintcode.com/problem/1877
