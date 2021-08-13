@@ -62,8 +62,17 @@ Scanning line is usuallly used to solve interval related problems.
 ## 8. Binary Tree Traversal (Easy)
 
 ## 9. Dynamic Programming (Hard) 动态规划
+
+Dynamic Programming is a method for solving a complex problem by breaking it down into a collection
+of **simpler subproblems**, solving each of those subproblems **just once**, and **storing their solutions** 
+using a memory-based data structure(array, map, etc). 
+
+Trade the space complexity for time complexity.
+
 ### Coordinate DP 坐标型型动态规划 (路径 + 方案总数)
+
 * Related coding questions
+  * Climbing Stairs
   * Rat Jump - https://www.lintcode.com/problem/1861/ 
 
 ### Backpack DP 背包型动态规划
