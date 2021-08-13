@@ -71,6 +71,7 @@ Scanning line is usuallly used to solve interval related problems.
   * Float Combination Sum https://www.lintcode.com/problem/1800/ （倒推法求套路）
 
 
+  * Stone Game - https://www.lintcode.com/problem/476/
   * Longest Common Subsequence - https://www.lintcode.com/problem/77/
   * Longest Increasing Subsequence
   
