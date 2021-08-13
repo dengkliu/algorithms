@@ -20,14 +20,13 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 * [Matrix Restoration](https://github.com/dengkliu/algorithms/blob/master/MatrixRestoration.java)
 * [Product of Array Except Itself](https://github.com/dengkliu/algorithms/blob/master/ProductOfArrayExceptSelf.java)
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java)
-* Find words - https://www.lintcode.com/problem/194/
 
 ## Scanning Line 扫描线
 
 Scanning line is usuallly used to solve interval related problems. 
 
 ### Coding Problems
-*  Number of Airplanes in the Sky
+* [Number of Airplanes in the Sky](https://github.com/dengkliu/algorithms/blob/master/NumberOfAirplanesInTheSky.java)
 
 ## Two Pointers (Medium) 双指针
 
@@ -35,6 +34,7 @@ Scanning line is usuallly used to solve interval related problems.
 
 ### Coding Problems
 * Maximum Number in Mountain Sequence - https://www.lintcode.com/problem/585
+* Find word - https://www.lintcode.com/problem/194/
 
 ## BFS (Easy) 宽度优先搜索
 * [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java)
@@ -64,9 +64,14 @@ Scanning line is usuallly used to solve interval related problems.
 ## Binary Tree Traversal (Easy)
 
 ## Dynamic Programming (Hard) 动态规划
+### 坐标型型动态规划 (路径 + 方案总数)
 * Related coding questions
+  * Rat Jump - https://www.lintcode.com/problem/1861/ 
+
+
   * Longest Common Subsequence - https://www.lintcode.com/problem/77/
-  * Longest Increasing Subsequence 
+  * Longest Increasing Subsequence
+  
 
 ## Others
 * Greatest Common Divisor - https://www.lintcode.com/problem/845/
