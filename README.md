@@ -68,7 +68,7 @@ Scanning line is usuallly used to solve interval related problems.
 
 ### Backpack DP 背包型动态规划
 背包型问题一般会以前i个元素为状态。
-  * Float Combination Sum https://www.lintcode.com/problem/1800/
+  * Float Combination Sum https://www.lintcode.com/problem/1800/ （倒推法求套路）
 
 
   * Longest Common Subsequence - https://www.lintcode.com/problem/77/
