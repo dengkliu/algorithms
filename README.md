@@ -20,7 +20,6 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 * [Matrix Restoration](https://github.com/dengkliu/algorithms/blob/master/MatrixRestoration.java)
 * [Product of Array Except Itself](https://github.com/dengkliu/algorithms/blob/master/ProductOfArrayExceptSelf.java)
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java)
-* Find words - https://www.lintcode.com/problem/194/
 
 ## Scanning Line 扫描线
 
