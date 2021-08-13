@@ -64,9 +64,11 @@ Scanning line is usuallly used to solve interval related problems.
 ## Binary Tree Traversal (Easy)
 
 ## Dynamic Programming (Hard) 动态规划
+### Interval DP 区间型动态规划
 * Related coding questions
   * Longest Common Subsequence - https://www.lintcode.com/problem/77/
-  * Longest Increasing Subsequence 
+  * Longest Increasing Subsequence
+  * Rat Jump - https://www.lintcode.com/problem/1861/ 
 
 ## Others
 * Greatest Common Divisor - https://www.lintcode.com/problem/845/
