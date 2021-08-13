@@ -1,7 +1,5 @@
 # Algorithms
 
-## String Processing (Easy)
-
 ## Sorting (Easy)
 * Quick sort
 * Merge sort
