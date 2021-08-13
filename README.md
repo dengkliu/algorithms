@@ -1,10 +1,10 @@
 # Algorithms
 
-## Sorting (Easy)
+## 1. Sorting (Easy)
 * Quick sort
 * Merge sort
 
-## Prefix Sum 前缀和
+## 2. Prefix Sum 前缀和
 Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**.
 
 ### Definition
@@ -19,22 +19,22 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 * [Product of Array Except Itself](https://github.com/dengkliu/algorithms/blob/master/ProductOfArrayExceptSelf.java)
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java)
 
-## Scanning Line 扫描线
+## 3. Scanning Line 扫描线
 
 Scanning line is usuallly used to solve interval related problems. 
 
 ### Coding Problems
 * [Number of Airplanes in the Sky](https://github.com/dengkliu/algorithms/blob/master/NumberOfAirplanesInTheSky.java)
 
-## Two Pointers (Medium) 双指针
+## 4. Two Pointers (Medium) 双指针
 
-## Binary Search (Medium) 二分法
+## 5. Binary Search (Medium) 二分法
 
 ### Coding Problems
 * Maximum Number in Mountain Sequence - https://www.lintcode.com/problem/585
 * Find word - https://www.lintcode.com/problem/194/
 
-## BFS (Easy) 宽度优先搜索
+## 6. BFS (Easy) 宽度优先搜索
 * [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java)
 * **Get Topological Order**
   * In-degree and Out-degree. Starting point has 0 in-degree. 
@@ -52,16 +52,16 @@ Scanning line is usuallly used to solve interval related problems.
 * **Longest Path on a Tree**
   * Longest path on a tree - https://www.lintcode.com/problem/1469
 
-## DFS (Hard) 深度优先搜索
+## 7. DFS (Hard) 深度优先搜索
 * Divide and Conquer. 
   * What should be returned form next level?
   * What is the result at each level?
 ### Coding Problems
 * The diameter of binary tree - https://www.lintcode.com/problem/1181
 
-## Binary Tree Traversal (Easy)
+## 8. Binary Tree Traversal (Easy)
 
-## Dynamic Programming (Hard) 动态规划
+## 9. Dynamic Programming (Hard) 动态规划
 ### Coordinate DP 坐标型型动态规划 (路径 + 方案总数)
 * Related coding questions
   * Rat Jump - https://www.lintcode.com/problem/1861/ 
@@ -75,12 +75,12 @@ Scanning line is usuallly used to solve interval related problems.
 ### Interval DP 区间型动态规矩
   * Stone Game - https://www.lintcode.com/problem/476/
 
-## Others
+## 10. Others
 * Greatest Common Divisor - https://www.lintcode.com/problem/845/
 * Factorization - https://www.lintcode.com/problem/652/
 * https://www.lintcode.com/problem/1877
 
-## Useful data structures
+## 11. Useful data structures
 ### General Data Structures
 * [Time Complexity Analysis](https://github.com/dengkliu/algorithms/blob/master/ds)
 ### Union Find
