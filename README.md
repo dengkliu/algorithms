@@ -35,6 +35,7 @@ Scanning line is usuallly used to solve interval related problems.
 
 ### Coding Problems
 * Maximum Number in Mountain Sequence - https://www.lintcode.com/problem/585
+* Find word - https://www.lintcode.com/problem/194/
 
 ## BFS (Easy) 宽度优先搜索
 * [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java)
