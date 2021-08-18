@@ -28,6 +28,10 @@
 //             20% logN 次 N 次操作 use O(N) time to check the answer
 
 //    Hint: can we enumerate the shortest length here?
+//    为什么要做二分法
+//    因为我们并不知道最终最小的那个length是多少
+//    比如 我们找到了之前一个最小prefixSum 而且确实interval sum > K 那我们能保证这是最short的range么？不能.
+//    我们只能再遍历从这个最小prefixSum到当前end之间的所有值 这样很容易造成O(N^2)
 //    The solutuon to this problem definitely has an range, from length 1 to N (or -1 if not found)
 //    Can we do a binary search on the solution set?
 
