@@ -94,6 +94,8 @@ Trade the space complexity for time complexity.
 ### General Data Structures
 * [Time Complexity Analysis](https://github.com/dengkliu/algorithms/blob/master/ds)
 ### Union Find
+Union Find is used to solve connection problem, especially for dynamic data stream. BFS can only be used to solve connection problem for static data, for data stream, the time complexity will be horrible.
+* Related coding questions
 ### Trie
 ### Segment Tree
 ### Binary Indexed Tree
