@@ -91,8 +91,6 @@ Trade the space complexity for time complexity.
 ## 11. Useful data structures
 ### General Data Structures
 * [Time Complexity Analysis](https://github.com/dengkliu/algorithms/blob/master/ds)
-### Hash Table
-* [Find Words]()
 ### Union Find
 ### Trie
 ### Segment Tree
