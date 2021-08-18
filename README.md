@@ -96,11 +96,12 @@ Trade the space complexity for time complexity.
 ### Union Find
 Union Find is used to solve connection problem, especially for dynamic data stream. BFS can only be used to solve connection problem for static data, for data stream, the time complexity will be horrible.
 
-Union Find support O(1) time to merge two collections which contains x and y - merge(x,y)
-Union Find support O(1) time to query the collection that contains x - find(x)
-Union Find support O(1) time to query whether x and y are in the same collection - isConnected(x,y)
+Union Find support O(1) time to merge two set which contains x and y - merge(x,y)
+Union Find support O(1) time to query the set that contains x - find(x)
+Union Find support O(1) time to query whether x and y are in the same set - isConnected(x,y)
 
 * Related coding questions
+  * [Graph Validate Tree]()
 ### Trie
 ### Segment Tree
 ### Binary Indexed Tree
