@@ -31,7 +31,7 @@ Scanning line is usuallly used to solve interval related problems.
 ## 5. Binary Search (Medium) 二分法
 
 ### Coding Problems
-* Maximum Number in Mountain Sequence - https://www.lintcode.com/problem/585
+* [Maximum Number in Mountain Sequence](https://github.com/dengkliu/algorithms/blob/master/MaximumNumberInMountainSequence.java)
 * [Find word](https://github.com/dengkliu/algorithms/blob/master/FindWords.java)
 
 ## 6. BFS (Easy) 宽度优先搜索
