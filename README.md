@@ -30,7 +30,7 @@ Scanning line is usuallly used to solve interval related problems.
 
 ## 5. Binary Search
 
-### Coding Problems
+### 1) Coding Problems
 * [Maximum Number in Mountain Sequence](https://github.com/dengkliu/algorithms/blob/master/MaximumNumberInMountainSequence.java)
 * [Find word](https://github.com/dengkliu/algorithms/blob/master/FindWords.java)
 * [Search in Rotated Sorted Array](https://github.com/dengkliu/algorithms/blob/master/SearchInRotatedSortedArray.java)
