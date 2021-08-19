@@ -115,6 +115,9 @@ Related coding questions
   * [Set Union](https://github.com/dengkliu/algorithms/blob/master/SetUnion.java)
   * [Account Merge](https://github.com/dengkliu/algorithms/blob/master/AccountMerge.java)
 ### Trie
+
+Related coding questions
+* [Add and Search Word - Data structure design] ()
 ### Segment Tree
 ### Binary Indexed Tree
 ### Heap (Priority Queue)
