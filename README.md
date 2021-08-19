@@ -100,6 +100,11 @@ Union Find support O(1) time to merge two set which contains x and y - merge(x,y
 Union Find support O(1) time to query the set that contains x - find(x)
 Union Find support O(1) time to query whether x and y are in the same set - isConnected(x,y)
 
+The internal structure of Union Find is multiple multi-way trees. Each child node points to a father node. Each root corresponds to a set. We use a hashmap to map a child to a father. With this tree structure, we can do:
+* Move upward to the rootn to find the set that contains an element - find(x)
+* Check if two element belongs to the same set - have the same root - find(x) == find(y)
+* Merget the set of x and set of y, set the parent of find(x) to find(y)
+
 * Related coding questions
   * [Graph Validate Tree]()
 ### Trie
