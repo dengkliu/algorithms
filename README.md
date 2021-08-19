@@ -121,7 +121,7 @@ Trie is used to store strings while compressing the string common prefix. Its in
 The best time complexity for insert word and find word is O(L).
 
 Related coding questions
-* [Add and Search Word - Data structure design]
+* [Add and Search Word - Data structure design](https://github.com/dengkliu/algorithms/blob/master/AddandSearchWord.java)
 ### Segment Tree
 ### Binary Indexed Tree
 ### Heap (Priority Queue)
