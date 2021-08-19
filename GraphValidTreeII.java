@@ -18,11 +18,72 @@
 // isValidTree()
 // Output: ["true","true","true","false"]
 
+class UnionFind {
+
+    // Use a hashmap to store the father for each node
+    Map<Integer, Integer> father;
+
+    public UnionFind() {
+        father = new HashMap<>();
+    }
+
+    void add(int num) {
+
+        if (father.containsKey(num)) {
+            return;
+        }
+
+        father.put(num, null);
+    }
+
+    // find the set that this number belongs to
+    // A set is identified by the root
+    int find(int num) {
+        
+        int root = num;
+
+        // move upward to the root
+        while(father.get(root) != null) {
+            root = father.get(root);
+        }
+
+        // Path compression! Make it real O(1)
+        while (num != root) {
+            int originalFather = father.get(num);
+            father.put(num, root);
+            num = originalFather;
+        }
+
+        return root;
+    }
+
+    boolean isConnected(int num1, int num2) {
+
+        return find(num1) == find(num2);
+    }
+
+    void merge(int num1, int num2) {
+
+        int root1 = find(num1);
+        int root2 = find(num2);
+
+        if (root1 != root2) {
+            father.put(root1, root2);
+        }
+    }
+}
+
 public class Solution {
 
-	UnionFind uf;
-	boolean hasCycle;
-	int numOfEdges;
+    UnionFind uf;
+    boolean hasCycle;
+    int numOfEdges;
+
+    public Solution() {
+        uf = new UnionFind();
+        hasCycle = false;
+        numOfEdges = 0;
+    }
 
     /**
      * @param a: the node a
@@ -30,13 +91,26 @@ public class Solution {
      * @return: nothing
      */
     public void addEdge(int a, int b) {
-        // write your code here
+        uf.add(a);
+        uf.add(b);
+        numOfEdges++;
+        // 如果已经在连通块里了
+        if (uf.isConnected(a,b)) {
+            hasCycle = true;
+        }
+        uf.merge(a, b);
     }
 
     /**
      * @return: check whether these edges make up a valid tree
      */
     public boolean isValidTree() {
-        // write your code here
+        // 1. 点 == 边 + 1
+        if (uf.father.size() != numOfEdges + 1) {
+            return false;
+        }
+
+        // 2. 判断有没有环
+        return !hasCycle;
     }
 }
