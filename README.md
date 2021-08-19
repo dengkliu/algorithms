@@ -107,6 +107,7 @@ The internal structure of Union Find is multiple multi-way trees. Each child nod
 
 Related coding questions
   * [Graph Validate Tree](https://github.com/dengkliu/algorithms/blob/master/GraphValidTreeII.java)
+  * [Set Union](https://github.com/dengkliu/algorithms/blob/master/SetUnion.java)
 ### Trie
 ### Segment Tree
 ### Binary Indexed Tree
