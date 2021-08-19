@@ -6,7 +6,7 @@
 
 ## 2. Binary Tree Traversal 二叉树遍历
 
-## 3. Prefix Sum
+## 3. Prefix Sum 前缀和
 Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**.
 
 ### 1） Definition
@@ -21,16 +21,16 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 * [Product of Array Except Itself](https://github.com/dengkliu/algorithms/blob/master/ProductOfArrayExceptSelf.java)
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java)
 
-## 4. Scanning Line
+## 4. Scanning Line 扫描线
 
 Scanning line is usuallly used to solve interval related problems. 
 
 ### 1）Coding Problems
 * [Number of Airplanes in the Sky](https://github.com/dengkliu/algorithms/blob/master/NumberOfAirplanesInTheSky.java)
 
-## 5. Two Pointers
+## 5. Two Pointers 双指针
 
-## 6. Binary Search
+## 6. Binary Search 二分查询
 
 ### 1) Coding Problems
 * [Maximum Number in Mountain Sequence](https://github.com/dengkliu/algorithms/blob/master/MaximumNumberInMountainSequence.java)
@@ -38,7 +38,7 @@ Scanning line is usuallly used to solve interval related problems.
 * [Search in Rotated Sorted Array](https://github.com/dengkliu/algorithms/blob/master/SearchInRotatedSortedArray.java)
 * [Wood Cut](https://github.com/dengkliu/algorithms/blob/master/WoodCut.java)
 
-## 7. Breath-First Search (Easy)
+## 7. Breath-First Search (宽度优先搜索
 * [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java)
 ### 1）Get Topological Order
   * In-degree and Out-degree. Starting point has 0 in-degree. 
@@ -56,14 +56,14 @@ Scanning line is usuallly used to solve interval related problems.
 * **Longest Path on a Tree**
   * Longest path on a tree - https://www.lintcode.com/problem/1469
 
-## 8. Depth-First Search
+## 8. Depth-First Search 深度优先搜索
 * Divide and Conquer.
   * What should be returned form next level?
   * What is the result at each level?
 ### 1）Coding Problems
 * The diameter of binary tree - https://www.lintcode.com/problem/1181
 
-## 9. Dynamic Programming
+## 9. Dynamic Programming 动态规划
 
 Dynamic Programming is a method for solving a complex problem by breaking it down into a collection
 of **simpler subproblems**, solving each of those subproblems **just once**, and **storing their solutions** 
