@@ -1,10 +1,12 @@
 # Algorithms
 
-## 1. Sorting (Easy)
+## 1. Sorting 排序
 * Quick sort
 * Merge sort
 
-## 2. Prefix Sum
+## 2. Binary Tree Traversal 二叉树遍历
+
+## 3. Prefix Sum
 Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**.
 
 ### 1） Definition
@@ -19,16 +21,16 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 * [Product of Array Except Itself](https://github.com/dengkliu/algorithms/blob/master/ProductOfArrayExceptSelf.java)
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java)
 
-## 3. Scanning Line
+## 4. Scanning Line
 
 Scanning line is usuallly used to solve interval related problems. 
 
 ### 1）Coding Problems
 * [Number of Airplanes in the Sky](https://github.com/dengkliu/algorithms/blob/master/NumberOfAirplanesInTheSky.java)
 
-## 4. Two Pointers
+## 5. Two Pointers
 
-## 5. Binary Search
+## 6. Binary Search
 
 ### 1) Coding Problems
 * [Maximum Number in Mountain Sequence](https://github.com/dengkliu/algorithms/blob/master/MaximumNumberInMountainSequence.java)
@@ -36,7 +38,7 @@ Scanning line is usuallly used to solve interval related problems.
 * [Search in Rotated Sorted Array](https://github.com/dengkliu/algorithms/blob/master/SearchInRotatedSortedArray.java)
 * [Wood Cut](https://github.com/dengkliu/algorithms/blob/master/WoodCut.java)
 
-## 6. Breath-First Search (Easy)
+## 7. Breath-First Search (Easy)
 * [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java)
 ### 1）Get Topological Order
   * In-degree and Out-degree. Starting point has 0 in-degree. 
@@ -54,14 +56,12 @@ Scanning line is usuallly used to solve interval related problems.
 * **Longest Path on a Tree**
   * Longest path on a tree - https://www.lintcode.com/problem/1469
 
-## 7. Depth-First Search
+## 8. Depth-First Search
 * Divide and Conquer.
   * What should be returned form next level?
   * What is the result at each level?
 ### 1）Coding Problems
 * The diameter of binary tree - https://www.lintcode.com/problem/1181
-
-## 8. Binary Tree Traversal
 
 ## 9. Dynamic Programming
 
@@ -115,6 +115,7 @@ Related coding questions
   * [Set Union](https://github.com/dengkliu/algorithms/blob/master/SetUnion.java)
   * [Account Merge](https://github.com/dengkliu/algorithms/blob/master/AccountMerge.java)
 ### Trie
+
 
 Related coding questions
 * [Add and Search Word - Data structure design] ()
