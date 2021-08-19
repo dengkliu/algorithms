@@ -96,9 +96,9 @@ Trade the space complexity for time complexity.
 ### Union Find
 Union Find is used to solve connection problem, especially for dynamic data stream. BFS can only be used to solve connection problem for static data, for data stream, the time complexity will be horrible.
 
-Union Find support O(1) time to merge two set which contains x and y - merge(x,y)
-Union Find support O(1) time to query the set that contains x - find(x)
-Union Find support O(1) time to query whether x and y are in the same set - isConnected(x,y)
+* Union Find support O(1) time to merge two set which contains x and y - merge(x,y)
+* Union Find support O(1) time to query the set that contains x - find(x)
+* Union Find support O(1) time to query whether x and y are in the same set - isConnected(x,y)
 
 The internal structure of Union Find is multiple multi-way trees. Each child node points to a father node. Each root corresponds to a set. We use a hashmap to map a child to a father. With this tree structure, we can do:
 * Move upward to the rootn to find the set that contains an element - find(x)
