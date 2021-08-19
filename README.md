@@ -55,7 +55,7 @@ Scanning line is usuallly used to solve interval related problems.
   * Longest path on a tree - https://www.lintcode.com/problem/1469
 
 ## 7. DFS (Hard) 深度优先搜索
-* Divide and Conquer. 
+* Divide and Conquer.
   * What should be returned form next level?
   * What is the result at each level?
 ### 1）Coding Problems
@@ -106,7 +106,7 @@ The internal structure of Union Find is multiple multi-way trees. Each child nod
 * Merget the set of x and set of y, set the parent of find(x) to find(y)
 
 * Related coding questions
-  * [Graph Validate Tree]()
+  * [Graph Validate Tree](https://github.com/dengkliu/algorithms/blob/master/GraphValidTreeII.java)
 ### Trie
 ### Segment Tree
 ### Binary Indexed Tree
