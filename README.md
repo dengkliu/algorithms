@@ -105,7 +105,7 @@ The internal structure of Union Find is multiple multi-way trees. Each child nod
 * Check if two element belongs to the same set - have the same root - find(x) == find(y)
 * Merget the set of x and set of y, set the parent of find(x) to find(y)
 
-* Related coding questions
+Related coding questions
   * [Graph Validate Tree](https://github.com/dengkliu/algorithms/blob/master/GraphValidTreeII.java)
 ### Trie
 ### Segment Tree
