@@ -77,9 +77,8 @@ Trade the space complexity for time complexity.
   * Rat Jump - https://www.lintcode.com/problem/1861/ 
 
 ### 2）Backpack DP 
-背包型问题一般会以前i个元素为状态。
 * Related coding questions
-  * Float Combination Sum https://www.lintcode.com/problem/1800/ （倒推法求套路）
+  * Float Combination Sum https://www.lintcode.com/problem/1800/
   * Longest Common Subsequence - https://www.lintcode.com/problem/77/
   * Longest Increasing Subsequence
 
