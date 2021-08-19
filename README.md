@@ -78,12 +78,18 @@ Trade the space complexity for time complexity.
 
 ### 2）Backpack DP 背包型动态规划
 背包型问题一般会以前i个元素为状态。
+* Related coding questions
   * Float Combination Sum https://www.lintcode.com/problem/1800/ （倒推法求套路）
   * Longest Common Subsequence - https://www.lintcode.com/problem/77/
   * Longest Increasing Subsequence
 
-### 3）Interval DP 区间型动态规矩
+### 3）Interval DP 区间型动态规划
+* Related coding questions
   * Stone Game - https://www.lintcode.com/problem/476/
+
+### 4) Prefix DP 前缀型动态规划
+* Related coding questions
+   * [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/LongestCommonSubsequence.java)
 
 ## 10. Others
 * Greatest Common Divisor - https://www.lintcode.com/problem/845/
