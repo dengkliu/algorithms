@@ -116,10 +116,12 @@ Related coding questions
   * [Account Merge](https://github.com/dengkliu/algorithms/blob/master/AccountMerge.java)
 ### Trie
 
-Trie is used to store strings while compressing the string common prefix. Its internal structure is a tree.
+Trie is used to store strings while compressing the string common prefix. Its internal structure is a tree. The more common prefixes shared by the words in the dictionary, the more time saved. 
+
+The best time complexity for insert word and find word is O(L).
 
 Related coding questions
-* [Add and Search Word - Data structure design] ()
+* [Add and Search Word - Data structure design]
 ### Segment Tree
 ### Binary Indexed Tree
 ### Heap (Priority Queue)
