@@ -94,7 +94,7 @@ Trade the space complexity for time complexity.
 ### General Data Structures
 * [Time Complexity Analysis](https://github.com/dengkliu/algorithms/blob/master/ds)
 ### Union Find
-[Union Find](https://github.com/dengkliu/algorithms/blob/master/UnionFind.java) is used to solve connection problem, especially for dynamic data stream. BFS can only be used to solve connection problem for static data, for data stream, the time complexity will be horrible.
+[Union Find](https://github.com/dengkliu/algorithms/blob/master/UnionFind.java) is used to solve connection problem, especially for dynamic data stream (online algorithm). BFS can only be used to solve connection problem for static data (therefore BFS is offline algorithm), for data stream, the time complexity will be horrible.
 
 * Union Find support O(1) time to merge two set which contains x and y - merge(x,y)
 * Union Find support O(1) time to query the set that contains x - find(x)
