@@ -116,6 +116,7 @@ Related coding questions
   * [Account Merge](https://github.com/dengkliu/algorithms/blob/master/AccountMerge.java)
 ### Trie
 
+Trie is used to store strings while compressing the string common prefix. Its internal structure is a tree.
 
 Related coding questions
 * [Add and Search Word - Data structure design] ()
