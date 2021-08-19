@@ -96,8 +96,6 @@ Trade the space complexity for time complexity.
 * https://www.lintcode.com/problem/1877
 
 ## 11. Useful data structures
-### General Data Structures
-* [Time Complexity Analysis](https://github.com/dengkliu/algorithms/blob/master/ds)
 ### Union Find
 [Union Find](https://github.com/dengkliu/algorithms/blob/master/UnionFind.java) is used to solve connection problem, especially for dynamic data stream (online algorithm). BFS can only be used to solve connection problem for static data (therefore BFS is offline algorithm), for data stream, the time complexity will be horrible.
 
@@ -126,6 +124,10 @@ Related coding questions
 ### Binary Indexed Tree
 ### Heap (Priority Queue)
 ### Skip List
+
+### General Data Structures
+
+Here is a [time complexity analysis](https://github.com/dengkliu/algorithms/blob/master/ds) for all other general used data sturctures in java. 
 
 ## Tips
 * First go through brute force approach
