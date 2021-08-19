@@ -46,6 +46,6 @@ class Trie {
 		}
 
 		node.isWord = true;
-		node.isWord = word;
+		node.word = word;
 	}
 }
