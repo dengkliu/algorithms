@@ -4,7 +4,7 @@
 * Quick sort
 * Merge sort
 
-## 2. Prefix Sum 前缀和
+## 2. Prefix Sum
 Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**.
 
 ### 1） Definition
@@ -19,16 +19,16 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 * [Product of Array Except Itself](https://github.com/dengkliu/algorithms/blob/master/ProductOfArrayExceptSelf.java)
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java)
 
-## 3. Scanning Line 扫描线
+## 3. Scanning Line
 
 Scanning line is usuallly used to solve interval related problems. 
 
 ### 1）Coding Problems
 * [Number of Airplanes in the Sky](https://github.com/dengkliu/algorithms/blob/master/NumberOfAirplanesInTheSky.java)
 
-## 4. Two Pointers (Medium) 双指针
+## 4. Two Pointers
 
-## 5. Binary Search (Medium) 二分法
+## 5. Binary Search
 
 ### Coding Problems
 * [Maximum Number in Mountain Sequence](https://github.com/dengkliu/algorithms/blob/master/MaximumNumberInMountainSequence.java)
@@ -36,7 +36,7 @@ Scanning line is usuallly used to solve interval related problems.
 * [Search in Rotated Sorted Array](https://github.com/dengkliu/algorithms/blob/master/SearchInRotatedSortedArray.java)
 * [Wood Cut](https://github.com/dengkliu/algorithms/blob/master/WoodCut.java)
 
-## 6. BFS (Easy) 宽度优先搜索
+## 6. Breath-First Search (Easy)
 * [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java)
 ### 1）Get Topological Order
   * In-degree and Out-degree. Starting point has 0 in-degree. 
@@ -54,16 +54,16 @@ Scanning line is usuallly used to solve interval related problems.
 * **Longest Path on a Tree**
   * Longest path on a tree - https://www.lintcode.com/problem/1469
 
-## 7. DFS (Hard) 深度优先搜索
+## 7. Depth-First Search
 * Divide and Conquer.
   * What should be returned form next level?
   * What is the result at each level?
 ### 1）Coding Problems
 * The diameter of binary tree - https://www.lintcode.com/problem/1181
 
-## 8. Binary Tree Traversal (Easy)
+## 8. Binary Tree Traversal
 
-## 9. Dynamic Programming (Hard) 动态规划
+## 9. Dynamic Programming
 
 Dynamic Programming is a method for solving a complex problem by breaking it down into a collection
 of **simpler subproblems**, solving each of those subproblems **just once**, and **storing their solutions** 
@@ -71,23 +71,23 @@ using a memory-based data structure(array, map, etc).
 
 Trade the space complexity for time complexity.
 
-### 1）Coordinate DP 坐标型型动态规划 (路径 + 方案总数)
+### 1）Coordinate DP
 * Related coding questions
   * Climbing Stairs
   * Rat Jump - https://www.lintcode.com/problem/1861/ 
 
-### 2）Backpack DP 背包型动态规划
+### 2）Backpack DP 
 背包型问题一般会以前i个元素为状态。
 * Related coding questions
   * Float Combination Sum https://www.lintcode.com/problem/1800/ （倒推法求套路）
   * Longest Common Subsequence - https://www.lintcode.com/problem/77/
   * Longest Increasing Subsequence
 
-### 3）Interval DP 区间型动态规划
+### 3）Interval DP
 * Related coding questions
   * Stone Game - https://www.lintcode.com/problem/476/
 
-### 4) Prefix DP 前缀型动态规划
+### 4) Prefix DP
 * Related coding questions
    * [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/LongestCommonSubsequence.java)
 
