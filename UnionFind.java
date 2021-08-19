@@ -2,8 +2,11 @@ class UnionFind {
 
     // Use a hashmap to store the father for each node
     Map<Integer, Integer> father;
+    // Use a hashmap to track the size of a set
     Map<Inetger, Integer> sizeOfSet;
     int numOfSets;
+    // Use a hashmap to record all elements in the set
+    Map<Integer, Set<Integer>> setElements;
 
 
     public UnionFind() {
@@ -20,6 +23,7 @@ class UnionFind {
 
         father.put(num, null);
         sizeOfSet.put(num, 1);
+        setElements.put(num, new HashSet<>().add(num));
         numOfSets++;
     }
 
@@ -59,6 +63,8 @@ class UnionFind {
         }
 
         sizeOfSet.put(root2, sizeOfSet.get(root1) + sizeOfSet.get(root2));
+
+        setElements.get(root2).addAll(setElements.get(root1));
         numOfSets--;
     }
 }
