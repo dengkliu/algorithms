@@ -1,3 +1,5 @@
+// 字典树压缩公共前缀
+
 clas TrieNode {
 
 	// 这个node连到children的边上是什么character
@@ -46,6 +48,6 @@ class Trie {
 		}
 
 		node.isWord = true;
-		node.word = word;
+		node.isWord = word;
 	}
 }
