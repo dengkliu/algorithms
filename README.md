@@ -38,7 +38,7 @@ Scanning line is usuallly used to solve interval related problems.
 * [Search in Rotated Sorted Array](https://github.com/dengkliu/algorithms/blob/master/SearchInRotatedSortedArray.java)
 * [Wood Cut](https://github.com/dengkliu/algorithms/blob/master/WoodCut.java)
 
-## 7. Breath-First Search (宽度优先搜索
+## 7. Breath-First Search 宽度优先搜索
 * [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java)
 ### 1）Get Topological Order
   * In-degree and Out-degree. Starting point has 0 in-degree. 
