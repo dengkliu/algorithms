@@ -96,7 +96,7 @@ Trade the space complexity for time complexity.
 * https://www.lintcode.com/problem/1877
 
 ## 11. Useful data structures
-### Union Find
+### 1) Union Find
 [Union Find](https://github.com/dengkliu/algorithms/blob/master/UnionFind.java) is used to solve connection problem, especially for dynamic data stream (online algorithm). BFS can only be used to solve connection problem for static data (therefore BFS is offline algorithm), for data stream, the time complexity will be horrible.
 
 * Union Find support O(1) time to merge two set which contains x and y - merge(x,y)
@@ -112,7 +112,7 @@ Related coding questions
   * [Graph Validate Tree](https://github.com/dengkliu/algorithms/blob/master/GraphValidTreeII.java)
   * [Set Union](https://github.com/dengkliu/algorithms/blob/master/SetUnion.java)
   * [Account Merge](https://github.com/dengkliu/algorithms/blob/master/AccountMerge.java)
-### Trie
+### 2) Trie
 
 Trie is used to store strings while compressing the string common prefix. Its internal structure is a tree. The more common prefixes shared by the words in the dictionary, the more time saved. 
 
@@ -120,6 +120,7 @@ The best time complexity for insert word and find word is O(L).
 
 Related coding questions
 * [Add and Search Word - Data structure design](https://github.com/dengkliu/algorithms/blob/master/AddandSearchWord.java)
+* [Identifying Strings]()
 ### Segment Tree
 ### Binary Indexed Tree
 ### Heap (Priority Queue)
