@@ -1,65 +1,144 @@
-// 字典树压缩公共前缀
+class TrieNode {
 
-clas TrieNode {
+    private Map<Character, TrieNode> children;
 
-	// 这个node连到children的边上是什么character
-	// 一个node可以有多个children
-	private Map<Character, TrieNode> children;
+    private boolean hasWord;
 
-	private boolean isWord;
+    private String word;
 
-	private String word;
+    Map<Character, TrieNode> getChidren() {
+        return this.children;
+    }
 
-	public Map<Character, TrieNode> getChildren() {
-		return this.children;
-	}
+    boolean hasWord() {
+        return hasWord;
+    }
 
-	public boolean isWord() {
-		return this.isWord;
-	}
+    void setHasWord(boolean hasWord) {
+        this.hasWord = hasWord;
+    }
 
-	public String word() {
-		return this.word;
-	}
+    String getWord() {
+        return word;
+    }
 
-	public TrieNode() {
-		children = new HashMap<Character, TrieNode>();
-		isWord = false;
-		word = null;
-	}
+    void setWord(String word) {
+        this.word = word;
+    }
+
+    TrieNode() {
+        children = new HashMap<>();
+        hasWord = false;
+        word = null;
+    }
 }
 
-class Trie {
 
-	private TrieNode root;
+public class Trie {
 
-	public Trie() {
-		root = new TrieNode();
-	}
+    private TrieNode root;
 
-	public TrieNode getRoot() {
-		return root;
-	}
+    public TrieNode getRoot() {
+        return root;
+    }
 
-	public void insert(String word) {
+    public Trie() {
+        root = new TrieNode();
+    }
 
-		TrieNode node = root;
+    /*
+     * @param word: a word
+     * @return: nothing
+     */
+    public void insert(String word) {
 
-		for (int i = 0; i < word.length; i++) {
+        TrieNode node = root;
 
-			char letter = word.charAt(i);
+        for (int i = 0; i < word.length(); i++) {
+            Character currChar = word.charAt(i);
+            Map<Character, TrieNode> children = node.getChidren();
 
-			// 需要查重，如果这个character已经在trie中了
-			// 直接往下移就行
-			if (!node.children.containsKey(letter)){
-				TrieNode newNode = new TrieNode();
-				node.children.put(word.charAt(i), newNode);
-			}
+            if (!children.containsKey(currChar)) {
+                TrieNode nextNode = new TrieNode();
+                children.put(currChar, nextNode);
+            }
 
-			node = node.children.get(letter);
-		}
+            node = children.get(currChar);
+        }
 
-		node.isWord = true;
-		node.isWord = word;
-	}
+        node.setHasWord(true);
+        node.setWord(word);
+    }
+
+    /*
+     * @param word: A string
+     * @return: if the word is in the trie.
+     */
+    public boolean search(String word) {
+
+        TrieNode node = root;
+
+        for (int i = 0; i < word.length(); i++) {
+
+            Character currChar = word.charAt(i);
+            Map<Character, TrieNode> children = node.getChidren();
+
+            if (!children.containsKey(currChar)) {
+                return false;
+            }
+
+            node = children.get(currChar);
+        }
+
+        return node.hasWord();
+    }
+
+    /*
+     * @param prefix: A string
+     * @return: if there is any word in the trie that starts with the given prefix.
+     */
+    public boolean startsWith(String prefix) {
+         TrieNode node = root;
+
+        for (int i = 0; i < prefix.length(); i++) {
+
+            Character currChar = prefix.charAt(i);
+            Map<Character, TrieNode> children = node.getChidren();
+
+            if (!children.containsKey(currChar)) {
+                return false;
+            }
+
+            node = children.get(currChar);
+        }
+
+        return true;
+    }
+
+    /*
+     * @param word: A string
+     * @return: the trie node where the words end
+     */
+    public TrieNode searchWordNodePos(String word) {
+
+        TrieNode node = root;
+
+        for (int i = 0; i < word.length(); i++) {
+
+            Character currChar = word.charAt(i);
+            Map<Character, TrieNode> children = node.getChidren();
+
+            if (!children.containsKey(currChar)) {
+                return null;
+            }
+
+            node = children.get(currChar);
+        }
+
+        if (node.hasWord()) {
+            return node;
+        };
+        
+        return null;
+    }
 }
