@@ -57,7 +57,6 @@
 //     So the solution can be either the start or end. We check the enitire 
 //     The overall time complexity is NlogN.
 
-// 4. Can we do at O(N) time? Monotonic stack.
 
 class IndexValuePair {
     int index;
@@ -191,6 +190,76 @@ public class Solution {
         return false;
     }
 }
+
+
+// 4. Can we do at O(N) time?
+
+// Can we use two pointers here? Why?
+
+// We can not use two pointers because there might be negative number, 
+// so we don't know which direction to move for the left pointer, should we move left to include more number 
+// or should we move right to include less?
+
+// We can use monotonic queue. We can keep prefixSum in an increasing order.
+// We iterate through the prefix sum array, for each prefix sum,
+// we just need to look at the head of the queue, because that would be the minimum prefix sum you can find so far
+// We can see if we can get a subarray with sum more than K, if we can, we can poll the head of queue, and keep
+// looking for the new head, because we want to find the minimum length subarray
+// If not, then we can just add the index of this prefix to the queue, by first removing all smaller prefixSum from
+// the tail.
+
+public class Solution {
+    /**
+     * @param A: the array
+     * @param K: sum
+     * @return: the length
+     */
+    public int shortestSubarray(int[] A, int K) {
+
+        if (A == null || A.length == 0) {
+            return -1;
+        }
+
+        int[] prefixSum = getPrefixSum(A);
+
+        Deque<Integer> deque = new ArrayDeque<>();
+
+        deque.add(0);
+
+        int result = Integer.MAX_VALUE;
+
+        for (int i = 1; i < prefixSum.length; i++) {
+
+            while(!deque.isEmpty() 
+                    && prefixSum[deque.peekLast()] >= prefixSum[i]) {
+                deque.pollLast();
+            }
+
+            while (!deque.isEmpty() && 
+                    prefixSum[i] - prefixSum[deque.peekFirst()] >= K) {
+                result = Math.min(result, i - deque.peekFirst());
+                deque.pollFirst();
+            }
+
+            deque.add(i);
+        }
+
+        return result == Integer.MAX_VALUE ? -1 : result;
+    }
+
+    private int[] getPrefixSum(int[] A) {
+        int[] prefixSum = new int[A.length + 1];
+
+        prefixSum[0] = 0;
+
+        for (int i = 1; i < A.length + 1; i ++) {
+            prefixSum[i] = prefixSum[i-1] + A[i-1];
+        }
+
+        return prefixSum;
+    }
+}
+
 
 
 
