@@ -47,15 +47,17 @@
 // so we know whether to choose right or left
 // so we want to do binary search on (sum>=K and length <= x)
 // To do this: We want to scan the entire array for a specific shortest length - 
-// 1. We enumerate the end 
-// 2. Because we have length constraint, we have to maintain a set of numbers within the length range, so we not only need to add, but also remove. 
-//    Besides, we are looking for a sum at least K, so we can compare the maximum sum with the K, 
-//    if the maximum sum is still less than K, we don't need to enumerate other positions, we can just skip to speed up. 
-//    So we need a data sturcture that can add and remove and give us the minimum, that is Heap.
-// 3. Whether we find a subarray that meet the requirements, we look for less shortest length.
-//    Until the binary search ends, which means either start and end is next to each other. 
-//    So the solution can be either the start or end. We check the enitire 
-//    The overall time complexity is NlogN.
+//     I. We enumerate the end 
+//     II. Because we have length constraint, we have to maintain a set of numbers within the length range, so we not only need to add, but also remove. 
+//     Besides, we are looking for a sum at least K, so we can compare the maximum sum with the K, 
+//     if the maximum sum is still less than K, we don't need to enumerate other positions, we can just skip to speed up. 
+//     So we need a data sturcture that can add and remove and give us the minimum, that is Heap.
+//     III. Whether we find a subarray that meet the requirements, we look for less shortest length.
+//     Until the binary search ends, which means either start and end is next to each other. 
+//     So the solution can be either the start or end. We check the enitire 
+//     The overall time complexity is NlogN.
+
+// 4. Can we do at O(N) time? Monotonic stack.
 
 class IndexValuePair {
     int index;
