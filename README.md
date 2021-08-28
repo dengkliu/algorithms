@@ -1,7 +1,7 @@
 # Algorithms
 
 ## 1. Sorting 排序
-* Quick sort
+* [Quick sort](https://github.com/dengkliu/algorithms/blob/master/QuickSort.java)
 * Merge sort
 
 ## 2. Binary Tree Traversal 二叉树遍历
