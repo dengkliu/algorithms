@@ -7,6 +7,8 @@ Both of them use divide and conquer.
 
 ## 2. Binary Tree Traversal 二叉树遍历
 
+* [Inorder Traveral of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/InoderTraversal.java)
+
 ## 3. Prefix Sum 前缀和
 Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**.
 
