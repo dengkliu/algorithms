@@ -12,11 +12,11 @@ Both of them use divide and conquer.
 ## 3. Prefix Sum 前缀和
 Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**.
 
-### 1） Definition
+### Definition
 * [1 dimentional array](https://github.com/dengkliu/algorithms/blob/master/PrefixSum.java) 
 * [2 dimentional array](https://github.com/dengkliu/algorithms/blob/master/prefixSum2Dimention.java)
 
-### 2）Coding Problems
+### Coding Problems
 * [Maximum Subarray](https://github.com/dengkliu/algorithms/blob/master/%5BEasy%5DMaximumSubarray.java)
 * [Shortest Subarray Sum Equals to K II](https://github.com/dengkliu/algorithms/blob/master/%5BMedium%5DSubarraySumEqualK.java)
 * [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/ShortedSubarraySumAtLeastK.java)
