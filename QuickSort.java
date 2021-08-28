@@ -34,6 +34,9 @@ public class Solution {
 				int temp = A[left];
 				A[left] = A[right];
 				A[right] = left;
+
+				left ++;
+				right --;
 			}
 		}
 
