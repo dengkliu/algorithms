@@ -1,6 +1,7 @@
 # Algorithms
 
 ## 1. Sorting 排序
+Both of them use divide and conquer.
 * [Quick sort](https://github.com/dengkliu/algorithms/blob/master/QuickSort.java)
 * [Merge sort](https://github.com/dengkliu/algorithms/blob/master/MergeSort.java)
 
