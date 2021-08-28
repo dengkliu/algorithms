@@ -35,6 +35,12 @@ Scanning line is usuallly used to solve interval related problems.
 
 ## 6. Binary Search 二分查询
 
+You may want to use binary search when -
+* The array is sorted
+* When the interviewer ask you to find a solution that is better than O(N)
+* Find a cut in the array, which makes the left half meet the condition, the other half don't.
+* Find a maximum or minimum value to meet a certain requirement
+
 ### 1) Coding Problems
 * [Maximum Number in Mountain Sequence](https://github.com/dengkliu/algorithms/blob/master/MaximumNumberInMountainSequence.java)
 * [Find word](https://github.com/dengkliu/algorithms/blob/master/FindWords.java)
