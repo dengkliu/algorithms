@@ -26,7 +26,7 @@ public class Solution {
 		while (left <= right) {
 			
                         // 找到第一个大于等于pivot的数
-			while (left <=right && A[left] < pivot) {
+			while (left <=right && A[left] < pipvot) {
 				left ++;
 			}
                         // 找到第一个小于等于pivot的数
@@ -46,8 +46,8 @@ public class Solution {
 		}
 		
 		// 然后分别quick sort 左边和右边
-		quickSort(A, start, left);
-		quickSort(A, right, end);
+		quickSort(A, start, right);
+		quickSort(A, right, left);
 	}
 
 }
