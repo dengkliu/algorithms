@@ -28,7 +28,7 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 
 Scanning line is usuallly used to solve interval related problems. 
 
-### 1）Coding Problems
+### Coding Problems
 * [Number of Airplanes in the Sky](https://github.com/dengkliu/algorithms/blob/master/NumberOfAirplanesInTheSky.java)
 
 ## 5. Two Pointers 双指针
