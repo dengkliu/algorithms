@@ -7,14 +7,16 @@ Both of them use divide and conquer.
 
 ## 2. Binary Tree Traversal 二叉树遍历
 
+* [Inorder Traveral of Binary Tree - Iterative Version ](https://github.com/dengkliu/algorithms/blob/master/InoderTraversal.java)
+
 ## 3. Prefix Sum 前缀和
 Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**.
 
-### 1） Definition
+### Definition
 * [1 dimentional array](https://github.com/dengkliu/algorithms/blob/master/PrefixSum.java) 
 * [2 dimentional array](https://github.com/dengkliu/algorithms/blob/master/prefixSum2Dimention.java)
 
-### 2）Coding Problems
+### Coding Problems
 * [Maximum Subarray](https://github.com/dengkliu/algorithms/blob/master/%5BEasy%5DMaximumSubarray.java)
 * [Shortest Subarray Sum Equals to K II](https://github.com/dengkliu/algorithms/blob/master/%5BMedium%5DSubarraySumEqualK.java)
 * [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/ShortedSubarraySumAtLeastK.java)
@@ -26,12 +28,18 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 
 Scanning line is usuallly used to solve interval related problems. 
 
-### 1）Coding Problems
+### Coding Problems
 * [Number of Airplanes in the Sky](https://github.com/dengkliu/algorithms/blob/master/NumberOfAirplanesInTheSky.java)
 
 ## 5. Two Pointers 双指针
 
 ## 6. Binary Search 二分查询
+
+You may want to use binary search when -
+* The array is sorted
+* When the interviewer ask you to find a solution that is better than O(N)
+* Find a cut in the array, which makes the left half meet the condition, the other half don't.
+* Find a maximum or minimum value to meet a certain requirement
 
 ### 1) Coding Problems
 * [Maximum Number in Mountain Sequence](https://github.com/dengkliu/algorithms/blob/master/MaximumNumberInMountainSequence.java)
