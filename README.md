@@ -46,6 +46,7 @@ You may want to use binary search when -
 * [Find word](https://github.com/dengkliu/algorithms/blob/master/FindWords.java)
 * [Search in Rotated Sorted Array](https://github.com/dengkliu/algorithms/blob/master/SearchInRotatedSortedArray.java)
 * [Wood Cut](https://github.com/dengkliu/algorithms/blob/master/WoodCut.java)
+* [Copy Books](https://github.com/dengkliu/algorithms/blob/master/CopyBooks.java)
 
 ## 7. Breath-First Search 宽度优先搜索
 * [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java)
