@@ -102,7 +102,7 @@ Trade the space complexity for time complexity.
    * [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/LongestCommonSubsequence.java)
 
 
-## 10. Monotonic Stack
+## 10. Monotonic Stack/Queue
 
 ### Coding problems
 * [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/ShortedSubarraySumAtLeastK.java)
