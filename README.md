@@ -101,12 +101,16 @@ Trade the space complexity for time complexity.
 * Related coding questions
    * [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/LongestCommonSubsequence.java)
 
-## 10. Others
+
+## 10. Monotonic Stack
+
+
+## 11. Others
 * Greatest Common Divisor - https://www.lintcode.com/problem/845/
 * Factorization - https://www.lintcode.com/problem/652/
 * https://www.lintcode.com/problem/1877
 
-## 11. Useful data structures
+## 12. Useful data structures
 ### 1) Union Find
 [Union Find](https://github.com/dengkliu/algorithms/blob/master/UnionFind.java) is used to solve connection problem, especially for dynamic data stream (online algorithm). BFS can only be used to solve connection problem for static data (therefore BFS is offline algorithm), for data stream, the time complexity will be horrible.
 
