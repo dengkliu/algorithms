@@ -8,7 +8,7 @@
 // Output: 2 = 1 + 2
 
 // 1. Brute Force - enumerate the start and end of the subarray, 
-//    calculate the sum for each of them, and check if it is K
+//    calculate the sum for each of them, and check if it is K。 It is going to be O(N^3)
 //    for (int start = 0; start < n; start ++) {
 //        for (int end = start + 1; end < n; end ++) {
 //             for (int k = start; k < end; k ++) {
