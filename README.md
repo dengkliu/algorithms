@@ -104,6 +104,8 @@ Trade the space complexity for time complexity.
 
 ## 10. Monotonic Stack
 
+### Coding problems
+* [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/ShortedSubarraySumAtLeastK.java)
 
 ## 11. Others
 * Greatest Common Divisor - https://www.lintcode.com/problem/845/
