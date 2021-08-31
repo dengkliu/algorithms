@@ -57,7 +57,7 @@ public class Solution {
 
             // Now get the maximum subarray ending in this number
             // by substracting the previous minimum prefix sum
-            result = Math.max(result, minPrefixSum);
+            result = Math.max(result, prefixSum[i] - minPrefixSum);
             
             // Updating the minimum prefix sum
             minPrefixSum = Math.min(minPrefixSum, prefixSum[i]);
