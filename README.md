@@ -17,7 +17,7 @@ Prefix sum is mostly used for getting the subarray sum, if the subarray is **imm
 * [2 dimentional array](https://github.com/dengkliu/algorithms/blob/master/prefixSum2Dimention.java)
 
 ### Coding Problems
-* [Maximum Subarray](https://github.com/dengkliu/algorithms/blob/master/%5BEasy%5DMaximumSubarray.java)
+* [Maximum Subarray](https://github.com/dengkliu/algorithms/blob/master/MaximumSubarray.java)
 * [Shortest Subarray Sum Equals to K II](https://github.com/dengkliu/algorithms/blob/master/SubarraySumEqualK.java)
 * [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/ShortedSubarraySumAtLeastK.java)
 * [Matrix Restoration](https://github.com/dengkliu/algorithms/blob/master/MatrixRestoration.java)
