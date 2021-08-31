@@ -44,33 +44,32 @@ public class Solution {
         }
 
         int n = nums.length;
-
-        // prefixSum[i] = A[0] + ... + A[i-1];
-        int[] prefixSum = new int[n+1];
+        
+        // 这里我们选择优化 因为我们有hashmap存放prefix sum
+        // 我们可以不用数组了
+        long prefixSum = 0;
 
         // This should be sum to index
-        Map<Integer, Integer> sumToIndex = new HashMap<>();
+        Map<Long, Integer> sumToIndexMap = new HashMap<>();
 
-        prefixSum[0] = 0;
         // 默认为初始Index为-1
-        sumToIndex.put(0, -1);
+        sumToIndex.put((long)0, -1);
 
         // 准备打擂台
         int result = Integer.MAX_VALUE;
 
-        for (int i = 1; i < n + 1; i ++) {
+        for (int i = 0; i < nums.length; i ++) {
+            
+            prefixSum = prefixSum + nums[i];
 
-            // now the end is i - 1 A[0] + ... + A[i-1]
-            prefixSum[i] = prefixSum[i-1] + nums[i-1];
-
-            if(sumToIndex.containsKey(prefixSum[i] - k)) {
+            if(sumToIndexMap.containsKey(prefixSum - k)) {
                 // We find A[0] + .. + A[start] is prefixSum[i] - K
                 // Therefore A[start + 1] + ... A[i -1] is K
-                int start = sumToIndex.get(prefixSum[i] - k);
-                result = Math.min(result, i - 1 - start);
+                int start = sumToIndex.get(prefixSum - k);
+                result = Math.min(result, i - start);
             }
 
-            sumToIndex.put(prefixSum[i], i -1);
+            sumToIndex.put(prefixSum, i);
         }
 
         return result == Integer.MAX_VALUE ? -1 : result;
