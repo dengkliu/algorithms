@@ -34,6 +34,10 @@ Scanning line is usuallly used to solve interval related problems.
 
 ## 5. Two Pointers 双指针
 
+### Same direction two pointers
+### Opposite direction two pointers
+### Back direction two pointers
+
 ## 6. Binary Search 二分查询
 
 You may want to use binary search when -
