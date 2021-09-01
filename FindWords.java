@@ -76,20 +76,11 @@ public class Solution {
 
             List<Integer> positions = charToIndex.get(currentChar);
 
-            System.out.println("Positions of current char " + currentChar + " in the string");
-
-            for (Integer num : positions) {
-                System.out.print(num + " ");
-            }
-            System.out.println(" ");
-            
             previousCharPosition = findPosition(previousCharPosition, positions);
 
             if (previousCharPosition == -1) {
                 return false;
             }
-
-            System.out.println("Positions found for " + currentChar + " in the string is " + previousCharPosition);
         }
 
         return true;
@@ -103,10 +94,6 @@ public class Solution {
 
         while (start + 1 < end) {
             int mid = start + (end - start)/2;
-            
-            System.out.println(nums.get(start));
-            System.out.println(nums.get(mid));
-            System.out.println(nums.get(end));
 
             if (nums.get(mid) > num) {
                 end = mid;
@@ -114,14 +101,10 @@ public class Solution {
 
             // because we are looking for a large time, 
             // we shouldn't break when we found an equal!!!!
-            } else if (nums.get(mid) <= num) {
-                start = mid;
-                continue;
-            }
+            } 
+            
+            start = mid;
         }
-
-        System.out.println(nums.get(start));
-        System.out.println(nums.get(end));
 
         if (nums.get(start) > num) {
             return nums.get(start);
