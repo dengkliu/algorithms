@@ -95,6 +95,8 @@ public class Solution {
         // k = 3
         double leftSumMinimum = 0;
 
+        // Here the length must be greater than K
+        // Therefore the ends start from k, then we start including more numbers
         int end = k;
         for (; end < prefixSum.length; end ++) {
             if (prefixSum[end] - leftSumMinimum >=0) {
@@ -102,6 +104,10 @@ public class Solution {
             }
             leftSumMinimum = Math.min(leftSumMinimum, prefixSum[end - k + 1]);
         }
+
+        // What if we look for length <= k?
+        // We can use heap, add all elements from 0 to K, and find minimum, 
+        // and keep removing elements out of range
 
         return false;
     }
