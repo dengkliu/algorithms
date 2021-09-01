@@ -1,7 +1,7 @@
 // https://www.lintcode.com/problem/1840/
 
 // There is a matrix before with n rows and m columns.
-// For each element in before before[i][j], we will use the following algorithm to convert it to after[i][j]. 
+// For each element in before[i][j], we will use the following algorithm to convert it to after[i][j]. 
 // Given the after matrix, please restore the original matrix before.
 
 // s = 0
