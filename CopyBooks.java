@@ -8,7 +8,7 @@
 // Input: pages = [3, 2, 4], k = 2
 // Output: 5
 // Explanation: 
-//    First person spends 5 minutes to copy book 1 and book 2.
+//   First person spends 5 minutes to copy book 1 and book 2.
 //   Second person spends 4 minutes to copy book 3.
 
 // 1. Brute force. 枚举所有的分组情况，然后比较需要的最短时间，打擂台。时间复杂度 C(N, K) -- 把N个数分成K组
