@@ -22,7 +22,7 @@
 // 2. Use hash table to record the index for each character, so we avoid scanning the str
 //    Each character may appear in multiple positions, so you need a list.
 //    When scanning the word from the dictionary, you can do binary search to speed up further (find out whether there exists a number in the array
-//    than target number)
+//    larger than target number)
 
 
 public class Solution {
