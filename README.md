@@ -34,7 +34,15 @@ Scanning line is usuallly used to solve interval related problems.
 
 ## 5. Two Pointers 双指针
 
+Two pointers are usually used when:
+* Sliding window problem
+* Time complexity is O(N) (80%)
+* In-place algorithm, you can not use extra space.
+* Subarray or substring problem (50%)
+* Palindrome problem (50%)
+
 ### Same direction two pointers
+
 ### Opposite direction two pointers
 ### Back direction two pointers
 
