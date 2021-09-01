@@ -3,7 +3,7 @@
 // Return the length of the shortest, non-empty, 
 // contiguous subarray of A with sum at least K.
 
-// 1 <= A.length <= 0000
+// 1 <= A.length <= 10000
 // - 10 ^ 5 <= A[i] <= 10 ^ 5
 // 1 <= k < 10^9
 
