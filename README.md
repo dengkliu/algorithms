@@ -41,7 +41,7 @@ Two pointers are usually used when:
 * Subarray or substring problem (50%)
 * Palindrome problem (50%)
 
-### Same direction two pointers
+### [Same direction two pointers](https://github.com/dengkliu/algorithms/blob/master/SameDirectionTwoPointers.java)
 Two pointers start from the head of array and go to the end.
 * [Minimum Size Subarray Sum]()
 
