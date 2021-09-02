@@ -6,7 +6,7 @@
 // 1 ≤ k ≤ 261≤k≤26
 
 // 1. Brute-force - enumerate all substrings, and count of the number of unique characters. Worst case O(N^3)
-// 2. 
+// 2. Two pointers - 同向双指针。用Hashmap而不是set 因为hash set只有0和1的区别 hash map才能增加和减少次数
 
 public class Solution {
     /**
