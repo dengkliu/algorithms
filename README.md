@@ -42,6 +42,8 @@ Two pointers are usually used when:
 * Palindrome problem (50%)
 
 ### Same direction two pointers
+Two pointers start from the head of array and go to the end.
+* [Minimum Size Subarray Sum]()
 
 ### Opposite direction two pointers
 ### Back direction two pointers
