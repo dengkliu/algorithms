@@ -45,6 +45,7 @@ Two pointers are usually used when:
 Two pointers start from the head of array and go to the end.
 * [Minimum Size Subarray Sum](https://github.com/dengkliu/algorithms/blob/master/MinimumSizeSubarray.java)
 * [Substring With At Least K Distinct Characters](https://github.com/dengkliu/algorithms/blob/master/SubstringWithAtLeastKDistinctCharacters.java)
+* [Minimum Window Substring](https://github.com/dengkliu/algorithms/blob/master/MinimumWindowSubstring.java)
 
 ### Opposite direction two pointers
 ### Back direction two pointers
