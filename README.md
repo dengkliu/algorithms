@@ -171,13 +171,6 @@ Here is a [time complexity analysis](https://github.com/dengkliu/algorithms/blob
   * If brute force is O(N), you should think about O(logn)
 * StringBuilder is not thread safe, but StringBuffer is.
 * Subarray is continuous, while subsquence is not. For an array with length N, there are N^2 subarrays and 2^N subsequences.
-* Follow up questions
-  * Constant -> Variable (2 sum -> k sum)
-  * 1 dimentsion -> 2 dimension
-  * == k -> >= k
-  * shortest -> longest
-  * postive -> negative
-  * Immutable -> Mutable
-  * Static input -> Data stream
+* 
 
 ## Other coding question
