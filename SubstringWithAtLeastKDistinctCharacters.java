@@ -28,7 +28,8 @@ public class Solution {
                 Character currentChar = Character.valueOf(s.charAt(end));
 
                 int occurrence = charCountMap.getOrDefault(currentChar, 0);
-
+                
+                // 无中生有的时候 unqiue加一
                 if (occurrence == 0) {
                     numOfUniqueChar ++;
                 }
@@ -36,7 +37,8 @@ public class Solution {
                 charCountMap.put(currentChar, occurrence + 1);
                 end ++;
             }
-
+            
+            // 提前结束，如果这个start找到尾找不到 那接下来的start都不用找了
             if (end == s.length() && numOfUniqueChar < k) {
                 break;
             }
@@ -46,7 +48,8 @@ public class Solution {
             }
 
             int countOfStartChar = charCountMap.get(s.charAt(start));
-
+            
+            // 有中变无的时候 unique减一
             if (countOfStartChar == 1) {
                 numOfUniqueChar--;
             }
