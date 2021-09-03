@@ -63,7 +63,6 @@ public class Solution {
 		}
 
 		for (int i = start; i <= end; i ++) {
-			A[i] = temp[i]
-;		}
+			A[i] = temp[i];		}
 	}
 }
