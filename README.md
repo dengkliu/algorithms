@@ -48,6 +48,10 @@ Two pointers start from the head of array and go to the end.
 * [Minimum Window Substring](https://github.com/dengkliu/algorithms/blob/master/MinimumWindowSubstring.java)
 * [Heaters](https://github.com/dengkliu/algorithms/blob/master/Heaters.java)
 
+### Fixed Size Sliding Window
+
+* [Grumpy Bookstore Owner](https://github.com/dengkliu/algorithms/blob/master/GrumpyBookStoreOwner.java)
+
 ### Opposite direction two pointers
 ### Back direction two pointers
 
