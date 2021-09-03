@@ -173,4 +173,4 @@ Here is a [time complexity analysis](https://github.com/dengkliu/algorithms/blob
 * Subarray is continuous, while subsquence is not. For an array with length N, there are N^2 subarrays and 2^N subsequences.
 * 
 
-## Other coding question
+## Other coding questions
