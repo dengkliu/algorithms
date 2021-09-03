@@ -66,6 +66,7 @@ You may want to use binary search when -
 * [Wood Cut](https://github.com/dengkliu/algorithms/blob/master/WoodCut.java)
 * [Copy Books](https://github.com/dengkliu/algorithms/blob/master/CopyBooks.java)
 * [Find K Closet Elements](https://github.com/dengkliu/algorithms/blob/master/FindKClosestElements.java)
+* [Heaters](https://github.com/dengkliu/algorithms/blob/master/Heaters.java)
 
 ## 7. Breath-First Search 宽度优先搜索
 * [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java)
