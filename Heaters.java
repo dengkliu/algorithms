@@ -69,7 +69,48 @@ public class Solution {
 //    一个指针放在房子数组上，一个指针放在加热器数组上
 //    对于当前房子，假如当前加热器比下一个加热器更近，那么当前加热器一定是最优的，则可以看下一个房子。
 //    对于当前房子，假如下一个加热器比当前加热器更近，那么下一个加热器不一定是最优，需要继续往下看。
-// 这个挺难想的
+//    这个挺难想的
+
+
+public class Solution {
+    /**
+     * @param houses: positions of houses
+     * @param heaters: positions of heaters
+     * @return: the minimum radius standard of heaters
+     */
+    public int findRadius(int[] houses, int[] heaters) {
+
+        Arrays.sort(houses);
+        Arrays.sort(heaters);
+
+        int houseCnt = houses.length;
+        int heaterCnt = heaters.length;
+
+        int houseIndex = 0;
+        int heaterIndex = 0;
+
+        int minRadius = 0;
+
+        while (houseIndex < houseCnt && heaterIndex < heaterCnt) {
+
+            int currRadius = Math.abs(houses[houseIndex] - heaters[heaterIndex]);
+
+            int nextRadius = heaterIndex + 1 == heaterCnt ? 
+                Integer.MAX_VALUE : 
+                Math.abs(houses[houseIndex] - heaters[heaterIndex + 1]);
+
+            // 对于当前house 找到了最佳heater
+            if (currRadius < nextRadius) {
+                minRadius = Math.max(minRadius, currRadius);
+                houseIndex ++;
+                continue;
+            }
+            heaterIndex++;
+        }
+
+        return minRadius;
+    }
+}
 
 
 
