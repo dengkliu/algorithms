@@ -15,6 +15,7 @@
 // It is 10^4, so got to be O(N) or even better time complexity
 
 // Maintian a fixed size sliding window.
+// 每次滑动，造成影响的只有首尾两个值，尾端加入，首端弹出。
 
 public class Solution {
     /**
@@ -42,8 +43,6 @@ public class Solution {
        }
 
        int maxSatisfied = totalSatisfied;
-       
-       System.out.println(maxSatisfied);
 
        for (int end = X; end < daysCnt; end ++) {
            // 对于当前end
