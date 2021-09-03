@@ -14,8 +14,6 @@
 // 再用双指针来扫原数组
 // 以每个index位置作为左端点分组
 
-
-
 public class Solution {
     /**
      * @param source : A string
