@@ -106,23 +106,21 @@ using a memory-based data structure(array, map, etc).
 Trade the space complexity for time complexity.
 
 ### 1）Coordinate DP
-* Related coding questions
-  * Climbing Stairs
-  * Rat Jump - https://www.lintcode.com/problem/1861/ 
+* Climbing Stairs
+* Rat Jump - https://www.lintcode.com/problem/1861/ 
 
 ### 2）Backpack DP 
-* Related coding questions
-  * Float Combination Sum https://www.lintcode.com/problem/1800/
-  * Longest Common Subsequence - https://www.lintcode.com/problem/77/
-  * Longest Increasing Subsequence
+* Float Combination Sum https://www.lintcode.com/problem/1800/
+* Longest Common Subsequence - https://www.lintcode.com/problem/77/
+* Longest Increasing Subsequence
 
 ### 3）Interval DP
 * Related coding questions
-  * Stone Game - https://www.lintcode.com/problem/476/
+* Stone Game - https://www.lintcode.com/problem/476/
 
 ### 4) Prefix DP
 * Related coding questions
-   * [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/LongestCommonSubsequence.java)
+* [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/LongestCommonSubsequence.java)
 
 ## 10. Monotonic Stack/Queue
 
