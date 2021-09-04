@@ -11,7 +11,7 @@ Both of them use divide and conquer.
 
 ## 3. Greedy 贪心算法
 
-* [Best Time to Buy and Sell Stock]
+* [Best Time to Buy and Sell Stock](https://github.com/dengkliu/algorithms/blob/master/BestTimeToBuyAndSellStock.java)
 
 ## 4. Prefix Sum 前缀和
 Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**.
