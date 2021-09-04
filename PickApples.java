@@ -53,7 +53,7 @@ public class Solution {
 
         // 6 1 4 6 | 6 3 2 7 4
         // left = 0, right = 4 [0, 4) 中间有4个数
-        // 假如n > 4 直接返回 -1 
+        // 假如n > 4 说明长度不够 直接返回 -1 
         if (right - left < n) {
             return -1;
         }
