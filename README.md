@@ -55,6 +55,7 @@ Two pointers start from the head of array and go to the end.
 ### Fixed Size Sliding Window
 
 * [Grumpy Bookstore Owner](https://github.com/dengkliu/algorithms/blob/master/GrumpyBookStoreOwner.java)
+* [Pick Apples]()
 
 ### Opposite direction two pointers
 ### Back direction two pointers
@@ -114,6 +115,7 @@ Trade the space complexity for time complexity.
 * Rat Jump - https://www.lintcode.com/problem/1861/ 
 
 ### 2）Backpack DP 
+* [Best Time to Buy and Sell Stock III](https://github.com/dengkliu/algorithms/blob/master/BestTimeToBuyAndSellStockIII.java)
 * Float Combination Sum https://www.lintcode.com/problem/1800/
 * Longest Common Subsequence - https://www.lintcode.com/problem/77/
 * Longest Increasing Subsequence
