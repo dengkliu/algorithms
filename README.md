@@ -14,13 +14,13 @@ Both of them use divide and conquer.
 * [Best Time to Buy and Sell Stock](https://github.com/dengkliu/algorithms/blob/master/BestTimeToBuyAndSellStock.java)
 
 ## 4. Prefix Sum 前缀和
-Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**.
+Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**. 
 
-### Definition
+The definition of prefix sum for 1D and 2D array.
 * [1 dimentional array](https://github.com/dengkliu/algorithms/blob/master/PrefixSum.java) 
 * [2 dimentional array](https://github.com/dengkliu/algorithms/blob/master/prefixSum2Dimention.java)
 
-### Coding Problems
+Related coding problems.
 * [Maximum Subarray](https://github.com/dengkliu/algorithms/blob/master/MaximumSubarray.java)
 * [Subarray Sum Equals K](https://github.com/dengkliu/algorithms/blob/master/SubarraySumEqualK.java)
 * [Shortest Subarray Sum Equals to K](https://github.com/dengkliu/algorithms/blob/master/ShortestSubarraySumEqualK.java)
