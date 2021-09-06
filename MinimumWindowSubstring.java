@@ -6,7 +6,7 @@
 // If there is no answer, return "".
 // You are guaranteed that the answer is unique.
 // target may contain duplicate char, while the answer need to contain at least the same number of that char.
-// 0 <= len(source) <= 1000000<=len(source)<=100000
+// 0 <= len(source) <= 1000000
 // 0<=len(target)<=100000
 
 // 思路 - 字符在substring出现的次数 大于 字符在target中出现的次数
