@@ -29,6 +29,7 @@ Related coding problems.
 * [Matrix Restoration](https://github.com/dengkliu/algorithms/blob/master/MatrixRestoration.java)
 * [Product of Array Except Itself](https://github.com/dengkliu/algorithms/blob/master/ProductOfArrayExceptSelf.java)
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java)
+* [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/SubarraySumII.java)
 
 ## 5. Scanning Line 扫描线
 
