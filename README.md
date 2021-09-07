@@ -62,6 +62,7 @@ Two pointers start from the head of array and go to the end. 同向双指针只�
 * [Pick Apples](https://github.com/dengkliu/algorithms/blob/master/PickApples.java)
 
 ### Opposite direction two pointers
+* [Two Sim VII](https://github.com/dengkliu/algorithms/blob/master/TwoSumVII.java)
 ### Back direction two pointers
 
 ## 7. Binary Search 二分查询
