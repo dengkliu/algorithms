@@ -68,12 +68,13 @@ Two pointers start from the head of array and go to the end. 同向双指针只�
 ## 7. Binary Search 二分查询
 
 You may want to use binary search when -
-* The array is sorted
 * When the interviewer ask you to find a solution that is better than O(N)
 * Find a cut in the array, which makes the left half meet the condition, the other half don't.
-* Find a maximum or minimum value to meet a certain requirement
+* The array is sorted, find a global maximum or minimum value to meet a certain requirement
+* Find a local minimum or maximum.
 
-### 1) Coding Problems
+Related coding problem -
+
 * [Maximum Number in Mountain Sequence](https://github.com/dengkliu/algorithms/blob/master/MaximumNumberInMountainSequence.java)
 * [Find word](https://github.com/dengkliu/algorithms/blob/master/FindWords.java)
 * [Search in Rotated Sorted Array](https://github.com/dengkliu/algorithms/blob/master/SearchInRotatedSortedArray.java)
@@ -81,6 +82,7 @@ You may want to use binary search when -
 * [Copy Books](https://github.com/dengkliu/algorithms/blob/master/CopyBooks.java)
 * [Find K Closet Elements](https://github.com/dengkliu/algorithms/blob/master/FindKClosestElements.java)
 * [Heaters](https://github.com/dengkliu/algorithms/blob/master/Heaters.java)
+* [Find Peak Element II](https://github.com/dengkliu/algorithms/blob/master/FindPeakElementII.java)
 
 ## 8. Breath-First Search 宽度优先搜索
 * [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java)
