@@ -73,7 +73,8 @@ You may want to use binary search when -
 * The array is sorted, find a global maximum or minimum value to meet a certain requirement
 * Find a local minimum or maximum.
 
-### 1) Coding Problems
+Related coding problem -
+
 * [Maximum Number in Mountain Sequence](https://github.com/dengkliu/algorithms/blob/master/MaximumNumberInMountainSequence.java)
 * [Find word](https://github.com/dengkliu/algorithms/blob/master/FindWords.java)
 * [Search in Rotated Sorted Array](https://github.com/dengkliu/algorithms/blob/master/SearchInRotatedSortedArray.java)
