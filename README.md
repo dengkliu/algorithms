@@ -30,6 +30,7 @@ Related coding problems.
 * [Product of Array Except Itself](https://github.com/dengkliu/algorithms/blob/master/ProductOfArrayExceptSelf.java)
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java)
 * [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/SubarraySumII.java)
+* [Binary Subarrays With Sum](https://github.com/dengkliu/algorithms/blob/master/BinarySubarraysWithSum.java)
 
 ## 5. Scanning Line 扫描线
 
@@ -55,6 +56,7 @@ Two pointers start from the head of array and go to the end. 同向双指针只�
 * [Heaters](https://github.com/dengkliu/algorithms/blob/master/Heaters.java)
 * [Longest Substring Without Repeating Characters](https://github.com/dengkliu/algorithms/blob/master/LongestSubstringWithoutRepeatingCharacters.java)
 * [Longest Substring With At Most K Distinct Characters](https://github.com/dengkliu/algorithms/blob/master/LongestSubstringWithAtMostKDistinctCharacters.java)
+* [Binary Subarrays With Sum](https://github.com/dengkliu/algorithms/blob/master/BinarySubarraysWithSum.java)
 
 ### Fixed Size Sliding Window 固定长度滑动窗口
 
