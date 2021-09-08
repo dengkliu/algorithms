@@ -9,12 +9,14 @@ Both of them use divide and conquer.
 
 * [Inorder Traveral of Binary Tree - Iterative Version ](https://github.com/dengkliu/algorithms/blob/master/InoderTraversal.java)
 
-## 3. Greedy 贪心算法
+## 3. Binary Tree Divide & Conquer 二叉树分治
+
+## 4. Greedy 贪心算法
 
 * [Best Time to Buy and Sell Stock](https://github.com/dengkliu/algorithms/blob/master/BestTimeToBuyAndSellStock.java)
 * [Best Time to Buy and Sell Stock II](https://github.com/dengkliu/algorithms/blob/master/BestTimeToBuyAndSellStockII.java)
 
-## 4. Prefix Sum 前缀和
+## 5. Prefix Sum 前缀和
 Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**. 
 
 The definition of prefix sum for 1D and 2D array.
@@ -32,13 +34,13 @@ Related coding problems.
 * [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/SubarraySumII.java)
 * [Binary Subarrays With Sum](https://github.com/dengkliu/algorithms/blob/master/BinarySubarraysWithSum.java)
 
-## 5. Scanning Line 扫描线
+## 6. Scanning Line 扫描线
 
 Scanning line is usuallly used to solve interval related problems. 
 
 * [Number of Airplanes in the Sky](https://github.com/dengkliu/algorithms/blob/master/NumberOfAirplanesInTheSky.java)
 
-## 6. Two Pointers 双指针
+## 7. Two Pointers 双指针
 
 Two pointers are usually used when:
 * Sliding window problem
@@ -67,7 +69,7 @@ Two pointers start from the head of array and go to the end. 同向双指针只�
 * [Two Sim VII](https://github.com/dengkliu/algorithms/blob/master/TwoSumVII.java)
 ### Back direction two pointers 背向双指针
 
-## 7. Binary Search 二分查询
+## 8. Binary Search 二分查询
 
 You may want to use binary search when -
 * When the interviewer ask you to find a solution that is better than O(N)
@@ -86,7 +88,7 @@ Related coding problem -
 * [Heaters](https://github.com/dengkliu/algorithms/blob/master/Heaters.java)
 * [Find Peak Element II](https://github.com/dengkliu/algorithms/blob/master/FindPeakElementII.java)
 
-## 8. Breath-First Search 宽度优先搜索
+## 9. Breath-First Search 宽度优先搜索
 * [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java)
 ### 1）Get Topological Order
   * In-degree and Out-degree. Starting point has 0 in-degree. 
@@ -104,14 +106,14 @@ Related coding problem -
 * **Longest Path on a Tree**
   * Longest path on a tree - https://www.lintcode.com/problem/1469
 
-## 9. Depth-First Search 深度优先搜索
+## 10. Depth-First Search 深度优先搜索
 * Divide and Conquer.
   * What should be returned form next level?
   * What is the result at each level?
 ### 1）Coding Problems
 * The diameter of binary tree - https://www.lintcode.com/problem/1181
 
-## 10. Dynamic Programming 动态规划
+## 11. Dynamic Programming 动态规划
 
 Dynamic Programming is a method for solving a complex problem by breaking it down into a collection
 of **simpler subproblems**, solving each of those subproblems **just once**, and **storing their solutions** 
@@ -137,17 +139,17 @@ Trade the space complexity for time complexity.
 * Related coding questions
 * [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/LongestCommonSubsequence.java)
 
-## 11. Monotonic Stack/Queue
+## 12. Monotonic Stack/Queue
 
 ### Coding problems
 * [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/ShortedSubarraySumAtLeastK.java)
 
-## 12. Others
+## 13. Others
 * Greatest Common Divisor - https://www.lintcode.com/problem/845/
 * Factorization - https://www.lintcode.com/problem/652/
 * https://www.lintcode.com/problem/1877
 
-## 13. Useful data structures
+## 14. Useful data structures
 ### 1) Union Find
 [Union Find](https://github.com/dengkliu/algorithms/blob/master/UnionFind.java) is used to solve connection problem, especially for dynamic data stream (online algorithm). BFS can only be used to solve connection problem for static data (therefore BFS is offline algorithm), for data stream, the time complexity will be horrible.
 
