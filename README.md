@@ -12,6 +12,7 @@ Both of them use divide and conquer.
 
 ## 3. Binary Tree Divide & Conquer 二叉树分治
 * [Binary Tree Maximum Path Sum](https://github.com/dengkliu/algorithms/blob/master/BinaryTreeMaximumPathSum.java)
+* [Validate Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/ValidateBinarySearchTree.java)
 
 ## 4. Greedy 贪心算法
 
