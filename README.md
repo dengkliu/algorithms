@@ -46,7 +46,7 @@ Two pointers are usually used when:
 * Subarray or substring problem (50%)
 * Palindrome problem (50%)
 
-### [Same direction two pointers](https://github.com/dengkliu/algorithms/blob/master/SameDirectionTwoPointers.java)
+### [Same direction two pointers](https://github.com/dengkliu/algorithms/blob/master/SameDirectionTwoPointers.java) 同向双指针
 Two pointers start from the head of array and go to the end. 同向双指针只能用于一种条件，那就是解存在一种单调性，当右移左指针的时候，右指针不应该往回走，为了找到结，右指针只能继续往右走。
 
 * [Minimum Size Subarray Sum](https://github.com/dengkliu/algorithms/blob/master/MinimumSizeSubarray.java)
@@ -56,14 +56,14 @@ Two pointers start from the head of array and go to the end. 同向双指针只�
 * [Longest Substring Without Repeating Characters](https://github.com/dengkliu/algorithms/blob/master/LongestSubstringWithoutRepeatingCharacters.java)
 * [Longest Substring With At Most K Distinct Characters](https://github.com/dengkliu/algorithms/blob/master/LongestSubstringWithAtMostKDistinctCharacters.java)
 
-### Fixed Size Sliding Window
+### Fixed Size Sliding Window 固定长度滑动窗口
 
 * [Grumpy Bookstore Owner](https://github.com/dengkliu/algorithms/blob/master/GrumpyBookStoreOwner.java)
 * [Pick Apples](https://github.com/dengkliu/algorithms/blob/master/PickApples.java)
 
-### Opposite direction two pointers
+### Opposite direction two pointers 相向双指针
 * [Two Sim VII](https://github.com/dengkliu/algorithms/blob/master/TwoSumVII.java)
-### Back direction two pointers
+### Back direction two pointers 背向双指针
 
 ## 7. Binary Search 二分查询
 
