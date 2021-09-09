@@ -145,6 +145,7 @@ using a memory-based data structure(array, map, etc).
 Trade the space complexity for time complexity.
 
 ### 1）Coordinate DP
+* [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java)
 * Climbing Stairs
 * Rat Jump - https://www.lintcode.com/problem/1861/ 
 
