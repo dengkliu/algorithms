@@ -94,7 +94,8 @@ Related coding problem -
 * [Find Peak Element II](https://github.com/dengkliu/algorithms/blob/master/FindPeakElementII.java)
 
 ## 9. Breath-First Search 宽度优先搜索
-* [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java)
+
+Breath-First search (BFS) is often used to get topological order, to solve connectivity problem, to get shortest path or do hierarchical traversal. BFS is also used to solve problem of counting steps to an end given moving/transforming rules. This is the [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java) for BFS.
 ### 1）Get Topological Order
   * In-degree and Out-degree. Starting point has 0 in-degree. 
   * How to verify there exists topologifcal order - After BSF, whether the sequence length is equal to the total number of nodes
