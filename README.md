@@ -101,6 +101,8 @@ Breath-First search (BFS) is often used to get topological order, to solve conne
 
 For each node it has in-degree and out-degree. A node can be starting node if its in-degree is 0. After BFS, if the sequence length is equal to the total number of nodes, then there exists topological order for the graph. Only DAG (Directed Acyclic Graph) has topological order. 
 
+* [Topological Sorting](https://github.com/dengkliu/algorithms/blob/master/TopologicalSorting.java)
+
 ### Get Shortest Path
 
 * Simple graph (no direction, no weights on each edge, same distance to nodes in next layer)
