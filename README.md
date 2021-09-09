@@ -115,13 +115,11 @@ BSF can be used to get shortest path in a simple graph. What is a simple graph? 
 
 BSF can be enhanced to Shortest Path Fatser Algorithm (SPFA) to get shortest path in a complex graph.
 
-* Simple graph
-  * Kight Shortest Path II - https://www.lintcode.com/problem/630
-  * Build Post Office II - https://www.lintcode.com/problem/573
-  * Sliding Puzzle II - https://www.lintcode.com/problem/794
-* Complex graph - Shortest Path Faster Algorithm (SPFA) 
-  * Modern Ludo I - https://www.lintcode.com/problem/1565
-  * The Maze II - https://www.lintcode.com/problem/789
+* Kight Shortest Path II - https://www.lintcode.com/problem/630
+* Build Post Office II - https://www.lintcode.com/problem/573
+* Sliding Puzzle II - https://www.lintcode.com/problem/794
+* [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java)
+* The Maze II - https://www.lintcode.com/problem/789
   
 ### Connectivity 连通性问题
 
@@ -219,6 +217,5 @@ Here is a [time complexity analysis](https://github.com/dengkliu/algorithms/blob
   * n = 10^2. You can do O(N^3) -- Three levels of for loop?
   * n = 10. You can do O(N!) -- DFS.
   * n = 10^9. You cannot even do O(N). You should be O(logN)
-
 
 ## Other coding questions
