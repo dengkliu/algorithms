@@ -94,22 +94,24 @@ Related coding problem -
 * [Find Peak Element II](https://github.com/dengkliu/algorithms/blob/master/FindPeakElementII.java)
 
 ## 9. Breath-First Search 宽度优先搜索
-* [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java)
-### 1）Get Topological Order
-  * In-degree and Out-degree. Starting point has 0 in-degree. 
-  * How to verify there exists topologifcal order - After BSF, whether the sequence length is equal to the total number of nodes
-  * [Solution](https://www.jiuzhang.com/problem/topological-sorting/#tag-lang-java)
-### 2）Get Shortest Path
-   * Simple graph (no direction, no weights on each edge, same distance to nodes in next layer)
-     * Kight Shortest Path II - https://www.lintcode.com/problem/630
-     * Build Post Office II - https://www.lintcode.com/problem/573
-     * Sliding Puzzle II - https://www.lintcode.com/problem/794
-   * Complex graph - Shortest Path Faster Algorithm (SPFA) 
-     * Modern Ludo I - https://www.lintcode.com/problem/1565
-     * The Maze II - https://www.lintcode.com/problem/789
-### 3）Connectivity
-* **Longest Path on a Tree**
-  * Longest path on a tree - https://www.lintcode.com/problem/1469
+
+Breath-First search (BFS) is often used to get topological order, to solve connectivity problem, to get shortest path or do hierarchical traversal. BFS is also used to solve problem of counting steps to an end given moving/transforming rules. This is the [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java) for BFS.
+
+### Get Topological Order
+
+For each node it has in-degree and out-degree. A node can be starting node if its in-degree is 0. After BFS, if the sequence length is equal to the total number of nodes, then there exists topological order for the graph. Only DAG (Directed Acyclic Graph) has topological order. 
+
+### Get Shortest Path
+
+* Simple graph (no direction, no weights on each edge, same distance to nodes in next layer)
+  * Kight Shortest Path II - https://www.lintcode.com/problem/630
+  * Build Post Office II - https://www.lintcode.com/problem/573
+  * Sliding Puzzle II - https://www.lintcode.com/problem/794
+* Complex graph - Shortest Path Faster Algorithm (SPFA) 
+  * Modern Ludo I - https://www.lintcode.com/problem/1565
+  * The Maze II - https://www.lintcode.com/problem/789
+### Connectivity
+* Longest path on a tree - https://www.lintcode.com/problem/1469
 
 ## 10. Depth-First Search 深度优先搜索
 * Divide and Conquer.
