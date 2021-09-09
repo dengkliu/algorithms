@@ -99,10 +99,8 @@ Breath-First search (BFS) is often used to get topological order, to solve conne
 
 ### Get Topological Order
 
-* In-degree and Out-degree. Starting point has 0 in-degree. 
-* How to verify there exists topologifcal order - After BSF, whether the sequence length is equal to the total number of nodes
-* [Solution](https://www.jiuzhang.com/problem/topological-sorting/#tag-lang-java)
-  
+For each node it has in-degree and out-degree. A node can be starting node if its in-degree is 0. After BFS, if the sequence length is equal to the total number of nodes, then there exists topological order for the graph.
+
 ### Get Shortest Path
 
 * Simple graph (no direction, no weights on each edge, same distance to nodes in next layer)
