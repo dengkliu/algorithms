@@ -107,7 +107,13 @@ BSF can be used to 1. find any topological order, 2. verify if there exists an t
 
 ### Get Shortest Path 最短路径
 
-BSF can be used to get shortest path in a simple graph. What is a simple graph? A graph is simple if the edges have no direction, and there are no weights on edges. BSF can be enhanced to Shortest Path Fatser Algorithm (SPFA) to get shortest path in a complex graph.
+BSF can be used to get shortest path in a simple graph. What is a simple graph? A graph is simple if 
+* The edges have no direction.
+* There are no weights on edges. 
+* There can be at most 1 edge between 2 nodes.
+* One node can not have an edge to itself. (No graph loop)
+
+BSF can be enhanced to Shortest Path Fatser Algorithm (SPFA) to get shortest path in a complex graph.
 
 * Simple graph
   * Kight Shortest Path II - https://www.lintcode.com/problem/630
