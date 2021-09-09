@@ -113,8 +113,8 @@ public class Solution {
 
 // DP
 
-// At each position, the min step = min(min step of all postions that direct connect this position, min step of all positions that can reach this positin by one step + 1 )
-
+// At each position, the min step = min(min step of all postions that direct connect this position, 
+// min step of all positions that can reach this positin by one step + 1 )
 public class Solution {
     /**
      * @param length: the length of board
@@ -123,7 +123,7 @@ public class Solution {
      */
     public int modernLudo(int length, int[][] connections) {
 
-        // dp[i] -- 到i最少需要多少步
+        // dp[i] -- 从1到i最少需要多少步
         int[] dp = new int[length + 1];
 
         dp[0] = dp[1] = 0;
