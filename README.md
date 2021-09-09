@@ -113,7 +113,9 @@ BSF can be used to get shortest path in a simple graph. What is a simple graph? 
 * There can be at most 1 edge between 2 nodes.
 * One node can not have an edge to itself. (No graph loop)
 
-BSF can be enhanced to Shortest Path Fatser Algorithm (SPFA) to get shortest path in a complex graph.
+BSF can be enhanced to Shortest Path Fatser Algorithm (SPFA) to get shortest path in a complex graph. In a simple graph, the shortest path to a node is simply the number of levels that it take to reach this node. In a complex graph, you may find a node with shorter distance but appears to be in deeper level.
+
+How does SPFA solve this problem? If we find a node in level 3 that has been visited in level 2 but now we find a shorter distance, then we throw this node back to  the queue.
 
 * Kight Shortest Path II - https://www.lintcode.com/problem/630
 * Build Post Office II - https://www.lintcode.com/problem/573
