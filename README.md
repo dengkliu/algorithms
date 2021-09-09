@@ -97,13 +97,13 @@ Related coding problem -
 
 Breath-First search (BFS) is often used to get topological order, to solve connectivity problem, to get shortest path or do hierarchical traversal. BFS is also used to solve problem of counting steps to an end given moving/transforming rules. This is the [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java) for BFS.
 
-### Get Topological Order
+### Get Topological Order 拓扑排序
 
 [Introduction](https://www.jianshu.com/p/b59db381561a) to topological order. For each node it has in-degree and out-degree. A node can be starting node if its in-degree is 0. After BFS, if the sequence length is equal to the total number of nodes, then there exists topological order for the graph. Only DAG (Directed Acyclic Graph) has topological order. 
 
 * [Topological Sorting](https://github.com/dengkliu/algorithms/blob/master/TopologicalSorting.java)
 
-### Get Shortest Path
+### Get Shortest Path 最短路径
 
 * Simple graph (no direction, no weights on each edge, same distance to nodes in next layer)
   * Kight Shortest Path II - https://www.lintcode.com/problem/630
@@ -112,7 +112,8 @@ Breath-First search (BFS) is often used to get topological order, to solve conne
 * Complex graph - Shortest Path Faster Algorithm (SPFA) 
   * Modern Ludo I - https://www.lintcode.com/problem/1565
   * The Maze II - https://www.lintcode.com/problem/789
-### Connectivity
+  
+### Connectivity 连通性问题
 * Longest path on a tree - https://www.lintcode.com/problem/1469
 
 ## 10. Depth-First Search 深度优先搜索
