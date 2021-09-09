@@ -111,3 +111,43 @@ public class Solution {
     }
 }
 
+// DP
+
+// At each position, the min step = min(min step of all postions that direct connect this position, min step of all positions that can reach this positin by one step + 1 )
+
+public class Solution {
+    /**
+     * @param length: the length of board
+     * @param connections: the connections of the positions
+     * @return: the minimum steps to reach the end
+     */
+    public int modernLudo(int length, int[][] connections) {
+
+        // dp[i] -- 到i最少需要多少步
+        int[] dp = new int[length + 1];
+
+        dp[0] = dp[1] = 0;
+
+        for (int i = 2; i < length + 1; i ++) {
+
+            int minSteps = Integer.MAX_VALUE;
+
+            int minPre = Math.max(1, i - 6);
+
+            for (int j = minPre; j < i; j ++) {
+                minSteps = Math.min(minSteps, dp[j] + 1);
+            }
+
+            for (int[] connection : connections) {
+                if (i == connection[1]) {
+                    minSteps = Math.min(minSteps, dp[connection[0]]);
+                }
+            }
+            
+            dp[i] = minSteps;
+        }
+
+        return dp[length];
+    }
+}
+
