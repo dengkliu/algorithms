@@ -127,6 +127,7 @@ How does SPFA solve this problem? If we find a node in level 3 that has been vis
 
 Find all nodes that connect to a node in the graph.
 
+* [Number of Big Islands](https://github.com/dengkliu/algorithms/blob/master/NumberOfBigIslands.java)
 * Longest path on a tree - https://www.lintcode.com/problem/1469
 
 ## 10. Depth-First Search 深度优先搜索
