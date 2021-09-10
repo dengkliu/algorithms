@@ -119,7 +119,7 @@ How does SPFA solve this problem? If we find a node in level 3 that has been vis
 
 * [Build Post Office II](https://github.com/dengkliu/algorithms/blob/master/BuildPostOfficeII.java)
 * [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java)
-* [Maze III]()
+* [The Maze III](https://github.com/dengkliu/algorithms/blob/master/TheMazeIII.java)
   
 ### Connectivity 连通性问题
 
