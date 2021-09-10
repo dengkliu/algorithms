@@ -121,6 +121,7 @@ How does SPFA solve this problem? If we find a node in level 3 that has been vis
 * [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java)
 * [The Maze III](https://github.com/dengkliu/algorithms/blob/master/TheMazeIII.java)
 * [Sliding Puzzle](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzle.java)
+* [Sliding Puzzle II](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzleII.java)
   
 ### Connectivity 连通性问题
 
