@@ -29,6 +29,12 @@ class GridType {
 }
 
 public class Solution {
+    
+    // 偏移量 矩阵中游走的小套路
+    int[] deltaX = {0, 1, -1, 0};
+    int[] deltaY = {1, 0, 0, -1};
+
+    
     /**
      * @param grid: a 2D grid
      * @return: An integer
@@ -71,10 +77,6 @@ public class Solution {
     }
 
     void bfs(int x, int y, int[][] grid, int[][] distanceSum, int[][] reachableHouseCnt) {
-
-    	// 偏移量 矩阵中游走的小套路
-        int[] deltaX = {0, 1, -1, 0};
-        int[] deltaY = {1, 0, 0, -1};
 
         int colCnt = grid[0].length;
 
