@@ -139,13 +139,16 @@ You can also use BFS to
 2. find farthest node from a start, and furthermore find the two farthest nodes in a graph.
 
 * [Map Jump](https://github.com/dengkliu/algorithms/blob/master/MapJump.java)
-* [Longest path on a tree]
+* [Longest path on a tree](https://github.com/dengkliu/algorithms/blob/master/LongestPathOnTheTree.java)
 
 ## 10. Depth-First Search 深度优先搜索
 * Divide and Conquer.
   * What should be returned form next level?
   * What is the result at each level?
-### 1）Coding Problems
+
+Here are some coding problems related -
+
+* [Flatten Binary Tree To Linked List]()
 * The diameter of binary tree - https://www.lintcode.com/problem/1181
 
 ## 11. Dynamic Programming 动态规划
