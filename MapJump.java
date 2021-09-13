@@ -2,10 +2,10 @@
 // You cannot get out of the map. 
 // Find the the smallest target that satisfies from the upper left corner (0, 0) to the lower right corner (n-1, n-1).
 
-// 1. BFS 
-//    You can try starting the upper left corner and do BFS. Keep record of the min target for each cell.
-//    If this is the first time to reach this cell or if you find a smaller target for this cell,
-//    you can add the cell back to the queue and update the target for this cell (use hashmap to store cell to target pair)
+// BFS 
+// You can try starting the upper left corner and do BFS. Keep record of the min target for each cell.
+// If this is the first time to reach this cell or if you find a smaller target for this cell,
+// you can add the cell back to the queue and update the target for this cell (use hashmap to store cell to target pair)
 
 public class Solution {
 
