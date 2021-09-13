@@ -12,6 +12,7 @@ class UnionFind {
     public UnionFind() {
         father = new HashMap<>();
         sizeOfSet = new HashMap<>();
+        setElements = new HashMap<>();
         numOfSets = 0;
     }
 
