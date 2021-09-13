@@ -192,6 +192,7 @@ Related coding questions
   * [Graph Validate Tree](https://github.com/dengkliu/algorithms/blob/master/GraphValidTreeII.java)
   * [Set Union](https://github.com/dengkliu/algorithms/blob/master/SetUnion.java)
   * [Account Merge](https://github.com/dengkliu/algorithms/blob/master/AccountMerge.java)
+  * [Maximum Connected Area]()
 ### 2) Trie
 
 [Trie](https://github.com/dengkliu/algorithms/blob/master/Trie.java) is used to store strings while compressing the string common prefix. Its internal structure is a tree. The more common prefixes shared by the words in the dictionary, the more time saved. 
