@@ -131,6 +131,7 @@ Find all nodes that connect to a node in the graph.
 
 * [Number of Big Islands](https://github.com/dengkliu/algorithms/blob/master/NumberOfBigIslands.java)
 * [Lake Escape](https://github.com/dengkliu/algorithms/blob/master/LakeEscape.java)
+* [Map Jump](https://github.com/dengkliu/algorithms/blob/master/MapJump.java)
 * Longest path on a tree - https://www.lintcode.com/problem/1469
 
 ## 10. Depth-First Search 深度优先搜索
