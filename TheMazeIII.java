@@ -130,7 +130,7 @@ public class Solution {
             return x * maze[0].length + y;
         }
 
-        // 当前点是wall 返回上一个点
+        // 当前点是wall 不能停在wall这个点 所以返回上一个点
         return (x - dx) * maze[0].length + y - dy;
 
     }
