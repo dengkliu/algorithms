@@ -61,11 +61,10 @@ class UnionFind {
 
         if (root1 != root2) {
             father.put(root1, root2);
+            sizeOfSet.put(root2, sizeOfSet.get(root1) + sizeOfSet.get(root2));
+            setElements.get(root2).addAll(setElements.get(root1));
+            numOfSets--;
         }
 
-        sizeOfSet.put(root2, sizeOfSet.get(root1) + sizeOfSet.get(root2));
-
-        setElements.get(root2).addAll(setElements.get(root1));
-        numOfSets--;
     }
 }
