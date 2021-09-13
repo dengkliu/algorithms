@@ -145,7 +145,10 @@ You can also use BFS to
 * Divide and Conquer.
   * What should be returned form next level?
   * What is the result at each level?
-### 1）Coding Problems
+
+Here are some coding problems related -
+
+* [Flatten Binary Tree To Linked List]()
 * The diameter of binary tree - https://www.lintcode.com/problem/1181
 
 ## 11. Dynamic Programming 动态规划
