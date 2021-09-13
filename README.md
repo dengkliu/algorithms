@@ -9,6 +9,7 @@ Both of them use divide and conquer.
 
 * [Inorder Traveral of Binary Tree - Iterative Version ](https://github.com/dengkliu/algorithms/blob/master/InoderTraversal.java)
 * [Convert Binary Tree to Sorted Doubly Linked List](https://github.com/dengkliu/algorithms/blob/master/ConvertBinarySearchTreeToSortedDoublyLinkedList.java)
+* [Flatten Binary Tree To Linked List](https://github.com/dengkliu/algorithms/blob/master/FlattenBinaryTreeToLinkedList.java)
 * [Kth Smallest Element in BST](https://github.com/dengkliu/algorithms/blob/master/KthSmallestElementInBST.java)
 
 ## 3. Binary Tree Divide & Conquer 二叉树分治
@@ -148,7 +149,8 @@ You can also use BFS to
 
 Here are some coding problems related -
 
-* [Flatten Binary Tree To Linked List]()
+* [Convert Binary Tree to Sorted Doubly Linked List](https://github.com/dengkliu/algorithms/blob/master/ConvertBinarySearchTreeToSortedDoublyLinkedList.java)
+* [Flatten Binary Tree To Linked List](https://github.com/dengkliu/algorithms/blob/master/FlattenBinaryTreeToLinkedList.java)
 * The diameter of binary tree - https://www.lintcode.com/problem/1181
 
 ## 11. Dynamic Programming 动态规划
