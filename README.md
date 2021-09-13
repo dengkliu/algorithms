@@ -131,8 +131,15 @@ Find all nodes that connect to a node in the graph.
 
 * [Number of Big Islands](https://github.com/dengkliu/algorithms/blob/master/NumberOfBigIslands.java)
 * [Lake Escape](https://github.com/dengkliu/algorithms/blob/master/LakeEscape.java)
+
+### Others
+
+You can also use BFS to 
+1. Work on a 2D matrix problem regarding some maximum/minimum problems. Sometimes the problem can also be solved with DP.
+2. find farthest node from a start, and furthermore find the two farthest nodes in a graph.
+
 * [Map Jump](https://github.com/dengkliu/algorithms/blob/master/MapJump.java)
-* Longest path on a tree - https://www.lintcode.com/problem/1469
+* [Longest path on a tree]
 
 ## 10. Depth-First Search 深度优先搜索
 * Divide and Conquer.
