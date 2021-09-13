@@ -139,7 +139,7 @@ You can also use BFS to
 2. find farthest node from a start, and furthermore find the two farthest nodes in a graph.
 
 * [Map Jump](https://github.com/dengkliu/algorithms/blob/master/MapJump.java)
-* [Longest path on a tree]
+* [Longest path on a tree](https://github.com/dengkliu/algorithms/blob/master/LongestPathOnTheTree.java)
 
 ## 10. Depth-First Search 深度优先搜索
 * Divide and Conquer.
