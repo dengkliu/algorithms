@@ -147,7 +147,7 @@ What is DFS for a graph? Start from a node, choose a neighbor and move on, until
 
 DFS is often used to solve tree problems using divide and conquer, to get all solutions to meet certain requirements, adn to solve combination & permutation/arrangement problems.
 
-### Tree Traversal Problem (Divide and Conquer)
+### Tree Traversal (Divide and Conquer)
 * [Convert Binary Tree to Sorted Doubly Linked List](https://github.com/dengkliu/algorithms/blob/master/ConvertBinarySearchTreeToSortedDoublyLinkedList.java)
 * [Flatten Binary Tree To Linked List](https://github.com/dengkliu/algorithms/blob/master/FlattenBinaryTreeToLinkedList.java)
 * The diameter of binary tree - https://www.lintcode.com/problem/1181
