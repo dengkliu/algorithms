@@ -146,11 +146,16 @@ You can also use BFS to
 
 What is DFS for a graph? Start from a node, choose a neighbor and move on, until the end (no more child), if you reach the end, move back one step, and switch to another neigbor for current node, until you exhuast all the neigbors, the move back one more step and repeat. Keep searching for the target in this process, for one path you cannot revisit a node, but you can revisit the same node in different path.
 
-Here are some coding problems related -
+DFS is often used to solve tree problems using divide and conquer, to get all solutions to meet certain requirements, adn to solve combination & permutation/arrangement problems.
 
+### Tree Traversal Problem (Divide and Conquer)
 * [Convert Binary Tree to Sorted Doubly Linked List](https://github.com/dengkliu/algorithms/blob/master/ConvertBinarySearchTreeToSortedDoublyLinkedList.java)
 * [Flatten Binary Tree To Linked List](https://github.com/dengkliu/algorithms/blob/master/FlattenBinaryTreeToLinkedList.java)
 * The diameter of binary tree - https://www.lintcode.com/problem/1181
+
+### Find All Solutions
+
+### Combination & Permutation
 
 ## 11. Dynamic Programming 动态规划
 
