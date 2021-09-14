@@ -8,6 +8,7 @@ Both of them use divide and conquer.
 ## 2. Binary Tree Traversal 二叉树遍历
 
 * [Inorder Traveral of Binary Tree - Iterative Version ](https://github.com/dengkliu/algorithms/blob/master/InoderTraversal.java)
+* [Preorder Traversal of Binary Tree - Iterative Version](https://github.com/dengkliu/algorithms/blob/master/PreorderTraversal.java)
 * [Convert Binary Tree to Sorted Doubly Linked List](https://github.com/dengkliu/algorithms/blob/master/ConvertBinarySearchTreeToSortedDoublyLinkedList.java)
 * [Flatten Binary Tree To Linked List](https://github.com/dengkliu/algorithms/blob/master/FlattenBinaryTreeToLinkedList.java)
 * [Kth Smallest Element in BST](https://github.com/dengkliu/algorithms/blob/master/KthSmallestElementInBST.java)
