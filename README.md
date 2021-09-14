@@ -96,7 +96,7 @@ Related coding problem -
 
 ## 9. Breath-First Search 宽度优先搜索
 
-Breath-First search (BFS) is often used to get topological order, to solve connectivity problem, to get shortest path or do level order traversal. BFS is also used to solve problem of counting steps to an end given moving/transforming rules. This is the [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java) for BFS.
+Breath-First search (BFS) is often used to get topological order, to solve connectivity problem, to get shortest path or do level order traversal. BFS is also used to solve problem of counting steps from an original state to an end state given moving/transforming rules. This is the [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java) for BFS.
 
 ### Get Topological Order 拓扑排序
 
@@ -143,9 +143,8 @@ You can also use BFS to
 * [Longest path on a tree](https://github.com/dengkliu/algorithms/blob/master/LongestPathOnTheTree.java)
 
 ## 10. Depth-First Search 深度优先搜索
-* Divide and Conquer.
-  * What should be returned form next level?
-  * What is the result at each level?
+
+What is DFS for a graph? Start from a node, choose a neighbor and move on, until the end (no more child), if you reach the end, move back one step, and switch to another neigbor for current node, until you exhuast all the neigbors, the move back one more step and repeat. Keep searching for the target in this process, for one path you cannot revisit a node, but you can revisit the same node in different path.
 
 Here are some coding problems related -
 
