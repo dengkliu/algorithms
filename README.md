@@ -7,6 +7,8 @@ Both of them use divide and conquer.
 
 ## 2. Binary Tree Traversal 二叉树遍历
 
+With inorder and pre order/post order, you can rebuild a tree. With only pre order and post order, you cannot rebuild a tree.
+
 * [Inorder Traveral of Binary Tree - Iterative Version ](https://github.com/dengkliu/algorithms/blob/master/InoderTraversal.java)
 * [Preorder Traversal of Binary Tree - Iterative Version](https://github.com/dengkliu/algorithms/blob/master/PreorderTraversal.java)
 * [Convert Binary Tree to Sorted Doubly Linked List](https://github.com/dengkliu/algorithms/blob/master/ConvertBinarySearchTreeToSortedDoublyLinkedList.java)
