@@ -153,6 +153,7 @@ DFS is often used to solve tree problems using divide and conquer, to get all so
 ### Tree Traversal (Divide and Conquer)
 * [Convert Binary Tree to Sorted Doubly Linked List](https://github.com/dengkliu/algorithms/blob/master/ConvertBinarySearchTreeToSortedDoublyLinkedList.java)
 * [Flatten Binary Tree To Linked List](https://github.com/dengkliu/algorithms/blob/master/FlattenBinaryTreeToLinkedList.java)
+* [Equal Tree Partition](https://github.com/dengkliu/algorithms/blob/master/EqualTreePartition.java)
 * The diameter of binary tree - https://www.lintcode.com/problem/1181
 
 ### Find All Solutions
