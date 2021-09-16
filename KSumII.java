@@ -74,3 +74,92 @@ public class Solution {
         }
     }
 }
+
+// DP 解法
+// dp[i][j][k] -- 在第i个数时，加了j个数，和为k的解法有多少种 
+public class Solution {
+    /**
+     * @param A: an integer array
+     * @param k: a postive integer <= length(A)
+     * @param target: an integer
+     * @return: A list of lists of integer
+     */
+    public List<List<Integer>> kSumII(int[] A, int k, int target) {
+
+        Arrays.sort(A);
+
+
+        int rowCnt = A.length + 1;
+        int colCnt = k + 1;
+        int depCnt = target + 1;
+
+        int [][][] dp = new int[rowCnt][colCnt][depCnt];
+
+        // 需要一个map存放dp数组中每个位置对应的解
+        Map<Integer, List<List<Integer>>> map = new HashMap<>();
+
+        // dp[n][k][sum]
+        // 在第n个数时候 1. 一共加了k个数 2. 得到sum ---> 有多少种方案？
+
+        // 加0个数得到0，永远有一个方案
+        for (int i = 0; i < A.length + 1; i ++) {
+            dp[i][0][0] = 1;
+            // 三维数组一维化
+            // depth * (rowCnt * colCnt) + row * colCnt + col;
+            int currPos = i * colCnt;
+            List<List<Integer>> list = new ArrayList<>();
+            list.add(new ArrayList<Integer>());
+            map.put(currPos, list);
+        }
+
+        for (int i = 1; i <= A.length; i ++) {
+            // 目前为止考虑了i个数 最多也就能加i个数
+            for (int j = 1; j <= k && j <= i; j++) {
+                for (int sum = 1; sum <= target; sum ++) {
+
+                    // 构建当前的解法
+                    List<List<Integer>> currCombs = new ArrayList<>();  
+
+                    // 能加入这个数的话，就加入
+                    if (A[i-1] <= sum) {
+                        // 方案总数
+                        dp[i][j][sum] += dp[i - 1][j - 1][sum - A[i - 1]];
+
+                        // 具体方案
+                        int prevPos = (sum - A[i - 1]) * (rowCnt * colCnt) 
+                            + (i - 1) * colCnt + j - 1;
+
+                        // 之前这个地方的解法可能不存在！
+                        if (map.get(prevPos) !=  null) {
+                            // 根据之前的具体方案生成当前的具体方案    
+                            for (List<Integer> preComb : map.get(prevPos)) {
+                                List<Integer> currComb = new ArrayList<Integer>(preComb);
+                                currComb.add(A[i - 1]);
+                                currCombs.add(currComb);
+                            }
+                        }
+                    }
+
+                    // 不加入这个数的方案总数
+                    dp[i][j][sum] += dp[i-1][j][sum];
+
+                    int prevPos2 = sum * (rowCnt * colCnt) + (i - 1) * colCnt + j;
+                    
+                    if (map.get(prevPos2) != null) {
+                        currCombs.addAll(map.get(prevPos2));
+                    }
+
+                    int currPos = sum * (rowCnt * colCnt) + i * colCnt + j;
+
+                    map.put(currPos, currCombs);
+                }
+            }
+        }
+
+        return map.get(rowCnt*colCnt*depCnt - 1);
+
+    }
+
+    
+
+}
