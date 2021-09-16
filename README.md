@@ -158,6 +158,8 @@ DFS is often used to solve tree problems using divide and conquer, to get all so
 
 ### Find All Solutions 找到所有方案
 
+* [Generate Parentheses](https://github.com/dengkliu/algorithms/blob/master/GenerateParentheses.java)
+
 ### Combination & Permutation
 
 * [K Sum](https://github.com/dengkliu/algorithms/blob/master/KSum.java)
