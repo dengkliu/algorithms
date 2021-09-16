@@ -160,8 +160,8 @@ DFS is often used to solve tree problems using divide and conquer, to get all so
 
 ### Combination & Permutation
 
-* [K Sum II](https://github.com/dengkliu/algorithms/blob/master/KSumII.java)
 * [K Sum](https://github.com/dengkliu/algorithms/blob/master/KSum.java)
+* [K Sum II](https://github.com/dengkliu/algorithms/blob/master/KSumII.java)
 
 ## 11. Dynamic Programming 动态规划
 
@@ -178,7 +178,8 @@ Trade the space complexity for time complexity.
 
 ### 2）Backpack DP 
 * [Best Time to Buy and Sell Stock III](https://github.com/dengkliu/algorithms/blob/master/BestTimeToBuyAndSellStockIII.java)
-* [K Sum II](https://github.com/dengkliu/algorithms/blob/master/KSum.java)
+* [K Sum](https://github.com/dengkliu/algorithms/blob/master/KSum.java)
+* [K Sum II](https://github.com/dengkliu/algorithms/blob/master/KSumII.java)
 * Float Combination Sum https://www.lintcode.com/problem/1800/
 * Longest Common Subsequence - https://www.lintcode.com/problem/77/
 * Longest Increasing Subsequence
