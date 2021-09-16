@@ -161,6 +161,7 @@ DFS is often used to solve tree problems using divide and conquer, to get all so
 ### Combination & Permutation
 
 * [K Sum II](https://github.com/dengkliu/algorithms/blob/master/KSumII.java)
+* [K Sum](https://github.com/dengkliu/algorithms/blob/master/KSum.java)
 
 ## 11. Dynamic Programming 动态规划
 
