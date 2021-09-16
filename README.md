@@ -156,7 +156,7 @@ DFS is often used to solve tree problems using divide and conquer, to get all so
 * [Equal Tree Partition](https://github.com/dengkliu/algorithms/blob/master/EqualTreePartition.java)
 * The diameter of binary tree - https://www.lintcode.com/problem/1181
 
-### Find All Solutions
+### Find All Solutions 找到所有方案
 
 ### Combination & Permutation
 
