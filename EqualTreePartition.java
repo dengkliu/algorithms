@@ -33,6 +33,7 @@ public class Solution {
 
         Set<Integer> sumSet = new HashSet<>();
 
+        // 整个🌲和 = 左子树和 + 右子树和
         // To avoid the case the treeSum == 0, 0/2 itself is 0, so we don't want to
         // add the sum to the set
         int treeSum = root.val + getTreeSum(root.left, sumSet) + getTreeSum(root.right, sumSet);
@@ -48,7 +49,8 @@ public class Solution {
         }
         
         int sum = root.val + getTreeSum(root.left, sumSet) + getTreeSum(root.right, sumSet);
-
+        
+        // 在得到这棵树的和后放入set
         sumSet.add(sum);
         
         return sum;
