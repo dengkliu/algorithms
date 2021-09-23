@@ -142,7 +142,7 @@ Find all nodes that connect to a node in the graph.
 You can also use BFS to 1. work on a 2D matrix problem regarding some maximum/minimum problems. Sometimes the problem can also be solved with DP. 2. find farthest node from a start, and furthermore find the two farthest nodes in a graph.
 
 * [Map Jump](https://github.com/dengkliu/algorithms/blob/master/MapJump.java)
-* [Longest path on a tree](https://github.com/dengkliu/algorithms/blob/master/LongestPathOnTheTree.java)
+* Longest path on a tree - [Java](https://github.com/dengkliu/algorithms/blob/master/LongestPathOnTheTree.java), [Python](https://github.com/dengkliu/algorithms/blob/master/LongestPathOnTheTree.py)
 
 ## 10. Depth-First Search 深度优先搜索
 
