@@ -168,6 +168,7 @@ Find all combinations and permutations that meet a certain requirement. Find one
 * [K Sum](https://github.com/dengkliu/algorithms/blob/master/KSum.java)
 * [K Sum II](https://github.com/dengkliu/algorithms/blob/master/KSumII.java)
 * [Word Squares](https://github.com/dengkliu/algorithms/blob/master/word_squares.py)
+* [Factorization](https://github.com/dengkliu/algorithms/blob/master/factorization.py)
 
 ## 11. Dynamic Programming 动态规划
 
