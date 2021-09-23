@@ -1,4 +1,4 @@
-# Algorithms (In Java and Python)
+# Algorithms (In Python)
 
 ## 1. Sorting 排序
 Both of them use divide and conquer.
