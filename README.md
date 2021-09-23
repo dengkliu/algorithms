@@ -163,6 +163,8 @@ DFS is often used to solve tree problems using divide and conquer, to get all so
 
 ### Combination & Permutation
 
+Find all combinations and permutations that meet a certain requirement. Find one combination and permutation that meets a certain requirement. Find the optimal combination and permutation.
+
 * [K Sum](https://github.com/dengkliu/algorithms/blob/master/KSum.java)
 * [K Sum II](https://github.com/dengkliu/algorithms/blob/master/KSumII.java)
 
@@ -223,6 +225,8 @@ Related coding questions
   * [Set Union](https://github.com/dengkliu/algorithms/blob/master/SetUnion.java)
   * [Account Merge](https://github.com/dengkliu/algorithms/blob/master/AccountMerge.java)
   * [Maximum Connected Area](https://github.com/dengkliu/algorithms/blob/master/MaximumConnectedArea.java)
+
+
 ### 2) Trie
 
 [Trie](https://github.com/dengkliu/algorithms/blob/master/Trie.java) is used to store strings while compressing the string common prefix. Its internal structure is a tree. The more common prefixes shared by the words in the dictionary, the more time saved. 
