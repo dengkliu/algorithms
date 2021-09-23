@@ -62,6 +62,12 @@ class Solution:
             squares.append(list(square))
             return
 
+        # 可行性剪枝提高效率 通过前两行 其实也可确定下面所有行的前两个字母 看看有没有再说 没有就直接返回了    
+        for row_index in range(curr_row_cnt, square_row_cnt):
+            prefix = ''.join([square[i][row_index] for i in range(curr_row_cnt)])
+            # check key 在不在 dictionary 里
+            if prefix not in prefix_to_words:
+                return            
 
         # separator: ''
         # build a list iteratively [ element for element in another list ]    
