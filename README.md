@@ -181,7 +181,7 @@ Trade the space complexity for time complexity.
 
 ### 1）Coordinate DP
 * [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java)
-* Climbing Stairs
+* [Climbing Stairs](https://github.com/dengkliu/algorithms/blob/master/climbing_stairs.py)
 * Rat Jump - https://www.lintcode.com/problem/1861/ 
 
 ### 2）Backpack DP 
