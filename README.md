@@ -183,6 +183,7 @@ Trade the space complexity for time complexity.
 * [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java)
 * [Climbing Stairs](https://github.com/dengkliu/algorithms/blob/master/climbing_stairs.py)
 * [Number of Ways to Stay in the Same Place After Some Steps II](https://github.com/dengkliu/algorithms/blob/master/number_of_ways_to_stay_in_same_place_after_some_steps_II.py)
+* [Minimum Falling Path Sum](https://github.com/dengkliu/algorithms/blob/master/minimum_failing_path_sum.py)
 * Rat Jump - https://www.lintcode.com/problem/1861/ 
 
 ### Backpack DP 
