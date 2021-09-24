@@ -179,13 +179,13 @@ using a memory-based data structure(array, map, etc).
 
 Trade the space complexity for time complexity.
 
-### 1）Coordinate DP
+### Coordinate DP
 * [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java)
 * [Climbing Stairs](https://github.com/dengkliu/algorithms/blob/master/climbing_stairs.py)
 * [Number of Ways to Stay in the Same Place After Some Steps II](https://github.com/dengkliu/algorithms/blob/master/number_of_ways_to_stay_in_same_place_after_some_steps_II.py)
 * Rat Jump - https://www.lintcode.com/problem/1861/ 
 
-### 2）Backpack DP 
+### Backpack DP 
 * [Partition Equal Subset Sum](https://github.com/dengkliu/algorithms/blob/master/partition_equal_subset_sum.py)
 * [Best Time to Buy and Sell Stock III](https://github.com/dengkliu/algorithms/blob/master/BestTimeToBuyAndSellStockIII.java)
 * [K Sum](https://github.com/dengkliu/algorithms/blob/master/KSum.java)
@@ -194,11 +194,11 @@ Trade the space complexity for time complexity.
 * Longest Common Subsequence - https://www.lintcode.com/problem/77/
 * Longest Increasing Subsequence
 
-### 3）Interval DP
+### Interval DP
 * Related coding questions
 * Stone Game - https://www.lintcode.com/problem/476/
 
-### 4) Prefix DP
+### Prefix DP
 * Related coding questions
 * [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/LongestCommonSubsequence.java)
 
