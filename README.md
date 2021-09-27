@@ -199,11 +199,9 @@ Trade the space complexity for time complexity.
 * Longest Increasing Subsequence
 
 ### Interval DP
-* Related coding questions
 * Stone Game - https://www.lintcode.com/problem/476/
 
 ### Prefix DP
-* Related coding questions
 * [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/LongestCommonSubsequence.java)
 * [Distinct Subsequences II](https://github.com/dengkliu/algorithms/blob/master/distinct_subsequences.py)
 
@@ -218,7 +216,7 @@ Trade the space complexity for time complexity.
 * https://www.lintcode.com/problem/1877
 
 ## 14. Useful data structures
-### 1) Union Find
+### Union Find
 [Union Find](https://github.com/dengkliu/algorithms/blob/master/UnionFind.java) is used to solve connection problem, especially for dynamic data stream (online algorithm). BFS can only be used to solve connection problem for static data (therefore BFS is offline algorithm), for data stream, the time complexity will be horrible.
 
 * Union Find support O(1) time to merge two set which contains x and y - merge(x,y)
@@ -237,7 +235,7 @@ Related coding questions
   * [Maximum Connected Area](https://github.com/dengkliu/algorithms/blob/master/MaximumConnectedArea.java)
 
 
-### 2) Trie
+### Trie
 
 [Trie](https://github.com/dengkliu/algorithms/blob/master/Trie.java) is used to store strings while compressing the string common prefix. Its internal structure is a tree. The more common prefixes shared by the words in the dictionary, the more time saved. 
 
