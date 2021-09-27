@@ -205,6 +205,7 @@ Trade the space complexity for time complexity.
 ### Prefix DP
 * Related coding questions
 * [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/LongestCommonSubsequence.java)
+* [Distinct Subsequences II](https://github.com/dengkliu/algorithms/blob/master/distinct_subsequences.py)
 
 ## 12. Monotonic Stack/Queue
 
