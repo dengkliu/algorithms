@@ -41,7 +41,7 @@ class Solution:
         return len(dp[len(S)])%MOD
 
 # 1. 用dp. dp[i] -- 以S[i-1]为结尾的 all the distinct, non-empty subsequences
-#    dp[i] = 假如S[i-1]存在过 那么从之前的地方往后加所有情况
+#    dp[i] = 假如S[i-1]存在过 那么从之前的地方往后加所有情况 = dp[prev + 1] + dp[1] + ... + dp[i-1]
 #            假如没有存在过，那么从dp[0]开始加
 #    dp[0] = 1 ---> 以空字符结尾为1，这样可以在其之后假如当前字符本身
 #    O（N^2）
