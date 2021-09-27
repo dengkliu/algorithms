@@ -186,6 +186,7 @@ Trade the space complexity for time complexity.
 * [Minimum Falling Path Sum](https://github.com/dengkliu/algorithms/blob/master/minimum_failing_path_sum.py)
 * [Calculate the Sum of Path](https://github.com/dengkliu/algorithms/blob/master/calculate_the_sum_of_path.py)
 * [Push Dominoes](https://github.com/dengkliu/algorithms/blob/master/push_dominoes.py)
+* [Distinct Subsequences II](https://github.com/dengkliu/algorithms/blob/master/distinct_subsequences.py)
 * Rat Jump - https://www.lintcode.com/problem/1861/
 
 ### Backpack DP 
@@ -203,7 +204,7 @@ Trade the space complexity for time complexity.
 
 ### Prefix DP
 * [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/LongestCommonSubsequence.java)
-* [Distinct Subsequences II](https://github.com/dengkliu/algorithms/blob/master/distinct_subsequences.py)
+
 
 ## 12. Monotonic Stack/Queue
 
