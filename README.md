@@ -185,6 +185,7 @@ Trade the space complexity for time complexity.
 * [Number of Ways to Stay in the Same Place After Some Steps II](https://github.com/dengkliu/algorithms/blob/master/number_of_ways_to_stay_in_same_place_after_some_steps_II.py)
 * [Minimum Falling Path Sum](https://github.com/dengkliu/algorithms/blob/master/minimum_failing_path_sum.py)
 * [Calculate the Sum of Path](https://github.com/dengkliu/algorithms/blob/master/calculate_the_sum_of_path.py)
+* [Push Dominoes](https://github.com/dengkliu/algorithms/blob/master/push_dominoes.py)
 * Rat Jump - https://www.lintcode.com/problem/1861/
 
 ### Backpack DP 
