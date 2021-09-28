@@ -25,14 +25,19 @@ class Solution:
     @param profit: The i-th crime generates a profit[i].
     @return: Return how many schemes can be chosen.
     """
-
+    # 典型的背包类DP问题
+    # dp[i][j][k] --> 当有i个activity的时候，刚好用了k个人，达到>= j的profit有多少中方法
+    
+    # dp[i][j][k] = 假如做这个activity, dp[i-1][j-profit[i]][k-group[i]] --- 这里注意 当 j <= profit[i] 或者 k <= group[i]  等价于 0
+    #               假如不做这个activity, dp[i-1][j][k]
     def profitableSchemes(self, G, P, group, profit):
 
         MOD = 10**9 + 7
         
+        # 初始化三维数组
         dp = [
-            [[0] * (G + 1) for _ in range(P + 1)] 
-            for row in range(len(group) + 1)
+            [[0 for _ in range(G + 1)] for _ in range(P + 1)]
+            for _ in range(2)
         ]
 
         # 背包问题的初始化尽量简单一点吧 只考虑第一个元素
@@ -42,7 +47,7 @@ class Solution:
             for j in range(P + 1):
                 for k in range(G + 1):
                     # 可以不做
-                    dp[i][j][k] += dp[i-1][j][k]
+                    dp[i % 2][j][k] = dp[(i-1) % 2][j][k]
                     
                     # 人数不够 没法做
                     if k < group[i-1]:
@@ -50,11 +55,11 @@ class Solution:
 
                     # 人数够，那就做
                     prev_profit = max(0, j - profit[i-1])
-                    dp[i][j][k] += dp[i-1][prev_profit][k-group[i-1]]
+                    dp[i % 2][j][k] += dp[(i-1) % 2][prev_profit][k-group[i-1]]
         
         total_options = 0
         # 可以用0到G个人
         for i in range(G+1):
-            total_options += dp[len(group)][P][i]
+            total_options += dp[len(group) % 2][P][i]
 
-        return total_options%MOD
+        return total_options
