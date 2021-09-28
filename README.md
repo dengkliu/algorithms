@@ -187,6 +187,7 @@ Trade the space complexity for time complexity.
 * [Calculate the Sum of Path](https://github.com/dengkliu/algorithms/blob/master/calculate_the_sum_of_path.py)
 * [Push Dominoes](https://github.com/dengkliu/algorithms/blob/master/push_dominoes.py)
 * [Distinct Subsequences II](https://github.com/dengkliu/algorithms/blob/master/distinct_subsequences.py)
+* [Subset II](https://github.com/dengkliu/algorithms/blob/master/subset_II.py)
 * Rat Jump - https://www.lintcode.com/problem/1861/
 
 ### Backpack DP 
