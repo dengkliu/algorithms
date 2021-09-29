@@ -203,7 +203,8 @@ Trade the space complexity for time complexity.
 * Longest Increasing Subsequence
 
 ### Interval DP
-* Stone Game - https://www.lintcode.com/problem/476/
+* [Stone Game](https://github.com/dengkliu/algorithms/blob/master/stone_game.py)
+* [Stone Game II](https://github.com/dengkliu/algorithms/blob/master/stone_game_II.py)
 
 ### Prefix DP
 * [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/LongestCommonSubsequence.java)
