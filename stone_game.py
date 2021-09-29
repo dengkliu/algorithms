@@ -18,6 +18,13 @@
 # dp[i][j] --> 从i到j merge stones的最值
 # for loop里面，应该loop不是i和j，每次loop，处理的是长度一样的小区间
 # 因此, for loop的外围是区间长度，for loop的内部是区间起始的地方，然后用隔板法，在区间内部进行分割，枚举分割点
+
+# for len in range(2, n + 1):
+#     for start in range(1, n - len + 1):
+#         end = start + len - 1
+#         for mid in range(start, end):
+#             dp[i][j] = min(dp[i][j], dp[i][k] + dp[k+1][j] + someting)
+
 # dp[i][j] = min(dp[i][k] + dp[k+1][j]) + range sum from i to j
 # 用前缀和 range_sum from i to j = prefix_sum[j+1] - prefix_sum[i]
 
