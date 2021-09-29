@@ -190,6 +190,7 @@ Trade the space complexity for time complexity.
 * [Distinct Subsequences II](https://github.com/dengkliu/algorithms/blob/master/distinct_subsequences.py)
 * [Subset II](https://github.com/dengkliu/algorithms/blob/master/subset_II.py)
 * [Paint House](https://github.com/dengkliu/algorithms/blob/master/paint_house.py)
+* [Decode Ways](https://github.com/dengkliu/algorithms/blob/master/decode_ways.py)
 * Rat Jump - https://www.lintcode.com/problem/1861/
 
 ### Backpack DP 
