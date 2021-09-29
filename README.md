@@ -189,6 +189,7 @@ Trade the space complexity for time complexity.
 * [Push Dominoes](https://github.com/dengkliu/algorithms/blob/master/push_dominoes.py)
 * [Distinct Subsequences II](https://github.com/dengkliu/algorithms/blob/master/distinct_subsequences.py)
 * [Subset II](https://github.com/dengkliu/algorithms/blob/master/subset_II.py)
+* [Paint House](https://github.com/dengkliu/algorithms/blob/master/paint_house.py)
 * Rat Jump - https://www.lintcode.com/problem/1861/
 
 ### Backpack DP 
