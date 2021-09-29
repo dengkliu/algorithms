@@ -205,6 +205,7 @@ Trade the space complexity for time complexity.
 ### Interval DP
 * [Stone Game](https://github.com/dengkliu/algorithms/blob/master/stone_game.py)
 * [Stone Game II](https://github.com/dengkliu/algorithms/blob/master/stone_game_II.py)
+* [Minimum Cost to Merge Stones](https://github.com/dengkliu/algorithms/blob/master/minimum_cost_to_merge_stones.py)
 
 ### Prefix DP
 * [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/LongestCommonSubsequence.java)
