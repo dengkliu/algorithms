@@ -24,8 +24,6 @@
 #         end = start + len - 1
 #         for mid in range(start, end):
 #             dp[i][j] = min(dp[i][j], dp[i][k] + dp[k+1][j] + someting)
-
-# dp[i][j] = min(dp[i][k] + dp[k+1][j]) + range sum from i to j
 # 用前缀和 range_sum from i to j = prefix_sum[j+1] - prefix_sum[i]
 
 class Solution:
