@@ -191,6 +191,7 @@ Trade the space complexity for time complexity.
 * [Subset II](https://github.com/dengkliu/algorithms/blob/master/subset_II.py)
 * [Paint House](https://github.com/dengkliu/algorithms/blob/master/paint_house.py)
 * [Decode Ways](https://github.com/dengkliu/algorithms/blob/master/decode_ways.py)
+* [Decode Ways II](https://github.com/dengkliu/algorithms/blob/master/decode_ways_II.py)
 * Rat Jump - https://www.lintcode.com/problem/1861/
 
 ### Backpack DP 
