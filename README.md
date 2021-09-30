@@ -224,7 +224,6 @@ Trade the space complexity for time complexity.
 
 ## 12. Monotonic Stack/Queue
 
-### Coding problems
 * [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/ShortedSubarraySumAtLeastK.java)
 
 ## 13. Others
