@@ -200,6 +200,7 @@ Trade the space complexity for time complexity.
 * [Backpack II](https://github.com/dengkliu/algorithms/blob/master/backpack_II.py)
 * [Backpack III](https://github.com/dengkliu/algorithms/blob/master/backpack_III.py)
 * [Backpack IV](https://github.com/dengkliu/algorithms/blob/master/backpack_IV.py)
+* [Backpack V](https://github.com/dengkliu/algorithms/blob/master/backpack_V.py)
 * [Partition Equal Subset Sum](https://github.com/dengkliu/algorithms/blob/master/partition_equal_subset_sum.py)
 * [Best Time to Buy and Sell Stock III](https://github.com/dengkliu/algorithms/blob/master/BestTimeToBuyAndSellStockIII.java)
 * [K Sum](https://github.com/dengkliu/algorithms/blob/master/KSum.java)
