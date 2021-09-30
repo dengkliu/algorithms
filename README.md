@@ -195,6 +195,7 @@ Trade the space complexity for time complexity.
 * Rat Jump - https://www.lintcode.com/problem/1861/
 
 ### Backpack DP 
+* [Backpack](https://github.com/dengkliu/algorithms/blob/master/backpack.py)
 * [Partition Equal Subset Sum](https://github.com/dengkliu/algorithms/blob/master/partition_equal_subset_sum.py)
 * [Best Time to Buy and Sell Stock III](https://github.com/dengkliu/algorithms/blob/master/BestTimeToBuyAndSellStockIII.java)
 * [K Sum](https://github.com/dengkliu/algorithms/blob/master/KSum.java)
