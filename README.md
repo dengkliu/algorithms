@@ -192,6 +192,7 @@ Trade the space complexity for time complexity.
 * [Paint House](https://github.com/dengkliu/algorithms/blob/master/paint_house.py)
 * [Decode Ways](https://github.com/dengkliu/algorithms/blob/master/decode_ways.py)
 * [Decode Ways II](https://github.com/dengkliu/algorithms/blob/master/decode_ways_II.py)
+* [Longest Increasing Subsequence](https://github.com/dengkliu/algorithms/blob/master/longest_increasing_subsequence.py)
 * Rat Jump - https://www.lintcode.com/problem/1861/
 
 ### Backpack DP 
@@ -205,7 +206,6 @@ Trade the space complexity for time complexity.
 * [Profitable Schemes](https://github.com/dengkliu/algorithms/blob/master/profitable_schemes.py)
 * Float Combination Sum https://www.lintcode.com/problem/1800/
 * Longest Common Subsequence - https://www.lintcode.com/problem/77/
-* Longest Increasing Subsequence
 
 ### Interval DP
 * [Stone Game](https://github.com/dengkliu/algorithms/blob/master/stone_game.py)
