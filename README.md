@@ -193,7 +193,7 @@ Trade the space complexity for time complexity.
 * [Decode Ways](https://github.com/dengkliu/algorithms/blob/master/decode_ways.py)
 * [Decode Ways II](https://github.com/dengkliu/algorithms/blob/master/decode_ways_II.py)
 * [Longest Increasing Subsequence](https://github.com/dengkliu/algorithms/blob/master/longest_increasing_subsequence.py)
-* Rat Jump - https://www.lintcode.com/problem/1861/
+* [Rat Jump](https://github.com/dengkliu/algorithms/blob/master/rat_jump.py)
 
 ### Backpack DP 
 * [Backpack](https://github.com/dengkliu/algorithms/blob/master/backpack.py)
