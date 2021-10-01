@@ -195,6 +195,7 @@ Trade the space complexity for time complexity.
 * [Longest Increasing Subsequence](https://github.com/dengkliu/algorithms/blob/master/longest_increasing_subsequence.py)
 * [Rat Jump](https://github.com/dengkliu/algorithms/blob/master/rat_jump.py)
 * [Maximal Square](https://github.com/dengkliu/algorithms/blob/master/maximal_square.py)
+* [Count Square Submatrices with All Ones](https://github.com/dengkliu/algorithms/blob/master/count_squares.py)
 
 ### Backpack DP 
 * [Backpack](https://github.com/dengkliu/algorithms/blob/master/backpack.py)
