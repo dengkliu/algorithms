@@ -213,7 +213,7 @@ Trade the space complexity for time complexity.
 * [K Sum II](https://github.com/dengkliu/algorithms/blob/master/KSumII.java)
 * [Card Game](https://github.com/dengkliu/algorithms/blob/master/card_game.py)
 * [Profitable Schemes](https://github.com/dengkliu/algorithms/blob/master/profitable_schemes.py)
-* Float Combination Sum https://www.lintcode.com/problem/1800/
+* [Float Combination Sum](https://github.com/dengkliu/algorithms/blob/master/float_combination_sum.py)
 
 ### Interval DP
 * [Stone Game](https://github.com/dengkliu/algorithms/blob/master/stone_game.py)
