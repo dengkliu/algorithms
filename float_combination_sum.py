@@ -80,5 +80,4 @@ class Solution:
                 target_remaining = target_remaining - math.floor(curr_num)
 
         return result
-        
 
