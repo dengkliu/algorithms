@@ -251,6 +251,7 @@ Related coding questions
   * [Set Union](https://github.com/dengkliu/algorithms/blob/master/set_union.py)
   * [Account Merge](https://github.com/dengkliu/algorithms/blob/master/account_merge.py)
   * [Maximum Connected Area](https://github.com/dengkliu/algorithms/blob/master/MaximumConnectedArea.java)
+  * [Maximum Association Set](https://github.com/dengkliu/algorithms/blob/master/maximum_association_set.py)
 
 
 ### Trie
