@@ -247,11 +247,13 @@ The internal structure of Union Find is multiple multi-way trees. Each child nod
 * Merget the set of x and set of y, set the parent of find(x) to find(y)
 
 Related coding questions
-  * [Graph Validate Tree](https://github.com/dengkliu/algorithms/blob/master/graph_valid_tree_II.py)
+  * [Connecting Graph](https://github.com/dengkliu/algorithms/blob/master/connecting_graph.py)
+  * [Graph Validate Tree II](https://github.com/dengkliu/algorithms/blob/master/graph_valid_tree_II.py)
   * [Set Union](https://github.com/dengkliu/algorithms/blob/master/set_union.py)
   * [Account Merge](https://github.com/dengkliu/algorithms/blob/master/account_merge.py)
   * [Maximum Connected Area](https://github.com/dengkliu/algorithms/blob/master/MaximumConnectedArea.java)
   * [Maximum Association Set](https://github.com/dengkliu/algorithms/blob/master/maximum_association_set.py)
+  
 
 
 ### Trie
