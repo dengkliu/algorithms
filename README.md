@@ -250,6 +250,7 @@ Related coding questions
   * [Connecting Graph](https://github.com/dengkliu/algorithms/blob/master/connecting_graph.py)
   * [Connecting Graph II](https://github.com/dengkliu/algorithms/blob/master/connecting_graph_II.py)
   * [Connecting Graph III](https://github.com/dengkliu/algorithms/blob/master/connecting_graph_III.py)
+  * [Graph Validate Tree I](https://github.com/dengkliu/algorithms/blob/master/graphy_valid_tree.py)
   * [Graph Validate Tree II](https://github.com/dengkliu/algorithms/blob/master/graph_valid_tree_II.py)
   * [Set Union](https://github.com/dengkliu/algorithms/blob/master/set_union.py)
   * [Account Merge](https://github.com/dengkliu/algorithms/blob/master/account_merge.py)
