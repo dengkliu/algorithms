@@ -257,6 +257,7 @@ Related coding questions
   * [Maximum Connected Area](https://github.com/dengkliu/algorithms/blob/master/MaximumConnectedArea.java)
   * [Maximum Association Set](https://github.com/dengkliu/algorithms/blob/master/maximum_association_set.py)
   * [Number of Islands II](https://github.com/dengkliu/algorithms/blob/master/number_of_islands_II.py)
+  * [Bricks Falling When Hit](https://github.com/dengkliu/algorithms/blob/master/bricks_falling_when_hit.py)
 
 ### Trie
 
