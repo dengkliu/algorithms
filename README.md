@@ -221,7 +221,7 @@ Trade the space complexity for time complexity.
 * [Minimum Cost to Merge Stones](https://github.com/dengkliu/algorithms/blob/master/minimum_cost_to_merge_stones.py)
 
 ### Prefix DP
-* [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/LongestCommonSubsequence.java)
+* [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/longest_common_sequence.py)
 
 
 ## 12. Monotonic Stack/Queue
