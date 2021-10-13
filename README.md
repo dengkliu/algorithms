@@ -275,7 +275,7 @@ The structure of Trie -
 * The word is stored on nodes
 
 Related coding questions
-* [Add and Search Word - Data structure design](https://github.com/dengkliu/algorithms/blob/master/AddandSearchWord.java)
+* [Add and Search Word - Data structure design](https://github.com/dengkliu/algorithms/blob/master/add_and_search_word_data_structure_design.py)
 * [Identifying Strings](https://github.com/dengkliu/algorithms/blob/master/IdentifyingStrings.java)
 ### Segment Tree
 ### Binary Indexed Tree
