@@ -265,6 +265,15 @@ Related coding questions
 
 The best time complexity for insert word and find word is O(L).
 
+Trie is tested with problems including :
+* Check if a prefix or word exists in Trie
+* DFS on a Trie
+* Optimize other algorithms with Trie
+
+The structure of Trie -
+* The character is stored on edges
+* The word is stored on nodes
+
 Related coding questions
 * [Add and Search Word - Data structure design](https://github.com/dengkliu/algorithms/blob/master/AddandSearchWord.java)
 * [Identifying Strings](https://github.com/dengkliu/algorithms/blob/master/IdentifyingStrings.java)
