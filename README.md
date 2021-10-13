@@ -274,6 +274,8 @@ The structure of Trie -
 * The character is stored on edges
 * The word is stored on nodes
 
+The more common prefixes in the trie, the more optimization we achieve. Every time we add a word, or search a word, the best time complexity is O(L), where L is the length of the word (search in dictionary is O(1)). The worst case we still need to traverse the entire tree.
+
 Related coding questions
 * [Add and Search Word - Data structure design](https://github.com/dengkliu/algorithms/blob/master/add_and_search_word_data_structure_design.py)
 * [Identifying Strings](https://github.com/dengkliu/algorithms/blob/master/IdentifyingStrings.java)
