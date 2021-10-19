@@ -228,6 +228,8 @@ Trade the space complexity for time complexity.
 
 ## 12. Monotonic Stack/Queue
 
+Monotonic stack is often used to find the first smaller or larger item on the left or right of the current.
+
 * [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/ShortedSubarraySumAtLeastK.java)
 
 ## 13. Others
