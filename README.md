@@ -230,6 +230,7 @@ Trade the space complexity for time complexity.
 Monotonic stack is often used to find the first smaller or larger item on the left or right of the current.
 
 * [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/ShortedSubarraySumAtLeastK.java)
+* [Final Discount Price](https://github.com/dengkliu/algorithms/blob/master/final_discounted_price.py)
 
 ## 13. Others
 * Greatest Common Divisor - https://www.lintcode.com/problem/845/
