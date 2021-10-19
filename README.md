@@ -229,6 +229,7 @@ Trade the space complexity for time complexity.
 
 Monotonic stack is an algorithm that is implemented based on stack. The elements in the stack are sorted by a certain rule (usually number comparison). 
 Monotonic stack is often used to find the first smaller or larger item on the left or right of the current.
+Its time complexity is O(N)
 
 * [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/ShortedSubarraySumAtLeastK.java)
 * [Final Discount Price](https://github.com/dengkliu/algorithms/blob/master/final_discounted_price.py)
