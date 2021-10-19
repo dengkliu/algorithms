@@ -284,6 +284,8 @@ Related coding questions
 * [Letter Combination of a Phone Number II](https://github.com/dengkliu/algorithms/blob/master/letter_combinations_of_a_phone_number.py)
 * [Max Distance](https://github.com/dengkliu/algorithms/blob/master/max_distance.py)
 * [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
+* [Word Search III](https://github.com/dengkliu/algorithms/blob/master/word_search_III.py)
+
 ### Segment Tree
 ### Binary Indexed Tree
 ### Heap (Priority Queue)
