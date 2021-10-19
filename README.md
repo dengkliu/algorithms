@@ -280,6 +280,7 @@ Related coding questions
 * [Add and Search Word - Data structure design](https://github.com/dengkliu/algorithms/blob/master/add_and_search_word_data_structure_design.py)
 * [Identifying Strings](https://github.com/dengkliu/algorithms/blob/master/IdentifyingStrings.java)
 * [Letter Combination of a Phone Number II](https://github.com/dengkliu/algorithms/blob/master/letter_combinations_of_a_phone_number.py)
+* [Max Distance](https://github.com/dengkliu/algorithms/blob/master/max_distance.py)
 ### Segment Tree
 ### Binary Indexed Tree
 ### Heap (Priority Queue)
