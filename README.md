@@ -233,6 +233,8 @@ Its time complexity is O(N)
 
 * [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/ShortedSubarraySumAtLeastK.java)
 * [Final Discount Price](https://github.com/dengkliu/algorithms/blob/master/final_discounted_price.py)
+* [Sliding Window Maximum](https://www.lintcode.com/problem/362/)
+* [Tall Building](https://github.com/dengkliu/algorithms/blob/master/tall_buildings.py)
 
 ## 13. Others
 * Greatest Common Divisor - https://www.lintcode.com/problem/845/
