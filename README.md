@@ -234,7 +234,7 @@ Its time complexity is O(N).
 Stack that is monotone increasing can be used to find the first element that is less than current element on the left and right.
 Stack that is monotone decreasing can be used to find the first element that is larger than current element on the left and right.
 
-* [Largest Rectangle in Histogram]()
+* [Largest Rectangle in Histogram](https://github.com/dengkliu/algorithms/blob/master/largest_rectangle_in_histogram.py)
 * [Final Discount Price](https://github.com/dengkliu/algorithms/blob/master/final_discounted_price.py)
 * [Tall Building](https://github.com/dengkliu/algorithms/blob/master/tall_buildings.py)
 * [Sliding Window Maximum](https://github.com/dengkliu/algorithms/blob/master/sliding_window_maximum.py)
