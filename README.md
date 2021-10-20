@@ -224,17 +224,21 @@ Trade the space complexity for time complexity.
 ### Prefix DP
 * [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/longest_common_sequence.py)
 
-
 ## 12. Monotonic Stack/Queue
 
-Monotonic stack is an algorithm that is implemented based on stack. The elements in the stack are sorted by a certain rule (usually number comparison). 
+Monotonic stack is an algorithm that is implemented based on stack. 
+The elements in the stack are sorted by a certain rule (usually number comparison). 
 Monotonic stack is often used to find the first smaller or larger item on the left or right of the current.
-Its time complexity is O(N)
+Its time complexity is O(N).
 
-* [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/ShortedSubarraySumAtLeastK.java)
+Stack that is monotone increasing can be used to find the first element that is less than current element on the left and right.
+Stack that is monotone decreasing can be used to find the first element that is larger than current element on the left and right.
+
+* [Largest Rectangle in Histogram]()
 * [Final Discount Price](https://github.com/dengkliu/algorithms/blob/master/final_discounted_price.py)
-* [Sliding Window Maximum](https://github.com/dengkliu/algorithms/blob/master/sliding_window_maximum.py)
 * [Tall Building](https://github.com/dengkliu/algorithms/blob/master/tall_buildings.py)
+* [Sliding Window Maximum](https://github.com/dengkliu/algorithms/blob/master/sliding_window_maximum.py)
+* [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/ShortedSubarraySumAtLeastK.java)
 
 ## 13. Others
 * Greatest Common Divisor - https://www.lintcode.com/problem/845/
