@@ -76,3 +76,37 @@ class Solution:
         return max_values
 
 # 3. 单调栈
+
+class Solution:
+    """
+    @param nums: A list of integers.
+    @param k: An integer
+    @return: The maximum number inside the window at each moving.
+    """
+    def maxSlidingWindow(self, nums, k):
+
+        if not nums:
+            return []
+
+        # 要用队列 因为可能要移出队列的尾部
+        deq = collections.deque()
+
+        result = []
+
+        for i in range(len(nums)):
+
+            # maintain一个单调递减栈
+            # 尾部的位置一定是最大值
+            while deq and nums[deq[-1]] <= nums[i]:
+                deq.pop()
+            deq.append(i)
+
+            if i - k == deq[0]:
+                # 可以移出尾部
+                deq.popleft()
+
+            if i >= k - 1:
+                # 加入尾部的位置
+                result.append(nums[deq[0]])
+
+        return result
