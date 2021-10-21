@@ -236,6 +236,7 @@ Stack that is monotone decreasing can be used to find the first element that is 
 
 * [Largest Rectangle in Histogram](https://github.com/dengkliu/algorithms/blob/master/largest_rectangle_in_histogram.py)
 * [Maximal Rectange](https://github.com/dengkliu/algorithms/blob/master/maximal_rectangle.py)
+* [Max Tree](https://github.com/dengkliu/algorithms/blob/master/max_tree.py)
 * [Final Discount Price](https://github.com/dengkliu/algorithms/blob/master/final_discounted_price.py)
 * [Tall Building](https://github.com/dengkliu/algorithms/blob/master/tall_buildings.py)
 * [Sliding Window Maximum](https://github.com/dengkliu/algorithms/blob/master/sliding_window_maximum.py)
