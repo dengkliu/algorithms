@@ -240,7 +240,7 @@ Stack that is monotone decreasing can be used to find the first element that is 
 * [Final Discount Price](https://github.com/dengkliu/algorithms/blob/master/final_discounted_price.py)
 * [Tall Building](https://github.com/dengkliu/algorithms/blob/master/tall_buildings.py)
 * [Sliding Window Maximum](https://github.com/dengkliu/algorithms/blob/master/sliding_window_maximum.py)
-* [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/ShortedSubarraySumAtLeastK.java)
+* [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/shortest_subarray_with_sum_at_least_K.py)
 
 ## 13. Others
 * Greatest Common Divisor - https://www.lintcode.com/problem/845/
