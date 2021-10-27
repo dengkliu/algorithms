@@ -301,6 +301,9 @@ Related coding questions
 ### Segment Tree
 ### Binary Indexed Tree
 ### Heap (Priority Queue)
+In Python, you need to import heapq library, and use heapq.heappop(heap) and heap.heappush(heap, element) to do pop and push operation.
+* [Minimum Cost to Hire_K_Workers](https://github.com/dengkliu/algorithms/blob/master/minimum_cost_to_hire_K_workers.py)
+* [Sliding Window Minimum]()
 ### Skip List
 
 ### General Data Structures
