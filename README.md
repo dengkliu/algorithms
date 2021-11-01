@@ -1,5 +1,9 @@
 # Algorithms (In Python)
 
+## Templates 模板
+
+* [Binary Search]()
+
 ## 1. Sorting 排序
 Both of them use divide and conquer.
 * [Quick sort](https://github.com/dengkliu/algorithms/blob/master/QuickSort.java)
