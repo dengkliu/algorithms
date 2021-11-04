@@ -7,7 +7,7 @@
 
 ## 1. Sorting 排序
 Both of them use divide and conquer.
-* [Quick sort](https://github.com/dengkliu/algorithms/blob/master/QuickSort.java)
+* [Quick sort](https://github.com/dengkliu/algorithms/blob/master/quick_sort.py)
 * [Merge sort](https://github.com/dengkliu/algorithms/blob/master/MergeSort.java)
 
 ## 2. Binary Tree Traversal 二叉树遍历
