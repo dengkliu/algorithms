@@ -1,3 +1,5 @@
+# O(logN) time complexity
+
 class binarySearch:
 
 	def binary_search(self, nums, target):
