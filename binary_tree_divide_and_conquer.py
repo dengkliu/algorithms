@@ -7,7 +7,6 @@ class Solution:
 		if root is None:
 			return
 
-
 		left_result = divide_conquer(root.left)
 
 		right_result = divide_conquer(root.right)
