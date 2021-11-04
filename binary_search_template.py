@@ -7,10 +7,12 @@ class binarySearch:
 			return -1
 
 		start, end = 0, len(nums) - 1
-
+		
+		# start + 1 < end, to avoid infinite while loops
 		while start + 1 < end:
+			# get the floor
 			mid = (start + end)//2
-
+			
 			if nums[mid] < target:
 				start = mid
 			elif nums[mid] == target:
