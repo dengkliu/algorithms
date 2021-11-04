@@ -4,6 +4,7 @@
 * [Python Coding Stype Guide]()
 * [Binary Search](https://github.com/dengkliu/algorithms/blob/master/binary_search_template.py)
 * [Two pointers](https://github.com/dengkliu/algorithms/blob/master/two_pointers.py)
+* [Binary Tree Divide and ConquerConquer]()
 
 ## 1. Sorting 排序
 Both of them use divide and conquer.
