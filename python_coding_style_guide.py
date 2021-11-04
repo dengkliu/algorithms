@@ -38,7 +38,6 @@ Yes:
 # When handling integers, implicit false may involve more risk than benefit 
 # (i.e., accidentally handling None as 0). 
 # You may compare a value which is known to be an integer (and is not the result of len()) against the integer 0.
-
 Yes: if not users:
          print('no users')
 
@@ -48,3 +47,16 @@ Yes: if not users:
      def f(x=None):
          if x is None:
              x = []
+
+# Stack (first go last out)
+    stack = []
+    # 1. Add
+    stack.append(a)
+    # 2. Pop the tail
+    stack.pop()
+    # 3. Peek the tail
+    stack[-1]
+
+# Queue
+
+
