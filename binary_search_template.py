@@ -24,4 +24,3 @@ class binarySearch:
 			return end
 
 		return -1
-
