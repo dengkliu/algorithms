@@ -2,7 +2,8 @@
 
 ## Templates 模板
 * [Python Coding Stype Guide]()
-* [Binary Search]()
+* [Binary Search](https://github.com/dengkliu/algorithms/blob/master/binary_search_template.py)
+* [Two pointers]()
 
 ## 1. Sorting 排序
 Both of them use divide and conquer.
