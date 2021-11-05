@@ -4,7 +4,9 @@
 * [Python Coding Stype Guide]()
 * [Binary Search](https://github.com/dengkliu/algorithms/blob/master/binary_search_template.py)
 * [Two pointers](https://github.com/dengkliu/algorithms/blob/master/two_pointers.py)
-* [Binary Tree Divide and ConquerConquer]()
+* [Binary Tree Divide and ConquerConquer](https://github.com/dengkliu/algorithms/blob/master/binary_tree_divide_and_conquer.py)
+* [Binary Search Tree Inorder Iterative](https://github.com/dengkliu/algorithms/blob/master/inorder_traversal_bst.py)
+* [Binary Search Tree Preorder Iterative]()
 
 ## 1. Sorting 排序
 Both of them use divide and conquer.
@@ -15,8 +17,6 @@ Both of them use divide and conquer.
 
 With inorder and pre order/post order, you can rebuild a tree. With only pre order and post order, you cannot rebuild a tree.
 
-* [Inorder Traveral of Binary Tree - Iterative Version ](https://github.com/dengkliu/algorithms/blob/master/InoderTraversal.java)
-* [Preorder Traversal of Binary Tree - Iterative Version](https://github.com/dengkliu/algorithms/blob/master/PreorderTraversal.java)
 * [Convert Binary Tree to Sorted Doubly Linked List](https://github.com/dengkliu/algorithms/blob/master/ConvertBinarySearchTreeToSortedDoublyLinkedList.java)
 * [Flatten Binary Tree To Linked List](https://github.com/dengkliu/algorithms/blob/master/FlattenBinaryTreeToLinkedList.java)
 * [Kth Smallest Element in BST](https://github.com/dengkliu/algorithms/blob/master/KthSmallestElementInBST.java)
