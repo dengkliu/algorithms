@@ -7,13 +7,10 @@
 * [Binary Tree Divide and ConquerConquer](https://github.com/dengkliu/algorithms/blob/master/binary_tree_divide_and_conquer.py)
 * [Binary Search Tree Inorder Iterative](https://github.com/dengkliu/algorithms/blob/master/inorder_traversal_bst.py)
 * [Binary Search Tree Preorder Iterative](https://github.com/dengkliu/algorithms/blob/master/pre_order_traversal_bst.py)
-
-## 1. Sorting 排序
-Both of them use divide and conquer.
 * [Quick sort](https://github.com/dengkliu/algorithms/blob/master/quick_sort.py)
 * [Merge sort](https://github.com/dengkliu/algorithms/blob/master/merge_sort.py)
 
-## 2. Binary Tree Traversal 二叉树遍历
+## 1. Binary Tree Traversal 二叉树遍历
 
 With inorder and pre order/post order, you can rebuild a tree. With only pre order and post order, you cannot rebuild a tree.
 
@@ -21,16 +18,16 @@ With inorder and pre order/post order, you can rebuild a tree. With only pre ord
 * [Flatten Binary Tree To Linked List](https://github.com/dengkliu/algorithms/blob/master/FlattenBinaryTreeToLinkedList.java)
 * [Kth Smallest Element in BST](https://github.com/dengkliu/algorithms/blob/master/KthSmallestElementInBST.java)
 
-## 3. Binary Tree Divide & Conquer 二叉树分治
+## 2. Binary Tree Divide & Conquer 二叉树分治
 * [Binary Tree Maximum Path Sum](https://github.com/dengkliu/algorithms/blob/master/BinaryTreeMaximumPathSum.java)
 * [Validate Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/ValidateBinarySearchTree.java)
 
-## 4. Greedy 贪心算法
+## 3. Greedy 贪心算法
 
 * [Best Time to Buy and Sell Stock](https://github.com/dengkliu/algorithms/blob/master/BestTimeToBuyAndSellStock.java)
 * [Best Time to Buy and Sell Stock II](https://github.com/dengkliu/algorithms/blob/master/BestTimeToBuyAndSellStockII.java)
 
-## 5. Prefix Sum 前缀和
+## 4. Prefix Sum 前缀和
 Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**. 
 
 The definition of prefix sum for 1D and 2D array.
@@ -48,13 +45,13 @@ Related coding problems.
 * [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/SubarraySumII.java)
 * [Binary Subarrays With Sum](https://github.com/dengkliu/algorithms/blob/master/BinarySubarraysWithSum.java)
 
-## 6. Scanning Line 扫描线
+## 5. Scanning Line 扫描线
 
 Scanning line is usuallly used to solve interval related problems. 
 
 * [Number of Airplanes in the Sky](https://github.com/dengkliu/algorithms/blob/master/NumberOfAirplanesInTheSky.java)
 
-## 7. Two Pointers 双指针
+## 6. Two Pointers 双指针
 
 Two pointers are usually used when:
 * Sliding window problem
@@ -84,7 +81,7 @@ Two pointers start from the head of array and go to the end. 同向双指针只�
 ### Back direction two pointers 背向双指针
 * [Shortest Palindrome](https://github.com/dengkliu/algorithms/blob/master/ShortestPalindrome.java)
 
-## 8. Binary Search 二分查询
+## 7. Binary Search 二分查询
 
 You may want to use binary search when -
 * When the interviewer ask you to find a solution that is better than O(N)
@@ -103,7 +100,7 @@ Related coding problem -
 * [Heaters](https://github.com/dengkliu/algorithms/blob/master/Heaters.java)
 * [Find Peak Element II](https://github.com/dengkliu/algorithms/blob/master/FindPeakElementII.java)
 
-## 9. Breath-First Search 宽度优先搜索
+## 8. Breath-First Search 宽度优先搜索
 
 Breath-First search (BFS) is often used to get topological order, to solve connectivity problem, to get shortest path or do level order traversal. BFS is also used to solve problem of counting steps from an original state to an end state given moving/transforming rules. This is the [Template](https://github.com/dengkliu/algorithms/blob/master/BFS.java) for BFS.
 
@@ -151,7 +148,7 @@ You can also use BFS to 1. work on a 2D matrix problem regarding some maximum/mi
 * [Longest path on a tree](https://github.com/dengkliu/algorithms/blob/master/LongestPathOnTheTree.py)
 * [Second Diameter](https://github.com/dengkliu/algorithms/blob/master/second_diameter.py)
 
-## 10. Depth-First Search 深度优先搜索
+## 9. Depth-First Search 深度优先搜索
 
 What is DFS for a graph? Start from a node, choose a neighbor and move on, until the end (no more child), if you reach the end, move back one step, and switch to another neigbor for current node, until you exhuast all the neigbors, the move back one more step and repeat. Keep searching for the target in this process, for one path you cannot revisit a node, but you can revisit the same node in a different path.
 
@@ -179,7 +176,7 @@ Find all combinations and permutations that meet a certain requirement. Find one
 * [Factorization](https://github.com/dengkliu/algorithms/blob/master/factorization.py)
 * [Subsets II](https://github.com/dengkliu/algorithms/blob/master/subset_II.py)
 
-## 11. Dynamic Programming 动态规划
+## 10. Dynamic Programming 动态规划
 
 Dynamic Programming is a method for solving a complex problem by breaking it down into a collection
 of **simpler subproblems**, solving each of those subproblems **just once**, and **storing their solutions** 
@@ -230,7 +227,7 @@ Trade the space complexity for time complexity.
 ### Prefix DP
 * [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/longest_common_sequence.py)
 
-## 12. Monotonic Stack/Queue
+## 11. Monotonic Stack/Queue
 
 Monotonic stack is an algorithm that is implemented based on stack. 
 The elements in the stack are sorted by a certain rule (usually number comparison). 
@@ -248,12 +245,12 @@ Stack that is monotone decreasing can be used to find the first element that is 
 * [Sliding Window Maximum](https://github.com/dengkliu/algorithms/blob/master/sliding_window_maximum.py)
 * [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/shortest_subarray_with_sum_at_least_K.py)
 
-## 13. Others
+## 12. Others
 * Greatest Common Divisor - https://www.lintcode.com/problem/845/
 * Factorization - https://www.lintcode.com/problem/652/
 * https://www.lintcode.com/problem/1877
 
-## 14. Useful data structures
+## 13. Useful data structures
 ### Union Find
 [Union Find](https://github.com/dengkliu/algorithms/blob/master/union_find.py) is used to solve connection problem, especially for dynamic data stream (online algorithm). BFS can only be used to solve connection problem for static data (therefore BFS is offline algorithm), for data stream, the time complexity will be horrible.
 
