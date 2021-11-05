@@ -6,7 +6,7 @@
 * [Two pointers](https://github.com/dengkliu/algorithms/blob/master/two_pointers.py)
 * [Binary Tree Divide and ConquerConquer](https://github.com/dengkliu/algorithms/blob/master/binary_tree_divide_and_conquer.py)
 * [Binary Search Tree Inorder Iterative](https://github.com/dengkliu/algorithms/blob/master/inorder_traversal_bst.py)
-* [Binary Search Tree Preorder Iterative]()
+* [Binary Search Tree Preorder Iterative](https://github.com/dengkliu/algorithms/blob/master/pre_order_traversal_bst.py)
 
 ## 1. Sorting 排序
 Both of them use divide and conquer.
