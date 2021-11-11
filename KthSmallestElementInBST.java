@@ -1,6 +1,6 @@
 // https://www.lintcode.com/problem/902/
 
-// Given a binary search tree, write a function kth smallest to find the kth smallest element in it.
+// Given a binary search tree, write a function to find the kth smallest element in it.
 
 // You may assume k is always valid, 1 ≤ k ≤ BST's total elements.
 
