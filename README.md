@@ -14,7 +14,7 @@
 
 With inorder and pre order/post order, you can rebuild a tree. With only pre order and post order, you cannot rebuild a tree.
 
-* [Convert Binary Tree to Sorted Doubly Linked List](https://github.com/dengkliu/algorithms/blob/master/ConvertBinarySearchTreeToSortedDoublyLinkedList.java)
+* [Convert Binary Tree to Sorted Doubly Linked List](https://github.com/dengkliu/algorithms/blob/master/convert_binary_search_tree_to_sorted_doubly_linked_list.py)
 * [Flatten Binary Tree To Linked List](https://github.com/dengkliu/algorithms/blob/master/FlattenBinaryTreeToLinkedList.java)
 * [Kth Smallest Element in BST](https://github.com/dengkliu/algorithms/blob/master/KthSmallestElementInBST.java)
 
