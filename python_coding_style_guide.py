@@ -57,6 +57,12 @@ Yes: if not users:
     # 3. Peek the tail
     stack[-1]
 
+# Set
+   # initailize a set
+   some_set = set()
+   # add an element to set
+   some_set.add(val)
+      
 # Queue
 
 
