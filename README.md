@@ -21,6 +21,7 @@ With inorder and pre order/post order, you can rebuild a tree. With only pre ord
 ## 2. Binary Tree Divide & Conquer 二叉树分治
 * [Binary Tree Maximum Path Sum](https://github.com/dengkliu/algorithms/blob/master/binary_tree_maximum_path_sum.py)
 * [Validate Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/validate_binary_search_tree.py)
+* [Symmetric Tree](https://github.com/dengkliu/algorithms/blob/master/symmetric_tree.py)
 
 ## 3. Greedy 贪心算法
 
