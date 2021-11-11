@@ -16,10 +16,10 @@ With inorder and pre order/post order, you can rebuild a tree. With only pre ord
 
 * [Convert Binary Tree to Sorted Doubly Linked List](https://github.com/dengkliu/algorithms/blob/master/convert_binary_search_tree_to_sorted_doubly_linked_list.py)
 * [Flatten Binary Tree To Linked List](https://github.com/dengkliu/algorithms/blob/master/flatten_binary_tree_to_linkedlist.py)
-* [Kth Smallest Element in BST](https://github.com/dengkliu/algorithms/blob/master/KthSmallestElementInBST.java)
+* [Kth Smallest Element in BST](https://github.com/dengkliu/algorithms/blob/master/kth_smallest_element_in_bst.py)
 
 ## 2. Binary Tree Divide & Conquer 二叉树分治
-* [Binary Tree Maximum Path Sum](https://github.com/dengkliu/algorithms/blob/master/BinaryTreeMaximumPathSum.java)
+* [Binary Tree Maximum Path Sum](https://github.com/dengkliu/algorithms/blob/master/binary_tree_maximum_path_sum.py)
 * [Validate Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/ValidateBinarySearchTree.java)
 
 ## 3. Greedy 贪心算法
