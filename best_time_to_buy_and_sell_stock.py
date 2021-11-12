@@ -9,7 +9,9 @@
 # Explanation: You can buy at the third day and then sell it at the 4th day. The profit is 2 - 1 = 1
 
 # Greedy - buy at the previous minimum prices and try sell at current day
-# If more profit, update the result, otherwise hold. 
+# If more profit, update the result, otherwise hold.
+# Given an array, find an interval, to maximize the difference between the end and start 
+# Enumerate the end, you want to always minimize the start. 
 
 class Solution:
     """
