@@ -34,7 +34,7 @@ With inorder and pre order/post order, you can rebuild a tree. With only pre ord
 Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**. 
 
 The definition of prefix sum for 1D and 2D array.
-* [1 dimentional array](https://github.com/dengkliu/algorithms/blob/master/PrefixSum.java) 
+* [1 dimentional array](https://github.com/dengkliu/algorithms/blob/master/prefix_sum.py) 
 * [2 dimentional array](https://github.com/dengkliu/algorithms/blob/master/prefixSum2Dimention.java)
 
 Related coding problems.
