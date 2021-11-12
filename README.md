@@ -27,7 +27,7 @@ With inorder and pre order/post order, you can rebuild a tree. With only pre ord
 ## 3. Greedy 贪心算法
 
 * [Best Time to Buy and Sell Stock](https://github.com/dengkliu/algorithms/blob/master/best_time_to_buy_and_sell_stock.py)
-* [Best Time to Buy and Sell Stock II](https://github.com/dengkliu/algorithms/blob/master/BestTimeToBuyAndSellStockII.java)
+* [Best Time to Buy and Sell Stock II](https://github.com/dengkliu/algorithms/blob/master/best_time_to_buy_and_sell_stock_II.py)
 
 ## 4. Prefix Sum 前缀和
 Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**. 
