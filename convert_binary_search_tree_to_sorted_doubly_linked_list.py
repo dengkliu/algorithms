@@ -55,9 +55,11 @@ class Solution:
                     stack.append(node.left)
                     node = node.left
             
+            # 把最后一个入栈的节点加入到result
             if stack:         
                 result.append(stack[-1])
             
+            # 把结果里的后两个节点串起来
             length = len(result)
             if length > 1:
                 prev = result[length - 2]
