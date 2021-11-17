@@ -22,6 +22,11 @@ class Solution:
         
         maximum_profit = 0
         
+        # i stands for attempt to sell stock at this day, it does not mean we really sell it.
+        # as long as at day i the gain from previous day is postive
+        # we add to the profit
+        # this doesn't mean we buy at the previous either, it just mean we CAN hold the stock from yesterday until today
+        # we only sell when the gain is negative
         for i in range(1, len(prices)):
             if prices[i] - prices[i-1] > 0:
                 maximum_profit += (prices[i] - prices[i-1])
