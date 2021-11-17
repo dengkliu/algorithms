@@ -39,19 +39,22 @@ class Solution:
         result = []
 
         dummy = TreeNode(0)
-
         dummy.right = root
-
         stack.append(dummy)
-
+        
+        # stack 用来做inorder traversal模板
         while stack:
             node = stack.pop()
+            # 每个节点出来 这个节点和它的左子树都已经被加到result里面去了
+            # 所以只看其右子树
             if node.right is not None:
                 node = node.right
+                # 对于每个节点，都是先入栈，然后把左子树入栈 左子树的左子树 ..。
                 stack.append(node)
                 while node.left is not None:
                     stack.append(node.left)
-                    node = node.left   
+                    node = node.left
+            
             if stack:         
                 result.append(stack[-1])
             
