@@ -22,7 +22,9 @@ class Solution:
         
         maximum_profit = 0
         minimum_price = float('inf')
-
+        
+        # i means you try to sell at day i
+        # how do you get the maximum profit? you buy at previous minimum
         for i in range(len(prices)):
             maximum_profit = max(maximum_profit, prices[i] - minimum_price)
             minimum_price = min(minimum_price, prices[i])
