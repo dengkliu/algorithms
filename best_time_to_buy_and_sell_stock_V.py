@@ -15,7 +15,7 @@
 # The difference between this problem and problem II is that, you can buy at the second day!!!
 # So you have 2 transactions at hand at the same time
 # How to achieve this?
-# In addition to the solution of problem II (always do a transaction when there is gain)
+# In addition to the solution of problem II (hold the stock when there is a gain)
 # you also want to buy at any given time, check if later you can sell it at higher price
 # Each time you sell, you are selling the previous minimum.
 # You need a data structure to store and update the minimum - priority queue
@@ -33,12 +33,9 @@ class Solution:
         ans = 0
         for i in a:
             if heap and i > heap[0]:
-            	# Whenever you sell, you pop the previous minimum, by this you get the solution for problem II
+            	# the stock price increases, you are holding it, replace with the current price
                 ans += i - heapq.heappop(heap)
-                # This doesn't count as buying, it is because you already sell it, and you buy it back, to pretend
-                # not doing anything that day
-                # Later if you found higher price, you can sell it again!
                 heapq.heappush(heap, i)
-            # !!!! Important, this is actually buying
+            # !!!! Important, you can buy another share of current stock
             heapq.heappush(heap,i)
         return ans
