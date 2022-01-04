@@ -11,9 +11,11 @@ class binarySearch:
 		start, end = 0, len(nums) - 1
 		
 		# start + 1 < end, to avoid infinite while loops
-		# Sample [1, 1], target 1. Start will always be 0 and end will be 1, mid will be always be 0.
+		# Sample [1, 1], target 1.
+		# If use start < end, start will always be 0 and end will always be 1, mid will be always be 0.
 		while start + 1 < end:
-			# get the floor
+			# get the floor, python don't have overflow issue for integers
+			# https://www.quora.com/How-is-there-no-integer-overflow-in-Python 
 			mid = (start + end)//2
 			
 			if nums[mid] < target:
@@ -22,7 +24,8 @@ class binarySearch:
 				end = mid
 			else:
 				end = mid
-
+				
+	        # return the first occurrence of the target
 		if nums[start] == target:
 			return start
 		if nums[end] == target:
