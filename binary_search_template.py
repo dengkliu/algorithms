@@ -5,7 +5,7 @@ class binarySearch:
 	def binary_search(self, nums, target):
 		
 		# make sure nums is not None or len(nums) == 0
-		if not nums:
+		if nums is None:
 			return -1
 
 		start, end = 0, len(nums) - 1
