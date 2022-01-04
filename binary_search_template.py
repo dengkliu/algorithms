@@ -11,6 +11,7 @@ class binarySearch:
 		start, end = 0, len(nums) - 1
 		
 		# start + 1 < end, to avoid infinite while loops
+		# Sample [1, 1], target 1. Start will always be 0 and end will be 1, mid will be always be 0.
 		while start + 1 < end:
 			# get the floor
 			mid = (start + end)//2
