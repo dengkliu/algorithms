@@ -2,7 +2,7 @@
 
 ## Templates 模板
 * [Python Coding Stype Guide](https://github.com/dengkliu/algorithms/blob/master/python_coding_style_guide.py)
-* [Binary Search](https://github.com/dengkliu/algorithms/blob/master/binary_search_template.py)
+* [Binary Search](https://github.com/dengkliu/algorithms/blob/master/binary_search_template.py) ✅
 * [Two pointers](https://github.com/dengkliu/algorithms/blob/master/two_pointers.py)
 * [Binary Tree Divide and Conquer](https://github.com/dengkliu/algorithms/blob/master/binary_tree_divide_and_conquer.py)
 * [Binary Search Tree Inorder Iterative](https://github.com/dengkliu/algorithms/blob/master/inorder_traversal_bst.py)
