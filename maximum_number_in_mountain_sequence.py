@@ -1,7 +1,7 @@
 # https://www.lintcode.com/problem/585
 
 # Given a mountain sequence of n integers which increase firstly and then decrease, find the mountain top(Maximum).
-# Arrays are strictly incremented, strictly decreasing
+# Arrays are strictly incremented, strictly decreasing. 这个先决条件很重要。
 
 # Input: nums = [1, 2, 4, 8, 6, 3] 
 # Output: 8
