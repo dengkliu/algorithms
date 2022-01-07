@@ -98,7 +98,7 @@ Related coding problem -
 * [Find word](https://github.com/dengkliu/algorithms/blob/master/find_words.py) ✅
 * [Search in Rotated Sorted Array](https://github.com/dengkliu/algorithms/blob/master/search_in_rotated_sorted_array.py) ✅
 * [Wood Cut](https://github.com/dengkliu/algorithms/blob/master/wood_cut.py) ✅
-* [Copy Books](https://github.com/dengkliu/algorithms/blob/master/CopyBooks.java)
+* [Copy Books](https://github.com/dengkliu/algorithms/blob/master/copy_books.py)
 * [Find K Closet Elements](https://github.com/dengkliu/algorithms/blob/master/FindKClosestElements.java)
 * [Heaters](https://github.com/dengkliu/algorithms/blob/master/Heaters.java)
 * [Find Peak Element II](https://github.com/dengkliu/algorithms/blob/master/FindPeakElementII.java)
