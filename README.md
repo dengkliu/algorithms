@@ -95,7 +95,7 @@ You may want to use binary search when -
 Related coding problem -
 
 * [Maximum Number in Mountain Sequence](https://github.com/dengkliu/algorithms/blob/master/maximum_number_in_mountain_sequence.py) ✅
-* [Find word](https://github.com/dengkliu/algorithms/blob/master/FindWords.java)
+* [Find word](https://github.com/dengkliu/algorithms/blob/master/find_words.py) ✅
 * [Search in Rotated Sorted Array](https://github.com/dengkliu/algorithms/blob/master/SearchInRotatedSortedArray.java)
 * [Wood Cut](https://github.com/dengkliu/algorithms/blob/master/WoodCut.java)
 * [Copy Books](https://github.com/dengkliu/algorithms/blob/master/CopyBooks.java)
