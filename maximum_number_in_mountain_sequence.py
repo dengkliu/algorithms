@@ -1,14 +1,15 @@
-// https://www.lintcode.com/problem/585
+# https://www.lintcode.com/problem/585
 
-// Given a mountain sequence of n integers which increase firstly and then decrease, find the mountain top(Maximum).
-// Arrays are strictly incremented, strictly decreasing
+# Given a mountain sequence of n integers which increase firstly and then decrease, find the mountain top(Maximum).
+# Arrays are strictly incremented, strictly decreasing
 
-// Input: nums = [1, 2, 4, 8, 6, 3] 
-// Output: 8
+# Input: nums = [1, 2, 4, 8, 6, 3] 
+# Output: 8
 
-// Find the first num that the next number is smaller
-// O(N) - scanning the array
-// O(logN)Use binary search to narrow down
+# Find the first num that the next number is smaller
+# O(N) - scanning the array
+# O(logN)Use binary search to narrow down
+
 class Solution:
     """
     @param nums: a mountain sequence which increase firstly and then decrease
