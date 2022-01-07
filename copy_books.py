@@ -8,7 +8,7 @@
 
 # Input: pages = [3, 2, 4], k = 2
 # Output: 5
-# Explanation: 
+# Explanation:
 #    First person spends 5 minutes to copy book 1 and book 2.
 #    Second person spends 4 minutes to copy book 3.
 
@@ -29,6 +29,7 @@ class Solution:
         if not pages:
             return 0
 
+        # 确定答案范围
         total_pages = self.__get_total_pages(pages)
         start, end = 0, total_pages
         
