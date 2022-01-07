@@ -4,116 +4,100 @@
 # The order of the words returned should be the same as the order in the dictionary.
 
 # |str|<=1000
-// the sum of all words length in dictionary<=1000
+# the sum of all words length in dictionary<=1000
 
 
 # Input:
 # str="bcogtadsjofisdhklasdj"
 # dict=["book","code","tag"]
-// Output:
-// ["book"]
-// Explanation:Only book is a subsequence of str
+# Output:
+# ["book"]
+# Explanation:Only book is a subsequence of str
 
-// 1. Brute force - two pointer
-//    For each word, put a pointer at the head of the word, and another pointer at the head of the str
-//    if the current character of the word is the same as the character in the str, then move both pointers to next character
-//    otherwise just move the pointer for the str
-//    Worst case: "abbaa" ["aaa", "aa", ....,] O(N*M) N - string length M - total number of words in the array
-// 2. Use hash table to record the index for each character, so we avoid scanning the str
-//    Each character may appear in multiple positions, so you need a list.
-//    When scanning the word from the dictionary, you can do binary search to speed up further (find out whether there exists a number in the array
-//    larger than target number)
+# 1. Brute force - two pointer
+#    For each word, put a pointer at the head of the word, and another pointer at the head of the str
+#    if the current character of the word is the same as the character in the str, then move both pointers to next character
+#    otherwise just move the pointer for the str
+#    Worst case: "abbaa" ["aaa", "aa", ....,] O(N*M) N - string length M - total number of words in the array
+# 2. Use hash table to record the index for each character, so we avoid scanning the str
+#    Each character may appear in multiple positions, so you need a list.
+#    When scanning the word from the dictionary, you can do binary search to speed up further (find out whether there exists a number in the array
+#    larger than target number)
 
+class Solution:
+    """
+    @param str: the string
+    @param dict: the dictionary
+    @return: return words which  are subsequences of the string
+    """
+    def findWords(self, str, dict):
+        # write your code here.
+        
+        # build a dictionary, key is the letter, value is an array of letter's position
+        letter_positions = self.build_letter_positions(str)
 
-public class Solution {
-    /**
-     * @param str: the string
-     * @param dict: the dictionary
-     * @return: return words which  are subsequences of the string
-     */
-    public List<String> findWords(String str, List<String> dict) {
+        result = []
 
-        // HashMap<Character, Integer> is really a HashMap<Object, Object>. 
-        // The compiler does a bunch of additional checks and implicit casts to make sure you don't put the wrong type of value in or get the wrong type out, 
-        // but at runtime there is only one HashMap class and it stores objects.
-        Map<Character, List<Integer>> charToIndex = new HashMap<>();
+        for word in dict:
+            # check if word is a subsequence of the string
+            if self.isValid(word, letter_positions):
+                result.append(word)
+        
+        return result
 
-        char[] charArray = str.toCharArray();
+    def build_letter_positions(self, str):
+        letter_positions = {}
 
-        for (int i = 0; i < charArray.length; i ++) {
-            Character character = Character.valueOf(charArray[i]);
-            List<Integer> indexes = charToIndex.getOrDefault(character, new ArrayList<>());
-            indexes.add(i); 
-            charToIndex.put(character, indexes);
-        }
+        for i in range(len(str)):
+            letter = str[i]
 
-        List<String> result = new ArrayList<>();
+            if letter in letter_positions:
+                letter_positions[letter].append(i)
+            else:
+                letter_positions[letter] = []
+                letter_positions[letter].append(i)
+        
+        return letter_positions
 
-        for (String word : dict) {
+    def isValid(self, word, letter_positions):
+        # for each word in the dict, check each letter one by one and identify the position
+        # for example, for the first letter, always find the first position in the string
+        # for the second letter, then we need to find the first position that is larger 
+        # than the position of the first letter.
+        # So the problem is reduced to -- given a target number, 
+        # find the least number larger than the target. 
+        prev_position = -1
+        for letter in word:
+            prev_position = self.find_position(letter, prev_position, letter_positions) 
+            if prev_position == -1:
+                return False
+        
+        return True
+    
+    def find_position(self, letter, prev_position, letter_positions):
 
-            if(isValid(word, charToIndex)) {
-                result.add(word);
-            }
-        }
+        print(prev_position)
+        print(letter)
 
-        return result;
-    }
+        if letter not in letter_positions:
+            return -1
+        
+        positions = letter_positions[letter]
 
-    boolean isValid(String word, Map<Character, List<Integer>> charToIndex) {
+        start, end = 0, len(positions) - 1
 
-        int previousCharPosition = -1;
-
-        for (int i = 0; i < word.length(); i ++) {
-
-            Character currentChar = Character.valueOf(word.charAt(i));
-
-            if (!charToIndex.containsKey(currentChar)) {
-
-                 System.out.println("Current char doesn't exist in map");
-
-                return false;
-            }
-
-            List<Integer> positions = charToIndex.get(currentChar);
-
-            previousCharPosition = findPosition(previousCharPosition, positions);
-
-            if (previousCharPosition == -1) {
-                return false;
-            }
-        }
-
-        return true;
-    }
-
-    // Find the minimum number greater than num
-    int findPosition(int num, List<Integer> nums) {
-                
-        int start = 0;
-        int end = nums.size() - 1;
-
-        while (start + 1 < end) {
-            int mid = start + (end - start)/2;
-
-            if (nums.get(mid) > num) {
-                end = mid;
-                continue;
-
-            // because we are looking for a large time, 
-            // we shouldn't break when we found an equal!!!!
-            } 
-            
-            start = mid;
-        }
-
-        if (nums.get(start) > num) {
-            return nums.get(start);
-        } 
-
-        if (nums.get(end) > num) {
-            return nums.get(end);
-        }
-
-        return -1;
-    }
-}
+        while start + 1 < end:
+            mid = (start + end)//2
+            if positions[mid] > prev_position:
+                end = mid
+            elif positions[mid] == prev_position:
+                start = mid
+            else:
+                start = mid
+        
+        if positions[start] > prev_position:
+            return positions[start]
+        if positions[end] > prev_position:
+            return positions[end]
+        
+        return -1
