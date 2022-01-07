@@ -97,7 +97,7 @@ Related coding problem -
 * [Maximum Number in Mountain Sequence](https://github.com/dengkliu/algorithms/blob/master/maximum_number_in_mountain_sequence.py) ✅
 * [Find word](https://github.com/dengkliu/algorithms/blob/master/find_words.py) ✅
 * [Search in Rotated Sorted Array](https://github.com/dengkliu/algorithms/blob/master/search_in_rotated_sorted_array.py) ✅
-* [Wood Cut](https://github.com/dengkliu/algorithms/blob/master/WoodCut.java)
+* [Wood Cut](https://github.com/dengkliu/algorithms/blob/master/wood_cut.py)
 * [Copy Books](https://github.com/dengkliu/algorithms/blob/master/CopyBooks.java)
 * [Find K Closet Elements](https://github.com/dengkliu/algorithms/blob/master/FindKClosestElements.java)
 * [Heaters](https://github.com/dengkliu/algorithms/blob/master/Heaters.java)
