@@ -94,12 +94,12 @@ You may want to use binary search when -
 
 Related coding problem -
 
-* [Maximum Number in Mountain Sequence](https://github.com/dengkliu/algorithms/blob/master/maximum_number_in_mountain_sequence.py) ✅
-* [Find word](https://github.com/dengkliu/algorithms/blob/master/find_words.py) ✅
-* [Search in Rotated Sorted Array](https://github.com/dengkliu/algorithms/blob/master/search_in_rotated_sorted_array.py) ✅
-* [Wood Cut](https://github.com/dengkliu/algorithms/blob/master/wood_cut.py) ✅
-* [Copy Books](https://github.com/dengkliu/algorithms/blob/master/copy_books.py) ✅
-* [Find K Closet Elements](https://github.com/dengkliu/algorithms/blob/master/FindKClosestElements.java)
+* [Maximum Number in Mountain Sequence](https://github.com/dengkliu/algorithms/blob/master/maximum_number_in_mountain_sequence.py) ✅ - 二分法找到极值，前提是数列先单增再单减。
+* [Find word](https://github.com/dengkliu/algorithms/blob/master/find_words.py) ✅ - 二分法在有序数列中找一个target的下一个/前一个接近的数
+* [Search in Rotated Sorted Array](https://github.com/dengkliu/algorithms/blob/master/search_in_rotated_sorted_array.py) ✅ - 二分法先找到分界点，思考分界点两边的数字有什么不同？（分界点左边都比第一个数字大，右边都比第一个数字小），找到分界点之后，根据现在target确定搜索的范围。
+* [Wood Cut](https://github.com/dengkliu/algorithms/blob/master/wood_cut.py) ✅ - 确定解的范围，在这个范围中尝试，如果能行，就试试更大的值，不行就试试更小的。
+* [Copy Books](https://github.com/dengkliu/algorithms/blob/master/copy_books.py) ✅ - 跟上面题一样的思路，确定解的范围，在这个范围中尝试，如果人够，就试试更小的值（人会要的更多），不行就试试更大的。
+* [Find K Closet Elements](https://github.com/dengkliu/algorithms/blob/master/FindKClosestElements.java) ✅ - 跟find word题类似，先找到离target最接近的数字，然后再用two pointer往两边扩展。
 * [Heaters](https://github.com/dengkliu/algorithms/blob/master/Heaters.java)
 * [Find Peak Element II](https://github.com/dengkliu/algorithms/blob/master/FindPeakElementII.java)
 
