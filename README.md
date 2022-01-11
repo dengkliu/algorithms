@@ -40,7 +40,7 @@ The definition of prefix sum for 1D and 2D array.
 Related coding problems.
 * [Maximum Subarray](https://github.com/dengkliu/algorithms/blob/master/MaximumSubarray.java)
 * [Subarray Sum Equals K](https://github.com/dengkliu/algorithms/blob/master/SubarraySumEqualK.java)
-* [Shortest Subarray Sum Equals to K](https://github.com/dengkliu/algorithms/blob/master/shortest_subarray_with_sum_at_least_K.py) ✅ 经典题，区间和问题！而且是确定数值的区间和（map记录区间和to数组元素）！数组元素可正可负（排除双指针解法），要找最短，打擂台。
+* [Shortest Subarray Sum Equals to K](https://github.com/dengkliu/algorithms/blob/master/shortest_subarray_sum_equal_k.py) ✅ 经典题，区间和问题！而且是确定数值的区间和（map记录区间和to数组元素）！数组元素可正可负（排除双指针解法），要找最短，打擂台。
 * [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/ShortedSubarraySumAtLeastK.java)
 * [Matrix Restoration](https://github.com/dengkliu/algorithms/blob/master/MatrixRestoration.java)
 * [Product of Array Except Itself](https://github.com/dengkliu/algorithms/blob/master/ProductOfArrayExceptSelf.java)
