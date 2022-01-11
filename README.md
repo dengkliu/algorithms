@@ -101,7 +101,7 @@ Related coding problem -
 * [Copy Books](https://github.com/dengkliu/algorithms/blob/master/copy_books.py) ✅ - 跟上面题一样的思路，确定解的范围，在这个范围中尝试，如果人够，就试试更小的值（人会要的更多），不行就试试更大的。
 * [Find K Closet Elements](https://github.com/dengkliu/algorithms/blob/master/find_k_closet_elements.py) ✅ - 跟find word题类似，先找到离target最接近的数字，然后再用two pointer往两边扩展。
 * [Heaters](https://github.com/dengkliu/algorithms/blob/master/heaters.py) ✅ - 对于每个房子，找到最近的heater（还是find word的套路），看看radius是多少，持续更新最大radius(打擂台)
-* [Find Peak Element II](https://github.com/dengkliu/algorithms/blob/master/FindPeakElementII.java)
+* [Find Peak Element II](https://github.com/dengkliu/algorithms/blob/master/find_peak_element_II.py) ✅ - 二分法找local极值，数列不是sort的，但是也可以用来找local极值！！
 
 ## 8. Breath-First Search 宽度优先搜索
 
