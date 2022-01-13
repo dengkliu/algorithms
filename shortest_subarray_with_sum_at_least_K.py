@@ -11,6 +11,9 @@
 # Input: A = [1], K = 1
 # Output: 1
 
+# [1 2 -1 -6 5 6]  K = 5
+# 0 2 3 2 -4 1 7
+
 class Solution:
     """
     @param A: the array
@@ -19,10 +22,10 @@ class Solution:
     """
     def shortestSubarray(self, A, K):
         
-        if not A or len(A) == 0 or K == 0:
+        if not A or K == 0:
             return 0
 
-        prefix_sum = self.get_prefix_sum(A)
+        prefix_sum = self.__get_prefix_sum(A)
 
         # initialize queue in python
         deq = collections.deque()
@@ -50,7 +53,7 @@ class Solution:
 
         return min_length if min_length != float('inf') else -1
 
-    def get_prefix_sum(self, A):
+    def __get_prefix_sum(self, A):
         prefix_sum = [0 for _ in range(len(A) + 1)]
         for i in range(1, len(A) + 1):
             prefix_sum[i] = prefix_sum[i-1] + A[i-1]
