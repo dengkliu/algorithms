@@ -1,3 +1,4 @@
+// https://www.lintcode.com/problem/404/
 // Given an positive integer array A and an interval. Return the number of subarrays whose sum is in the range of given interval.
 
 // Input: A = [1, 2, 3, 4], start = 1, end = 3
