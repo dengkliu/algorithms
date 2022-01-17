@@ -1,12 +1,13 @@
-// https://www.lintcode.com/problem/404/
-// Given an positive integer array A and an interval. Return the number of subarrays whose sum is in the range of given interval.
+# https://www.lintcode.com/problem/404/
+# Given an positive integer array A and an interval. Return the number of subarrays whose sum is in the range of given interval.
 
-// Input: A = [1, 2, 3, 4], start = 1, end = 3
-// Output: 4
-// Explanation: All possible subarrays: [1](sum = 1), [1, 2](sum = 3), [2](sum = 2), [3](sum = 3).
+# Input: A = [1, 2, 3, 4], start = 1, end = 3
+# Output: 4
+# Explanation: All possible subarrays: [1](sum = 1), [1, 2](sum = 3), [2](sum = 2), [3](sum = 3).
 
-// Prefix sum
-// Two pointers.
+# Prefix sum
+# Two pointers.
+
 public class Solution {
     /**
      * @param A: An integer array
