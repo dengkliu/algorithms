@@ -52,7 +52,7 @@ Related coding problems.
 
 Scanning line is usuallly used to solve interval related problems. 
 
-* [Number of Airplanes in the Sky](https://github.com/dengkliu/algorithms/blob/master/number_of_airplanes_in_the_sky.py)
+* [Number of Airplanes in the Sky](https://github.com/dengkliu/algorithms/blob/master/number_of_airplanes_in_the_sky.py) ✅ 解决区间问题的经典题，把起点和终点分别flag，在时间上进行排序。
 
 ## 6. Two Pointers 双指针
 
