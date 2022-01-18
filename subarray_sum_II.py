@@ -8,41 +8,38 @@
 # Prefix sum
 # Two pointers.
 
-public class Solution {
-    /**
-     * @param A: An integer array
-     * @param start: An integer
-     * @param end: An integer
-     * @return: the number of possible answer
-     */
-    public int subarraySumII(int[] A, int start, int end) {
+class Solution:
+    """
+    @param A: An integer array
+    @param start: An integer
+    @param end: An integer
+    @return: the number of possible answer
+    """
+    def subarraySumII(self, A, start, end):
 
-        if (A == null || A.length == 0) {
-            return 0;
-        }
+        #    [1, 2, 3, 4, 5] interval 0 0
+        # [0, 1, 3, 6, 10, 15]
+        #
 
-        int[] prefixSum = new int[A.length + 1];
+        prefix_sum = [0 for i in range(len(A) + 1)]
 
-        for (int i = 1; i < A.length + 1; i ++) {
-            prefixSum[i] = prefixSum[i-1] + A[i-1];
-        }
+        for i in range(1, len(A) + 1):
+            prefix_sum[i] = prefix_sum[i-1] + A[i-1]
+        
+        left, right = 0, 0
 
-        int left = 0, right = 0, result = 0;
+        result = 0
 
-        // Enumerate the end
-        for (int i = 1; i < A.length + 1; i ++) {
+        for index in range(1, len(A) + 1):
 
-            while(left < i && prefixSum[i] - prefixSum[left] > end) {
-                left++;
-            }
+            # move the left until the subarray sum <= end
+            # 
+            while left < index and prefix_sum[index] - prefix_sum[left] > end:
+                left += 1
 
-            while(right < i && prefixSum[i] - prefixSum[right] >= start) {
-                right++;
-            }
-
-            result += right - left;
-        }
-
-        return result;
-    }
-}
+            while right < index and prefix_sum[index] - prefix_sum[right] >= start:
+                right += 1
+            
+            result += right - left
+        
+        return result
