@@ -52,7 +52,7 @@ Related coding problems.
 
 Scanning line is usuallly used to solve interval related problems. 
 
-* [Number of Airplanes in the Sky](https://github.com/dengkliu/algorithms/blob/master/NumberOfAirplanesInTheSky.java)
+* [Number of Airplanes in the Sky](https://github.com/dengkliu/algorithms/blob/master/number_of_airplanes_in_the_sky.py)
 
 ## 6. Two Pointers 双指针
 
@@ -68,8 +68,6 @@ Two pointers start from the head of array and go to the end. 同向双指针只�
 
 * [Minimum Size Subarray Sum](https://github.com/dengkliu/algorithms/blob/master/minimum_size_of_subarray.py) ✅ 枚举起点
 * [Substring With At Least K Distinct Characters](https://github.com/dengkliu/algorithms/blob/master/substring_with_at_least_K_distinct_characters.py) ✅ 枚举起点，找到每个起点所有满足条件的情况
-* [Binary Search Tree Preorder Iterative](https://github.com/dengkliu/algorithms/blob/master/pre_order_traversal_bst.py)
-* [Binary Search Tree Preorder Iterative](https://github.com/dengkliu/algorithms/blob/master/pre_order_traversal_bst.py)
 * [Minimum Window Substring](https://github.com/dengkliu/algorithms/blob/master/MinimumWindowSubstring.java)
 * [Heaters](https://github.com/dengkliu/algorithms/blob/master/Heaters.java)
 * [Longest Substring Without Repeating Characters](https://github.com/dengkliu/algorithms/blob/master/LongestSubstringWithoutRepeatingCharacters.java)
