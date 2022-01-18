@@ -76,7 +76,7 @@ Two pointers start from the head of array and go to the end. 同向双指针只�
 ### Fixed Size Sliding Window 固定长度滑动窗口
 
 * [Grumpy Bookstore Owner](https://github.com/dengkliu/algorithms/blob/master/GrumpyBookStoreOwner.java) ✅ Slding window经典题，枚举终点，注意第一个初始状态window的位置，初始化的时候直接assume window在这个位置，求得一个解，然后移动window，打擂台。
-* [Pick Apples](https://github.com/dengkliu/algorithms/blob/master/PickApples.java)
+* [Pick Apples](https://github.com/dengkliu/algorithms/blob/master/PickApples.java) ✅ 典型的fixed size sliding window + 双字段问题。注意双字段问题可以用隔板法，隔板法用for loop,隔板位置从0到n-1，[0, i) [i, n-1], 在子函数里 start - end <= 0 或者 window size直接返回-1.
 
 ### Opposite direction two pointers 相向双指针
 * [Two Sim VII](https://github.com/dengkliu/algorithms/blob/master/TwoSumVII.java)
