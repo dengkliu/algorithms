@@ -45,7 +45,7 @@ Related coding problems.
 * [Matrix Restoration](https://github.com/dengkliu/algorithms/blob/master/MatrixRestoration.java) ✅ 在二维数组上的Prefix sum应用
 * [Product of Array Except Itself](https://github.com/dengkliu/algorithms/blob/master/ProductOfArrayExceptSelf.java) ✅ Prefix product。从尾部开始处理。
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java)
-* [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/SubarraySumII.java)
+* [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/subarray_sum_II.py)
 * [Binary Subarrays With Sum](https://github.com/dengkliu/algorithms/blob/master/BinarySubarraysWithSum.java)
 
 ## 5. Scanning Line 扫描线
