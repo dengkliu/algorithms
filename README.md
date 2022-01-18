@@ -75,7 +75,7 @@ Two pointers start from the head of array and go to the end. 同向双指针只�
 
 ### Fixed Size Sliding Window 固定长度滑动窗口
 
-* [Grumpy Bookstore Owner](https://github.com/dengkliu/algorithms/blob/master/GrumpyBookStoreOwner.java)
+* [Grumpy Bookstore Owner](https://github.com/dengkliu/algorithms/blob/master/GrumpyBookStoreOwner.java) ✅ Slding window经典题，枚举终点，注意第一个初始状态window的位置，初始化的时候直接assume window在这个位置，求得一个解，然后移动window，打擂台。
 * [Pick Apples](https://github.com/dengkliu/algorithms/blob/master/PickApples.java)
 
 ### Opposite direction two pointers 相向双指针
