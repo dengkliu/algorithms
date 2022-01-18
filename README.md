@@ -46,7 +46,7 @@ Related coding problems.
 * [Product of Array Except Itself](https://github.com/dengkliu/algorithms/blob/master/ProductOfArrayExceptSelf.java) ✅ Prefix product。从尾部开始处理。
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java)
 * [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/subarray_sum_II.py) ✅ Prefix sum, 全部是postive number，所以可以用双指针。
-* [Binary Subarrays With Sum](https://github.com/dengkliu/algorithms/blob/master/binary_subarrays_with_sum.py) ✅ 确定数值区间和的特例问题。
+* [Binary Subarrays With Sum](https://github.com/dengkliu/algorithms/blob/master/BinarySubarraysWithSum.java)
 
 ## 5. Scanning Line 扫描线
 
@@ -73,7 +73,7 @@ Two pointers start from the head of array and go to the end. 同向双指针只�
 * [Longest Substring Without Repeating Characters](https://github.com/dengkliu/algorithms/blob/master/LongestSubstringWithoutRepeatingCharacters.java)
 * [Longest Substring With At Most K Distinct Characters](https://github.com/dengkliu/algorithms/blob/master/LongestSubstringWithAtMostKDistinctCharacters.java)
 * [Binary Subarrays With Sum](https://github.com/dengkliu/algorithms/blob/master/BinarySubarraysWithSum.java)
-* [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/SubarraySumII.java)
+* [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/SubarraySumII.java) ✅ Prefix sum, 全部是postive number，所以可以用双指针。
 
 ### Fixed Size Sliding Window 固定长度滑动窗口
 
