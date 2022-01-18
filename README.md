@@ -52,7 +52,7 @@ Related coding problems.
 
 Scanning line is usuallly used to solve interval related problems. 
 
-* [Number of Airplanes in the Sky](https://github.com/dengkliu/algorithms/blob/master/NumberOfAirplanesInTheSky.java)
+* [Number of Airplanes in the Sky](https://github.com/dengkliu/algorithms/blob/master/number_of_airplanes_in_the_sky.py)
 
 ## 6. Two Pointers 双指针
 
