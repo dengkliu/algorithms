@@ -1,5 +1,6 @@
-// In an array A of 0s and 1s, how many non-empty subarrays have sum S?
+// https://www.lintcode.com/problem/1712/
 
+// In an array A of 0s and 1s, how many non-empty subarrays have sum S?
 // A.length <= 30000 --> You should look for O(N) solution
 // 0 <= S <= A.length
 // A[i] is either 0 or 1.
