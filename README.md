@@ -68,7 +68,7 @@ Two pointers start from the head of array and go to the end. 同向双指针只�
 
 * [Minimum Size Subarray Sum](https://github.com/dengkliu/algorithms/blob/master/minimum_size_of_subarray.py) ✅ 枚举起点
 * [Substring With At Least K Distinct Characters](https://github.com/dengkliu/algorithms/blob/master/substring_with_at_least_K_distinct_characters.py) ✅ 枚举起点，找到每个起点所有满足条件的情况
-* [Minimum Window Substring](https://github.com/dengkliu/algorithms/blob/master/MinimumWindowSubstring.java)
+* [Minimum Window Substring](https://github.com/dengkliu/algorithms/blob/master/MinimumWindowSubstring.java) ✅ 枚举起点。用到dictionary去记录次数，记住只有正好cover的时候才更新coverred characters。
 * [Heaters](https://github.com/dengkliu/algorithms/blob/master/Heaters.java)
 * [Longest Substring Without Repeating Characters](https://github.com/dengkliu/algorithms/blob/master/LongestSubstringWithoutRepeatingCharacters.java)
 * [Longest Substring With At Most K Distinct Characters](https://github.com/dengkliu/algorithms/blob/master/LongestSubstringWithAtMostKDistinctCharacters.java)
