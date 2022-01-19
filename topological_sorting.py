@@ -55,7 +55,7 @@ public class Solution {
             return None
 
         return order
-    }
+    
 
     def __get_indegrees(self, graph):
         indegrees = {}
