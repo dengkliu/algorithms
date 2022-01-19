@@ -114,7 +114,7 @@ Breath-First search (BFS) is often used to get topological order, to solve conne
 
 BSF can be used to 1. find any topological order, 2. verify if there exists an topological order, 3. find the least topogical order in dictionary 4. find whether there exists just 1 topogical order.
 
-* [Topological Sorting](https://github.com/dengkliu/algorithms/blob/master/TopologicalSorting.java)
+* [Topological Sorting](https://github.com/dengkliu/algorithms/blob/master/topological_sorting.py)
 * [Course Schedule](https://github.com/dengkliu/algorithms/blob/master/CourseSchedule.java)
 
 ### Get Shortest Path 最短路径
