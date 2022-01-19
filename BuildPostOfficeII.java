@@ -4,7 +4,7 @@
 // an house 1 or empty 0 (the number zero, one, two), 
 // find a place to build a post office so that the sum of the distance from the post office to all the houses is smallest.
 
-// Returns the sum of the minimum distances from all houses to the post office.Return -1 if it is not possible.
+// Returns the sum of the minimum distances from all houses to the post office. Return -1 if it is not possible.
 
 // You cannot pass through wall and house, but can pass through empty.
 // You only build post office on an empty.
