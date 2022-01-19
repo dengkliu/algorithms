@@ -25,80 +25,63 @@ while queue:
 			continue
 
 		queue.append(next);
-
 		// 一定在入队的时候就要加入visited
 		// 否则会重复入队
-		visited.offer(next);
+		visited.add(next);
 
-	}
-}
 
-// 分层遍历 记录到起点的distance
 
-int distance = 0;
+# 分层遍历版本 记录到起点的distance
 
-while (!queue.isEmpty()) {
+distance = 0;
+
+while queue:
 
 	// 先取这一层的size
 	// queue.size()每次调用都会显示实时的size
-	int queueSize = queue.size();
+	queueSize = len(queue)
 
-	for (int i = 0; i < queueSize; i ++) {
+	for i in range(queueSize):
+		now = queue.popleft();
 
-		int now = queue.poll();
-
-		for (int next : findNext(now)) {
-
+		for next in self.__find_next(now):
 			// 已经在visited里面
 			// 在界外
 			// 其他
-			if !isValid(next) {
-				continue;
-			}
+			if not self.__isvalid(next):
+				continue
 
-			queue.offer(next);
-
-			// 一定在入队的时候就要加入visited
-			// 否则会重复入队
-			visited.offer(next);
-		}
-	}
+			queue.append(next)
+			visited.add(next)		
 
 	distance ++;
-}
 
-// 更推荐版本 记录distance到每个节点
+# 更推荐版本 记录distance到每个节点
+# ArrayDeque is faster than linkedlist for adding elements
+# Queue to store nodes while searching
+queue = collections.deque()
+# dictionary to store visited nodes to distance
+visited = {} 
 
-Queue<Integer> queue = new ArrayDeque<>();
-HashMap<Integer, Integer> visited = new HashMap<>();
+# 初始点入队
+queue.append(0);
+# 在入队的同时加到visited, 初始距离为0
+visited[0] = 0
 
-// 初始点入队
-queue.offer(0);
-// 在入队的同时加到visited, 初始距离为0
-visited.put(0, 0)；
+while queue:
 
-while (!queue.isEmpty()) {
+	queueSize = len(queue)
 
-	for (int i = 0; i < queueSize; i ++) {
+	for i in range(queueSize):
+		now = queue.poll()
 
-		int now = queue.poll();
+		for next in self.__find_next(now):
+			# 已经在visited里面
+			# 在界外
+			# 其他
+			if not self.__isValid(next):
+				continue
 
-		for (int next : findNext(now)) {
+			queue.append(next)
 
-			// 已经在visited里面
-			// 在界外
-			// 其他
-			if !isValid(next) {
-				continue;
-			}
-
-			queue.offer(next);
-
-			// 一定在入队的时候就要加入visited
-			// 否则会重复入队
-			visited.put(next, visited.get(now) + 1);
-		}
-	}
-
-	distance ++;
-}
+			visited[next] = visited[now] + 1
