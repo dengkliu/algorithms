@@ -81,7 +81,7 @@ Two pointers start from the head of array and go to the end. 同向双指针只�
 ### Opposite direction two pointers 相向双指针
 * [Two Sim VII](https://github.com/dengkliu/algorithms/blob/master/TwoSumVII.java) ✅ two pointer的升级版，基本思路一样，只是需要找到start下一个更大的数和end上一个更小的数。
 ### Back direction two pointers 背向双指针
-* [Shortest Palindrome](https://github.com/dengkliu/algorithms/blob/master/ShortestPalindrome.java)
+* [Shortest Palindrome](https://github.com/dengkliu/algorithms/blob/master/ShortestPalindrome.java) ✅ check palindrome 经典问题，每个位置注意check两种情况。
 
 ## 7. Binary Search 二分查询
 
