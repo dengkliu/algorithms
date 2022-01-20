@@ -18,10 +18,16 @@
 # 1. Enumerate the empty places and for each do bfs to get shortest distance to each house. 
 # 2. Enumerate the houses and get distances to this house for all empty places.
 
-# #2 is better than #1 if there are many empty places and a few house.
+# 2 is better than 1 if there are many empty places and a few house.
 
 
 class Solution:
+
+    DIRECTIONS = [[-1, 0], [1, 0], [0, 1], [0, -1]]
+    HOUSE = 1
+    WALL = 2
+    EMPTY = 0   
+
     """
     @param grid: a 2D grid
     @return: An integer
@@ -40,7 +46,7 @@ class Solution:
 
         for row in range(len(grid)):
             for col in range(len(grid[0])):
-                if grid[row][col] == 1:
+                if grid[row][col] == self.HOUSE:
                     total_houses_cnt += 1
                     self.__bfs((row, col), grid, distance_sum, reachable_houses_cnt)
 
@@ -48,7 +54,7 @@ class Solution:
 
         for row in range(len(grid)):
             for col in range(len(grid[0])):
-                if reachable_houses_cnt[row][col] == total_houses_cnt:
+                if grid[row][col] == self.EMPTY and reachable_houses_cnt[row][col] == total_houses_cnt:
                     result = min(result, distance_sum[row][col])
 
         return -1 if result == float('inf') else result
@@ -82,15 +88,13 @@ class Solution:
                 queue.append(next_pos)
 
     def __find_next(self, curr_pos):
-        
-        DIRECTIONS = [[-1, 0], [1, 0], [0, 1], [0, -1]]
 
         next_positions = []
 
         curr_row = curr_pos[0]
         curr_col = curr_pos[1]
 
-        for direction in DIRECTIONS:
+        for direction in self.DIRECTIONS:
             next_row = curr_row + direction[0]
             next_col = curr_col + direction[1]
             next_positions.append((next_row, next_col))
@@ -111,7 +115,7 @@ class Solution:
         if col < 0 or col >= len(grid[0]):
             return False
 
-        if grid[row][col] == 2 or grid[row][col] == 1:
+        if grid[row][col] == self.WALL or grid[row][col] == self.HOUSE:
             return False
         
         return True
