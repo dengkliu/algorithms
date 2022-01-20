@@ -1,7 +1,7 @@
 // https://www.lintcode.com/problem/598/
 
 // Give a two-dimensional grid, each grid has a value, 2 for wall, 1 for zombie, 0 for human (numbers 0, 1, 2).
-// Zombies can turn the nearest people(up/down/left/right) into zombies every day, but can not through wall. 
+// Zombies can turn the nearest people (up/down/left/right) into zombies every day, but can not through wall. 
 // How long will it take to turn all people into zombies? Return -1 if can not turn all people into zombies.
 
 //Input:
