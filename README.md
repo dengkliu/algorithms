@@ -134,7 +134,7 @@ How does SPFA solve this problem? If we find a node in level 3 that has been vis
 * [The Maze III](https://github.com/dengkliu/algorithms/blob/master/TheMazeIII.java) ✅ 除了存储距离，还要存储路径，python用tuple解决。
 * [Sliding Puzzle](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzle.java) ✅
 * [Sliding Puzzle II](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzleII.java) ✅ 双向BFS
-* [Zombie In Matrix](https://github.com/dengkliu/algorithms/blob/master/ZombieInMatrix.java)
+* [Zombie In Matrix](https://github.com/dengkliu/algorithms/blob/master/ZombieInMatrix.java) ✅ 多源BFS，注意要把所有源头同时加入queue，因为他们在一层。然后分层 
 * [Shortest Path Visiting All Nodes](https://github.com/dengkliu/algorithms/blob/master/ShortestPathVisitingAllNodes.java)
   
 ### Connectivity 连通性问题
