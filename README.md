@@ -135,22 +135,22 @@ How does SPFA solve this problem? If we find a node in level 3 that has been vis
 * [Sliding Puzzle](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzle.java) ✅
 * [Sliding Puzzle II](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzleII.java) ✅ 双向BFS
 * [Zombie In Matrix](https://github.com/dengkliu/algorithms/blob/master/ZombieInMatrix.java) ✅ 多源BFS，注意要把所有源头同时加入queue，因为他们在一层。然后分层 
-* [Shortest Path Visiting All Nodes](https://github.com/dengkliu/algorithms/blob/master/ShortestPathVisitingAllNodes.java)
+* [Shortest Path Visiting All Nodes](https://github.com/dengkliu/algorithms/blob/master/ShortestPathVisitingAllNodes.java) ✅ 
   
 ### Connectivity 连通性问题
 
 Find all nodes that connect to a node in the graph.
 
-* [Number of Big Islands](https://github.com/dengkliu/algorithms/blob/master/NumberOfBigIslands.java)
-* [Lake Escape](https://github.com/dengkliu/algorithms/blob/master/LakeEscape.java)
+* [Number of Big Islands](https://github.com/dengkliu/algorithms/blob/master/NumberOfBigIslands.java) ✅ 
+* [Lake Escape](https://github.com/dengkliu/algorithms/blob/master/LakeEscape.java) ✅ 
 
 ### Others
 
 You can also use BFS to 1. work on a 2D matrix problem regarding some maximum/minimum problems. Sometimes the problem can also be solved with DP. 2. find farthest node from a start, and furthermore find the two farthest nodes in a graph.
 
-* [Map Jump](https://github.com/dengkliu/algorithms/blob/master/MapJump.java)
-* [Longest path on a tree](https://github.com/dengkliu/algorithms/blob/master/LongestPathOnTheTree.py)
-* [Second Diameter](https://github.com/dengkliu/algorithms/blob/master/second_diameter.py)
+* [Map Jump](https://github.com/dengkliu/algorithms/blob/master/MapJump.java) ✅ 
+* [Longest path on a tree](https://github.com/dengkliu/algorithms/blob/master/LongestPathOnTheTree.py) ✅ 
+* [Second Diameter](https://github.com/dengkliu/algorithms/blob/master/second_diameter.py) ✅ 
 
 ## 9. Depth-First Search 深度优先搜索
 
