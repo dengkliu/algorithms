@@ -8,7 +8,7 @@
 
 # Find the first num that the next number is smaller
 # O(N) - scanning the array
-# O(logN)Use binary search to narrow down
+# O(logN) Use binary search to narrow down
 
 class Solution:
     """
@@ -24,6 +24,7 @@ class Solution:
         # start + 1 < end is used to avoid infinite loop
         # (start + end) // 2 can get start. When the target is at the last position, there will be infinite loop
         # like nums = [1, 1] and target is 1
+        # 实际上就是最后start和end一定会相邻而不是重合 
         while start + 1 < end: 
             
             # python // operation rounds the result down to the nearest whole number
