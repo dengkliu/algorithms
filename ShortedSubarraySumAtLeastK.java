@@ -25,16 +25,12 @@
 //     There are N^2 combinations
 //    O(N^2). 
 // 3. What algorithms are faster than O(N^2)?
-//    NlogN -> 60% n 次 LogN operation logN -> binary search, or heap, segment tree
-//             20% logN 次 N 次操作 use O(N) time to check the answer
-
-//    Hint: can we enumerate the shortest length here?
-//    为什么要做二分法
-//    因为我们并不知道最终最小的那个length是多少
-//    比如 我们找到了之前一个最小prefixSum 而且确实interval sum > K 那我们能保证这是最short的range么？不能.
-//    我们只能再遍历从这个最小prefixSum到当前end之间的所有值 这样很容易造成O(N^2)
-//    The solutuon to this problem definitely has an range, from length 1 to N (or -1 if not found)
-//    Can we do a binary search on the solution set?
+//    要么是 O(NlogN) 要么是 O(N)
+//    O(NlogN) --- 二分法
+//    二分法要求左右两边不一样 怎么寻找不一样呢？在什么上面二分呢？
+//    假如一个数组，不存在任何一个子数组和大于或者等于看K，那么它的所有子数组，也不会存在。
+//    对于一个数组，check是否存在子数组大于等于K，可以在O(N)时间完成 --> 用heap存储prefix sum的min，来得到最大的子数组和，与K作比较。
+//    所以可以在数组的长度上二分，我们知道最后的解一定在0到A.length之间
 
 
 // Binary search on the solution set
