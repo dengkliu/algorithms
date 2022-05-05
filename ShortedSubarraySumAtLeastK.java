@@ -197,13 +197,10 @@ public class Solution {
 // so we don't know which direction to move for the left pointer, should we move left to include more number 
 // or should we move right to include less?
 
-// We can use monotonic queue. We can keep prefixSum in an increasing order.
-// We iterate through the prefix sum array, for each prefix sum,
-// we just need to look at the head of the queue, because that would be the minimum prefix sum you can find so far
-// We can see if we can get a subarray with sum more than K, if we can, we can poll the head of queue, and keep
-// looking for the new head, because we want to find the minimum length subarray
-// If not, then we can just add the index of this prefix to the queue, by first removing all smaller prefixSum from
-// the tail.
+// We can use monotonic queue. We can keep prefixSum in an increasing order. 
+// 为什么？因为这样的话栈尾的prefixSum就是最小的，我们要找的就是之前的最小值，
+// 这样才能得到最大的区间sum, 假如这个sum都没有K大的话，说明以当前end，找不到解。
+// 这样只能看下一个end。反之，就可以试试缩小范围。
 
 public class Solution {
     /**
