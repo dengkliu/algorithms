@@ -63,7 +63,7 @@ Two pointers are usually used when:
 * Subarray or substring problem (50%)
 * Palindrome problem (50%)
 
-### [Same direction two pointers](https://github.com/dengkliu/algorithms/blob/master/SameDirectionTwoPointers.java) 同向双指针
+### [Same direction two pointers](https://github.com/dengkliu/algorithms/blob/master/same_direction_two_pointers.py) 同向双指针
 Two pointers start from the head of array and go to the end. 同向双指针只能用于一种条件，那就是解存在一种单调性，当右移左指针的时候，右指针不应该往回走，为了找到结，右指针只能继续往右走。
 
 * [Minimum Size Subarray Sum](https://github.com/dengkliu/algorithms/blob/master/minimum_size_of_subarray.py) ✅ 枚举起点
