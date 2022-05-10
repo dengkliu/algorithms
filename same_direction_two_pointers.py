@@ -1,12 +1,9 @@
-int start = 0, end = 0;
+end = 0
 
-for (; start < A.length; start++) {
+# enumrate the end
+for start in range(n):
+	while end < n and !self.isValid(start, end):
+		end = end + 1
 
-	while(end < A.length && !isValid(start, end)) {
-		end ++;
-	}
-
-	if (isValid(start, end)) {
-		// deal with start and end pair
-	}
-}
+	if self.isValid(start, end):
+		# deal with the start and end pair
