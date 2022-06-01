@@ -14,14 +14,12 @@
 
 """
  Definition for Directed graph.
-
  class DirectedGraphNode:
     def __init__(self, neighbors, x):
         self.label = x
         self.neighbors = []
 """
-
-public class Solution {
+class Solution:
     """
     @param graph: A list of Directed graph node
      @return: Any topological order for the given graph.
@@ -33,9 +31,11 @@ public class Solution {
         # points for topological order
         indegrees = self.__get_indegrees(graph)
 
+        queue = collections.deque()
+
         for node, indegree in indegrees.items():
             if indegree == 0:
-            queue.append(node)
+                queue.append(node)
 
         # Instead of having a visited hashset, we want to preserve the order
         # of traversal, so we have a list
@@ -46,10 +46,10 @@ public class Solution {
             order.append(node)
 
             for neighbor in node.neighbors:
+                # 把入度减一
                 indegrees[neighbor] -= 1
-
                 if indegrees[neighbor] == 0:
-                    queue.offer(neighbor)
+                    queue.append(neighbor)
 
         if len(order) != len(graph):
             return None
@@ -58,10 +58,11 @@ public class Solution {
     
 
     def __get_indegrees(self, graph):
-        indegrees = {}
+        # 初始化一个map
+        indegrees = {x: 0 for x in graph}
 
         for node in graph:
             for neighbor in node.neighbors:
-                indegrees[neighbor] += 1
+                    indegrees[neighbor] += 1
 
         return indegrees
