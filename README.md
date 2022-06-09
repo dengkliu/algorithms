@@ -255,6 +255,8 @@ Stack that is monotone decreasing can be used to find the first element that is 
 * https://www.lintcode.com/problem/1877
 
 ## 13. Useful data structures
+### Double Linked List
+* [LRU Cache](https://leetcode.com/problems/lru-cache/)
 ### Union Find
 [Union Find](https://github.com/dengkliu/algorithms/blob/master/union_find.py) is used to solve connection problem, especially for dynamic data stream (online algorithm). BFS can only be used to solve connection problem for static data (therefore BFS is offline algorithm), for data stream, the time complexity will be horrible.
 
