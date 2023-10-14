@@ -48,15 +48,19 @@ class Solution:
 
         result = float('inf')
 
+        # i represents how many numbers we have added together
         for i in range(1, len(nums) + 1):
             prefix_sum = prefix_sum + nums[i-1]
+            
             # this is sum from 0 to i - 1 
+            # always override
             index_to_prefix_sum[prefix_sum] = i - 1
+            
             if prefix_sum - k in index_to_prefix_sum:
                 # sum from 0 to previous_index(including)
                 previous_index = index_to_prefix_sum[prefix_sum-k]
                 current_length = i - 1 - previous_index
-                print(current_length)
+                
                 result = min(result, current_length)
         
         return result if result != float('inf') else -1
