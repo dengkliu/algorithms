@@ -3,72 +3,65 @@
 # Find the median of the two sorted arrays.
 # The overall run time complexity should be O(log(m + n)).
 
-class Solution:
-    """
-    @param: A: An integer array
-    @param: B: An integer array
-    @return: a double whose format is *.5 or *.0
-    """
-    def findMedianSortedArrays(self, A, B):
+# Fundelmentals 
+# For an array of length N -
+# If N is odd, then median is A[N/2]
+# If N is even, then medain is (A[N/2-1] + A[N/2])/2
 
-        # if not A and not B:
-        #     return - 1
+# test case: [1] [0, 3]; [1, 2] [3, 4]; [] [2, 3]
+
+# 题眼：
+# 1. 二分的是A数组数目的个数，而不是index;因为个数有可能是0。假如用index，index最小取到0，相当于一直默认A数组一定有至少数字在最终的4个数里面。但是显然这是不对的 - 当A数组的所有数字都小于B数组的最小数字的时候。
+# 2. 很tricky - 循环结束判定条件是 start <= end 两者要merge 然后更新的时候要用start = mid + 1 和 end = mid - 1 不然会陷入死循环
+# 3. 记得最后的除法用浮点
+
+class Solution(object):
+    def findMedianSortedArrays(self, nums1, nums2):
+        """
+        :type nums1: List[int]
+        :type nums2: List[int]
+        :rtype: float
+        """
+
+        # For an array of length N -
+        # If N is odd, then median is A[N/2]
+        # If N is even, then medain is (A[N/2-1] + A[N/2])/2
+
+        # For this problem, we want to keep (N + M)//2 numbers on the left
+        # We want to do the cut so that -
+        # maxLeftA <= minRightB
+        # maxRightA => minLeftB
+        # so we make sure the median of the marged array would be included in these 4 numbers
+
+        N1, N2 = len(nums1), len(nums2)
+
+        if N1 > N2:
+            return self.findMedianSortedArrays(nums2, nums1)
+
+        if N1 == 0:
+            return (nums2[N2//2-1] + nums2[N2//2])/2.0 if N2%2 == 0 else nums2[N2//2]
+
         
-        # if not A:
-        #     return self.__find_median(B)
+        # [1, 2, inf]
+        # [-inf, 3, 4]
+        # how many numbers we want to include from nums1
+        start, end = 0, N1
 
-        # if not B:
-        #     return self.__find_median(A)
-
-        if len(A) > len(B):
-            return self.findMedianSortedArrays(B, A)
-        
-        # 1 2 3 | 4 5 6 --> len 6 
-        # 2 3 | 4  --> len 4 
-        # mid = 2 
-        # index_B = 5 - 2 - 2
-
-        # 1 2 2 3 3 4 4 5 5 6
-
-        # for even length, find n//2 and n//2 + 1 number
-        # for odd length, find n//2 + 1 number
-        # anyway, you want to make sure you have n//2 numbers on one side
-        
-        total_length = len(A) + len(B)
-
-        if total_length%2 == 0:
-            left_cnt = total_length//2
-        else:
-            left_cnt = total_length//2 + 1
-
-        # you can have from 0 to len(A) numbers on partition A
-        start, end = 0, len(A)            
-
-        # start and end should merge
         while start <= end:
-            cnt_A = (start + end)//2 
-            cnt_B = left_cnt - cnt_A
+            mid = (start + end)//2
+            L1 = float('-inf') if mid - 1 < 0 else nums1[mid - 1]
+            R1 = float('inf') if mid >= N1 else nums1[mid]
+            L2 = float('-inf') if (N1 + N2)//2 - mid - 1 < 0 else nums2[(N1 + N2)//2 - mid - 1]
+            R2 = float('inf') if (N1 + N2)//2 - mid >= N2 else nums2[(N1 + N2)//2 - mid]
 
-            left_A = float('-inf') if cnt_A == 0 else A[cnt_A - 1]
-            right_A = float('inf') if cnt_A == len(A) else A[cnt_A]
-
-            left_B = float('-inf') if cnt_B == 0 else B[cnt_B - 1]
-            right_B = float('inf') if cnt_B == len(B) else B[cnt_B]
-    
-            if left_A <= right_B and left_B <= right_A:
-                if total_length%2 == 0:
-                    return (max(left_A, left_B) + min(right_A, right_B))/2
-                else:
-                    return max(left_A, left_B)
-            elif left_A > right_B:
-                end = cnt_A - 1
+            if L1 > R2:
+                end = mid - 1
+            elif L2 > R1:
+                start = mid + 1
             else:
-                start = cnt_A + 1
+                if (N1 + N2)%2 == 0:
+                    return (max(L1, L2) + min(R1, R2))/2.0
+                else:
+                    return min(R1, R2)
         
         return -1
-
-    def __find_median(self, A):
-        if len(A)%2 == 0:
-            return (A[len(A)//2 - 1] + A[len(A)//2])/2
-        else:
-            return A[len(A)//2]
