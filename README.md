@@ -67,7 +67,7 @@ Two pointers are usually used when:
 ### [Same direction two pointers](https://github.com/dengkliu/algorithms/blob/master/same_direction_two_pointers.py) 同向双指针
 Two pointers start from the head of array and go to the end. 同向双指针只能用于一种条件，那就是解存在一种单调性，当起始指针右移的时候，终止指针不应该往回走，为了找到结，右指针只能继续往右走。底层逻辑就是-->如果一个子数组不满足条件，那么这个子数组的所有子数组均不满足条件。
 
-* [Minimum Size Subarray Sum](https://github.com/dengkliu/algorithms/blob/master/minimum_size_of_subarray.py) ✅ 枚举起点
+* [Minimum Size Subarray Sum](https://github.com/dengkliu/algorithms/blob/master/minimum_size_of_subarray.py)
 * [Substring With At Least K Distinct Characters](https://github.com/dengkliu/algorithms/blob/master/substring_with_at_least_K_distinct_characters.py) ✅ 枚举起点，找到每个起点所有满足条件的情况
 * [Minimum Window Substring](https://github.com/dengkliu/algorithms/blob/master/MinimumWindowSubstring.java) ✅ 枚举起点。用到dictionary去记录次数，记住只有正好cover的时候才更新coverred characters。
 * [Longest Substring Without Repeating Characters](https://github.com/dengkliu/algorithms/blob/master/longest_substring_without_repeating_characters.py) ✅ 枚举起点，找寻终点。Python set(iterable) 去查重
