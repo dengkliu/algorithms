@@ -8,6 +8,7 @@
 // 1 <= k < 10^9
 
 // [5, -1, 2, 3, 1] K = 8
+// [0, 5, 4, 6, 9, 10]
 // Output: 4 [5, -1, 2, 3]
 
 // 1. Brute Force - enumerate the start and end of the subarray, 
@@ -22,7 +23,7 @@
 // 2. Calculate Prefix Sum beforehand. Don't need to calculate the sum of subarray again.
 //    Still need to enumerate the start and end of the subarray, as we actually don't know 
 //    for each end, where the start could be, and what could be the shortest length.
-//     There are N^2 combinations
+//    There are N^2 combinations
 //    O(N^2). 
 // 3. What algorithms are faster than O(N^2)?
 //    要么是 O(NlogN) 要么是 O(N)
@@ -34,7 +35,7 @@
 
 
 // Binary search on the solution set
-//                       find the shortest subarrary with SUM >= 4
+//                          find the shortest subarrary with SUM >= 4
 // array elements           4     | -2   |  3    |  -4  |  5   | -6   |
 // subarray length          0     |  1   |  2    |  3   |  4   |  5   | 6
 // sum>= 4 and length == x  false | true | false | false| false| true | false
@@ -198,8 +199,7 @@ public class Solution {
 // or should we move right to include less?
 
 // We can use monotonic queue. We can keep prefixSum in an increasing order. 
-// 为什么？因为这样的话栈尾的prefixSum就是最小的，我们要找的就是之前的最小值，
-// 这样才能得到最大的区间sum, 假如这个sum都没有K大的话，说明以当前end，找不到解。
+// 为什么？因为这样的话栈尾的prefixSum就是最小的，我们要找的就是之前的最小值, 这样才能得到最大的区间sum, 假如这个sum都没有K大的话，说明以当前end，找不到解。
 // 这样只能看下一个end。反之，就可以试试缩小范围。
 
 public class Solution {
