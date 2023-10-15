@@ -28,12 +28,10 @@ class Solution:
             while end < len(nums) and subarray_sum < s:
                 subarray_sum += nums[end]
                 end += 1
-
+                
             if subarray_sum >= s:
                 result = min(end - start, result)
-            else:
-                return -1 if result == float('inf') else result
-            
+                
             subarray_sum -= nums[start]
         
         return -1 if result == float('inf') else result
