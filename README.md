@@ -340,4 +340,4 @@ Here is a [time complexity analysis](https://github.com/dengkliu/algorithms/blob
   * n = 10^9. You cannot even do O(N). You should be O(logN)
 
 ## Other coding questions
-* [Math][Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
+* [Math] [Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
