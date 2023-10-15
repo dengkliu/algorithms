@@ -198,10 +198,6 @@ public class Solution {
 // so we don't know which direction to move for the left pointer, should we move left to include more number 
 // or should we move right to include less?
 
-// We can use monotonic queue. We can keep prefixSum in an increasing order. 
-// 为什么？因为这样的话栈尾的prefixSum就是最小的，我们要找的就是之前的最小值, 这样才能得到最大的区间sum, 假如这个sum都没有K大的话，说明以当前end，找不到解。
-// 这样只能看下一个end。反之，就可以试试缩小范围。
-
 public class Solution {
     /**
      * @param A: the array
