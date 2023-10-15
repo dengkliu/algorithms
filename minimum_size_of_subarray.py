@@ -9,7 +9,8 @@
 # 向右多加一个数 和一定增加
 # 向左多减一个数 和一定减少
 # 用同向的两个指针 来追踪所有以start为开头的满足条件的最小array
-# O(N)
+# O(N) time complexity
+# O(1) space complexity
 class Solution:
     """
     @param nums: an array of integers
