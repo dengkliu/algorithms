@@ -12,7 +12,9 @@ class Solution:
 		while stack:
 			node = stack.pop()
 			preorder.append(node.val)
-			stack.append(root.left)
-			stack.append(root.right)
+			if root.left is not None:
+				stack.append(root.left)
+			if root.right is not None:
+				stack.append(root.right)
 
 		return preorder
