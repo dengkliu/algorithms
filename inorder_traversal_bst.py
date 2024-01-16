@@ -47,7 +47,7 @@ class Solution(object):
 				stack.append(node)
 				
 		if stack:
-			inorder.append(stack[-1])
+			result.append(stack[-1])
 
-	return inorder
+	return result
 	    
