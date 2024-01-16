@@ -25,29 +25,28 @@ class Solution(object):
     def inorderTraversalIterative(self, root):
         if root is None:
             return
-
-	stack = []
-	dummy = TreeNode(0)
-	dummy.right = root
-	stack.append(dummy)
-	
-	result = []
-	
-	while stack:
-		node = stack.pop()
-		# for the node popped out, we should look at its right child
-		# as in inorder traversal, right child is after the root
-		if node.right:
-			node = node.right
-			stack.append(node)
-			
-			# but for each node added to the stack, we should look at its left child first
-			while node.left:
-				node = node.left
-				stack.append(node)
-				
-		if stack:
-			result.append(stack[-1])
-
-	return result
+            
+        dummy = TreeNode(0)
+        dummy.right = root
+        stack = [dummy]
+        
+        result = []
+        
+        while stack:
+            cur = stack.pop()
+            # for the node popped out, we should look at its right child
+            # as in inorder traversal, right child is after the root
+            if cur.right:
+                cur = cur.right
+                stack.append(cur)
+                
+                # but for each node added to the stack, we should look at its left child first
+                while cur.left:
+				    cur = cur.left
+				    stack.append(cur)
+            
+            if stack:
+                result.append(stack[-1].val)
+        
+        return result
 	    
