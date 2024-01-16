@@ -5,8 +5,9 @@
 * [Binary Search](https://github.com/dengkliu/algorithms/blob/master/binary_search_template.py) ✅
 * [Two pointers](https://github.com/dengkliu/algorithms/blob/master/two_pointers.py)
 * [Binary Tree Divide and Conquer](https://github.com/dengkliu/algorithms/blob/master/binary_tree_divide_and_conquer.py)
-* [Binary Search Tree Inorder Iterative](https://github.com/dengkliu/algorithms/blob/master/inorder_traversal_bst.py)
-* [Binary Search Tree Preorder Iterative](https://github.com/dengkliu/algorithms/blob/master/pre_order_traversal_bst.py)
+* [Binary Search Tree Inorder](https://github.com/dengkliu/algorithms/blob/master/inorder_traversal_bst.py)
+* [Binary Search Tree Preorder](https://github.com/dengkliu/algorithms/blob/master/pre_order_traversal_bst.py)
+* [Binary Search Tree Postorder](https://github.com/dengkliu/algorithms/blob/master/pre_order_traversal_bst.py)
 * [Quick sort](https://github.com/dengkliu/algorithms/blob/master/quick_sort.py)
 * [Merge sort](https://github.com/dengkliu/algorithms/blob/master/merge_sort.py)
 
