@@ -7,7 +7,7 @@ https://leetcode.com/problems/binary-tree-postorder-traversal/
 #         self.left = left
 #         self.right = right
 class Solution(object):
-    def postorderTraversal(self, root):
+    def postorderTraversalRecursive(self, root):
         """
         :type root: TreeNode
         :rtype: List[int]
