@@ -6,11 +6,9 @@ class Solution:
 			return
 
 		dummy = TreeNode(0)
-
 		dummy.right = root
 
 		stack = []
-
 		stack.append(dummy)
 
 		inorder = []
@@ -21,12 +19,12 @@ class Solution:
 
 			# for the node popped out, we should look at its right child
 			# as in inorder traversal, right child is after the root
-			if node.right != None:
+			if node.right:
 				node = node.right
 				stack.append(node)
 
 				# but for each node added to the stack, we should look at its left child first
-				while node.left != None:
+				while node.left:
 					node = node.left
 					stack.append(node)
 
