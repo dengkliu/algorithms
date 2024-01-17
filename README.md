@@ -21,7 +21,7 @@ With inorder and pre order/post order, you can rebuild a tree. With only pre ord
 * [Binary Tree Level Order Traversal](https://github.com/dengkliu/algorithms/blob/master/binary_tree_level_order_traversal.py)
 * [Binary Tree Level Order Traversal II](https://github.com/dengkliu/algorithms/blob/master/binary_tree_level_order_traversal_ii.py)
 * [Flatten Binary Tree To Linked List](https://github.com/dengkliu/algorithms/blob/master/flatten_binary_tree_to_linkedlist.py)
-* [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
+* [Binary Tree Vertical Order Traversal](https://github.com/dengkliu/algorithms/blob/master/binary_tree_vertical_order_traversal.py)
 
 
 ### tbd
