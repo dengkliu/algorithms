@@ -1,4 +1,4 @@
-https://leetcode.com/problems/binary-tree-postorder-traversal/
+# https://leetcode.com/problems/binary-tree-postorder-traversal/
 
 # Definition for a binary tree node.
 # class TreeNode(object):
@@ -7,7 +7,7 @@ https://leetcode.com/problems/binary-tree-postorder-traversal/
 #         self.left = left
 #         self.right = right
 class Solution(object):
-    def postorderTraversal(self, root):
+    def postorderTraversalRecursive(self, root):
         """
         :type root: TreeNode
         :rtype: List[int]
@@ -27,3 +27,33 @@ class Solution(object):
         if root.right:
             self.postorder(root.right, result)
         result.append(root.val)
+    
+    def postorderTraversalIterative(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        if root is None:
+            return []
+        
+        stack, result, visited = [], [], []
+        stack.append(root)
+        # 用一个boolean记录这个node的左右子树是否被访问了
+        visited.append(False)
+
+        while stack:
+            cur = stack.pop()
+            cur_visited = visited.pop()
+            if not cur_visited:
+                stack.append(cur)
+                visited.append(True)
+                if cur.right:
+                    stack.append(cur.right)
+                    visited.append(False)
+                if cur.left:
+                    stack.append(cur.left)
+                    visited.append(False)
+            else:
+                result.append(cur.val)
+        
+        return result
