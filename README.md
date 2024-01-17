@@ -5,24 +5,30 @@
 * [Binary Search](https://github.com/dengkliu/algorithms/blob/master/binary_search_template.py) ✅
 * [Two pointers](https://github.com/dengkliu/algorithms/blob/master/two_pointers.py)
 * [Binary Tree Divide and Conquer](https://github.com/dengkliu/algorithms/blob/master/binary_tree_divide_and_conquer.py)
-* [Binary Search Tree Inorder](https://github.com/dengkliu/algorithms/blob/master/inorder_traversal_bst.py)
-* [Binary Search Tree Preorder](https://github.com/dengkliu/algorithms/blob/master/pre_order_traversal_bst.py)
-* [Binary Search Tree Postorder](https://github.com/dengkliu/algorithms/blob/master/post_order_traversal_bst.py)
 * [Quick sort](https://github.com/dengkliu/algorithms/blob/master/quick_sort.py)
 * [Merge sort](https://github.com/dengkliu/algorithms/blob/master/merge_sort.py)
 
-## 1. Binary Tree Traversal 二叉树遍历
+## 1. Binary Tree 二叉树
+
+### 1.1 Binary Tree Traversal 二叉树遍历
 
 With inorder and pre order/post order, you can rebuild a tree. With only pre order and post order, you cannot rebuild a tree.
 
+* [Binary Search Tree Inorder](https://github.com/dengkliu/algorithms/blob/master/inorder_traversal_bst.py)
+* [Binary Search Tree Preorder](https://github.com/dengkliu/algorithms/blob/master/pre_order_traversal_bst.py)
+* [Binary Search Tree Postorder](https://github.com/dengkliu/algorithms/blob/master/post_order_traversal_bst.py)
 * [Convert Binary Tree to Sorted Doubly Linked List](https://github.com/dengkliu/algorithms/blob/master/convert_binary_search_tree_to_sorted_doubly_linked_list.py)
-* [Binary Tree Level Order Traversal]()
+* [Binary Tree Level Order Traversal](https://github.com/dengkliu/algorithms/blob/master/binary_tree_level_order_traversal.py)
+* [Binary Tree Level Order Traversal II](https://github.com/dengkliu/algorithms/blob/master/binary_tree_level_order_traversal_ii.py)
 * [Flatten Binary Tree To Linked List](https://github.com/dengkliu/algorithms/blob/master/flatten_binary_tree_to_linkedlist.py)
-* [Kth Smallest Element in BST](https://github.com/dengkliu/algorithms/blob/master/kth_smallest_element_in_bst.py)
 * [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
+
+
+### tbd
+* [Kth Smallest Element in BST](https://github.com/dengkliu/algorithms/blob/master/kth_smallest_element_in_bst.py)
 * [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 
-## 2. Binary Tree Divide & Conquer 二叉树分治
+### 1.2 Binary Tree Divide & Conquer 二叉树分治
 * [Binary Tree Maximum Path Sum](https://github.com/dengkliu/algorithms/blob/master/binary_tree_maximum_path_sum.py)
 * [Validate Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/validate_binary_search_tree.py)
 * [Symmetric Tree](https://github.com/dengkliu/algorithms/blob/master/symmetric_tree.py)
