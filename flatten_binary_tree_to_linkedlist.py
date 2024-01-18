@@ -1,4 +1,5 @@
-# https://www.lintcode.com/problem/453/
+# https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/
+
 # Flatten a binary tree to a fake "linked list" in pre-order traversal.
 # Here we use the right pointer in TreeNode as the next pointer in ListNode.
 
@@ -55,7 +56,7 @@ class Solution:
             node = stack.pop()
             result.append(node)
             if len(result) >= 2:
-                prevNode = result[len(result) - 2]
+                prevNode = result[-2]
                 prevNode.right = node
                 prevNode.left = None
             if node.right is not None:
