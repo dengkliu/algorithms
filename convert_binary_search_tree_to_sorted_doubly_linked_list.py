@@ -61,9 +61,9 @@ class Solution:
             
             # 把结果里的后两个节点串起来
             length = len(result)
-            if length > 1:
-                prev = result[length - 2]
-                tail = result[length - 1]
+            if length >= 2:
+                prev = result[-2]
+                tail = result[-1]
                 prev.right = tail
                 tail.left = prev
         
