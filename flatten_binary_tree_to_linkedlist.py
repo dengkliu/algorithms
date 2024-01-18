@@ -56,7 +56,7 @@ class Solution:
             node = stack.pop()
             result.append(node)
             if len(result) >= 2:
-                prevNode = result[len(result) - 2]
+                prevNode = result[-2]
                 prevNode.right = node
                 prevNode.left = None
             if node.right is not None:
