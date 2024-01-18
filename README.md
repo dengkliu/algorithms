@@ -25,8 +25,8 @@ With inorder and pre order/post order, you can rebuild a tree. With only pre ord
 * [Binary Tree Vertical Order Traversal](https://github.com/dengkliu/algorithms/blob/master/binary_tree_vertical_order_traversal.py)
 
 ### 1.2 Binary Tree Divide & Conquer (Depth First Search) 二叉树分治(深度优先搜索)
-* [Binary Tree Maximum Path Sum](https://github.com/dengkliu/algorithms/blob/master/binary_tree_maximum_path_sum.py)
 * [Lowest Common Ancestor of a Binary Tree](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor.py)
+* [Binary Tree Maximum Path Sum](https://github.com/dengkliu/algorithms/blob/master/binary_tree_maximum_path_sum.py)
 * [Validate Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/validate_binary_search_tree.py)
 * [Symmetric Tree](https://github.com/dengkliu/algorithms/blob/master/symmetric_tree.py)
 * [Equal Tree Partition](https://github.com/dengkliu/algorithms/blob/master/equal_tree_partition.py)
