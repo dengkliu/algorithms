@@ -28,7 +28,7 @@ With inorder and pre order/post order, you can rebuild a tree. With only pre ord
 * [Lowest Common Ancestor of a Binary Tree](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor.py)
 * [Lowest Common Ancestor of a Binary Tree II](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor_ii.py)
 * [Lowest Common Ancestor of a Binary Tree III](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor_iii.py)
-* [Lowest Common Ancestor of a Binary Tree IV] (https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor_iv.py)
+* [Lowest Common Ancestor of a Binary Tree IV](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor_iv.py)
 * [Binary Tree Maximum Path Sum](https://github.com/dengkliu/algorithms/blob/master/binary_tree_maximum_path_sum.py)
 * [Validate Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/validate_binary_search_tree.py)
 * [Symmetric Tree](https://github.com/dengkliu/algorithms/blob/master/symmetric_tree.py)
