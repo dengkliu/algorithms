@@ -1,13 +1,5 @@
 # Algorithms (In Python)
 
-## Templates 模板
-* [Python Coding Stype Guide](https://github.com/dengkliu/algorithms/blob/master/python_coding_style_guide.py)
-* [Binary Search](https://github.com/dengkliu/algorithms/blob/master/binary_search_template.py) ✅
-* [Two pointers](https://github.com/dengkliu/algorithms/blob/master/two_pointers.py)
-* [Binary Tree Divide and Conquer](https://github.com/dengkliu/algorithms/blob/master/binary_tree_divide_and_conquer.py)
-* [Quick sort](https://github.com/dengkliu/algorithms/blob/master/quick_sort.py)
-* [Merge sort](https://github.com/dengkliu/algorithms/blob/master/merge_sort.py)
-
 ## 1. Binary Tree 二叉树
 
 ### 1.1 Binary Tree Traversal 二叉树遍历
@@ -36,11 +28,12 @@ With inorder and pre order/post order, you can rebuild a tree. With only pre ord
 * [Lowest Common Ancestor of a Binary Tree III](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor_iii.py)
 * [Lowest Common Ancestor of a Binary Tree IV](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor_iv.py)
 * [Construct String from Binary Tree](https://github.com/dengkliu/algorithms/blob/master/construct_string_from_binary_tree.py)
-* [Binary Tree Maximum Path Sum](https://github.com/dengkliu/algorithms/blob/master/binary_tree_maximum_path_sum.py)
+* [Delete Nodes and Return Forest](https://github.com/dengkliu/algorithms/blob/master/delete_nodes_and_return_forest.py)
 * [Validate Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/validate_binary_search_tree.py)
 * [Symmetric Tree](https://github.com/dengkliu/algorithms/blob/master/symmetric_tree.py)
 * [Equal Tree Partition](https://github.com/dengkliu/algorithms/blob/master/equal_tree_partition.py)
 * [Diameter of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/DiameterOfBinaryTree.java)
+* [Binary Tree Maximum Path Sum](https://github.com/dengkliu/algorithms/blob/master/binary_tree_maximum_path_sum.py)
 
 ## 3. Greedy 贪心算法
 
@@ -336,7 +329,6 @@ Related coding questions
 In Python, you need to import heapq library, and use heapq.heappop(heap) and heap.heappush(heap, element) to do pop and push operation.
 * [Minimum Cost to Hire_K_Workers](https://github.com/dengkliu/algorithms/blob/master/minimum_cost_to_hire_K_workers.py)
 * [Sliding Window Minimum]()
-### Skip List
 
 ### General Data Structures
 
@@ -357,3 +349,11 @@ Here is a [time complexity analysis](https://github.com/dengkliu/algorithms/blob
 
 ## Other coding questions
 * [Math] [Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
+
+## Templates 模板
+* [Python Coding Stype Guide](https://github.com/dengkliu/algorithms/blob/master/python_coding_style_guide.py)
+* [Binary Search](https://github.com/dengkliu/algorithms/blob/master/binary_search_template.py) ✅
+* [Two pointers](https://github.com/dengkliu/algorithms/blob/master/two_pointers.py)
+* [Binary Tree Divide and Conquer](https://github.com/dengkliu/algorithms/blob/master/binary_tree_divide_and_conquer.py)
+* [Quick sort](https://github.com/dengkliu/algorithms/blob/master/quick_sort.py)
+* [Merge sort](https://github.com/dengkliu/algorithms/blob/master/merge_sort.py)
