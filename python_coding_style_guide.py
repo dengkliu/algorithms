@@ -64,5 +64,8 @@ Yes: if not users:
    some_set.add(val)
       
 # Queue
+  queue = collections.deque()
+  queue.append(val)
+  queue.popleft()
 
 
