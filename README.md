@@ -1,13 +1,5 @@
 # Algorithms (In Python)
 
-## Templates 模板
-* [Python Coding Stype Guide](https://github.com/dengkliu/algorithms/blob/master/python_coding_style_guide.py)
-* [Binary Search](https://github.com/dengkliu/algorithms/blob/master/binary_search_template.py) ✅
-* [Two pointers](https://github.com/dengkliu/algorithms/blob/master/two_pointers.py)
-* [Binary Tree Divide and Conquer](https://github.com/dengkliu/algorithms/blob/master/binary_tree_divide_and_conquer.py)
-* [Quick sort](https://github.com/dengkliu/algorithms/blob/master/quick_sort.py)
-* [Merge sort](https://github.com/dengkliu/algorithms/blob/master/merge_sort.py)
-
 ## 1. Binary Tree 二叉树
 
 ### 1.1 Binary Tree Traversal 二叉树遍历
@@ -337,7 +329,6 @@ Related coding questions
 In Python, you need to import heapq library, and use heapq.heappop(heap) and heap.heappush(heap, element) to do pop and push operation.
 * [Minimum Cost to Hire_K_Workers](https://github.com/dengkliu/algorithms/blob/master/minimum_cost_to_hire_K_workers.py)
 * [Sliding Window Minimum]()
-### Skip List
 
 ### General Data Structures
 
@@ -358,3 +349,11 @@ Here is a [time complexity analysis](https://github.com/dengkliu/algorithms/blob
 
 ## Other coding questions
 * [Math] [Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
+
+## Templates 模板
+* [Python Coding Stype Guide](https://github.com/dengkliu/algorithms/blob/master/python_coding_style_guide.py)
+* [Binary Search](https://github.com/dengkliu/algorithms/blob/master/binary_search_template.py) ✅
+* [Two pointers](https://github.com/dengkliu/algorithms/blob/master/two_pointers.py)
+* [Binary Tree Divide and Conquer](https://github.com/dengkliu/algorithms/blob/master/binary_tree_divide_and_conquer.py)
+* [Quick sort](https://github.com/dengkliu/algorithms/blob/master/quick_sort.py)
+* [Merge sort](https://github.com/dengkliu/algorithms/blob/master/merge_sort.py)
