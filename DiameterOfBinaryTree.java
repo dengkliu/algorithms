@@ -1,4 +1,4 @@
-// https://www.lintcode.com/problem/1181
+// https://leetcode.com/problems/diameter-of-binary-tree/
 // Given a binary tree, you need to compute the length of the diameter of the tree. 
 // The diameter of a binary tree is the length of the longest path between any two nodes in a tree.
 
@@ -14,38 +14,42 @@
  * }
  */
 
-public class Solution {
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution(object):
+    def diameterOfBinaryTree(self, root):
+        """
+        :type root: TreeNode
+        :rtype: int
+        """
+        if not root:
+            return 0
 
-    int diameter = 0;
-    
-    /**
-     * @param root: a root of binary tree
-     * @return: return a integer
-     */
-    public int diameterOfBinaryTree(TreeNode root) {
+        result = [0]
 
-        if (root == null) {
-            return diameter;
-        }
+        def diameterHelper(root):
+            if not root:
+                return 0
 
-        dfs(root);
+            l = diameterHelper(root.left)
+            r = diameterHelper(root.right)
 
-        return diameter;
-    }
+            l_through_root = 0
+            r_through_root = 0
 
-    int dfs(TreeNode node) {
+            if root.left:
+                l_through_root = 1 + l
+            if root.right:
+                r_through_root = 1 + r
 
-        if (node == null) {
-            return -1;
-        }
+            result[0] = max(result[0], l_through_root + r_through_root)
 
-        int pathLenRight = dfs(node.right);
-        int pathLenLeft = dfs(node.left);
+            return max(l_through_root, r_through_root)
 
-        int pathLenRoot = Math.max(pathLenLeft, pathLenRight) + 1;
+        diameterHelper(root)
 
-        diameter = Math.max(diameter, pathLenRight + pathLenLeft + 2);
-
-        return pathLenRoot;
-    }
-}
+        return result[0]
