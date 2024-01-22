@@ -1,8 +1,8 @@
-# https://www.lintcode.com/problem/94
+# https://leetcode.com/problems/binary-tree-maximum-path-sum/description/
 
-# Given a binary tree, find the maximum path sum.
-# The path may start and end at any node in the tree.
-# (Path sum is the sum of the weights of nodes on the path between two nodes.
+# A path in a binary tree is a sequence of nodes where each pair of adjacent nodes in the sequence has an edge connecting them. A node can only appear in the sequence at most once. Note that the path does not need to pass through the root.
+# The path sum of a path is the sum of the node's values in the path.
+# Given the root of a binary tree, return the maximum path sum of any non-empty path.
 
 # Input:
 # tree = {1,2,3}
@@ -27,54 +27,35 @@
 #     }
 # }
 
-"""
-Definition of TreeNode:
-class TreeNode:
-    def __init__(self, val):
-        self.val = val
-        self.left, self.right = None, None
-"""
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
 
-class Solution:
-
-    """
-    @param root: The root of binary tree.
-    @return: An integer
-    """
+class Solution(object):
     def maxPathSum(self, root):
-
-        # define a global variable
-        self.maximum_path = float('-inf')
-
-        if root is None:
+        """
+        :type root: TreeNode
+        :rtype: int
+        """
+        if not root:
             return 0
 
-        maximum_path_left_child = max(0, self.max_path_starting_from_root(root.left))
-
-        maximum_path_right_child = max(0, self.max_path_starting_from_root(root.right))
-
-        new_path_through_root = maximum_path_left_child + maximum_path_right_child + root.val
-
-        self.maximum_path = max(self.maximum_path, new_path_through_root)
-
-        return self.maximum_path
-
-
-    def max_path_starting_from_root(self, root):
-
-        if root is None:
-            return 0
+        result = [float('-inf')]
         
-        maximum_path_left_child = max(0, self.max_path_starting_from_root(root.left))
+        def maxPathSumHelper(root):
+            if not root:
+                return 0
+            
+            max_l = maxPathSumHelper(root.left)
+            max_r = maxPathSumHelper(root.right)
 
-        maximum_path_right_child = max(0, self.max_path_starting_from_root(root.right))
+            result[0] = max(result[0], max_l + max_r + root.val)
 
-        new_path_through_root = maximum_path_left_child + maximum_path_right_child + root.val
+            return max(max_l + root.val, max_r + root.val, 0)
 
-        self.maximum_path = max(self.maximum_path, new_path_through_root)
+        maxPathSumHelper(root)
 
-        maximum_path_through_root_and_left = maximum_path_left_child + root.val
-        maximum_path_through_root_and_right = maximum_path_right_child + root.val
-        
-        return maximum_path_through_root_and_left if maximum_path_left_child > maximum_path_right_child else maximum_path_through_root_and_right
-
+        return result[0]
