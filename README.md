@@ -4,8 +4,6 @@
 
 ### 1.1 Binary Tree Traversal
 
-With inorder and pre order/post order, you can rebuild a tree. With only pre order and post order, you cannot rebuild a tree.
-
 #### 1.1.1 Pre/In/Post Order Traversal
 
 * [Binary Search Tree Inorder](https://github.com/dengkliu/algorithms/blob/master/inorder_traversal_bst.py)
