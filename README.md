@@ -35,6 +35,7 @@
 * [Diameter of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/DiameterOfBinaryTree.java)
 * [Binary Tree Maximum Path Sum](https://github.com/dengkliu/algorithms/blob/master/binary_tree_maximum_path_sum.py)
 * [Serialize and Deserialize Binary Tree](https://github.com/dengkliu/algorithms/blob/master/serialize_and_deserialize_binary_tree.py)
+* [Serialize and Deserialize N-ary Tree](https://github.com/dengkliu/algorithms/blob/master/serialize_and_deserialize_n_ary_tree.py)
 
 ## 2. Breath-First Search
 
