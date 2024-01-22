@@ -38,6 +38,7 @@
 
 #### 1.2.1 Tree's Height
 * [Diameter of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/DiameterOfBinaryTree.java)
+* [Number of Good Leaf Nodes Pairs](https://github.com/dengkliu/algorithms/blob/master/num_of_good_leaf_nodes_pairs.py)
 
 ## 2. Breath-First Search
 
