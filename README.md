@@ -35,6 +35,7 @@ With inorder and pre order/post order, you can rebuild a tree. With only pre ord
 * [Equal Tree Partition](https://github.com/dengkliu/algorithms/blob/master/equal_tree_partition.py)
 * [Diameter of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/DiameterOfBinaryTree.java)
 * [Binary Tree Maximum Path Sum](https://github.com/dengkliu/algorithms/blob/master/binary_tree_maximum_path_sum.py)
+* [Serialize and Deserialize Binary Tree](https://github.com/dengkliu/algorithms/blob/master/serialize_and_deserialize_binary_tree.py)
 
 ## 2. Breath-First Search
 
