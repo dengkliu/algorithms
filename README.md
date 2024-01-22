@@ -4,8 +4,6 @@
 
 ### 1.1 Binary Tree Traversal
 
-With inorder and pre order/post order, you can rebuild a tree. With only pre order and post order, you cannot rebuild a tree.
-
 #### 1.1.1 Pre/In/Post Order Traversal
 
 * [Binary Search Tree Inorder](https://github.com/dengkliu/algorithms/blob/master/inorder_traversal_bst.py)
@@ -23,6 +21,7 @@ With inorder and pre order/post order, you can rebuild a tree. With only pre ord
 * [Find Largest Value in Each Tree Row](https://github.com/dengkliu/algorithms/blob/master/binary_tree_find_largest_value_in_each_tree_row.py)
 
 ### 1.2 Binary Tree Divide & Conquer (Depth First Search)
+* [Construct Binary from Preorder and Inorder Traversal](https://github.com/dengkliu/algorithms/blob/master/construct_binary_tree_from_preorder_and_inoder_traversal.py)
 * [Lowest Common Ancestor of a Binary Tree](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor.py)
 * [Lowest Common Ancestor of a Binary Tree II](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor_ii.py)
 * [Lowest Common Ancestor of a Binary Tree III](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor_iii.py)
