@@ -29,12 +29,14 @@
 * [Construct String from Binary Tree](https://github.com/dengkliu/algorithms/blob/master/construct_string_from_binary_tree.py)
 * [Delete Nodes and Return Forest](https://github.com/dengkliu/algorithms/blob/master/delete_nodes_and_return_forest.py)
 * [Count Nodes Equals to Average of Subtree](https://github.com/dengkliu/algorithms/blob/master/count_nodes_equals_to_average_of_subtree.py)
-* [Validate Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/validate_binary_search_tree.py)
 * [Symmetric Tree](https://github.com/dengkliu/algorithms/blob/master/symmetric_tree.py)
 * [Equal Tree Partition](https://github.com/dengkliu/algorithms/blob/master/equal_tree_partition.py)
 * [Serialize and Deserialize Binary Tree](https://github.com/dengkliu/algorithms/blob/master/serialize_and_deserialize_binary_tree.py)
 * [Serialize and Deserialize N-ary Tree](https://github.com/dengkliu/algorithms/blob/master/serialize_and_deserialize_n_ary_tree.py)
 * [Binary Tree Maximum Path Sum](https://github.com/dengkliu/algorithms/blob/master/binary_tree_maximum_path_sum.py)
+* [Validate Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/validate_binary_search_tree.py)
+* [Range Sum of BST]()
+* [Find Mode in Binary Search Tree]()
 
 #### 1.2.1 Tree's Height
 * [Diameter of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/DiameterOfBinaryTree.java)
