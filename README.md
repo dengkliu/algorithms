@@ -207,6 +207,8 @@ using a memory-based data structure(array, map, etc).
 
 Trade the space complexity for time complexity.
 
+* [Height of Binary Tree after Subtree Removal Queries]()
+
 ### Coordinate DP
 * [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java)
 * [Climbing Stairs](https://github.com/dengkliu/algorithms/blob/master/climbing_stairs.py)
