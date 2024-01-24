@@ -249,7 +249,7 @@ Trade the space complexity for time complexity.
 
 ### Prefix DP
 * [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/longest_common_sequence.py)
-* [Height of Binary Tree after Subtree Removal Queries]()
+* [Height of Binary Tree after Subtree Removal Queries](https://github.com/dengkliu/algorithms/blob/master/height_of_binary_tree_after_subtree_removal_queries.py)
 
 ## 11. Monotonic Stack/Queue
 
