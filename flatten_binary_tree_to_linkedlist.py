@@ -55,13 +55,14 @@ class Solution:
         while stack:
             node = stack.pop()
             result.append(node)
-            if len(result) >= 2:
-                prevNode = result[-2]
-                prevNode.right = node
-                prevNode.left = None
             if node.right is not None:
                 stack.append(node.right)
             if node.left is not None:
                 stack.append(node.left)
+            
+            if len(result) >= 2:
+                prevNode = result[-2]
+                prevNode.right = node
+                prevNode.left = None
 
         return result[0]
