@@ -46,5 +46,5 @@ class Solution(object):
             return root
 
         # one node found the left or right, and None found from the other side
-        # can just return because the other node must be the children of this node
+        # can just return 
         return l or r
