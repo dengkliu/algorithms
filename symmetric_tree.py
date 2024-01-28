@@ -1,4 +1,4 @@
-# https://www.lintcode.com/problem/1360/
+# https://leetcode.com/problems/symmetric-tree/description/
 
 # Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
 
