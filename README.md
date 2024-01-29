@@ -1,6 +1,6 @@
 # Algorithms (In Python)
 
-## 1. Binary Tree 二叉树
+## 1. Binary Tree
 
 ### 1.1 Binary Tree Traversal
 
