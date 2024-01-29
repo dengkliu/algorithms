@@ -51,8 +51,8 @@ Breath-First search (BFS) is often used to get topological order, to solve conne
 
 BSF can be used to 1. find any topological order, 2. verify if there exists an topological order, 3. find the least topogical order in dictionary 4. find whether there exists just 1 topogical order.
 
-* [Topological Sorting](https://github.com/dengkliu/algorithms/blob/master/topological_sorting.py) ✅
-* [Course Schedule](https://github.com/dengkliu/algorithms/blob/master/course_schedule.py) ✅
+* [Topological Sorting](https://github.com/dengkliu/algorithms/blob/master/topological_sorting.py) 
+* [Course Schedule](https://github.com/dengkliu/algorithms/blob/master/course_schedule.py) 
 
 ### 2.2 Get Shortest Path
 
@@ -66,29 +66,29 @@ BSF can be enhanced to Shortest Path Fatser Algorithm (SPFA) to get shortest pat
 
 How does SPFA solve this problem? If we find a node in level 3 that has been visited in level 2 but now we find a shorter distance, then we throw this node back to  the queue.
 
-* [Build Post Office II](https://github.com/dengkliu/algorithms/blob/master/build_post_office.py) ✅
-* [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java) ✅ 双层BSF
-* [The Maze III](https://github.com/dengkliu/algorithms/blob/master/TheMazeIII.java) ✅ 除了存储距离，还要存储路径，python用tuple解决。
-* [Sliding Puzzle](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzle.java) ✅
-* [Sliding Puzzle II](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzleII.java) ✅ 双向BFS
-* [Zombie In Matrix](https://github.com/dengkliu/algorithms/blob/master/ZombieInMatrix.java) ✅ 多源BFS，注意要把所有源头同时加入queue，因为他们在一层。然后分层 
-* [Shortest Path Visiting All Nodes](https://github.com/dengkliu/algorithms/blob/master/ShortestPathVisitingAllNodes.java) ✅ 
+* [Build Post Office II](https://github.com/dengkliu/algorithms/blob/master/build_post_office.py) 
+* [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java) 
+* [The Maze III](https://github.com/dengkliu/algorithms/blob/master/TheMazeIII.java) 
+* [Sliding Puzzle](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzle.java) 
+* [Sliding Puzzle II](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzleII.java) 
+* [Zombie In Matrix](https://github.com/dengkliu/algorithms/blob/master/ZombieInMatrix.java)
+* [Shortest Path Visiting All Nodes](https://github.com/dengkliu/algorithms/blob/master/ShortestPathVisitingAllNodes.java)
   
 ### 2.3 Connectivity
 
 Find all nodes that connect to a node in the graph.
 
-* [Number of Big Islands](https://github.com/dengkliu/algorithms/blob/master/NumberOfBigIslands.java) ✅ 
-* [Lake Escape](https://github.com/dengkliu/algorithms/blob/master/LakeEscape.java) ✅
+* [Number of Big Islands](https://github.com/dengkliu/algorithms/blob/master/NumberOfBigIslands.java)
+* [Lake Escape](https://github.com/dengkliu/algorithms/blob/master/LakeEscape.java)
 * [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)
 
 ### Others
 
 You can also use BFS to 1. work on a 2D matrix problem regarding some maximum/minimum problems. Sometimes the problem can also be solved with DP. 2. find farthest node from a start, and furthermore find the two farthest nodes in a graph.
 
-* [Map Jump](https://github.com/dengkliu/algorithms/blob/master/MapJump.java) ✅ 
-* [Longest path on a tree](https://github.com/dengkliu/algorithms/blob/master/LongestPathOnTheTree.py) ✅ 
-* [Second Diameter](https://github.com/dengkliu/algorithms/blob/master/second_diameter.py) ✅ 
+* [Map Jump](https://github.com/dengkliu/algorithms/blob/master/MapJump.java)
+* [Longest path on a tree](https://github.com/dengkliu/algorithms/blob/master/LongestPathOnTheTree.py)
+* [Second Diameter](https://github.com/dengkliu/algorithms/blob/master/second_diameter.py)
 
 ## 3. Greedy 贪心算法
 
