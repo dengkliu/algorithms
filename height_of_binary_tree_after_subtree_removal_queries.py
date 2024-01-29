@@ -45,7 +45,6 @@ class Solution(object):
 
         treeTraversalHelper(root, 0)
 
-       
         max_depth_l_to_r = [0 for _ in range(len(nodes_depth))]
         max_depth_r_to_l = [0 for _ in range(len(nodes_depth))]
         max_depth_l = 0
