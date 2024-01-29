@@ -45,14 +45,11 @@
 
 [BFS Template](https://github.com/dengkliu/algorithms/blob/master/breadth_first_search.py)
 
-### 2.1 Get Topological Order
+### 2.1 Connectivity
 
-[Introduction](https://www.jianshu.com/p/b59db381561a) to topological order. For each node it has in-degree and out-degree. A node can be starting node if its in-degree is 0. After BFS, if the sequence length is equal to the total number of nodes, then there exists topological order for the graph. Only DAG (Directed Acyclic Graph) has topological order. 
-
-BSF can be used to 1. find any topological order, 2. verify if there exists an topological order, 3. find the least topogical order in dictionary 4. find whether there exists just 1 topogical order.
-
-* [Topological Sorting](https://github.com/dengkliu/algorithms/blob/master/topological_sorting.py) 
-* [Course Schedule](https://github.com/dengkliu/algorithms/blob/master/course_schedule.py) 
+* [Number of Big Islands](https://github.com/dengkliu/algorithms/blob/master/NumberOfBigIslands.java)
+* [Lake Escape](https://github.com/dengkliu/algorithms/blob/master/LakeEscape.java)
+* [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)
 
 ### 2.2 Get Shortest Path
 
@@ -73,14 +70,15 @@ How does SPFA solve this problem? If we find a node in level 3 that has been vis
 * [Sliding Puzzle II](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzleII.java) 
 * [Zombie In Matrix](https://github.com/dengkliu/algorithms/blob/master/ZombieInMatrix.java)
 * [Shortest Path Visiting All Nodes](https://github.com/dengkliu/algorithms/blob/master/ShortestPathVisitingAllNodes.java)
-  
-### 2.3 Connectivity
 
-Find all nodes that connect to a node in the graph.
+### 2.3 Get Topological Order
 
-* [Number of Big Islands](https://github.com/dengkliu/algorithms/blob/master/NumberOfBigIslands.java)
-* [Lake Escape](https://github.com/dengkliu/algorithms/blob/master/LakeEscape.java)
-* [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)
+[Introduction](https://www.jianshu.com/p/b59db381561a) to topological order. For each node it has in-degree and out-degree. A node can be starting node if its in-degree is 0. After BFS, if the sequence length is equal to the total number of nodes, then there exists topological order for the graph. Only DAG (Directed Acyclic Graph) has topological order. 
+
+BSF can be used to 1. find any topological order, 2. verify if there exists an topological order, 3. find the least topogical order in dictionary 4. find whether there exists just 1 topogical order.
+
+* [Topological Sorting](https://github.com/dengkliu/algorithms/blob/master/topological_sorting.py) 
+* [Course Schedule](https://github.com/dengkliu/algorithms/blob/master/course_schedule.py) 
 
 ### Others
 
