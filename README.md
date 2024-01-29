@@ -43,7 +43,7 @@
 
 ## 2. Breath-First Search
 
-Breath-First search (BFS) is often used to get topological order, to solve connectivity problem, to get shortest path or do level order traversal. BFS is also used to solve problem of counting steps from an original state to an end state given moving/transforming rules. This is the [Template](https://github.com/dengkliu/algorithms/blob/master/breadth_first_search.py) for BFS.
+[BFS Template](https://github.com/dengkliu/algorithms/blob/master/breadth_first_search.py)
 
 ### 2.1 Get Topological Order
 
