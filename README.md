@@ -6,12 +6,12 @@
 
 #### 1.1.1 Pre/In/Post Order Traversal
 
-* [Binary Search Tree Inorder](https://github.com/dengkliu/algorithms/blob/master/inorder_traversal_bst.py)
+* [Binary Tree Inorder](https://github.com/dengkliu/algorithms/blob/master/inorder_traversal_bst.py)
 * [Kth Smallest Element in BST](https://github.com/dengkliu/algorithms/blob/master/kth_smallest_element_in_bst.py)
 * [Convert Binary Search Tree to Sorted Doubly Linked List](https://github.com/dengkliu/algorithms/blob/master/convert_binary_search_tree_to_sorted_doubly_linked_list.py)
-* [Binary Search Tree Preorder](https://github.com/dengkliu/algorithms/blob/master/pre_order_traversal_bst.py)
+* [Binary Tree Preorder](https://github.com/dengkliu/algorithms/blob/master/pre_order_traversal_bst.py)
 * [Flatten Binary Tree To Linked List](https://github.com/dengkliu/algorithms/blob/master/flatten_binary_tree_to_linkedlist.py)
-* [Binary Search Tree Postorder](https://github.com/dengkliu/algorithms/blob/master/post_order_traversal_bst.py)
+* [Binary Tree Postorder](https://github.com/dengkliu/algorithms/blob/master/post_order_traversal_bst.py)
 
 #### 1.1.2 Level Order Traversal
 * [Binary Tree Level Order Traversal](https://github.com/dengkliu/algorithms/blob/master/binary_tree_level_order_traversal.py)
