@@ -35,8 +35,6 @@
 * [Serialize and Deserialize N-ary Tree](https://github.com/dengkliu/algorithms/blob/master/serialize_and_deserialize_n_ary_tree.py)
 * [Binary Tree Maximum Path Sum](https://github.com/dengkliu/algorithms/blob/master/binary_tree_maximum_path_sum.py)
 * [Validate Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/validate_binary_search_tree.py)
-* [Range Sum of BST]()
-* [Find Mode in Binary Search Tree]()
 
 #### 1.2.1 Tree's Height
 * [Diameter of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/DiameterOfBinaryTree.java)
