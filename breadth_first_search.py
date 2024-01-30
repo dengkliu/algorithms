@@ -29,8 +29,6 @@ while queue:
 		# 否则会重复入队
 		visited.add(next);
 
-
-
 # 分层遍历版本 记录到起点的distance
 
 distance = 0;

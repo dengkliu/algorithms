@@ -1,17 +1,17 @@
 # Algorithms (In Python)
 
-## 1. Binary Tree 二叉树
+## 1. Binary Tree
 
 ### 1.1 Binary Tree Traversal
 
 #### 1.1.1 Pre/In/Post Order Traversal
 
-* [Binary Search Tree Inorder](https://github.com/dengkliu/algorithms/blob/master/inorder_traversal_bst.py)
+* [Binary Tree Inorder](https://github.com/dengkliu/algorithms/blob/master/inorder_traversal_bst.py)
 * [Kth Smallest Element in BST](https://github.com/dengkliu/algorithms/blob/master/kth_smallest_element_in_bst.py)
 * [Convert Binary Search Tree to Sorted Doubly Linked List](https://github.com/dengkliu/algorithms/blob/master/convert_binary_search_tree_to_sorted_doubly_linked_list.py)
-* [Binary Search Tree Preorder](https://github.com/dengkliu/algorithms/blob/master/pre_order_traversal_bst.py)
+* [Binary Tree Preorder](https://github.com/dengkliu/algorithms/blob/master/pre_order_traversal_bst.py)
 * [Flatten Binary Tree To Linked List](https://github.com/dengkliu/algorithms/blob/master/flatten_binary_tree_to_linkedlist.py)
-* [Binary Search Tree Postorder](https://github.com/dengkliu/algorithms/blob/master/post_order_traversal_bst.py)
+* [Binary Tree Postorder](https://github.com/dengkliu/algorithms/blob/master/post_order_traversal_bst.py)
 
 #### 1.1.2 Level Order Traversal
 * [Binary Tree Level Order Traversal](https://github.com/dengkliu/algorithms/blob/master/binary_tree_level_order_traversal.py)
@@ -35,8 +35,6 @@
 * [Serialize and Deserialize N-ary Tree](https://github.com/dengkliu/algorithms/blob/master/serialize_and_deserialize_n_ary_tree.py)
 * [Binary Tree Maximum Path Sum](https://github.com/dengkliu/algorithms/blob/master/binary_tree_maximum_path_sum.py)
 * [Validate Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/validate_binary_search_tree.py)
-* [Range Sum of BST]()
-* [Find Mode in Binary Search Tree]()
 
 #### 1.2.1 Tree's Height
 * [Diameter of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/DiameterOfBinaryTree.java)
@@ -45,16 +43,13 @@
 
 ## 2. Breath-First Search
 
-Breath-First search (BFS) is often used to get topological order, to solve connectivity problem, to get shortest path or do level order traversal. BFS is also used to solve problem of counting steps from an original state to an end state given moving/transforming rules. This is the [Template](https://github.com/dengkliu/algorithms/blob/master/breadth_first_search.py) for BFS.
+[BFS Template](https://github.com/dengkliu/algorithms/blob/master/breadth_first_search.py)
 
-### 2.1 Get Topological Order
+### 2.1 Connectivity
 
-[Introduction](https://www.jianshu.com/p/b59db381561a) to topological order. For each node it has in-degree and out-degree. A node can be starting node if its in-degree is 0. After BFS, if the sequence length is equal to the total number of nodes, then there exists topological order for the graph. Only DAG (Directed Acyclic Graph) has topological order. 
-
-BSF can be used to 1. find any topological order, 2. verify if there exists an topological order, 3. find the least topogical order in dictionary 4. find whether there exists just 1 topogical order.
-
-* [Topological Sorting](https://github.com/dengkliu/algorithms/blob/master/topological_sorting.py) ✅
-* [Course Schedule](https://github.com/dengkliu/algorithms/blob/master/course_schedule.py) ✅
+* [Number of Big Islands](https://github.com/dengkliu/algorithms/blob/master/NumberOfBigIslands.java)
+* [Lake Escape](https://github.com/dengkliu/algorithms/blob/master/LakeEscape.java)
+* [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)
 
 ### 2.2 Get Shortest Path
 
@@ -68,29 +63,30 @@ BSF can be enhanced to Shortest Path Fatser Algorithm (SPFA) to get shortest pat
 
 How does SPFA solve this problem? If we find a node in level 3 that has been visited in level 2 but now we find a shorter distance, then we throw this node back to  the queue.
 
-* [Build Post Office II](https://github.com/dengkliu/algorithms/blob/master/build_post_office.py) ✅
-* [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java) ✅ 双层BSF
-* [The Maze III](https://github.com/dengkliu/algorithms/blob/master/TheMazeIII.java) ✅ 除了存储距离，还要存储路径，python用tuple解决。
-* [Sliding Puzzle](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzle.java) ✅
-* [Sliding Puzzle II](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzleII.java) ✅ 双向BFS
-* [Zombie In Matrix](https://github.com/dengkliu/algorithms/blob/master/ZombieInMatrix.java) ✅ 多源BFS，注意要把所有源头同时加入queue，因为他们在一层。然后分层 
-* [Shortest Path Visiting All Nodes](https://github.com/dengkliu/algorithms/blob/master/ShortestPathVisitingAllNodes.java) ✅ 
-  
-### 2.3 Connectivity
+* [Build Post Office II](https://github.com/dengkliu/algorithms/blob/master/build_post_office.py) 
+* [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java) 
+* [The Maze III](https://github.com/dengkliu/algorithms/blob/master/TheMazeIII.java) 
+* [Sliding Puzzle](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzle.java) 
+* [Sliding Puzzle II](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzleII.java) 
+* [Zombie In Matrix](https://github.com/dengkliu/algorithms/blob/master/ZombieInMatrix.java)
+* [Shortest Path Visiting All Nodes](https://github.com/dengkliu/algorithms/blob/master/ShortestPathVisitingAllNodes.java)
 
-Find all nodes that connect to a node in the graph.
+### 2.3 Get Topological Order
 
-* [Number of Big Islands](https://github.com/dengkliu/algorithms/blob/master/NumberOfBigIslands.java) ✅ 
-* [Lake Escape](https://github.com/dengkliu/algorithms/blob/master/LakeEscape.java) ✅
-* [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)
+[Introduction](https://www.jianshu.com/p/b59db381561a) to topological order. For each node it has in-degree and out-degree. A node can be starting node if its in-degree is 0. After BFS, if the sequence length is equal to the total number of nodes, then there exists topological order for the graph. Only DAG (Directed Acyclic Graph) has topological order. 
+
+BSF can be used to 1. find any topological order, 2. verify if there exists an topological order, 3. find the least topogical order in dictionary 4. find whether there exists just 1 topogical order.
+
+* [Topological Sorting](https://github.com/dengkliu/algorithms/blob/master/topological_sorting.py) 
+* [Course Schedule](https://github.com/dengkliu/algorithms/blob/master/course_schedule.py) 
 
 ### Others
 
 You can also use BFS to 1. work on a 2D matrix problem regarding some maximum/minimum problems. Sometimes the problem can also be solved with DP. 2. find farthest node from a start, and furthermore find the two farthest nodes in a graph.
 
-* [Map Jump](https://github.com/dengkliu/algorithms/blob/master/MapJump.java) ✅ 
-* [Longest path on a tree](https://github.com/dengkliu/algorithms/blob/master/LongestPathOnTheTree.py) ✅ 
-* [Second Diameter](https://github.com/dengkliu/algorithms/blob/master/second_diameter.py) ✅ 
+* [Map Jump](https://github.com/dengkliu/algorithms/blob/master/MapJump.java)
+* [Longest path on a tree](https://github.com/dengkliu/algorithms/blob/master/LongestPathOnTheTree.py)
+* [Second Diameter](https://github.com/dengkliu/algorithms/blob/master/second_diameter.py)
 
 ## 3. Greedy 贪心算法
 
