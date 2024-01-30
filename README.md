@@ -47,6 +47,7 @@
 
 ### 2.1 Connectivity
 
+* [Number of Islands](https://github.com/dengkliu/algorithms/blob/master/number_of_islands.py)
 * [Number of Big Islands](https://github.com/dengkliu/algorithms/blob/master/NumberOfBigIslands.java)
 * [Lake Escape](https://github.com/dengkliu/algorithms/blob/master/LakeEscape.java)
 * [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)
