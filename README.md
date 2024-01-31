@@ -47,6 +47,7 @@
 
 ### 2.1 Connectivity
 
+* [Island Perimeter](https://github.com/dengkliu/algorithms/blob/master/island_perimeter.py)
 * [Number of Islands](https://github.com/dengkliu/algorithms/blob/master/number_of_islands.py)
 * [Number of Big Islands](https://github.com/dengkliu/algorithms/blob/master/NumberOfBigIslands.java)
 * [Lake Escape](https://github.com/dengkliu/algorithms/blob/master/LakeEscape.java)
