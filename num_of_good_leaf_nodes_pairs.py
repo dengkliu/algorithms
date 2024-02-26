@@ -27,6 +27,7 @@ class Solution(object):
             if not root:
                 return 
 
+            # a leaf node found
             if (not root.left) and (not root.right):
                 return [0]
             
