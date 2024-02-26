@@ -43,6 +43,7 @@ class Solution(object):
         if not root:
             return 0
 
+        # here it shouldn't be 0 becuase the node val can be negative
         result = [float('-inf')]
         
         def maxPathSumHelper(root):
@@ -54,6 +55,7 @@ class Solution(object):
 
             result[0] = max(result[0], max_l + max_r + root.val)
 
+            # here we should compare with 0, because we can exclude all negative nodes
             return max(max_l + root.val, max_r + root.val, 0)
 
         maxPathSumHelper(root)
