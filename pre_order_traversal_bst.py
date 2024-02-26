@@ -14,7 +14,7 @@ class Solution(object):
         :rtype: List[int]
         """
         if root is None:
-			return []
+	    return []
 
         result = []
 
@@ -35,7 +35,7 @@ class Solution(object):
         :rtype: List[int]
         """
         if root is None:
-			return []
+	    return []
         
         stack = []
         
