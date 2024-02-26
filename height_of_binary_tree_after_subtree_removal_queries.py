@@ -29,7 +29,7 @@ class Solution(object):
         """
         nodes = []
         nodes_depth = []
-        nodes_subtree_index = {}
+        nodes_subtree_index_range = {}
 
         def treeTraversalHelper(root, depth):
             if not root:
@@ -41,7 +41,7 @@ class Solution(object):
             treeTraversalHelper(root.left, depth + 1)
             treeTraversalHelper(root.right, depth + 1)
             end_index = len(nodes) - 1
-            nodes_subtree_index[root.val] = (start_index, end_index)
+            nodes_subtree_index_range[root.val] = (start_index, end_index)
 
         treeTraversalHelper(root, 0)
 
@@ -61,7 +61,7 @@ class Solution(object):
         result = []
 
         for query in queries:
-            l_index, r_index = nodes_subtree_index[query]
+            l_index, r_index = nodes_subtree_index_range[query]
             max_depth_l = 0 if l_index == 0 else max_depth_l_to_r[l_index - 1]
             max_depth_r = 0 if r_index == len(nodes_depth) - 1 else max_depth_r_to_l[r_index + 1]
 
