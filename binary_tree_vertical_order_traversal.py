@@ -13,45 +13,41 @@
 #         self.right = right
 class Solution(object):
 
-    min_column = float("inf")
-    max_column = float("-inf")
-
     def verticalOrder(self, root):
         """
         :type root: TreeNode
         :rtype: List[List[int]]
         """
+        min_column = float("inf")
+        max_column = float("-inf")
+
         if root is None:
             return []
         
         col_to_node = {} 
-        node_to_col = {}
-        node_to_col[root] = 0
 
         queue = collections.deque()
-        queue.append(root)
+        queue.append((root, 0))
 
         while queue:
-            cur = queue.popleft()
-            col = node_to_col[cur]
+            cur, col = queue.popleft()
 
-            self.min_column = min(self.min_column, col)
-            self.max_column = max(self.max_column, col)
+            min_column = min(min_column, col)
+            max_column = max(max_column, col)
 
             if col not in col_to_node:
-                col_to_node[col] = []
-            col_to_node[col].append(cur.val)
+                col_to_node[col] = [cur.val]
+            else:
+                col_to_node[col].append(cur.val)
 
             if cur.left:
-                queue.append(cur.left)
-                node_to_col[cur.left] = col - 1
+                queue.append((cur.left, col -1))
             if cur.right:
-                queue.append(cur.right)
-                node_to_col[cur.right] = col + 1
+                queue.append((cur.right, col + 1))
                 
         result = []
 
-        for i in range(self.min_column, self.max_column + 1):
+        for i in range(min_column, max_column + 1):
             result.append(col_to_node[i])
 
         return result
