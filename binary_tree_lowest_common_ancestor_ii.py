@@ -32,7 +32,6 @@ class Solution(object):
 
             if root == p or root == q:
                 return (root, 1 + l_count + r_count)
-            # otherwise the nodes should go the left or right subtree     
             
             if l and r:
                 return (root, 2)
