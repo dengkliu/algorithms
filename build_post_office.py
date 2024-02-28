@@ -17,9 +17,7 @@
 
 # 1. Enumerate the empty places and for each do bfs to get shortest distance to each house. 
 # 2. Enumerate the houses and get distances to this house for all empty places.
-
-# 2 is better than 1 if there are many empty places and a few house.
-
+# and 2 is better than 1 if there are many empty places and a few house.
 
 class Solution:
 
