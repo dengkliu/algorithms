@@ -69,7 +69,7 @@ How does SPFA solve this problem? If we find a node in level 3 that has been vis
 * [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java)
 * [The Maze](https://github.com/dengkliu/algorithms/blob/master/the_maze.py)
 * [The Maze II](https://github.com/dengkliu/algorithms/blob/master/the_maze_ii.py)
-* [The Maze III](https://github.com/dengkliu/algorithms/blob/master/TheMazeIII.py) 
+* [The Maze III](https://github.com/dengkliu/algorithms/blob/master/the_maze_iii.py) 
 * [Sliding Puzzle](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzle.java) 
 * [Sliding Puzzle II](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzleII.java) 
 * [Zombie In Matrix](https://github.com/dengkliu/algorithms/blob/master/ZombieInMatrix.java)
