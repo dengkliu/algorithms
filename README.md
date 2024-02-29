@@ -66,7 +66,9 @@ BSF can be enhanced to Shortest Path Fatser Algorithm (SPFA) to get shortest pat
 How does SPFA solve this problem? If we find a node in level 3 that has been visited in level 2 but now we find a shorter distance, then we throw this node back to  the queue.
 
 * [Build Post Office II](https://github.com/dengkliu/algorithms/blob/master/build_post_office.py) 
-* [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java) 
+* [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java)
+* [The Maze](https://github.com/dengkliu/algorithms/blob/master/the_maze.py)
+* [The Maze II](https://github.com/dengkliu/algorithms/blob/master/the_maze_ii.py)
 * [The Maze III](https://github.com/dengkliu/algorithms/blob/master/TheMazeIII.py) 
 * [Sliding Puzzle](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzle.java) 
 * [Sliding Puzzle II](https://github.com/dengkliu/algorithms/blob/master/SlidingPuzzleII.java) 
