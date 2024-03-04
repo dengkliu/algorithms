@@ -24,7 +24,7 @@ class Solution(object):
 
         result = []
 
-        def helper(root, to_delete, parent_deleted):
+        def dfs(root, to_delete, parent_deleted):
             if root is None:
                 return None
             
@@ -36,8 +36,8 @@ class Solution(object):
             
             # we still need to process left and right child 
             # regardless of whether the current node needs to be deleted or not
-            root.left = helper(root.left, to_delete, current_deleted)
-            root.right = helper(root.right, to_delete, current_deleted)
+            root.left = dfs(root.left, to_delete, current_deleted)
+            root.right = dfs(root.right, to_delete, current_deleted)
 
             # This is how we remove a node, we return None to its parent node
             if current_deleted:
@@ -45,6 +45,6 @@ class Solution(object):
             
             return root
         
-        helper(root, to_delete, True)
+        dfs(root, to_delete, True)
 
         return result
