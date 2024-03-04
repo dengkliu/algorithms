@@ -28,15 +28,22 @@ class Solution(object):
             if root is None:
                 return None
             
+            # First check if it is a new root
             if parent_deleted and root.val not in to_delete:
                 result.append(root)
-            
-            parent_deleted = root.val in to_delete
-            
-            root.left = delNodes(root.left, to_delete, parent_deleted)
-            root.right = delNodes(root.right, to_delete, parent_deleted)
 
-            return None if parent_deleted else root
+            current_deleted = root.val in to_delete    
+            
+            # we still need to process left and right child 
+            # regardless of whether the current node needs to be deleted or not
+            root.left = delNodes(root.left, to_delete, current_deleted)
+            root.right = delNodes(root.right, to_delete, current_deleted)
+
+            # This is how we remove a node, we return None to its parent node
+            if current_deleted:
+                return None
+            
+            return root
         
         delNodes(root, to_delete, True)
 
