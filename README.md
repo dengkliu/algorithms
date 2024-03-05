@@ -280,6 +280,8 @@ Stack that is monotone decreasing can be used to find the first element that is 
 * https://www.lintcode.com/problem/1877
 
 ## 13. Useful data structures
+### Singly Linked List
+* [Reverse Linked List](https://github.com/dengkliu/algorithms/blob/master/reverse_singly_linked_list.py)
 ### Double Linked List
 * [LRU Cache](https://leetcode.com/problems/lru-cache/)
 
