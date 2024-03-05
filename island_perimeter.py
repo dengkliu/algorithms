@@ -17,18 +17,16 @@ class Solution(object):
             return 0
 
         perimeter = [0]
+        queue = collections.deque()
+        visited = set()
 
         def bsf(row, col, grid, perimeter):
-            queue = collections.deque()
-            visited = set()
             queue.append((row, col))
             visited.add((row, col))
-
-            directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
-
+            
             while queue:
                 cur_row, cur_col = queue.popleft()
-                for dr, dc in directions:
+                for dr, dc in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
                     next_row, next_col = cur_row + dr, cur_col + dc
                     if next_row not in range(len(grid)) or next_col not in range(len(grid[0])) or grid[next_row][next_col] == 0:
                         perimeter[0] += 1
@@ -38,6 +36,6 @@ class Solution(object):
 
         for row in range(len(grid)):
             for col in range(len(grid[0])):
-                if grid[row][col] == 1:
+                if grid[row][col] == 1 and (row, col) not in visited:
                     bsf(row, col, grid, perimeter)
                     return perimeter[0]
