@@ -59,12 +59,12 @@ while queue:
 # Queue to store nodes while searching
 queue = collections.deque()
 # dictionary to store visited nodes to distance
-visited = {} 
+distance = {} 
 
 # 初始点入队
 queue.append(0);
 # 在入队的同时加到visited, 初始距离为0
-visited[0] = 0
+distance[0] = 0
 
 while queue:
 
@@ -82,4 +82,4 @@ while queue:
 
 			queue.append(next)
 
-			visited[next] = visited[now] + 1
+			distance[next] = visited[now] + 1
