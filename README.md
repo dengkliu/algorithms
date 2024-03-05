@@ -28,6 +28,7 @@
 * [Lowest Common Ancestor of a Binary Tree IV](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor_iv.py)
 * [Construct String from Binary Tree](https://github.com/dengkliu/algorithms/blob/master/construct_string_from_binary_tree.py)
 * [Delete Nodes and Return Forest](https://github.com/dengkliu/algorithms/blob/master/delete_nodes_and_return_forest.py)
+* [Delete Node in a BST](https://github.com/dengkliu/algorithms/blob/master/delete_node_in_a_bst.py)
 * [Count Nodes Equals to Average of Subtree](https://github.com/dengkliu/algorithms/blob/master/count_nodes_equals_to_average_of_subtree.py)
 * [Symmetric Tree](https://github.com/dengkliu/algorithms/blob/master/symmetric_tree.py)
 * [Equal Tree Partition](https://github.com/dengkliu/algorithms/blob/master/equal_tree_partition.py)
