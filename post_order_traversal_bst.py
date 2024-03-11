@@ -45,6 +45,7 @@ class Solution(object):
             cur = stack.pop()
             cur_visited = visited.pop()
             if not cur_visited:
+                # First add root, then right, then left
                 stack.append(cur)
                 visited.append(True)
                 if cur.right:
