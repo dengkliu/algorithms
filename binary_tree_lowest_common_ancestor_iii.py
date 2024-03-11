@@ -31,7 +31,7 @@ class Solution(object):
         cur_p, cur_q = p, q
 
         while cur_p != cur_q:
-            cur_p = p.parent if p.parent else q
-            cur_q = q.parent if q.parent else p
+            cur_p = cur_p.parent if cur_p.parent else q
+            cur_q = cur_q.parent if cur_q.parent else p
 
         return cur_p
