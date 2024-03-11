@@ -38,7 +38,8 @@ class Solution(object):
         """
         if root is None:
 	    return []
-        
+
+	# python implement stack with list
         stack = []
         
         stack.append(root)
