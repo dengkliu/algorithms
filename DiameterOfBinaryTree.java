@@ -31,12 +31,13 @@ class Solution(object):
 
         result = [0]
 
-        def diameterHelper(root):
+        # we need a dfs helper method, during the recursion, we update the result
+        def dfs(root):
             if not root:
                 return 0
 
-            l = diameterHelper(root.left)
-            r = diameterHelper(root.right)
+            l = dfs(root.left)
+            r = dfs(root.right)
 
             l_through_root = 0
             r_through_root = 0
@@ -50,6 +51,6 @@ class Solution(object):
 
             return max(l_through_root, r_through_root)
 
-        diameterHelper(root)
+        dfs(root)
 
         return result[0]
