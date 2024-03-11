@@ -12,6 +12,7 @@ class Solution(object):
         :type root: TreeNode
         :type nodes: List[TreeNode]
         """
+        # at least one node found
         if root is None or root in nodes:
             return root
         
