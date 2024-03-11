@@ -35,6 +35,7 @@ class Solution(object):
         :type q: TreeNode
         :rtype: TreeNode
         """
+        # If one root found, just return, don't need to check children
         if root is None or root == p or root == q:
             return root
         
