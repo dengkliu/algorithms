@@ -24,6 +24,7 @@ class Solution(object):
         while queue:
             level = []
             size = len(queue)
+            # each for loop iterates through an entire level
             for i in range(size):
                 cur = queue.popleft()
                 level.append(cur.val)
