@@ -18,6 +18,8 @@ class Solution(object):
 
         result = []
 
+	# we need a helper function because we want to keep updating result
+	# the current method doesn't take the result array as input
         self.preorder(root, result)
 
         return result
