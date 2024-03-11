@@ -49,6 +49,7 @@ class Solution(object):
         while stack:
             node = stack.pop()
             result.append(node.val)
+	    # push right first, because left subtree should be traversed first
             if node.right:
                 stack.append(node.right)
             if node.left:
