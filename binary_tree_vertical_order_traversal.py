@@ -35,10 +35,8 @@ class Solution(object):
             min_column = min(min_column, col)
             max_column = max(max_column, col)
 
-            if col not in col_to_node:
-                col_to_node[col] = [cur.val]
-            else:
-                col_to_node[col].append(cur.val)
+            nodes_in_col = col_to_node.get(col, [])
+            nodes_in_col.append(cur.val)
 
             if cur.left:
                 queue.append((cur.left, col -1))
