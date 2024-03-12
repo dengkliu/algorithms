@@ -19,13 +19,13 @@
 # 2. Enumerate the houses and get distances to this house for all empty places.
 # and 2 is better than 1 if there are many empty places and a few house.
 
-class Solution:
-
-    DIRECTIONS = [[-1, 0], [1, 0], [0, 1], [0, -1]]
+class GridType:
     HOUSE = 1
     WALL = 2
     EMPTY = 0   
 
+class Solution:
+    
     """
     @param grid: a 2D grid
     @return: An integer
@@ -44,7 +44,7 @@ class Solution:
 
         for row in range(len(grid)):
             for col in range(len(grid[0])):
-                if grid[row][col] == self.HOUSE:
+                if grid[row][col] == GridType.HOUSE:
                     total_houses_cnt += 1
                     self.__bfs((row, col), grid, distance_sum, reachable_houses_cnt)
 
@@ -52,7 +52,7 @@ class Solution:
 
         for row in range(len(grid)):
             for col in range(len(grid[0])):
-                if grid[row][col] == self.EMPTY and reachable_houses_cnt[row][col] == total_houses_cnt:
+                if grid[row][col] == GridType.EMPTY and reachable_houses_cnt[row][col] == total_houses_cnt:
                     result = min(result, distance_sum[row][col])
 
         return -1 if result == float('inf') else result
@@ -92,9 +92,11 @@ class Solution:
         curr_row = curr_pos[0]
         curr_col = curr_pos[1]
 
-        for direction in self.DIRECTIONS:
-            next_row = curr_row + direction[0]
-            next_col = curr_col + direction[1]
+        for dr, dc in ((-1, 0), (1, 0), (0, 1), (0, -1)):
+            next_row = curr_row + dr
+            next_col = curr_col + dc
+
+            
             next_positions.append((next_row, next_col))
         
         return next_positions
@@ -107,13 +109,8 @@ class Solution:
         row = position[0]
         col = position[1]
 
-        if row < 0 or row >= len(grid):
-            return False
-        
-        if col < 0 or col >= len(grid[0]):
-            return False
-
-        if grid[row][col] == self.WALL or grid[row][col] == self.HOUSE:
-            return False
-        
+        if row not in range(len(grid)) or col not in range(len(grid[0])) \
+            or grid[row][col] == GridType.WALL or grid[row][col] == GridType.HOUSE:
+                return False
+                
         return True
