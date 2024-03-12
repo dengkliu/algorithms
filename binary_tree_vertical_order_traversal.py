@@ -23,7 +23,7 @@ class Solution(object):
 
         if root is None:
             return []
-        
+        # build this dictionary from column to node
         col_to_node = {} 
 
         queue = collections.deque()
