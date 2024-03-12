@@ -22,6 +22,7 @@
 
 ### 1.2 Binary Tree Divide & Conquer (Depth First Search)
 * [Invert Binary Tree](https://github.com/dengkliu/algorithms/blob/master/invert_binary_tree.py)
+* [Binary Tree Paths](https://github.com/dengkliu/algorithms/blob/master/binary_tree_paths.py)
 * [Validate Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/validate_binary_search_tree.py)
 * [Lowest Common Ancestor of a Binary Tree](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor.py)
 * [Lowest Common Ancestor of a Binary Tree II](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor_ii.py)
