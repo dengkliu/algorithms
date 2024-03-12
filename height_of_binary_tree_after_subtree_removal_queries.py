@@ -31,19 +31,20 @@ class Solution(object):
         nodes_depth = []
         nodes_subtree_index_range = {}
 
-        def treeTraversalHelper(root, depth):
+        def dfs(root, depth):
             if not root:
                 return
-            
+
+            # pre-order
             nodes.append(root.val)
             nodes_depth.append(depth)
             start_index = len(nodes) - 1
-            treeTraversalHelper(root.left, depth + 1)
-            treeTraversalHelper(root.right, depth + 1)
+            dfs(root.left, depth + 1)
+            dfs(root.right, depth + 1)
             end_index = len(nodes) - 1
             nodes_subtree_index_range[root.val] = (start_index, end_index)
 
-        treeTraversalHelper(root, 0)
+        dfs(root, 0)
 
         max_depth_l_to_r = [0 for _ in range(len(nodes_depth))]
         max_depth_r_to_l = [0 for _ in range(len(nodes_depth))]
