@@ -37,6 +37,7 @@ class Solution(object):
 
             nodes_in_col = col_to_node.get(col, [])
             nodes_in_col.append(cur.val)
+            col_to_node[col] = nodes_in_col
 
             if cur.left:
                 queue.append((cur.left, col -1))
