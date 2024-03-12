@@ -22,17 +22,16 @@ class Solution(object):
 
         pair_cnt = [0]
 
-        def distanceToLeavesHelper(root, distance):
+        def dfs(root):
 
             if not root:
                 return 
 
-            # a leaf node found
             if (not root.left) and (not root.right):
                 return [0]
             
-            l = distanceToLeavesHelper(root.left, distance)
-            r = distanceToLeavesHelper(root.right, distance)
+            l = dfs(root.left)
+            r = dfs(root.right)
 
             if l and r:
                 for l_distance in l:
@@ -52,6 +51,6 @@ class Solution(object):
 
             return distance_to_leaves
         
-        distanceToLeavesHelper(root, distance)
+        dfs(root)
 
         return pair_cnt[0]
