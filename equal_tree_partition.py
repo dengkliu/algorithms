@@ -15,7 +15,8 @@ class TreeNode:
         self.val = val
         self.left, self.right = None, None
 """
-
+# Time complexity O(N)
+# Space complexity O(N)
 class Solution:
     """
     @param root: a TreeNode
