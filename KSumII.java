@@ -2,6 +2,7 @@
 
 // Given n unique postive integers, number k (1 <= K <= N) and target.
 // Find all possible k integers where their sum is target.
+// Each integer can be used once
 
 // array = [1,2,3,4]
 // k = 2
