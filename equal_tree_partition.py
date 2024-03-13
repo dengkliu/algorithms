@@ -41,8 +41,7 @@ class Solution:
         new_sum = left_sum + right_sum + root.val
 
         if new_sum not in sum_count:
-            sum_count[new_sum] = 1
-        else:
-            sum_count[new_sum] +=1
+            sum_count[new_sum] = 0
+        sum_count[new_sum] +=1
 
         return new_sum
