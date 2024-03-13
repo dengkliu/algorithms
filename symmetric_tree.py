@@ -19,6 +19,8 @@ class TreeNode:
         self.left, self.right = None, None
 """
 
+# Time complexity O(N) -- we are checking all the nodes
+# Space complexity O(N) -- in worst case the tree is linear and height is O(N) (?)
 class Solution:
     """
     @param root: root of the given tree
