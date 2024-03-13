@@ -105,9 +105,12 @@ DFS is often used to solve tree problems using divide and conquer, to get all so
 
 ### Tree Traversal (Divide and Conquer)
 
-Find tree's problems above.
+Find tree's problems [above](https://github.com/dengkliu/algorithms/blob/master/README.md#12-tree-divide--conquer-depth-first-search).
 
 ### Find All Solutions 
+
+Find all soulutions that meet a certain requirement; find a specific solution that meets the certain requirement
+
 * [Generate Parentheses](https://github.com/dengkliu/algorithms/blob/master/GenerateParentheses.java)
 * [Couse Schedule IV](https://github.com/dengkliu/algorithms/blob/master/CourseScheduleIV.java)
 * [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
