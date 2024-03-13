@@ -1,6 +1,6 @@
 # Algorithms (In Python)
 
-## 1. Binary Tree
+## 1. Tree
 
 ### 1.1 Binary Tree Traversal
 
@@ -20,7 +20,7 @@
 * [Binary Tree Right Side View](https://github.com/dengkliu/algorithms/blob/master/binary_tree_right_side_view.py)
 * [Find Largest Value in Each Tree Row](https://github.com/dengkliu/algorithms/blob/master/binary_tree_find_largest_value_in_each_tree_row.py)
 
-### 1.2 Binary Tree Divide & Conquer (Depth First Search)
+### 1.2 Tree Divide & Conquer (Depth First Search)
 * [Invert Binary Tree](https://github.com/dengkliu/algorithms/blob/master/invert_binary_tree.py)
 * [Binary Tree Paths](https://github.com/dengkliu/algorithms/blob/master/binary_tree_paths.py)
 * [Validate Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/validate_binary_search_tree.py)
@@ -97,13 +97,38 @@ You can also use BFS to 1. work on a 2D matrix problem regarding some maximum/mi
 * [Longest path on a tree](https://github.com/dengkliu/algorithms/blob/master/LongestPathOnTheTree.py)
 * [Second Diameter](https://github.com/dengkliu/algorithms/blob/master/second_diameter.py)
 
-## 3. Greedy 贪心算法
+## 3. Depth-First Search
+
+What is DFS for a graph? Start from a node, choose a neighbor and move on, until the end (no more child), if you reach the end, move back one step, and switch to another neigbor for current node, until you exhuast all the neigbors, the move back one more step and repeat. Keep searching for the target in this process, for one path you cannot revisit a node, but you can revisit the same node in a different path.
+
+DFS is often used to solve tree problems using divide and conquer, to get all solutions to meet certain requirements, adn to solve combination & permutation/arrangement problems.
+
+### Tree Traversal (Divide and Conquer)
+
+Find tree's problems above.
+
+### Find All Solutions 
+* [Generate Parentheses](https://github.com/dengkliu/algorithms/blob/master/GenerateParentheses.java)
+* [Couse Schedule IV](https://github.com/dengkliu/algorithms/blob/master/CourseScheduleIV.java)
+* [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
+
+### Combination & Permutation
+
+Find all combinations and permutations that meet a certain requirement. Find one combination and permutation that meets a certain requirement. Find the optimal combination and permutation.
+
+* [K Sum](https://github.com/dengkliu/algorithms/blob/master/KSum.java)
+* [K Sum II](https://github.com/dengkliu/algorithms/blob/master/KSumII.java)
+* [Word Squares](https://github.com/dengkliu/algorithms/blob/master/word_squares.py)
+* [Factorization](https://github.com/dengkliu/algorithms/blob/master/factorization.py)
+* [Subsets II](https://github.com/dengkliu/algorithms/blob/master/subset_II.py)
+
+## 4. Greedy 贪心算法
 
 * [Best Time to Buy and Sell Stock](https://github.com/dengkliu/algorithms/blob/master/best_time_to_buy_and_sell_stock.py)
 * [Best Time to Buy and Sell Stock II](https://github.com/dengkliu/algorithms/blob/master/best_time_to_buy_and_sell_stock_II.py)
 * [Best Time to Buy and Sell Stock V](https://github.com/dengkliu/algorithms/blob/master/best_time_to_buy_and_sell_stock_V.py)
 
-## 4. Prefix Sum 前缀和
+## 5. Prefix Sum 前缀和
 Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**. 
 
 The definition of prefix sum for 1D and 2D array.
@@ -178,34 +203,6 @@ Related coding problem -
 * [Median of Two Sorted Array](https://github.com/dengkliu/algorithms/blob/master/median_of_two_sorted_arrays.py)
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java) 
 * [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
-
-## 9. Depth-First Search 深度优先搜索
-
-What is DFS for a graph? Start from a node, choose a neighbor and move on, until the end (no more child), if you reach the end, move back one step, and switch to another neigbor for current node, until you exhuast all the neigbors, the move back one more step and repeat. Keep searching for the target in this process, for one path you cannot revisit a node, but you can revisit the same node in a different path.
-
-DFS is often used to solve tree problems using divide and conquer, to get all solutions to meet certain requirements, adn to solve combination & permutation/arrangement problems.
-
-### Tree Traversal (Divide and Conquer)
-* [Convert Binary Tree to Sorted Doubly Linked List](https://github.com/dengkliu/algorithms/blob/master/ConvertBinarySearchTreeToSortedDoublyLinkedList.java)
-* [Flatten Binary Tree To Linked List](https://github.com/dengkliu/algorithms/blob/master/FlattenBinaryTreeToLinkedList.java)
-* [Equal Tree Partition](https://github.com/dengkliu/algorithms/blob/master/EqualTreePartition.java)
-* [The diameter of binary tree](https://github.com/dengkliu/algorithms/blob/master/DiameterOfBinaryTree.java)
-
-### Find All Solutions 找到所有方案
-
-* [Generate Parentheses](https://github.com/dengkliu/algorithms/blob/master/GenerateParentheses.java)
-* [Couse Schedule IV](https://github.com/dengkliu/algorithms/blob/master/CourseScheduleIV.java)
-* [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
-
-### Combination & Permutation
-
-Find all combinations and permutations that meet a certain requirement. Find one combination and permutation that meets a certain requirement. Find the optimal combination and permutation.
-
-* [K Sum](https://github.com/dengkliu/algorithms/blob/master/KSum.java)
-* [K Sum II](https://github.com/dengkliu/algorithms/blob/master/KSumII.java)
-* [Word Squares](https://github.com/dengkliu/algorithms/blob/master/word_squares.py)
-* [Factorization](https://github.com/dengkliu/algorithms/blob/master/factorization.py)
-* [Subsets II](https://github.com/dengkliu/algorithms/blob/master/subset_II.py)
 
 ## 10. Dynamic Programming 动态规划
 
