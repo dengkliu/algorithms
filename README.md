@@ -99,9 +99,9 @@ You can also use BFS to 1. work on a 2D matrix problem regarding some maximum/mi
 
 ## 3. Depth-First Search
 
-What is DFS for a graph? Start from a node, choose a neighbor and move on, until the end (no more child), if you reach the end, move back one step, and switch to another neigbor for current node, until you exhuast all the neigbors, the move back one more step and repeat. Keep searching for the target in this process, for one path you cannot revisit a node, but you can revisit the same node in a different path.
+What is DFS for a graph? Start from a node, choose a neighbor and move on, until the end (no more child), if you reach the end, move back one step, and switch to another neigbor for current node, until you exhuast all the neigbors, the move back one more step and repeat. Keep searching for the target in this process, for one path you cannot revisit a node, but you can revisit the same node in a different path. 
 
-DFS is often used to solve tree problems using divide and conquer, to get all solutions to meet certain requirements, adn to solve combination & permutation/arrangement problems.
+DFS is often used to (1) solve tree problems using divide and conquer, (2) to get all solutions to meet certain requirements, and (3) to solve combination & permutation/arrangement problems. For (2) and (3), a technique called backtracking is often used. Backtracking involves DFS but with the additional strategy of pruning branches that violate constraints or cannot lead to a solution. It is a systematic method for solving problems by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time (by time, here, is referred to the number of steps taken to reach that level.
 
 ### Tree Traversal (Divide and Conquer)
 
@@ -109,7 +109,7 @@ Find tree's problems [above](https://github.com/dengkliu/algorithms/blob/master/
 
 ### Find All Solutions 
 
-Find all soulutions that meet a certain requirement; find a specific solution that meets the certain requirement
+Find all soulutions that meet a certain requirement; find a specific solution that meets the certain requirement. 
 
 * [Generate Parentheses](https://github.com/dengkliu/algorithms/blob/master/GenerateParentheses.java)
 * [Couse Schedule IV](https://github.com/dengkliu/algorithms/blob/master/CourseScheduleIV.java)
