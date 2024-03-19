@@ -1,4 +1,5 @@
-# https://www.lintcode.com/problem/615/
+# https://leetcode.com/problems/course-schedule/description/
+
 # There are a total of n courses you have to take, labeled from 0 to n - 1.
 # Before taking some courses, you need to take other courses. 
 # For example, to learn course 0, you need to learn course 1 first, which is expressed as [0,1].
