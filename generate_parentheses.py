@@ -45,12 +45,15 @@ class Solution(object):
 
     
     def _dfs(self, curr, l_cnt, r_cnt, paren_cnt, n, result):
+        # this is where you want to stop the dfs because you know it violates the requirements
         if r_cnt > l_cnt:
             return
-        
+            
+        # this is where you want to stop the dfs because you know it violates the requirements
         if l_cnt > n:
             return
 
+        # this is where you wanna stop the dfs and return because you know you reach the destination
         if paren_cnt == 2 * n:
             result.append(curr)
             return
