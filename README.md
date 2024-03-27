@@ -103,7 +103,7 @@ What is DFS for a graph? Start from a node, choose a neighbor and move on, until
 
 DFS is often used to (1) solve tree problems using divide and conquer, (2) to get all solutions to meet certain requirements, and (3) to solve combination & permutation/arrangement problems. 
 
-For (2) and (3), a technique called backtracking is often used. Backtracking involves DFS but with the additional strategy of pruning branches that violate constraints or cannot lead to a solution. It is a systematic method for solving problems by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time (by time, here, is referred to the number of steps taken to reach that level.
+For (2) and (3), a technique called **backtracking** is often used. Backtracking involves DFS but with the additional strategy of pruning branches that violate constraints or cannot lead to a solution. It is a systematic method for solving problems by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time (by time, here, is referred to the number of steps taken to reach that level.
 
 ### Tree Traversal (Divide and Conquer)
 
