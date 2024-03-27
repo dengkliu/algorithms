@@ -87,7 +87,8 @@ How does SPFA solve this problem? If we find a node in level 3 that has been vis
 BSF can be used to 1. find any topological order, 2. verify if there exists an topological order, 3. find the least topogical order in dictionary 4. find whether there exists just 1 topogical order.
 
 * [Topological Sorting](https://github.com/dengkliu/algorithms/blob/master/topological_sorting.py) 
-* [Course Schedule](https://github.com/dengkliu/algorithms/blob/master/course_schedule.py) 
+* [Course Schedule](https://github.com/dengkliu/algorithms/blob/master/course_schedule.py)
+* [Course Schedule II](https://github.com/dengkliu/algorithms/blob/master/course_schedule_ii.py)
 
 ### Others
 
