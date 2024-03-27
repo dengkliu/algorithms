@@ -44,19 +44,19 @@ class Solution(object):
         return result
 
     
-    def _dfs(self, curr, l_cnt, r_cnt, paren_cnt, n, result):
+    def _dfs(self, curr, open_cnt, close_cnt, total_cnt, n, result):
         # this is where you want to stop the dfs because you know it violates the requirements
-        if r_cnt > l_cnt:
+        if close_cnt > open_cnt:
             return
             
         # this is where you want to stop the dfs because you know it violates the requirements
-        if l_cnt > n:
+        if open_cnt > n:
             return
 
         # this is where you wanna stop the dfs and return because you know you reach the destination
-        if paren_cnt == 2 * n:
+        if total_cnt == 2 * n:
             result.append(curr)
             return
         
-        self._dfs(curr + "(", l_cnt + 1, r_cnt, paren_cnt + 1, n, result)
-        self._dfs(curr + ")", l_cnt, r_cnt + 1, paren_cnt + 1, n, result)
+        self._dfs(curr + "(", open_cnt + 1, close_cnt, total_cnt + 1, n, result)
+        self._dfs(curr + ")", open_cnt, close_cnt + 1, total_cnt + 1, n, result)
