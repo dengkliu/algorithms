@@ -113,7 +113,7 @@ Find tree's problems [above](https://github.com/dengkliu/algorithms/blob/master/
 
 Find all soulutions that meet a certain requirement; find a specific solution that meets the certain requirement. 
 
-* [Generate Parentheses](https://github.com/dengkliu/algorithms/blob/master/GenerateParentheses.java)
+* [Generate Parentheses](https://github.com/dengkliu/algorithms/blob/master/generate_parentheses.py)
 * [Couse Schedule IV](https://github.com/dengkliu/algorithms/blob/master/CourseScheduleIV.java)
 * [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
 
