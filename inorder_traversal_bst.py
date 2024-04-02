@@ -42,8 +42,8 @@ class Solution(object):
                 
                 # but for each node added to the stack, we should look at its left child first
                 while cur.left:
-		    cur = cur.left
-		    stack.append(cur)
+                    cur = cur.left
+                    stack.append(cur)
             
             if stack:
                 result.append(stack[-1].val)
