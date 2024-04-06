@@ -151,6 +151,7 @@ Trade the space complexity for time complexity.
 * [Decode Ways](https://github.com/dengkliu/algorithms/blob/master/decode_ways.py)
 * [Decode Ways II](https://github.com/dengkliu/algorithms/blob/master/decode_ways_II.py)
 * [Longest Increasing Subsequence](https://github.com/dengkliu/algorithms/blob/master/longest_increasing_subsequence.py)
+* https://leetcode.com/problems/longest-increasing-subsequence-ii/description/
 * [Rat Jump](https://github.com/dengkliu/algorithms/blob/master/rat_jump.py)
 * [Maximal Square](https://github.com/dengkliu/algorithms/blob/master/maximal_square.py)
 * [Count Square Submatrices with All Ones](https://github.com/dengkliu/algorithms/blob/master/count_squares.py)
