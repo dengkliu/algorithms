@@ -153,6 +153,7 @@ Trade the space complexity for time complexity.
 * [Longest Increasing Subsequence](https://github.com/dengkliu/algorithms/blob/master/longest_increasing_subsequence.py)
 * https://leetcode.com/problems/longest-increasing-subsequence-ii/description/
 * [Rat Jump](https://github.com/dengkliu/algorithms/blob/master/rat_jump.py)
+* https://leetcode.com/problems/frog-jump/description/
 * [Maximal Square](https://github.com/dengkliu/algorithms/blob/master/maximal_square.py)
 * [Count Square Submatrices with All Ones](https://github.com/dengkliu/algorithms/blob/master/count_squares.py)
 
