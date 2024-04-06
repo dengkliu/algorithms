@@ -1,4 +1,4 @@
-# https://www.lintcode.com/problem/76/
+# https://leetcode.com/problems/longest-increasing-subsequence/description/
 
 # Given a sequence of integers, find the longest increasing subsequence (LIS).
 
