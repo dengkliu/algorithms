@@ -1,4 +1,4 @@
-# https://www.lintcode.com/problem/1702/
+# https://leetcode.com/problems/distinct-subsequences-ii/description/
 
 # Given a string S, count the number of distinct, non-empty subsequences of S .
 # Since the result may be large, return the answer modulo 10^9 + 7.
