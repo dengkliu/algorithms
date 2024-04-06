@@ -144,6 +144,7 @@ Trade the space complexity for time complexity.
 * [Minimum Falling Path Sum](https://github.com/dengkliu/algorithms/blob/master/minimum_failing_path_sum.py)
 * [Calculate the Sum of Path](https://github.com/dengkliu/algorithms/blob/master/calculate_the_sum_of_path.py)
 * [Push Dominoes](https://github.com/dengkliu/algorithms/blob/master/push_dominoes.py)
+* https://leetcode.com/problems/distinct-subsequences/description/
 * [Distinct Subsequences II](https://github.com/dengkliu/algorithms/blob/master/distinct_subsequences.py)
 * [Subset II](https://github.com/dengkliu/algorithms/blob/master/subset_II.py)
 * [Paint House](https://github.com/dengkliu/algorithms/blob/master/paint_house.py)
