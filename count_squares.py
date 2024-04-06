@@ -1,4 +1,4 @@
-# https://www.lintcode.com/problem/1869/
+# https://leetcode.com/problems/count-square-submatrices-with-all-ones/description/
 
 # Given a m * n matrix of ones and zeros, please count and return the number of square submatrix completely composed of 1.
 
