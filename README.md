@@ -178,6 +178,7 @@ Trade the space complexity for time complexity.
 * https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/
 
 ### Interval DP
+* [Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/description/)
 * [Stone Game](https://github.com/dengkliu/algorithms/blob/master/stone_game.py)
 * [Stone Game II](https://github.com/dengkliu/algorithms/blob/master/stone_game_II.py)
 * [Minimum Cost to Merge Stones](https://github.com/dengkliu/algorithms/blob/master/minimum_cost_to_merge_stones.py)
@@ -185,7 +186,6 @@ Trade the space complexity for time complexity.
 ### Prefix DP
 * [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/longest_common_sequence.py)
 * [Height of Binary Tree after Subtree Removal Queries](https://github.com/dengkliu/algorithms/blob/master/height_of_binary_tree_after_subtree_removal_queries.py)
-
 
 ## 4. Greedy
 
