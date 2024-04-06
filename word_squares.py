@@ -1,4 +1,4 @@
-# https://www.lintcode.com/collection/178/
+# https://leetcode.com/problems/word-squares/description/
 
 # Given a set of words without duplicates, find all word squares you can build from them.
 
