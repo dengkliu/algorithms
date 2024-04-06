@@ -128,8 +128,9 @@ Find all combinations and permutations that meet a certain requirement. Find one
 * [Factorization](https://github.com/dengkliu/algorithms/blob/master/factorization.py)
 * [Subsets II](https://github.com/dengkliu/algorithms/blob/master/subset_II.py)
 
-## 4. Greedy 贪心算法
+## 4. Greedy
 
+* [Course Schedule III]()
 * [Best Time to Buy and Sell Stock](https://github.com/dengkliu/algorithms/blob/master/best_time_to_buy_and_sell_stock.py)
 * [Best Time to Buy and Sell Stock II](https://github.com/dengkliu/algorithms/blob/master/best_time_to_buy_and_sell_stock_II.py)
 * [Best Time to Buy and Sell Stock V](https://github.com/dengkliu/algorithms/blob/master/best_time_to_buy_and_sell_stock_V.py)
