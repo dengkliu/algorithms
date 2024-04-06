@@ -154,7 +154,7 @@ Trade the space complexity for time complexity.
 * [Count Square Submatrices with All Ones](https://github.com/dengkliu/algorithms/blob/master/count_squares.py)
 
 ### Backpack DP 
-* [Backpack](https://github.com/dengkliu/algorithms/blob/master/backpack.py)
+* [Knapsack](https://github.com/dengkliu/algorithms/blob/master/backpack.py)
 * [Backpack II](https://github.com/dengkliu/algorithms/blob/master/backpack_II.py)
 * [Backpack III](https://github.com/dengkliu/algorithms/blob/master/backpack_III.py)
 * [Backpack IV](https://github.com/dengkliu/algorithms/blob/master/backpack_IV.py)
