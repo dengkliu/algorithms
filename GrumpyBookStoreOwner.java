@@ -1,4 +1,4 @@
-// https://www.lintcode.com/problem/1849/
+// https://leetcode.com/problems/grumpy-bookstore-owner/description/
 // There is a bookstore. On the next n days, customer[i] will arrive on the i-th day and leave at the end of that day.
 // However, the bookstore owner's temper is sometimes good but sometimes bad. We use an array of grumpy to indicate his temper is good or bad every day. 
 // If grumpy[i] = 1, it means that the owner's temper is very bad on the day of i. If grumpy[i] = 0, it means that the owner has a good temper on the first day.
