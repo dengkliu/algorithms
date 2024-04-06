@@ -128,6 +128,59 @@ Find all combinations and permutations that meet a certain requirement. Find one
 * [Factorization](https://github.com/dengkliu/algorithms/blob/master/factorization.py)
 * [Subsets II](https://github.com/dengkliu/algorithms/blob/master/subset_II.py)
 
+## 4. Dynamic Programming
+
+Dynamic Programming is a method for solving a complex problem by breaking it down into a collection
+of **simpler subproblems**, solving each of those subproblems **just once**, and **storing their solutions** 
+using a memory-based data structure(array, map, etc). 
+
+Trade the space complexity for time complexity.
+
+### Coordinate DP
+* [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java)
+* [Climbing Stairs](https://github.com/dengkliu/algorithms/blob/master/climbing_stairs.py)
+* [Number of Ways to Stay in the Same Place After Some Steps II](https://github.com/dengkliu/algorithms/blob/master/number_of_ways_to_stay_in_same_place_after_some_steps_II.py)
+* [Minimum Falling Path Sum](https://github.com/dengkliu/algorithms/blob/master/minimum_failing_path_sum.py)
+* [Calculate the Sum of Path](https://github.com/dengkliu/algorithms/blob/master/calculate_the_sum_of_path.py)
+* [Push Dominoes](https://github.com/dengkliu/algorithms/blob/master/push_dominoes.py)
+* [Distinct Subsequences II](https://github.com/dengkliu/algorithms/blob/master/distinct_subsequences.py)
+* [Subset II](https://github.com/dengkliu/algorithms/blob/master/subset_II.py)
+* [Paint House](https://github.com/dengkliu/algorithms/blob/master/paint_house.py)
+* [Decode Ways](https://github.com/dengkliu/algorithms/blob/master/decode_ways.py)
+* [Decode Ways II](https://github.com/dengkliu/algorithms/blob/master/decode_ways_II.py)
+* [Longest Increasing Subsequence](https://github.com/dengkliu/algorithms/blob/master/longest_increasing_subsequence.py)
+* [Rat Jump](https://github.com/dengkliu/algorithms/blob/master/rat_jump.py)
+* [Maximal Square](https://github.com/dengkliu/algorithms/blob/master/maximal_square.py)
+* [Count Square Submatrices with All Ones](https://github.com/dengkliu/algorithms/blob/master/count_squares.py)
+
+### Backpack DP 
+* [Backpack](https://github.com/dengkliu/algorithms/blob/master/backpack.py)
+* [Backpack II](https://github.com/dengkliu/algorithms/blob/master/backpack_II.py)
+* [Backpack III](https://github.com/dengkliu/algorithms/blob/master/backpack_III.py)
+* [Backpack IV](https://github.com/dengkliu/algorithms/blob/master/backpack_IV.py)
+* [Backpack V](https://github.com/dengkliu/algorithms/blob/master/backpack_V.py)
+* [Backpack VII](https://github.com/dengkliu/algorithms/blob/master/backpack_VII.py)
+* [Backpack VIII](https://github.com/dengkliu/algorithms/blob/master/backpack_VIII.py)
+* [Backpack IX](https://github.com/dengkliu/algorithms/blob/master/backpack_IX.py)
+* [Backpack X](https://github.com/dengkliu/algorithms/blob/master/backpack_X.py)
+* [Partition Equal Subset Sum](https://github.com/dengkliu/algorithms/blob/master/partition_equal_subset_sum.py)
+* [Best Time to Buy and Sell Stock III](https://github.com/dengkliu/algorithms/blob/master/BestTimeToBuyAndSellStockIII.java)
+* [K Sum](https://github.com/dengkliu/algorithms/blob/master/KSum.java)
+* [K Sum II](https://github.com/dengkliu/algorithms/blob/master/KSumII.java)
+* [Card Game](https://github.com/dengkliu/algorithms/blob/master/card_game.py)
+* [Profitable Schemes](https://github.com/dengkliu/algorithms/blob/master/profitable_schemes.py)
+* [Float Combination Sum](https://github.com/dengkliu/algorithms/blob/master/float_combination_sum.py)
+
+### Interval DP
+* [Stone Game](https://github.com/dengkliu/algorithms/blob/master/stone_game.py)
+* [Stone Game II](https://github.com/dengkliu/algorithms/blob/master/stone_game_II.py)
+* [Minimum Cost to Merge Stones](https://github.com/dengkliu/algorithms/blob/master/minimum_cost_to_merge_stones.py)
+
+### Prefix DP
+* [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/longest_common_sequence.py)
+* [Height of Binary Tree after Subtree Removal Queries](https://github.com/dengkliu/algorithms/blob/master/height_of_binary_tree_after_subtree_removal_queries.py)
+
+
 ## 4. Greedy
 
 * [Course Schedule III]()
@@ -211,57 +264,6 @@ Related coding problem -
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java) 
 * [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
 
-## 10. Dynamic Programming 动态规划
-
-Dynamic Programming is a method for solving a complex problem by breaking it down into a collection
-of **simpler subproblems**, solving each of those subproblems **just once**, and **storing their solutions** 
-using a memory-based data structure(array, map, etc). 
-
-Trade the space complexity for time complexity.
-
-### Coordinate DP
-* [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java)
-* [Climbing Stairs](https://github.com/dengkliu/algorithms/blob/master/climbing_stairs.py)
-* [Number of Ways to Stay in the Same Place After Some Steps II](https://github.com/dengkliu/algorithms/blob/master/number_of_ways_to_stay_in_same_place_after_some_steps_II.py)
-* [Minimum Falling Path Sum](https://github.com/dengkliu/algorithms/blob/master/minimum_failing_path_sum.py)
-* [Calculate the Sum of Path](https://github.com/dengkliu/algorithms/blob/master/calculate_the_sum_of_path.py)
-* [Push Dominoes](https://github.com/dengkliu/algorithms/blob/master/push_dominoes.py)
-* [Distinct Subsequences II](https://github.com/dengkliu/algorithms/blob/master/distinct_subsequences.py)
-* [Subset II](https://github.com/dengkliu/algorithms/blob/master/subset_II.py)
-* [Paint House](https://github.com/dengkliu/algorithms/blob/master/paint_house.py)
-* [Decode Ways](https://github.com/dengkliu/algorithms/blob/master/decode_ways.py)
-* [Decode Ways II](https://github.com/dengkliu/algorithms/blob/master/decode_ways_II.py)
-* [Longest Increasing Subsequence](https://github.com/dengkliu/algorithms/blob/master/longest_increasing_subsequence.py)
-* [Rat Jump](https://github.com/dengkliu/algorithms/blob/master/rat_jump.py)
-* [Maximal Square](https://github.com/dengkliu/algorithms/blob/master/maximal_square.py)
-* [Count Square Submatrices with All Ones](https://github.com/dengkliu/algorithms/blob/master/count_squares.py)
-
-### Backpack DP 
-* [Backpack](https://github.com/dengkliu/algorithms/blob/master/backpack.py)
-* [Backpack II](https://github.com/dengkliu/algorithms/blob/master/backpack_II.py)
-* [Backpack III](https://github.com/dengkliu/algorithms/blob/master/backpack_III.py)
-* [Backpack IV](https://github.com/dengkliu/algorithms/blob/master/backpack_IV.py)
-* [Backpack V](https://github.com/dengkliu/algorithms/blob/master/backpack_V.py)
-* [Backpack VII](https://github.com/dengkliu/algorithms/blob/master/backpack_VII.py)
-* [Backpack VIII](https://github.com/dengkliu/algorithms/blob/master/backpack_VIII.py)
-* [Backpack IX](https://github.com/dengkliu/algorithms/blob/master/backpack_IX.py)
-* [Backpack X](https://github.com/dengkliu/algorithms/blob/master/backpack_X.py)
-* [Partition Equal Subset Sum](https://github.com/dengkliu/algorithms/blob/master/partition_equal_subset_sum.py)
-* [Best Time to Buy and Sell Stock III](https://github.com/dengkliu/algorithms/blob/master/BestTimeToBuyAndSellStockIII.java)
-* [K Sum](https://github.com/dengkliu/algorithms/blob/master/KSum.java)
-* [K Sum II](https://github.com/dengkliu/algorithms/blob/master/KSumII.java)
-* [Card Game](https://github.com/dengkliu/algorithms/blob/master/card_game.py)
-* [Profitable Schemes](https://github.com/dengkliu/algorithms/blob/master/profitable_schemes.py)
-* [Float Combination Sum](https://github.com/dengkliu/algorithms/blob/master/float_combination_sum.py)
-
-### Interval DP
-* [Stone Game](https://github.com/dengkliu/algorithms/blob/master/stone_game.py)
-* [Stone Game II](https://github.com/dengkliu/algorithms/blob/master/stone_game_II.py)
-* [Minimum Cost to Merge Stones](https://github.com/dengkliu/algorithms/blob/master/minimum_cost_to_merge_stones.py)
-
-### Prefix DP
-* [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/longest_common_sequence.py)
-* [Height of Binary Tree after Subtree Removal Queries](https://github.com/dengkliu/algorithms/blob/master/height_of_binary_tree_after_subtree_removal_queries.py)
 
 ## 11. Monotonic Stack/Queue
 
