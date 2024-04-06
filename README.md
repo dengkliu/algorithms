@@ -171,6 +171,7 @@ Trade the space complexity for time complexity.
 * [Profitable Schemes](https://github.com/dengkliu/algorithms/blob/master/profitable_schemes.py)
 * [Float Combination Sum](https://github.com/dengkliu/algorithms/blob/master/float_combination_sum.py)
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
+* https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/
 
 ### Interval DP
 * [Stone Game](https://github.com/dengkliu/algorithms/blob/master/stone_game.py)
