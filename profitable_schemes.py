@@ -1,4 +1,4 @@
-# https://www.lintcode.com/problem/1607/
+# https://leetcode.com/problems/profitable-schemes/description/
 
 # There are G criminals are going to plan a series of criminal activity.
 # Given two arrays named groups and profit represent the i-th criminal activity needs groups[i] members and it will get a profit profit[i].
