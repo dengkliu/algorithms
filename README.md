@@ -1,4 +1,4 @@
-# Algorithms (In Python)
+# Algorithms and Data Structures
 
 ## 1. Tree
 
