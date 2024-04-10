@@ -294,6 +294,9 @@ Stack that is monotone decreasing can be used to find the first element that is 
 * Factorization - https://www.lintcode.com/problem/652/
 * https://www.lintcode.com/problem/1877
 
+## 13. String
+* meta - https://leetcode.com/problems/basic-calculator-ii/description/
+
 ## 13. Useful data structures
 ### Singly Linked List
 * [Reverse Linked List](https://github.com/dengkliu/algorithms/blob/master/reverse_singly_linked_list.py)
@@ -302,6 +305,8 @@ Stack that is monotone decreasing can be used to find the first element that is 
 
 ### Stack
 * [Minimal Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
+* https://leetcode.com/problems/min-stack/description/
+  
 ### Union Find
 [Union Find](https://github.com/dengkliu/algorithms/blob/master/union_find.py) is used to solve connection problem, especially for dynamic data stream (online algorithm). BFS can only be used to solve connection problem for static data (therefore BFS is offline algorithm), for data stream, the time complexity will be horrible.
 
