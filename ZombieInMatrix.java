@@ -11,11 +11,11 @@
 // Output:
 // 2
 
-// 多源BFS，有点像元胞自动机
-// 要点1 - 第一次要把所有源头加进去
-// 要点2 - 分层遍历，每一次记录size = queue.size() 然后 for (int i = 1; i < size; i ++)
-// 要点3 - 层数初始化为1， 在每次分层处理的for loop完成后，层数加一
-// 要点4 - 记录被扫到的目标数，每次扫到一个就判断有没有扫到全部，提前退出，返回层数。因为这样可避免进入无效的下一层，即已经没有任何目标可以扫描
+// Multi-source BFS，
+// 1 - Add all sources into the queue (the nodes with 0 in-degree)
+// 2 - level order traversal, get size = queue.size() then for (int i = 1; i < size; i ++)
+// 3 - initialize level cnt to 1， and increment it by 1 after each level traversal 
+// 4 - keep tracking the cnt of targets visited until all targets are visited
 
 class GridType {
     static int HUMAN = 0;
@@ -66,10 +66,10 @@ public class Solution {
         int days = 1;
 
         while(!queue.isEmpty()) {            
-            // 分层遍历
+            // level traversal 
             int size = queue.size();
 
-            // i < size 而不是小于queue.size()! 
+            // i < size not queue.size()! because queue size is changing
             for (int i = 0; i < size; i ++) {
                 int curr = queue.poll();
                 int currX = curr/colCnt, currY = curr%colCnt;
@@ -90,14 +90,14 @@ public class Solution {
                     queue.add(next);
                     visited.add(next);
                     humanTurnedCnt++;
-                    // 一定得提前check 当全部扫到的时候，没有必要进入下一层了
+                    // no need to traverse more, all targets visited
                     if (humanTurnedCnt == humanCnt) {
                         return days;
                     }
                 }
             }
 
-            // 增加天数
+            // increment the level cnt
             days ++;
         }
 
