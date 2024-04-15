@@ -22,7 +22,9 @@
 
 ### 1.2 Tree Divide & Conquer (Depth First Search)
 * [Invert Binary Tree](https://github.com/dengkliu/algorithms/blob/master/invert_binary_tree.py)
-* [Binary Tree Paths](https://github.com/dengkliu/algorithms/blob/master/binary_tree_paths.py)
+* [Symmetric Tree](https://github.com/dengkliu/algorithms/blob/master/symmetric_tree.py)
+* [Reverse Odd Levels of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/reverse_odd_levels_binary_tree.py)
+* [Binary Tree All Paths to Leaves](https://github.com/dengkliu/algorithms/blob/master/binary_tree_paths.py)
 * [Validate Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/validate_binary_search_tree.py)
 * [Lowest Common Ancestor of a Binary Tree](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor.py)
 * [Lowest Common Ancestor of a Binary Tree II](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor_ii.py)
@@ -33,7 +35,6 @@
 * [Delete Node in a BST](https://github.com/dengkliu/algorithms/blob/master/delete_node_in_a_bst.py)
 * [Delete Subtree that Sum to 0](https://github.com/dengkliu/algorithms/blob/master/delete_tree_nodes.py)
 * [Count Nodes Equals to Average of Subtree](https://github.com/dengkliu/algorithms/blob/master/count_nodes_equals_to_average_of_subtree.py)
-* [Symmetric Tree](https://github.com/dengkliu/algorithms/blob/master/symmetric_tree.py)
 * [Equal Tree Partition](https://github.com/dengkliu/algorithms/blob/master/equal_tree_partition.py)
 * [Serialize and Deserialize Binary Tree](https://github.com/dengkliu/algorithms/blob/master/serialize_and_deserialize_binary_tree.py)
 * [Serialize and Deserialize N-ary Tree](https://github.com/dengkliu/algorithms/blob/master/serialize_and_deserialize_n_ary_tree.py)
