@@ -194,6 +194,7 @@ Trade the space complexity for time complexity.
 * [Best Time to Buy and Sell Stock](https://github.com/dengkliu/algorithms/blob/master/best_time_to_buy_and_sell_stock.py)
 * [Best Time to Buy and Sell Stock II](https://github.com/dengkliu/algorithms/blob/master/best_time_to_buy_and_sell_stock_II.py)
 * [Best Time to Buy and Sell Stock V](https://github.com/dengkliu/algorithms/blob/master/best_time_to_buy_and_sell_stock_V.py)
+* [Queue Reconstruction by Height](https://github.com/dengkliu/algorithms/blob/master/queue_reconstruction_by_height.py)
 
 ## 5. Prefix Sum 前缀和
 Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**. 
@@ -270,7 +271,6 @@ Related coding problem -
 * [Median of Two Sorted Array](https://github.com/dengkliu/algorithms/blob/master/median_of_two_sorted_arrays.py)
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java) 
 * [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
-
 
 ## 11. Monotonic Stack/Queue
 
