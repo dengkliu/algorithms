@@ -44,22 +44,3 @@ class SegmentTree:
             self.modify(node.r, index, value)
         
         node.sum = node.l.sum + node.r.sum
-
-class Solution:
-    def countSmaller(self, nums):
-        # because values can be negative, we add an offset to transform them to postive
-        offset = 10**4
-        size = 2 * 10**4 + 1 # total possible values in nums plus one dummy
-        array = [0] * size
-        segment_tree = SegmentTree()
-        tree = segment_tree.build_segment_tree(array, 0, size - 1)
-
-        result = []
-        for num in reversed(nums):
-            smaller_count = SegmentTree.range_sum_query(tree, 0, num + offset - 1)
-            result.append(smaller_count)
-            SegmentTree.modify(tree, num + offset - 1, 1)
-        
-        return result
-
-
