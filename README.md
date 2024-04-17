@@ -359,6 +359,11 @@ Related coding questions
 * [Word Search III](https://github.com/dengkliu/algorithms/blob/master/word_search_III.py)
 
 ### Segment Tree
+Here is the [implementation](https://github.com/dengkliu/algorithms/blob/master/segment_tree.py) of segment tree. For an array of size N, a practical upper estimate for the size of a segment tree array is about 4 * N, which safely covers the cases where 
+N is not a power of two, ensuring there is enough space in the array to represent the tree. 
+If N = 8, the size of the segment tree is 15 nodes (2 * N - 1).
+If N = 10(not a power of two), the next power of two is 16 The full size of the segment tree can be up to 2 × 16 − 1 = 31 nodes. Using the practical estimate, allocating space for 40 nodes is safe and simple.
+
 ### Binary Indexed Tree
 ### Heap (Priority Queue)
 In Python, you need to import heapq library, and use heapq.heappop(heap) and heap.heappush(heap, element) to do pop and push operation.
