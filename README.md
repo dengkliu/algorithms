@@ -1,5 +1,19 @@
 # Algorithms and Data Structures
 
+## 0. General Tips
+* First go through brute force approach
+* Seek for optimal time complextiy you can achieve
+  * If brute force is O(N), you should think about O(logn)
+* StringBuilder is not thread safe, but StringBuffer is.
+* Subarray is continuous, while subsquence is not. For an array with length N, there are N^2 subarrays and 2^N subsequences.
+* Data Range can help with coming up with the time complexity of a solution. 10^6 - 10^9 is the boundary.
+  * n = 10^4. You can do O(N) or O(NlogN) -- Two pointers? PrefixSum? DP?
+  * n = 10^3. You can do O(N^2) -- Dynamic programming?
+  * n = 10^2. You can do O(N^3) -- Three levels of for loop?
+  * n = 10. You can do O(N!) -- DFS.
+  * n = 10^9. You cannot even do O(N). You should be O(logN)
+* Here is a [time complexity analysis](https://github.com/dengkliu/algorithms/blob/master/ds) for general used data sturctures in python. 
+
 ## 1. Tree
 
 ### 1.1 Binary Tree Traversal
@@ -299,15 +313,12 @@ Stack that is monotone decreasing can be used to find the first element that is 
 * meta - https://leetcode.com/problems/basic-calculator-ii/description/
 
 ## 13. Useful data structures
-### Singly Linked List
-* [Reverse Linked List](https://github.com/dengkliu/algorithms/blob/master/reverse_singly_linked_list.py)
-### Double Linked List
-* [LRU Cache](https://leetcode.com/problems/lru-cache/)
+### Segment Tree
+Here is the [implementation](https://github.com/dengkliu/algorithms/blob/master/segment_tree.py) of segment tree. For an array of size N, a practical upper estimate for the size of a segment tree array is about 4 * N, which safely covers the cases where 
+N is not a power of two, ensuring there is enough space in the array to represent the tree. 
+* If N = 8, the size of the segment tree is 15 nodes (2 * N - 1).
+* If N = 10(not a power of two), the next power of two is 16 The full size of the segment tree can be up to 2 × 16 − 1 = 31 nodes. Using the practical estimate, allocating space for 40 nodes is safe and simple.
 
-### Stack
-* [Minimal Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
-* https://leetcode.com/problems/min-stack/description/
-  
 ### Union Find
 [Union Find](https://github.com/dengkliu/algorithms/blob/master/union_find.py) is used to solve connection problem, especially for dynamic data stream (online algorithm). BFS can only be used to solve connection problem for static data (therefore BFS is offline algorithm), for data stream, the time complexity will be horrible.
 
@@ -332,6 +343,16 @@ Related coding questions
   * [Maximum Association Set](https://github.com/dengkliu/algorithms/blob/master/maximum_association_set.py)
   * [Number of Islands II](https://github.com/dengkliu/algorithms/blob/master/number_of_islands_II.py)
   * [Bricks Falling When Hit](https://github.com/dengkliu/algorithms/blob/master/bricks_falling_when_hit.py)
+     
+### Singly Linked List
+* [Reverse Linked List](https://github.com/dengkliu/algorithms/blob/master/reverse_singly_linked_list.py)
+
+### Double Linked List
+* [LRU Cache](https://leetcode.com/problems/lru-cache/)
+
+### Stack
+* [Minimal Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
+* https://leetcode.com/problems/min-stack/description/
 
 ### Trie
 
@@ -358,34 +379,12 @@ Related coding questions
 * [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
 * [Word Search III](https://github.com/dengkliu/algorithms/blob/master/word_search_III.py)
 
-### Segment Tree
-Here is the [implementation](https://github.com/dengkliu/algorithms/blob/master/segment_tree.py) of segment tree. For an array of size N, a practical upper estimate for the size of a segment tree array is about 4 * N, which safely covers the cases where 
-N is not a power of two, ensuring there is enough space in the array to represent the tree. 
-* If N = 8, the size of the segment tree is 15 nodes (2 * N - 1).
-* If N = 10(not a power of two), the next power of two is 16 The full size of the segment tree can be up to 2 × 16 − 1 = 31 nodes. Using the practical estimate, allocating space for 40 nodes is safe and simple.
-
 ### Binary Indexed Tree
 ### Heap (Priority Queue)
 In Python, you need to import heapq library, and use heapq.heappop(heap) and heap.heappush(heap, element) to do pop and push operation.
 * [Minimum Cost to Hire_K_Workers](https://github.com/dengkliu/algorithms/blob/master/minimum_cost_to_hire_K_workers.py)
 * [Sliding Window Minimum]()
 
-### General Data Structures
-
-Here is a [time complexity analysis](https://github.com/dengkliu/algorithms/blob/master/ds) for all other general used data sturctures in java. 
-
-## Tips
-* First go through brute force approach
-* Seek for optimal time complextiy you can achieve
-  * If brute force is O(N), you should think about O(logn)
-* StringBuilder is not thread safe, but StringBuffer is.
-* Subarray is continuous, while subsquence is not. For an array with length N, there are N^2 subarrays and 2^N subsequences.
-* Data Range can help with coming up with the time complexity of a solution. 10^6 - 10^9 is the boundary.
-  * n = 10^4. You can do O(N) or O(NlogN) -- Two pointers? PrefixSum? DP?
-  * n = 10^3. You can do O(N^2) -- Dynamic programming?
-  * n = 10^2. You can do O(N^3) -- Three levels of for loop?
-  * n = 10. You can do O(N!) -- DFS.
-  * n = 10^9. You cannot even do O(N). You should be O(logN)
 
 ## Other coding questions
 * [Math] [Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
