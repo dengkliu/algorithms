@@ -4,10 +4,10 @@
 * First go through brute force approach.
 * Seek for optimal time complextiy you can achieve, if brute force is O(N), you should think about O(logn)
 * Data Range can help with coming up with the time complexity of a solution. 10^6 - 10^9 is the boundary.
-  * n = 10^4. You can do O(N) or O(NlogN) -- Two pointers? PrefixSum? DP?
-  * n = 10^3. You can do O(N^2) -- Dynamic programming?
-  * n = 10^2. You can do O(N^3) -- Three levels of for loop?
-  * n = 10. You can do O(N!) -- DFS.
+  * n = 10^4. You can do O(N) or O(NlogN)
+  * n = 10^3. You can do O(N^2) 
+  * n = 10^2. You can do O(N^3) 
+  * n = 10. You can do O(N!)
   * n = 10^9. You cannot even do O(N). You should be O(logN)
 * Here is a [time complexity analysis](https://github.com/dengkliu/algorithms/blob/master/ds) for general used data sturctures in python. 
 
