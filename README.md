@@ -1,11 +1,8 @@
 # Algorithms and Data Structures
 
 ## 0. General Tips
-* First go through brute force approach
-* Seek for optimal time complextiy you can achieve
-  * If brute force is O(N), you should think about O(logn)
-* StringBuilder is not thread safe, but StringBuffer is.
-* Subarray is continuous, while subsquence is not. For an array with length N, there are N^2 subarrays and 2^N subsequences.
+* First go through brute force approach.
+* Seek for optimal time complextiy you can achieve, if brute force is O(N), you should think about O(logn)
 * Data Range can help with coming up with the time complexity of a solution. 10^6 - 10^9 is the boundary.
   * n = 10^4. You can do O(N) or O(NlogN) -- Two pointers? PrefixSum? DP?
   * n = 10^3. You can do O(N^2) -- Dynamic programming?
