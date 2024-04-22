@@ -102,7 +102,7 @@ BSF can be used to 1. find any topological order, 2. verify if there exists an t
 * [Course Schedule](https://github.com/dengkliu/algorithms/blob/master/course_schedule.py)
 * [Course Schedule II](https://github.com/dengkliu/algorithms/blob/master/course_schedule_ii.py)
 
-### Others
+### 2.4 Others
 
 You can also use BFS to 1. work on a 2D matrix problem regarding some maximum/minimum problems. Sometimes the problem can also be solved with DP. 2. find farthest node from a start, and furthermore find the two farthest nodes in a graph.
 
@@ -118,11 +118,11 @@ DFS is often used to (1) solve tree problems using divide and conquer, (2) to ge
 
 For (2) and (3), a technique called **backtracking** is often used. Backtracking involves DFS but with the additional strategy of pruning branches that violate constraints or cannot lead to a solution. It is a systematic method for solving problems by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time (by time, here, is referred to the number of steps taken to reach that level.
 
-### Tree Traversal (Divide and Conquer)
+### 3.1 Tree Traversal (Divide and Conquer)
 
 Find tree's problems [above](https://github.com/dengkliu/algorithms/blob/master/README.md#12-tree-divide--conquer-depth-first-search).
 
-### Find All Solutions 
+### 3.2 Find All Solutions 
 
 Find all solutions that meet a certain requirement; find a specific solution that meets the certain requirement. 
 
@@ -130,7 +130,7 @@ Find all solutions that meet a certain requirement; find a specific solution tha
 * [Couse Schedule IV](https://github.com/dengkliu/algorithms/blob/master/CourseScheduleIV.java)
 * [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
 
-### Combination & Permutation
+### 3.3 Combination & Permutation
 
 Find all combinations and permutations that meet a certain requirement. Find one combination and permutation that meets a certain requirement. Find the optimal combination and permutation.
 
@@ -148,7 +148,7 @@ using a memory-based data structure(array, map, etc).
 
 Trade the space complexity for time complexity.
 
-### Coordinate DP
+### 4.1 Coordinate DP
 * [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java)
 * [Climbing Stairs](https://github.com/dengkliu/algorithms/blob/master/climbing_stairs.py)
 * [Number of Ways to Stay in the Same Place After Some Steps](https://github.com/dengkliu/algorithms/blob/master/number_of_ways_to_stay_in_same_place_after_some_steps.py)
@@ -169,7 +169,7 @@ Trade the space complexity for time complexity.
 * [Maximal Square](https://github.com/dengkliu/algorithms/blob/master/maximal_square.py)
 * [Count Square Submatrices with All Ones](https://github.com/dengkliu/algorithms/blob/master/count_squares.py)
 
-### Backpack DP 
+### 4.2 Backpack DP 
 * [Knapsack](https://github.com/dengkliu/algorithms/blob/master/backpack.py)
 * [Backpack II](https://github.com/dengkliu/algorithms/blob/master/backpack_II.py)
 * [Backpack III](https://github.com/dengkliu/algorithms/blob/master/backpack_III.py)
@@ -189,17 +189,17 @@ Trade the space complexity for time complexity.
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
 * https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/
 
-### Interval DP
+### 4.3 Interval DP
 * [Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/description/)
 * [Stone Game](https://github.com/dengkliu/algorithms/blob/master/stone_game.py)
 * [Stone Game II](https://github.com/dengkliu/algorithms/blob/master/stone_game_II.py)
 * [Minimum Cost to Merge Stones](https://github.com/dengkliu/algorithms/blob/master/minimum_cost_to_merge_stones.py)
 
-### Prefix DP
+### 4.4 Prefix DP
 * [Longest Common Subsequence](https://github.com/dengkliu/algorithms/blob/master/longest_common_sequence.py)
 * [Height of Binary Tree after Subtree Removal Queries](https://github.com/dengkliu/algorithms/blob/master/height_of_binary_tree_after_subtree_removal_queries.py)
 
-## 4. Greedy
+## 5. Greedy
 
 * [Course Schedule III]()
 * [Best Time to Buy and Sell Stock](https://github.com/dengkliu/algorithms/blob/master/best_time_to_buy_and_sell_stock.py)
@@ -207,7 +207,7 @@ Trade the space complexity for time complexity.
 * [Best Time to Buy and Sell Stock V](https://github.com/dengkliu/algorithms/blob/master/best_time_to_buy_and_sell_stock_V.py)
 * [Queue Reconstruction by Height](https://github.com/dengkliu/algorithms/blob/master/queue_reconstruction_by_height.py)
 
-## 5. Prefix Sum 前缀和
+## 6. Prefix Sum 前缀和
 Prefix sum is mostly used for getting the subarray sum, if the subarray is **immutable**. 
 
 The definition of prefix sum for 1D and 2D array.
@@ -224,13 +224,13 @@ Related coding problems.
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java)
 * [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/subarray_sum_II.py) ✅ Prefix sum, 全部是postive number，所以可以用双指针。
 
-## 5. Scanning Line 扫描线
+## 7. Scanning Line 扫描线
 
 Scanning line is usuallly used to solve interval related problems. 
 
 * [Number of Airplanes in the Sky](https://github.com/dengkliu/algorithms/blob/master/number_of_airplanes_in_the_sky.py) ✅ 解决区间问题的经典题，把起点和终点分别flag，在时间上进行排序。
 
-## 6. Two Pointers 双指针
+## 8. Two Pointers 双指针
 
 Two pointers are usually used when:
 * Sliding window problem
@@ -239,7 +239,7 @@ Two pointers are usually used when:
 * Subarray or substring problem (50%)
 * Palindrome problem (50%)
 
-### [Same direction two pointers](https://github.com/dengkliu/algorithms/blob/master/same_direction_two_pointers.py) 同向双指针
+### 8.1 [Same direction two pointers](https://github.com/dengkliu/algorithms/blob/master/same_direction_two_pointers.py) 同向双指针
 Two pointers start from the head of array and go to the end. 同向双指针只能用于一种条件，那就是解存在一种单调性，当起始指针右移的时候，终止指针不应该往回走，为了找到结，右指针只能继续往右走。底层逻辑就是-->如果一个子数组不满足条件，那么这个子数组的所有子数组均不满足条件。
 
 * [Minimum Size Subarray Sum](https://github.com/dengkliu/algorithms/blob/master/minimum_size_of_subarray.py)
@@ -249,17 +249,17 @@ Two pointers start from the head of array and go to the end. 同向双指针只�
 * [Longest Substring With At Most K Distinct Characters](https://github.com/dengkliu/algorithms/blob/master/LongestSubstringWithAtMostKDistinctCharacters.java) ✅ 枚举起点，用dictionary记录characters出现次数，只有当次数为0时，才去掉这个character.
 * [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/subarray_sum_II.py) ✅ Prefix sum, 全部是postive number，所以可以用双指针。
 
-### Fixed Size Sliding Window 固定长度滑动窗口
+### 8.2 Fixed Size Sliding Window 固定长度滑动窗口
 
 * [Grumpy Bookstore Owner](https://github.com/dengkliu/algorithms/blob/master/GrumpyBookStoreOwner.java) ✅ Slding window经典题，枚举终点，注意第一个初始状态window的位置，初始化的时候直接assume window在这个位置，求得一个解，然后移动window，打擂台。
 * [Pick Apples](https://github.com/dengkliu/algorithms/blob/master/PickApples.java) ✅ 典型的fixed size sliding window + 双字段问题。注意双字段问题可以用隔板法，隔板法用for loop,隔板位置从0到n-1，[0, i) [i, n-1], 在子函数里 start - end <= 0 或者 window size直接返回-1.
 
-### Opposite direction two pointers 相向双指针
+### 8.3 Opposite direction two pointers 相向双指针
 * [Two Sim VII](https://github.com/dengkliu/algorithms/blob/master/TwoSumVII.java) ✅ two pointer的升级版，基本思路一样，只是需要找到start下一个更大的数和end上一个更小的数。
 ### Back direction two pointers 背向双指针
 * [Shortest Palindrome](https://github.com/dengkliu/algorithms/blob/master/ShortestPalindrome.java) ✅ check palindrome 经典问题，每个位置注意check两种情况。
 
-## 7. Binary Search 二分查询
+## 9. Binary Search 二分查询
 
 You may want to use binary search when -
 * When the interviewer ask you to find a solution that is better than O(N)
@@ -283,7 +283,21 @@ Related coding problem -
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java) 
 * [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
 
-## 11. Monotonic Stack/Queue
+## 11. Sorting
+* [Quick sort](https://github.com/dengkliu/algorithms/blob/master/quick_sort.py)
+* [Merge sort](https://github.com/dengkliu/algorithms/blob/master/merge_sort.py)
+* [Count of Smaller Numbers After Self]()
+
+## 11. Others
+* Greatest Common Divisor - https://www.lintcode.com/problem/845/
+* Factorization - https://www.lintcode.com/problem/652/
+* https://www.lintcode.com/problem/1877
+
+## 12. String
+* meta - https://leetcode.com/problems/basic-calculator-ii/description/
+
+## 13. Useful data structures
+### 13.1. Monotonic Stack/Queue
 
 Monotonic stack is an algorithm that is implemented based on stack. 
 The elements in the stack are sorted by a certain rule (usually number comparison). 
@@ -300,16 +314,7 @@ Stack that is monotone decreasing can be used to find the first element that is 
 * [Tall Building](https://github.com/dengkliu/algorithms/blob/master/tall_buildings.py)
 * [Sliding Window Maximum](https://github.com/dengkliu/algorithms/blob/master/sliding_window_maximum.py)
 * [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/shortest_subarray_with_sum_at_least_K.py)
-
-## 12. Others
-* Greatest Common Divisor - https://www.lintcode.com/problem/845/
-* Factorization - https://www.lintcode.com/problem/652/
-* https://www.lintcode.com/problem/1877
-
-## 13. String
-* meta - https://leetcode.com/problems/basic-calculator-ii/description/
-
-## 13. Useful data structures
+* 
 ### Segment Tree
 Here is the [implementation](https://github.com/dengkliu/algorithms/blob/master/segment_tree.py) of segment tree. For an array of size N, a practical upper estimate for the size of a segment tree array is about 4 * N, which safely covers the cases where 
 N is not a power of two, ensuring there is enough space in the array to represent the tree. 
@@ -382,7 +387,6 @@ In Python, you need to import heapq library, and use heapq.heappop(heap) and hea
 * [Minimum Cost to Hire_K_Workers](https://github.com/dengkliu/algorithms/blob/master/minimum_cost_to_hire_K_workers.py)
 * [Sliding Window Minimum]()
 
-
 ## Other coding questions
 * [Math] [Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
 
@@ -391,5 +395,4 @@ In Python, you need to import heapq library, and use heapq.heappop(heap) and hea
 * [Binary Search](https://github.com/dengkliu/algorithms/blob/master/binary_search_template.py) ✅
 * [Two pointers](https://github.com/dengkliu/algorithms/blob/master/two_pointers.py)
 * [Binary Tree Divide and Conquer](https://github.com/dengkliu/algorithms/blob/master/binary_tree_divide_and_conquer.py)
-* [Quick sort](https://github.com/dengkliu/algorithms/blob/master/quick_sort.py)
-* [Merge sort](https://github.com/dengkliu/algorithms/blob/master/merge_sort.py)
+
