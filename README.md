@@ -286,7 +286,7 @@ Related coding problem -
 ## 11. Sorting
 * [Quick sort](https://github.com/dengkliu/algorithms/blob/master/quick_sort.py)
 * [Merge sort](https://github.com/dengkliu/algorithms/blob/master/merge_sort.py)
-* [Count of Smaller Numbers After Self]()
+* [Count of Smaller Numbers After Self](https://github.com/dengkliu/algorithms/blob/master/count_of_smaller_numbers_after_itself.py)
 
 ## 11. Others
 * Greatest Common Divisor - https://www.lintcode.com/problem/845/
