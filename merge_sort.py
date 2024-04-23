@@ -1,13 +1,8 @@
 class Solution:
-
 	def sort(self, A):
-
 		if not A:
 			return A
-
-		sorted_A = [0 for _ in range(len(A))]
-
-		self.merge_sort(A, 0, len(A) -1, sorted_A)
+		self.merge_sort(A, 0, len(A) -1)
 
 
     # [2, 1]
