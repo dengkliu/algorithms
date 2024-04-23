@@ -6,23 +6,20 @@ class Solution:
 
 
     # [2, 1]
-def mergeSort(A, start, end):
+def mergeSort(self, A, start, end):
   if start >= end:
     return
   
   mid = (start + end) // 2
-  mergeSort(A, start, mid)
-  mergeSort(A, mid + 1, end)
-  merge(A, start, mid, end)
+  self.mergeSort(A, start, mid)
+  self.mergeSort(A, mid + 1, end)
+  self.merge(A, start, mid, end)
 
-def merge(A, start, mid, end):
+def merge(self, A, start, mid, end):
   sorted_A = [0] * (end - start + 1)
   left, right = start, mid + 1
   index = 0
   while left <= mid and right <= end and index <= end - start:
-    if start == 3 and end == 5:
-      print(A[left])
-      print(A[right])
     if A[left] < A[right]:
       sorted_A[index] = A[left]
       index += 1
