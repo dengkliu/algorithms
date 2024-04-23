@@ -58,6 +58,7 @@
 * [Number of Good Leaf Nodes Pairs](https://github.com/dengkliu/algorithms/blob/master/num_of_good_leaf_nodes_pairs.py)
 * [Find leaves of binary tree](https://github.com/dengkliu/algorithms/blob/master/find_leaves_of_binary_tree.py)
 * [Height of Binary Tree after Subtree Removal Queries](https://github.com/dengkliu/algorithms/blob/master/height_of_binary_tree_after_subtree_removal_queries.py)
+* [Print Binary Tree](https://github.com/dengkliu/algorithms/blob/master/print_binary_tree.py)
 
 ## 2. Breath-First Search
 
