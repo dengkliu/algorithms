@@ -16,26 +16,21 @@ def mergeSort(self, A, start, end):
   self.merge(A, start, mid, end)
 
 def merge(self, A, start, mid, end):
-  sorted_A = [0] * (end - start + 1)
+  sorted_A = []
   left, right = start, mid + 1
-  index = 0
-  while left <= mid and right <= end and index <= end - start:
+  while left <= mid and right <= end:
     if A[left] < A[right]:
-      sorted_A[index] = A[left]
-      index += 1
+      sorted_A.append(A[left])
       left += 1
     else:
-      sorted_A[index] = A[right]
-      index += 1
+      sorted_A.append(A[right])
       right += 1	
-  while left <= mid and index <= end - start:
-    sorted_A[index] = A[left]
+  while left <= mid:
+    sorted_A.append(A[left])
     left += 1
-    index += 1
-  while right <= end and index <= end - start:
-    sorted_A[index] = A[right]
+  while right <= end:
+    sorted_A.append(A[right])
     right += 1
-    index += 1
   # copy to original array
   for i in range(start, end + 1):
     A[i] = sorted_A[i - start]
