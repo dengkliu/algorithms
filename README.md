@@ -70,7 +70,7 @@
 * [Number of Islands](https://github.com/dengkliu/algorithms/blob/master/number_of_islands.py)
 * [Number of Big Islands](https://github.com/dengkliu/algorithms/blob/master/NumberOfBigIslands.java)
 * [Lake Escape](https://github.com/dengkliu/algorithms/blob/master/LakeEscape.java)
-* [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)
+* [Validate Binary Tree Nodes](https://github.com/dengkliu/algorithms/blob/master/validate_binary_tree_nodes.py)
 
 ### 2.2 Get Shortest Path
 
