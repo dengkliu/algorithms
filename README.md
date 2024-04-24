@@ -29,6 +29,7 @@
 * [Binary Tree Level Order Traversal](https://github.com/dengkliu/algorithms/blob/master/binary_tree_level_order_traversal.py)
 * [Binary Tree Level Order Traversal II](https://github.com/dengkliu/algorithms/blob/master/binary_tree_level_order_traversal_ii.py)
 * [Binary Tree Vertical Order Traversal](https://github.com/dengkliu/algorithms/blob/master/binary_tree_vertical_order_traversal.py)
+* [Binary Tree Vertical Order Traversal - Sorted Within Row](https://github.com/dengkliu/algorithms/blob/master/vertical_order_traversal_of_a_binary_tree.py)
 * [Binary Tree Right Side View](https://github.com/dengkliu/algorithms/blob/master/binary_tree_right_side_view.py)
 * [Find Largest Value in Each Tree Row](https://github.com/dengkliu/algorithms/blob/master/binary_tree_find_largest_value_in_each_tree_row.py)
 
