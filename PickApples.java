@@ -7,7 +7,6 @@
 // 典型的fixed size sliding window + 双字段问题
 // 双字段问题可以用隔板法。
 
-
 public class Solution {
     /**
      * @param A: a list of integer
