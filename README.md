@@ -365,7 +365,7 @@ Related coding questions
 
 ### Trie
 
-[Trie](https://github.com/dengkliu/algorithms/blob/master/Trie.java) is used to store strings while compressing the string common prefix. Its internal structure is a tree. The more common prefixes shared by the words in the dictionary, the more time saved. 
+[Trie](https://github.com/dengkliu/algorithms/blob/master/implement_trie.py) is used to store strings while compressing the string common prefix. Its internal structure is a tree. The more common prefixes shared by the words in the dictionary, the more time saved. 
 
 The best time complexity for insert word and find word is O(L).
 
