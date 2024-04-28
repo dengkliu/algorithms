@@ -57,6 +57,7 @@
 * [Find Number of Coins to Place in Tree Nodes](https://github.com/dengkliu/algorithms/blob/master/find_number_of_coins_to_place_in_tree_nodes.py)
 
 #### 1.2.1 Tree's Height
+* [Balanced Binary Tree](https://github.com/dengkliu/algorithms/blob/master/balanced_binary_tree.py)
 * [Diameter of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/DiameterOfBinaryTree.java)
 * [Number of Good Leaf Nodes Pairs](https://github.com/dengkliu/algorithms/blob/master/num_of_good_leaf_nodes_pairs.py)
 * [Find leaves of binary tree](https://github.com/dengkliu/algorithms/blob/master/find_leaves_of_binary_tree.py)
