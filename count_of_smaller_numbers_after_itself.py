@@ -13,6 +13,7 @@ class Solution:
     def countSmaller(self, nums):
 
         n = len(nums)
+        # 1. How to get both value and index for each element in an array
         arr = [[value, index] for index, value in enumerate(nums)]
         result = [0] * n
         
@@ -25,11 +26,13 @@ class Solution:
             merge(arr, start, mid, end)
         
         def merge(array, start, mid, end):
+            # 2. Why do we keep an empty sorted array?
             sorted_array = []
             left, right = start, mid + 1
             while left <= mid and right <= end:
                 if arr[left][0] <= arr[right][0]:
                     sorted_array.append(array[left])
+                    # 3. Why do the addition here when left array element is samller?
                     result[arr[left][1]] += right - mid - 1
                     left += 1
                 else:
