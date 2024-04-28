@@ -56,6 +56,7 @@
 * [Construct Binary from Preorder and Inorder Traversal](https://github.com/dengkliu/algorithms/blob/master/construct_binary_tree_from_preorder_and_inoder_traversal.py)
 * [Sum of Distances in Tree](https://github.com/dengkliu/algorithms/blob/master/sum_of_distances_in_tree.py)
 * [Find Number of Coins to Place in Tree Nodes](https://github.com/dengkliu/algorithms/blob/master/find_number_of_coins_to_place_in_tree_nodes.py)
+* [House Robber III](https://github.com/dengkliu/algorithms/blob/master/house_robber_iii.py)
 
 #### 1.2.1 Tree's Height
 * [Balanced Binary Tree](https://github.com/dengkliu/algorithms/blob/master/balanced_binary_tree.py)
