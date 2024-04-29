@@ -58,6 +58,7 @@
 * [Sum of Distances in Tree](https://github.com/dengkliu/algorithms/blob/master/sum_of_distances_in_tree.py)
 * [Find Number of Coins to Place in Tree Nodes](https://github.com/dengkliu/algorithms/blob/master/find_number_of_coins_to_place_in_tree_nodes.py)
 * [House Robber III](https://github.com/dengkliu/algorithms/blob/master/house_robber_iii.py)
+* [Sum Root to Leaf Numbers](https://github.com/dengkliu/algorithms/blob/master/sum_root_to_leaf_numbers.py)
 
 #### 1.2.1 Tree's Height
 * [Balanced Binary Tree](https://github.com/dengkliu/algorithms/blob/master/balanced_binary_tree.py)
