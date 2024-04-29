@@ -23,6 +23,7 @@
 * [Kth Smallest Element in BST](https://github.com/dengkliu/algorithms/blob/master/kth_smallest_element_in_bst.py)
 * [Find Mode in Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/find_mode_in_binary_search_tree.py)
 * [Convert Binary Search Tree to Sorted Doubly Linked List](https://github.com/dengkliu/algorithms/blob/master/convert_binary_search_tree_to_sorted_doubly_linked_list.py)
+* [Binary Search Tree Iterator](https://github.com/dengkliu/algorithms/blob/master/binary_search_tree_iterator.py)
 * [Binary Tree Postorder](https://github.com/dengkliu/algorithms/blob/master/post_order_traversal_bst.py)
 
 #### 1.1.2 Level Order Traversal
