@@ -38,7 +38,7 @@
 * [Populating Next Right Pointers in Each Node](https://github.com/dengkliu/algorithms/blob/master/populating_next_right_pointers_in_each_node.py)
 * [Minimum Height Trees](https://github.com/dengkliu/algorithms/blob/master/minimum_height_trees.py)
 
-### 1.2 Tree Divide & Conquer (Depth First Search)
+### 1.2 Tree Divide & Conquer
 * [Invert Binary Tree](https://github.com/dengkliu/algorithms/blob/master/invert_binary_tree.py)
 * [Symmetric Tree](https://github.com/dengkliu/algorithms/blob/master/symmetric_tree.py)
 * [Merge Two Binary Trees](https://github.com/dengkliu/algorithms/blob/master/merge_two_binary_trees.py)
