@@ -19,6 +19,7 @@
 
 * [Binary Tree Preorder](https://github.com/dengkliu/algorithms/blob/master/pre_order_traversal_bst.py)
 * [Flatten Binary Tree To Linked List](https://github.com/dengkliu/algorithms/blob/master/flatten_binary_tree_to_linkedlist.py)
+* [Boundary of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/boundary_of_binary_tree.py)
 * [Binary Tree Inorder](https://github.com/dengkliu/algorithms/blob/master/inorder_traversal_bst.py)
 * [Kth Smallest Element in BST](https://github.com/dengkliu/algorithms/blob/master/kth_smallest_element_in_bst.py)
 * [Find Mode in Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/find_mode_in_binary_search_tree.py)
