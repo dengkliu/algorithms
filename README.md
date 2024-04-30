@@ -81,6 +81,9 @@
 * [Height of Binary Tree after Subtree Removal Queries](https://github.com/dengkliu/algorithms/blob/master/height_of_binary_tree_after_subtree_removal_queries.py)
 * [Print Binary Tree](https://github.com/dengkliu/algorithms/blob/master/print_binary_tree.py)
 
+#### 1.2.2 Other Tree Problem
+* [Recover a Tree from Preorder Traversal](https://github.com/dengkliu/algorithms/blob/master/recover_a_tree_from_preorder_traversal.py)
+
 ## 2. Breath-First Search
 
 [BFS Template](https://github.com/dengkliu/algorithms/blob/master/breadth_first_search.py)
