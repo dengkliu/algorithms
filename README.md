@@ -38,6 +38,7 @@
 * [Find Largest Value in Each Tree Row](https://github.com/dengkliu/algorithms/blob/master/binary_tree_find_largest_value_in_each_tree_row.py)
 * [Populating Next Right Pointers in Each Node](https://github.com/dengkliu/algorithms/blob/master/populating_next_right_pointers_in_each_node.py)
 * [Minimum Height Trees](https://github.com/dengkliu/algorithms/blob/master/minimum_height_trees.py)
+* [Complete Binary Tree Insert](https://github.com/dengkliu/algorithms/blob/master/complete_binary_tree_insert.py)
 
 ### 1.2 Tree Divide & Conquer
 * [Invert Binary Tree](https://github.com/dengkliu/algorithms/blob/master/invert_binary_tree.py)
