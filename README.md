@@ -50,6 +50,7 @@
 * [Lowest Common Ancestor of a Binary Tree II](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor_ii.py)
 * [Lowest Common Ancestor of a Binary Tree III](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor_iii.py)
 * [Lowest Common Ancestor of a Binary Tree IV](https://github.com/dengkliu/algorithms/blob/master/binary_tree_lowest_common_ancestor_iv.py)
+* [Smallest Subtree with All the Deepest Nodes](https://github.com/dengkliu/algorithms/blob/master/smallest_subtree_with_all_the_deepest_nodes.py)
 * [Construct String with Parenthesis from Binary Tree](https://github.com/dengkliu/algorithms/blob/master/construct_string_from_binary_tree.py)
 * [Construct Binary Tree from String with Parenthesis](https://github.com/dengkliu/algorithms/blob/master/construct_binary_tree_from_string.py)
 * [Delete Nodes and Return Forest](https://github.com/dengkliu/algorithms/blob/master/delete_nodes_and_return_forest.py)
