@@ -22,6 +22,7 @@
 * [Boundary of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/boundary_of_binary_tree.py)
 * [Binary Tree Inorder](https://github.com/dengkliu/algorithms/blob/master/inorder_traversal_bst.py)
 * [Range Sum of Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/range_sum_of_bst.py)
+* [Balance Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/balance_binary_search_tree.py)
 * [Kth Smallest Element in BST](https://github.com/dengkliu/algorithms/blob/master/kth_smallest_element_in_bst.py)
 * [Find Mode in Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/find_mode_in_binary_search_tree.py)
 * [Convert Binary Search Tree to Sorted Doubly Linked List](https://github.com/dengkliu/algorithms/blob/master/convert_binary_search_tree_to_sorted_doubly_linked_list.py)
