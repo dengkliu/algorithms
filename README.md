@@ -75,6 +75,7 @@
 * [All Nodes Distance K in Binary Tree](https://github.com/dengkliu/algorithms/blob/master/all_nodes_distance_k_in_binary_tree.py)
 
 #### 1.2.1 Tree's Height
+* [Minimum Depth of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/minimum_depth_of_binary_tree.py)
 * [Balanced Binary Tree](https://github.com/dengkliu/algorithms/blob/master/balanced_binary_tree.py)
 * [Diameter of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/DiameterOfBinaryTree.java)
 * [Diameter of N-ary Tree](https://github.com/dengkliu/algorithms/blob/master/diameter_of_n_ary_tree.py)
