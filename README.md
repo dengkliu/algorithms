@@ -13,7 +13,7 @@
 
 ## 1. Tree
 
-### 1.1 Binary Tree Traversal
+### 1.1 Tree Traversal
 
 #### 1.1.1 Pre/In/Post Order Traversal
 
@@ -29,6 +29,7 @@
 * [Binary Search Tree Iterator](https://github.com/dengkliu/algorithms/blob/master/binary_search_tree_iterator.py)
 * [Closest Bianry Search Value](https://github.com/dengkliu/algorithms/blob/master/closest_binary_search_tree_value.py)
 * [Binary Tree Postorder](https://github.com/dengkliu/algorithms/blob/master/post_order_traversal_bst.py)
+* [Minimum Time to Collect All Apples in Tree](https://github.com/dengkliu/algorithms/blob/master/minimum_time_to_collect_all_apples_in_a_tree.py)
 
 #### 1.1.2 Level Order Traversal
 * [Binary Tree Level Order Traversal](https://github.com/dengkliu/algorithms/blob/master/binary_tree_level_order_traversal.py)
@@ -45,7 +46,7 @@
 * [Complete Binary Tree Insert](https://github.com/dengkliu/algorithms/blob/master/complete_binary_tree_insert.py)
 * [Check Completeness of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/check_completeness_of_a_binary_tree.py)
 
-### 1.2 Tree Divide & Conquer
+### 1.2 Divide & Conquer
 * [Invert Binary Tree](https://github.com/dengkliu/algorithms/blob/master/invert_binary_tree.py)
 * [Symmetric Tree](https://github.com/dengkliu/algorithms/blob/master/symmetric_tree.py)
 * [Merge Two Binary Trees](https://github.com/dengkliu/algorithms/blob/master/merge_two_binary_trees.py)
