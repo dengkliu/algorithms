@@ -38,6 +38,7 @@
 * [Binary Tree Vertical Order Traversal - Sorted Within Row](https://github.com/dengkliu/algorithms/blob/master/vertical_order_traversal_of_a_binary_tree.py)
 * [Binary Tree Right Side View](https://github.com/dengkliu/algorithms/blob/master/binary_tree_right_side_view.py)
 * [Average of Levels in Binary Tree](https://github.com/dengkliu/algorithms/blob/master/average_of_levels_in_binary_tree.py)
+* [Maximum Level Sum of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/maximum_level_sum_of_a_binary_tree.py)
 * [Find Largest Value in Each Tree Row](https://github.com/dengkliu/algorithms/blob/master/binary_tree_find_largest_value_in_each_tree_row.py)
 * [Populating Next Right Pointers in Each Node](https://github.com/dengkliu/algorithms/blob/master/populating_next_right_pointers_in_each_node.py)
 * [Minimum Height Trees](https://github.com/dengkliu/algorithms/blob/master/minimum_height_trees.py)
