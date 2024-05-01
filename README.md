@@ -33,6 +33,7 @@
 #### 1.1.2 Level Order Traversal
 * [Binary Tree Level Order Traversal](https://github.com/dengkliu/algorithms/blob/master/binary_tree_level_order_traversal.py)
 * [Binary Tree Level Order Traversal II](https://github.com/dengkliu/algorithms/blob/master/binary_tree_level_order_traversal_ii.py)
+* [Binary Tree Zigzag Level Order Traversal](https://github.com/dengkliu/algorithms/blob/master/binary_tree_zig_zag_level_order_traversal.py)
 * [Binary Tree Vertical Order Traversal](https://github.com/dengkliu/algorithms/blob/master/binary_tree_vertical_order_traversal.py)
 * [Binary Tree Vertical Order Traversal - Sorted Within Row](https://github.com/dengkliu/algorithms/blob/master/vertical_order_traversal_of_a_binary_tree.py)
 * [Binary Tree Right Side View](https://github.com/dengkliu/algorithms/blob/master/binary_tree_right_side_view.py)
