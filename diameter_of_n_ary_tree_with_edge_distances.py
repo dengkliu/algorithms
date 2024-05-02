@@ -48,9 +48,7 @@ class Solution:
 
         queue.clear()
         distance.clear()
-
-        print(max_node)
-
+        
         queue.append(max_node)
         distance = {max_node : 0}
         max_distance = - float('inf')
