@@ -8,6 +8,7 @@
 
 # The height of a rooted tree is the number of edges on the longest downward path between the root and a leaf.
 
+# This is using topological sort
 class Solution(object):
     def findMinHeightTrees(self, n, edges):
         """
@@ -21,6 +22,7 @@ class Solution(object):
             return [0, 1]
 
         graph = collections.defaultdict(set)
+        # Why do we need a connection array?
         connections = [0] * n
         # how to initialze a set of numbers from 0 to n-1
         nodes = set(range(n))
