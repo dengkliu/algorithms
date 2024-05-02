@@ -137,6 +137,7 @@ BSF can be used to 1. find any topological order, 2. verify if there exists an t
 * [Topological Sorting](https://github.com/dengkliu/algorithms/blob/master/topological_sorting.py) 
 * [Course Schedule](https://github.com/dengkliu/algorithms/blob/master/course_schedule.py)
 * [Course Schedule II](https://github.com/dengkliu/algorithms/blob/master/course_schedule_ii.py)
+* [Alien Dictionary](https://github.com/dengkliu/algorithms/blob/master/alien_dictionary.py)
 
 ### 2.4 Others
 
