@@ -34,7 +34,7 @@ class Solution(object):
         if root is None:
             return []
         # build this dictionary from column to node
-        col_to_node = {} 
+        col_to_node = collections.defaultdict(list)
 
         queue = collections.deque()
         queue.append((root, 0))
@@ -46,9 +46,7 @@ class Solution(object):
                 min_column = min(min_column, col)
                 max_column = max(max_column, col)
                 
-                nodes_in_col = col_to_node.get(col, [])
-                nodes_in_col.append((cur.val, level))
-                col_to_node[col] = nodes_in_col
+                col_to_node[col].append((cur.val, level))
                 if cur.left:
                     queue.append((cur.left, col -1))
                 if cur.right:
@@ -58,8 +56,10 @@ class Solution(object):
 
         for i in range(min_column, max_column + 1):
             nodes = col_to_node[i]
+            # first sort by levels and then by val
             nodes.sort(key=lambda nodes:(nodes[1], nodes[0]))
             nodes_val = [node[0] for node in nodes]
             result.append(nodes_val)
 
         return result
+        
