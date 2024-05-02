@@ -84,6 +84,7 @@
 * [Diameter of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/DiameterOfBinaryTree.java)
 * [Diameter of N-ary Tree](https://github.com/dengkliu/algorithms/blob/master/diameter_of_n_ary_tree.py)
 * [Diameter of Undirected Tree](https://github.com/dengkliu/algorithms/blob/master/undirected_tree_diameter.py)
+* [Diameter of Undirected Tree with Edge Distances](https://github.com/dengkliu/algorithms/blob/master/diameter_of_n_ary_tree_with_edge_distances.py)
 * [Longest Univalue Path in Binary Tree](https://github.com/dengkliu/algorithms/blob/master/longest_univalue_path_in_binary_tree.py)
 * [Number of Good Leaf Nodes Pairs](https://github.com/dengkliu/algorithms/blob/master/num_of_good_leaf_nodes_pairs.py)
 * [Find leaves of binary tree](https://github.com/dengkliu/algorithms/blob/master/find_leaves_of_binary_tree.py)
