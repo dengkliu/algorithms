@@ -4,7 +4,7 @@
 
 # If two nodes are in the same row and column, the order should be from left to right.
 
-
+# Definition for a binary tree node.
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, val=0, left=None, right=None):
