@@ -27,6 +27,8 @@ class Solution(object):
             graph[v].add(u)
             graph[u].add(v)
         
+        # we need to use this in dfs2()
+        # so we memorize it
         subtree_size = [0] * n
         
         def dfs(node, parent):
