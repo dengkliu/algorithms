@@ -27,6 +27,7 @@ class Solution(object):
                     if new_total == target:
                         return True
                     else:
+                        # why do we want to skip seen?
                         if new_total not in seen:
                             seen.add(new_total)
                             # remember to return here!
