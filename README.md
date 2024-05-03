@@ -168,6 +168,7 @@ Find all solutions that meet a certain requirement; find a specific solution tha
 * [Generate Parentheses](https://github.com/dengkliu/algorithms/blob/master/generate_parentheses.py)
 * [Couse Schedule IV](https://github.com/dengkliu/algorithms/blob/master/CourseScheduleIV.java)
 * [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
+* [Longest Increasing Sequence in 2D Matrix](https://github.com/dengkliu/algorithms/blob/master/longest_increasing_path_in_a_matrix.py)
 
 ### 3.3 Combination & Permutation
 
