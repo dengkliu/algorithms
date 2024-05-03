@@ -161,10 +161,11 @@ For (2) and (3), a technique called **backtracking** is often used. Backtracking
 Find tree's problems [above](https://github.com/dengkliu/algorithms/blob/master/README.md#12-tree-divide--conquer-depth-first-search).
 * [Flatten Nested List Iterator](https://github.com/dengkliu/algorithms/blob/master/flatten_nested_list_iterator.py)
 
-### 3.2 Find All Solutions 
+### 3.2 Find Solutions 
 
-Find all solutions that meet a certain requirement; find a specific solution that meets the certain requirement. 
+Find whether a solution exists or not; find a specific solution; find all solutions.
 
+* [Water and Jug Problem](https://github.com/dengkliu/algorithms/blob/master/water_and_jug_problem.py)
 * [Generate Parentheses](https://github.com/dengkliu/algorithms/blob/master/generate_parentheses.py)
 * [Couse Schedule IV](https://github.com/dengkliu/algorithms/blob/master/CourseScheduleIV.java)
 * [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
