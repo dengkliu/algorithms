@@ -91,7 +91,34 @@
 * [Height of Binary Tree after Subtree Removal Queries](https://github.com/dengkliu/algorithms/blob/master/height_of_binary_tree_after_subtree_removal_queries.py)
 * [Print Binary Tree](https://github.com/dengkliu/algorithms/blob/master/print_binary_tree.py)
 
-#### 1.2.2 Other Tree Problem
+#### 1.3 Union Find 
+
+[Union Find](https://github.com/dengkliu/algorithms/blob/master/union_find.py) is used to solve connection problem, especially for dynamic data stream (online algorithm). BFS can only be used to solve connection problem for static data (therefore BFS is offline algorithm), for data stream, the time complexity will be horrible.
+
+* Union Find support O(1) time to merge two set which contains x and y - merge(x,y)
+* Union Find support O(1) time to query the set that contains x - find(x)
+* Union Find support O(1) time to query whether x and y are in the same set - isConnected(x,y)
+
+The internal structure of Union Find is multiple multi-way trees. Each child node points to a father node. Each root corresponds to a set. We use a hashmap/dictionary to map a child to a father. With this tree structure, we can do:
+* Move upward to the root to find the set that contains an element - find(x)
+* Check if two element belongs to the same set - have the same root - find(x) == find(y)
+* Merget the set of x and set of y, set the parent of find(x) to find(y)
+
+Related coding questions
+  * [Connecting Graph](https://github.com/dengkliu/algorithms/blob/master/connecting_graph.py)
+  * [Connecting Graph II](https://github.com/dengkliu/algorithms/blob/master/connecting_graph_II.py)
+  * [Connecting Graph III](https://github.com/dengkliu/algorithms/blob/master/connecting_graph_III.py)
+  * [Graph Validate Tree I](https://github.com/dengkliu/algorithms/blob/master/graphy_valid_tree.py)
+  * [Graph Validate Tree II](https://github.com/dengkliu/algorithms/blob/master/graph_valid_tree_II.py)
+  * [Set Union](https://github.com/dengkliu/algorithms/blob/master/set_union.py)
+  * [Account Merge](https://github.com/dengkliu/algorithms/blob/master/account_merge.py)
+  * [Maximum Connected Area](https://github.com/dengkliu/algorithms/blob/master/MaximumConnectedArea.java)
+  * [Maximum Association Set](https://github.com/dengkliu/algorithms/blob/master/maximum_association_set.py)
+  * [Number of Islands II](https://github.com/dengkliu/algorithms/blob/master/number_of_islands_II.py)
+  * [Bricks Falling When Hit](https://github.com/dengkliu/algorithms/blob/master/bricks_falling_when_hit.py)
+  * [Evaluate Division](https://github.com/dengkliu/algorithms/blob/master/evaluate_division.py)
+
+#### 1.4 Other Tree Problem
 * [Recover a Tree from Preorder Traversal](https://github.com/dengkliu/algorithms/blob/master/recover_a_tree_from_preorder_traversal.py)
 
 ## 2. Breath-First Search
@@ -363,31 +390,6 @@ N is not a power of two, ensuring there is enough space in the array to represen
 * If N = 8, the size of the segment tree is 15 nodes (2 * N - 1).
 * If N = 10(not a power of two), the next power of two is 16 The full size of the segment tree can be up to 2 × 16 − 1 = 31 nodes. Using the practical estimate, allocating space for 40 nodes is safe and simple.
 
-### Union Find
-[Union Find](https://github.com/dengkliu/algorithms/blob/master/union_find.py) is used to solve connection problem, especially for dynamic data stream (online algorithm). BFS can only be used to solve connection problem for static data (therefore BFS is offline algorithm), for data stream, the time complexity will be horrible.
-
-* Union Find support O(1) time to merge two set which contains x and y - merge(x,y)
-* Union Find support O(1) time to query the set that contains x - find(x)
-* Union Find support O(1) time to query whether x and y are in the same set - isConnected(x,y)
-
-The internal structure of Union Find is multiple multi-way trees. Each child node points to a father node. Each root corresponds to a set. We use a hashmap/dictionary to map a child to a father. With this tree structure, we can do:
-* Move upward to the root to find the set that contains an element - find(x)
-* Check if two element belongs to the same set - have the same root - find(x) == find(y)
-* Merget the set of x and set of y, set the parent of find(x) to find(y)
-
-Related coding questions
-  * [Connecting Graph](https://github.com/dengkliu/algorithms/blob/master/connecting_graph.py)
-  * [Connecting Graph II](https://github.com/dengkliu/algorithms/blob/master/connecting_graph_II.py)
-  * [Connecting Graph III](https://github.com/dengkliu/algorithms/blob/master/connecting_graph_III.py)
-  * [Graph Validate Tree I](https://github.com/dengkliu/algorithms/blob/master/graphy_valid_tree.py)
-  * [Graph Validate Tree II](https://github.com/dengkliu/algorithms/blob/master/graph_valid_tree_II.py)
-  * [Set Union](https://github.com/dengkliu/algorithms/blob/master/set_union.py)
-  * [Account Merge](https://github.com/dengkliu/algorithms/blob/master/account_merge.py)
-  * [Maximum Connected Area](https://github.com/dengkliu/algorithms/blob/master/MaximumConnectedArea.java)
-  * [Maximum Association Set](https://github.com/dengkliu/algorithms/blob/master/maximum_association_set.py)
-  * [Number of Islands II](https://github.com/dengkliu/algorithms/blob/master/number_of_islands_II.py)
-  * [Bricks Falling When Hit](https://github.com/dengkliu/algorithms/blob/master/bricks_falling_when_hit.py)
-     
 ### Singly Linked List
 * [Reverse Linked List](https://github.com/dengkliu/algorithms/blob/master/reverse_singly_linked_list.py)
 
