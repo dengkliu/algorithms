@@ -24,25 +24,37 @@ class Solution(object):
         p_visited = set()
         a_visited = set()
 
-        def dfs(r, c, visited):
+        p_queue = collections.deque()
+        a_queue = collections.deque()
+
+        for row in range(m):
+            p_queue.append((row, 0))
+            a_queue.append((row, n - 1))
+
+        for col in range(n):
+            p_queue.append((0, col))
+            a_queue.append((m - 1, col))
+
+        while p_queue:
+            r, c = p_queue.popleft()
+            p_visited.add((r, c))
             for dr, dc in DIRECTIONS:
                 r_new, c_new = r + dr, c + dc
-                if r_new in range(m) and c_new in range(n):
-                    if heights[r][c] <= heights[r_new][c_new] and (r_new, c_new) not in visited:
-                        visited.add((r_new, c_new))
-                        dfs(r_new, c_new, visited)
-                
+                if r_new in range(m) and c_new in range(n) and \
+                 heights[r][c] <= heights[r_new][c_new] and \
+                 (r_new, c_new) not in p_visited:
+                    p_visited.add((r_new, c_new))
+                    p_queue.append((r_new, c_new))
 
-        for c in range(n):
-            p_visited.add((0, c))
-            dfs(0, c, p_visited)
-            a_visited.add((m-1, c))
-            dfs(m-1, c, a_visited)
-        
-        for r in range(m):
-            p_visited.add((r, 0))
-            dfs(r, 0, p_visited)
-            a_visited.add((r, n-1))
-            dfs(r, n-1, a_visited)
- 
+        while a_queue:
+            r, c = a_queue.popleft()
+            a_visited.add((r, c))
+            for dr, dc in DIRECTIONS:
+                r_new, c_new = r + dr, c + dc
+                if r_new in range(m) and c_new in range(n) and \
+                 heights[r][c] <= heights[r_new][c_new] and \
+                 (r_new, c_new) not in a_visited:
+                    a_visited.add((r_new, c_new))
+                    a_queue.append((r_new, c_new))
+                
         return p_visited.intersection(a_visited)
