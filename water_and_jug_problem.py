@@ -20,17 +20,19 @@ class Solution(object):
         # why do we need to add 0 to seen here?
         seen.add(0)
 
-        def dfs(total):
+        queue = collections.deque()
+        queue.append(0)
+
+        while queue:
+            total = queue.popleft()
             for delta in DIRECTIONS:
                 new_total = total + delta
                 if new_total >= 0 and new_total <= x + y:
                     if new_total == target:
                         return True
-                    else:
-                        # why do we want to skip seen?
-                        if new_total not in seen:
-                            seen.add(new_total)
-                            # remember to return here!
-                            return dfs(new_total)
-
-        return dfs(0)
+                    
+                    if new_total not in seen:
+                        seen.add(new_total)
+                        queue.append(new_total)
+        
+        return False
