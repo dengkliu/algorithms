@@ -132,6 +132,7 @@ Related coding questions
 * [Number of Big Islands](https://github.com/dengkliu/algorithms/blob/master/NumberOfBigIslands.java)
 * [Lake Escape](https://github.com/dengkliu/algorithms/blob/master/LakeEscape.java)
 * [Validate Binary Tree Nodes](https://github.com/dengkliu/algorithms/blob/master/validate_binary_tree_nodes.py)
+* [Pacific Altlantic Water Flow](https://github.com/dengkliu/algorithms/blob/master/pacific_atlantic_water_flow.py)
 
 ### 2.2 Get Shortest Path
 
@@ -197,7 +198,7 @@ Find whether a solution exists or not; find a specific solution; find all soluti
 * [Couse Schedule IV](https://github.com/dengkliu/algorithms/blob/master/CourseScheduleIV.java)
 * [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
 * [Longest Increasing Sequence in 2D Matrix](https://github.com/dengkliu/algorithms/blob/master/longest_increasing_path_in_a_matrix.py)
-* [Pacific Altlantic Water Flow](https://github.com/dengkliu/algorithms/blob/master/pacific_atlantic_water_flow.py)
+
 
 ### 3.3 Combination & Permutation
 
