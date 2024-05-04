@@ -157,6 +157,7 @@ How does SPFA solve this problem? If we find a node in level 3 that has been vis
 * [Zombie In Matrix](https://github.com/dengkliu/algorithms/blob/master/ZombieInMatrix.java)
 * [Shortest Path Visiting All Nodes](https://github.com/dengkliu/algorithms/blob/master/ShortestPathVisitingAllNodes.java)
 * [Word Ladder with Shortest Transformation Steps](https://github.com/dengkliu/algorithms/blob/master/word_ladder_shortest_transform_num.py)
+* [Distance to nearest 0 in 01 matrix](https://github.com/dengkliu/algorithms/blob/master/01_matrix.py)
 
 ### 2.3 Get Topological Order
 
@@ -238,6 +239,7 @@ Trade the space complexity for time complexity.
 * https://leetcode.com/problems/frog-jump/description/
 * [Maximal Square](https://github.com/dengkliu/algorithms/blob/master/maximal_square.py)
 * [Count Square Submatrices with All Ones](https://github.com/dengkliu/algorithms/blob/master/count_squares.py)
+* [Distance to nearest 0 in 01 matrix](https://github.com/dengkliu/algorithms/blob/master/01_matrix.py)
 
 ### 4.2 Backpack DP 
 * [Knapsack](https://github.com/dengkliu/algorithms/blob/master/backpack.py)
