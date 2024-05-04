@@ -133,6 +133,7 @@ Related coding questions
 * [Lake Escape](https://github.com/dengkliu/algorithms/blob/master/LakeEscape.java)
 * [Validate Binary Tree Nodes](https://github.com/dengkliu/algorithms/blob/master/validate_binary_tree_nodes.py)
 * [Pacific Altlantic Water Flow](https://github.com/dengkliu/algorithms/blob/master/pacific_atlantic_water_flow.py)
+* [Water and Jug Problem](https://github.com/dengkliu/algorithms/blob/master/water_and_jug_problem.py)
 
 ### 2.2 Get Shortest Path
 
@@ -193,7 +194,6 @@ Find tree's problems [above](https://github.com/dengkliu/algorithms/blob/master/
 
 Find whether a solution exists or not; find a specific solution; find all solutions.
 
-* [Water and Jug Problem](https://github.com/dengkliu/algorithms/blob/master/water_and_jug_problem.py)
 * [Generate Parentheses](https://github.com/dengkliu/algorithms/blob/master/generate_parentheses.py)
 * [Couse Schedule IV](https://github.com/dengkliu/algorithms/blob/master/CourseScheduleIV.java)
 * [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
