@@ -4,6 +4,7 @@
 
 # DFS + memorization
 # Why cannot we use dp here?
+# Why BFS is not an efficient option here?
 class Solution(object):
     def longestIncreasingPath(self, matrix):
         """
