@@ -136,6 +136,7 @@ Related coding questions
 * [Validate Binary Tree Nodes](https://github.com/dengkliu/algorithms/blob/master/validate_binary_tree_nodes.py)
 * [Pacific Altlantic Water Flow](https://github.com/dengkliu/algorithms/blob/master/pacific_atlantic_water_flow.py)
 * [Water and Jug Problem](https://github.com/dengkliu/algorithms/blob/master/water_and_jug_problem.py)
+* [Detonate the maximum bombs](https://github.com/dengkliu/algorithms/blob/master/detonate_the_maximum_bombs.py)
 
 ### 2.2 Get Shortest Path
 
