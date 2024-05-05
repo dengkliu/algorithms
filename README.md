@@ -151,6 +151,7 @@ How does SPFA solve this problem? If we find a node in level 3 that has been vis
 
 * [Shortest Path to Get Food](https://github.com/dengkliu/algorithms/blob/master/shortest_path_to_get_food.py)
 * [Network Delay Time](https://github.com/dengkliu/algorithms/blob/master/network_delay_time.py)
+* [Path with Minimum Efforts](https://github.com/dengkliu/algorithms/blob/master/path_with_minimum_effort.py)
 * [Build Post Office II](https://github.com/dengkliu/algorithms/blob/master/build_post_office.py) 
 * [Modern Ludo I](https://github.com/dengkliu/algorithms/blob/master/ModernLudoI.java)
 * [The Maze](https://github.com/dengkliu/algorithms/blob/master/the_maze.py)
