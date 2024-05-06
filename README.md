@@ -401,6 +401,7 @@ N is not a power of two, ensuring there is enough space in the array to represen
 * [Reverse Linked List](https://github.com/dengkliu/algorithms/blob/master/reverse_singly_linked_list.py)
 * [LRU Cache](https://github.com/dengkliu/algorithms/blob/master/lru_cache.py)
 * [Merge Two Sorted Linked Lists](https://github.com/dengkliu/algorithms/blob/master/merge_two_sorted_list.py)
+* [Merge K Sorted Linked Lists](https://github.com/dengkliu/algorithms/blob/master/merge_k_sorted_list.py)
 
 ### 12.4 Stack
 * [Minimal Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
