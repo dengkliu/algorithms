@@ -91,7 +91,7 @@
 * [Height of Binary Tree after Subtree Removal Queries](https://github.com/dengkliu/algorithms/blob/master/height_of_binary_tree_after_subtree_removal_queries.py)
 * [Print Binary Tree](https://github.com/dengkliu/algorithms/blob/master/print_binary_tree.py)
 
-#### 1.3 Union Find 
+### 1.3 Union Find 
 
 [Union Find](https://github.com/dengkliu/algorithms/blob/master/union_find.py) is used to solve connection problem for **undirected graph**, especially for dynamic data stream (online algorithm). BFS can only be used to solve connection problem for static data (therefore BFS is offline algorithm), for data stream, the time complexity will be horrible.
 
@@ -120,10 +120,7 @@ Related coding questions
   * [Bricks Falling When Hit](https://github.com/dengkliu/algorithms/blob/master/bricks_falling_when_hit.py)
   * [Evaluate Division](https://github.com/dengkliu/algorithms/blob/master/evaluate_division.py)
 
-#### 1.4 Other Tree Problem
-* [Recover a Tree from Preorder Traversal](https://github.com/dengkliu/algorithms/blob/master/recover_a_tree_from_preorder_traversal.py)
-
-#### 1.5 Trie
+### 1.4 Trie
 
 [Trie](https://github.com/dengkliu/algorithms/blob/master/implement_trie.py) is used to store strings while compressing the string common prefix. Its internal structure is a tree. The more common prefixes shared by the words in the dictionary, the more time saved. 
 
@@ -147,6 +144,9 @@ Related coding questions
 * [Max Distance](https://github.com/dengkliu/algorithms/blob/master/max_distance.py)
 * [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
 * [Word Search III](https://github.com/dengkliu/algorithms/blob/master/word_search_III.py)
+  
+### 1.5 Other Tree Problem
+* [Recover a Tree from Preorder Traversal](https://github.com/dengkliu/algorithms/blob/master/recover_a_tree_from_preorder_traversal.py)
 
 ## 2. Breath-First Search
 
