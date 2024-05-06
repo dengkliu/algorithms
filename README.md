@@ -310,6 +310,7 @@ Related coding problems.
 * [Product of Array Except Itself](https://github.com/dengkliu/algorithms/blob/master/ProductOfArrayExceptSelf.java) ✅ Prefix product。从尾部开始处理。
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java)
 * [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/subarray_sum_II.py) ✅ Prefix sum, 全部是postive number，所以可以用双指针。
+* [Random Pick with Weights](https://github.com/dengkliu/algorithms/blob/master/random_pick_with_weight.py)
 
 ## 7. Scanning Line 扫描线
 
@@ -369,6 +370,7 @@ Related coding problem -
 * [Median of Two Sorted Array](https://github.com/dengkliu/algorithms/blob/master/median_of_two_sorted_arrays.py)
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java) 
 * [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
+* [Random Pick with Weights](https://github.com/dengkliu/algorithms/blob/master/random_pick_with_weight.py)
 
 ## 10. Sorting
 * [Quick sort](https://github.com/dengkliu/algorithms/blob/master/quick_sort.py)
