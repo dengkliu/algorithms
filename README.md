@@ -385,15 +385,12 @@ Related coding problem -
 
 ## 13. Useful data structures
 ### 13.1. Monotonic Stack/Queue
-
 Monotonic stack is an algorithm that is implemented based on stack. 
 The elements in the stack are sorted by a certain rule (usually number comparison). 
 Monotonic stack is often used to find the first smaller or larger item on the left or right of the current.
 Its time complexity is O(N).
-
 Stack that is monotone increasing can be used to find the first element that is less than current element on the left and right.
 Stack that is monotone decreasing can be used to find the first element that is larger than current element on the left and right.
-
 * [Largest Rectangle in Histogram](https://github.com/dengkliu/algorithms/blob/master/largest_rectangle_in_histogram.py)
 * [Maximal Rectange](https://github.com/dengkliu/algorithms/blob/master/maximal_rectangle.py)
 * [Max Tree](https://github.com/dengkliu/algorithms/blob/master/max_tree.py)
@@ -402,34 +399,25 @@ Stack that is monotone decreasing can be used to find the first element that is 
 * [Sliding Window Maximum](https://github.com/dengkliu/algorithms/blob/master/sliding_window_maximum.py)
 * [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/shortest_subarray_with_sum_at_least_K.py)
 * 
-### Segment Tree
+### 13.2 Segment Tree
 Here is the [implementation](https://github.com/dengkliu/algorithms/blob/master/segment_tree.py) of segment tree. For an array of size N, a practical upper estimate for the size of a segment tree array is about 4 * N, which safely covers the cases where 
 N is not a power of two, ensuring there is enough space in the array to represent the tree. 
 * If N = 8, the size of the segment tree is 15 nodes (2 * N - 1).
 * If N = 10(not a power of two), the next power of two is 16 The full size of the segment tree can be up to 2 × 16 − 1 = 31 nodes. Using the practical estimate, allocating space for 40 nodes is safe and simple.
 
-### Linked List
+### 13.3 Linked List
 * [Reverse Linked List](https://github.com/dengkliu/algorithms/blob/master/reverse_singly_linked_list.py)
 * [LRU Cache](https://github.com/dengkliu/algorithms/blob/master/lru_cache.py)
 
-### Stack
+### 13.4 Stack
 * [Minimal Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
-* https://leetcode.com/problems/min-stack/description/
+* [Minimum Stack](https://leetcode.com/problems/min-stack/description/)
 
-
-
-### Binary Indexed Tree
-### Heap (Priority Queue)
+### 13.5 Heap (Priority Queue)
 In Python, you need to import heapq library, and use heapq.heappop(heap) and heap.heappush(heap, element) to do pop and push operation.
 * [Minimum Cost to Hire_K_Workers](https://github.com/dengkliu/algorithms/blob/master/minimum_cost_to_hire_K_workers.py)
-* [Sliding Window Minimum]()
 
-## Other coding questions
+## 14. Math and Others
 * [Math] [Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
-
-## Templates 模板
-* [Python Coding Stype Guide](https://github.com/dengkliu/algorithms/blob/master/python_coding_style_guide.py)
-* [Binary Search](https://github.com/dengkliu/algorithms/blob/master/binary_search_template.py) ✅
-* [Two pointers](https://github.com/dengkliu/algorithms/blob/master/two_pointers.py)
-* [Binary Tree Divide and Conquer](https://github.com/dengkliu/algorithms/blob/master/binary_tree_divide_and_conquer.py)
+* [Merge Two Sorted Array In Place](https://github.com/dengkliu/algorithms/blob/master/merge_sorted_array.py)
 
