@@ -123,6 +123,31 @@ Related coding questions
 #### 1.4 Other Tree Problem
 * [Recover a Tree from Preorder Traversal](https://github.com/dengkliu/algorithms/blob/master/recover_a_tree_from_preorder_traversal.py)
 
+#### 1.5 Trie
+
+[Trie](https://github.com/dengkliu/algorithms/blob/master/implement_trie.py) is used to store strings while compressing the string common prefix. Its internal structure is a tree. The more common prefixes shared by the words in the dictionary, the more time saved. 
+
+The best time complexity for insert word and find word is O(L).
+
+Trie is tested with problems including :
+* Check if a prefix or word exists in Trie
+* DFS on a Trie
+* Optimize other algorithms with Trie
+
+The structure of Trie -
+* The character is stored on edges
+* The word is stored on nodes
+
+The more common prefixes in the trie, the more optimization we achieve. Every time we add a word, or search a word, the best time complexity is O(L), where L is the length of the word (search in dictionary is O(1)). The worst case we still need to traverse the entire tree.
+
+Related coding questions
+* [Add and Search Word - Data structure design](https://github.com/dengkliu/algorithms/blob/master/add_and_search_word_data_structure_design.py)
+* [Identifying Strings](https://github.com/dengkliu/algorithms/blob/master/IdentifyingStrings.java)
+* [Letter Combination of a Phone Number II](https://github.com/dengkliu/algorithms/blob/master/letter_combinations_of_a_phone_number.py)
+* [Max Distance](https://github.com/dengkliu/algorithms/blob/master/max_distance.py)
+* [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
+* [Word Search III](https://github.com/dengkliu/algorithms/blob/master/word_search_III.py)
+
 ## 2. Breath-First Search
 
 [BFS Template](https://github.com/dengkliu/algorithms/blob/master/breadth_first_search.py)
@@ -400,40 +425,15 @@ N is not a power of two, ensuring there is enough space in the array to represen
 * If N = 8, the size of the segment tree is 15 nodes (2 * N - 1).
 * If N = 10(not a power of two), the next power of two is 16 The full size of the segment tree can be up to 2 × 16 − 1 = 31 nodes. Using the practical estimate, allocating space for 40 nodes is safe and simple.
 
-### Singly Linked List
+### Linked List
 * [Reverse Linked List](https://github.com/dengkliu/algorithms/blob/master/reverse_singly_linked_list.py)
-
-### Double Linked List
 * [LRU Cache](https://github.com/dengkliu/algorithms/blob/master/lru_cache.py)
 
 ### Stack
 * [Minimal Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
 * https://leetcode.com/problems/min-stack/description/
 
-### Trie
 
-[Trie](https://github.com/dengkliu/algorithms/blob/master/implement_trie.py) is used to store strings while compressing the string common prefix. Its internal structure is a tree. The more common prefixes shared by the words in the dictionary, the more time saved. 
-
-The best time complexity for insert word and find word is O(L).
-
-Trie is tested with problems including :
-* Check if a prefix or word exists in Trie
-* DFS on a Trie
-* Optimize other algorithms with Trie
-
-The structure of Trie -
-* The character is stored on edges
-* The word is stored on nodes
-
-The more common prefixes in the trie, the more optimization we achieve. Every time we add a word, or search a word, the best time complexity is O(L), where L is the length of the word (search in dictionary is O(1)). The worst case we still need to traverse the entire tree.
-
-Related coding questions
-* [Add and Search Word - Data structure design](https://github.com/dengkliu/algorithms/blob/master/add_and_search_word_data_structure_design.py)
-* [Identifying Strings](https://github.com/dengkliu/algorithms/blob/master/IdentifyingStrings.java)
-* [Letter Combination of a Phone Number II](https://github.com/dengkliu/algorithms/blob/master/letter_combinations_of_a_phone_number.py)
-* [Max Distance](https://github.com/dengkliu/algorithms/blob/master/max_distance.py)
-* [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
-* [Word Search III](https://github.com/dengkliu/algorithms/blob/master/word_search_III.py)
 
 ### Binary Indexed Tree
 ### Heap (Priority Queue)
