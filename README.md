@@ -404,7 +404,7 @@ N is not a power of two, ensuring there is enough space in the array to represen
 * [Reverse Linked List](https://github.com/dengkliu/algorithms/blob/master/reverse_singly_linked_list.py)
 
 ### Double Linked List
-* [LRU Cache](https://leetcode.com/problems/lru-cache/)
+* [LRU Cache](https://github.com/dengkliu/algorithms/blob/master/lru_cache.py)
 
 ### Stack
 * [Minimal Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
