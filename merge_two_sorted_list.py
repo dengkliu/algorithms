@@ -18,28 +18,25 @@ class Solution(object):
         :type list2: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
-        result = []
+        head = ListNode()
+        dummy = head
 
         if not list1 and not list2:
             return None
 
         while list1 and list2:
             if list1.val < list2.val:
-                result.append(ListNode(list1.val))
+                dummy.next = list1
                 list1 = list1.next
+                dummy = dummy.next
             else:
-                result.append(ListNode(list2.val))
+                dummy.next = list2
                 list2 = list2.next
+                dummy = dummy.next
 
-        while list1:
-            result.append(ListNode(list1.val))
-            list1 = list1.next
+        if list1:
+            dummy.next = list1
+        else:
+            dummy.next = list2
 
-        while list2:
-            result.append(ListNode(list2.val))
-            list2 = list2.next
-
-        for l1, l2 in zip(result, result[1:]):
-            l1.next = l2
-        
-        return result[0]
+        return head.next
