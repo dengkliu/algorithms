@@ -370,21 +370,13 @@ Related coding problem -
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java) 
 * [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
 
-## 11. Sorting
+## 10. Sorting
 * [Quick sort](https://github.com/dengkliu/algorithms/blob/master/quick_sort.py)
 * [Merge sort](https://github.com/dengkliu/algorithms/blob/master/merge_sort.py)
 * [Count of Smaller Numbers After Self](https://github.com/dengkliu/algorithms/blob/master/count_of_smaller_numbers_after_itself.py)
 
-## 11. Others
-* Greatest Common Divisor - https://www.lintcode.com/problem/845/
-* Factorization - https://www.lintcode.com/problem/652/
-* https://www.lintcode.com/problem/1877
-
-## 12. String
-* meta - https://leetcode.com/problems/basic-calculator-ii/description/
-
-## 13. Useful data structures
-### 13.1. Monotonic Stack/Queue
+## 11. Useful data structures
+### 11.1. Monotonic Stack/Queue
 Monotonic stack is an algorithm that is implemented based on stack. 
 The elements in the stack are sorted by a certain rule (usually number comparison). 
 Monotonic stack is often used to find the first smaller or larger item on the left or right of the current.
@@ -399,26 +391,30 @@ Stack that is monotone decreasing can be used to find the first element that is 
 * [Sliding Window Maximum](https://github.com/dengkliu/algorithms/blob/master/sliding_window_maximum.py)
 * [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/shortest_subarray_with_sum_at_least_K.py)
 * 
-### 13.2 Segment Tree
+### 12.2 Segment Tree
 Here is the [implementation](https://github.com/dengkliu/algorithms/blob/master/segment_tree.py) of segment tree. For an array of size N, a practical upper estimate for the size of a segment tree array is about 4 * N, which safely covers the cases where 
 N is not a power of two, ensuring there is enough space in the array to represent the tree. 
 * If N = 8, the size of the segment tree is 15 nodes (2 * N - 1).
 * If N = 10(not a power of two), the next power of two is 16 The full size of the segment tree can be up to 2 × 16 − 1 = 31 nodes. Using the practical estimate, allocating space for 40 nodes is safe and simple.
 
-### 13.3 Linked List
+### 12.3 Linked List
 * [Reverse Linked List](https://github.com/dengkliu/algorithms/blob/master/reverse_singly_linked_list.py)
 * [LRU Cache](https://github.com/dengkliu/algorithms/blob/master/lru_cache.py)
 * [Merge Two Sorted Linked Lists](https://github.com/dengkliu/algorithms/blob/master/merge_two_sorted_list.py)
 
-### 13.4 Stack
+### 12.4 Stack
 * [Minimal Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
 * [Minimum Stack](https://leetcode.com/problems/min-stack/description/)
 
-### 13.5 Heap (Priority Queue)
+### 12.5 Heap (Priority Queue)
 In Python, you need to import heapq library, and use heapq.heappop(heap) and heap.heappush(heap, element) to do pop and push operation.
 * [Minimum Cost to Hire_K_Workers](https://github.com/dengkliu/algorithms/blob/master/minimum_cost_to_hire_K_workers.py)
 
-## 14. Math and Others
+## 13. String, Math, and Others
 * [Math] [Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
 * [Merge Two Sorted Array In Place](https://github.com/dengkliu/algorithms/blob/master/merge_sorted_array.py)
+* Greatest Common Divisor - https://www.lintcode.com/problem/845/
+* Factorization - https://www.lintcode.com/problem/652/
+* https://www.lintcode.com/problem/1877
+* meta - https://leetcode.com/problems/basic-calculator-ii/description/
 
