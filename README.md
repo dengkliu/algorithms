@@ -418,6 +418,7 @@ In Python, you need to import heapq library, and use heapq.heappop(heap) and hea
 * [Math] [Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
 * [Merge Two Sorted Array In Place](https://github.com/dengkliu/algorithms/blob/master/merge_sorted_array.py)
 * [Valid Palindrome](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome.py)
+* [Valid Palindrome II](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome_ii.py)
 * Greatest Common Divisor - https://www.lintcode.com/problem/845/
 * Factorization - https://www.lintcode.com/problem/652/
 * https://www.lintcode.com/problem/1877
