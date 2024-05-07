@@ -116,6 +116,7 @@ Related coding questions
   * [Number of Islands II](https://github.com/dengkliu/algorithms/blob/master/number_of_islands_II.py)
   * [Bricks Falling When Hit](https://github.com/dengkliu/algorithms/blob/master/bricks_falling_when_hit.py)
   * [Evaluate Division](https://github.com/dengkliu/algorithms/blob/master/evaluate_division.py)
+  * [Make a Large Island](https://github.com/dengkliu/algorithms/blob/master/make_a_large_island.py)
 
 ### 1.4 Trie
 [Trie](https://github.com/dengkliu/algorithms/blob/master/implement_trie.py) is used to store strings while compressing the string common prefix. Its internal structure is a tree. The more common prefixes shared by the words in the dictionary, the more time saved. Trie is tested with problems including: (1) Check if a prefix or word exists in Trie (2) DFS on a Trie (3) Optimize other algorithms with Trie. The structure of Trie: (1) The character is stored on edges (2) The word is stored on nodes. The more common prefixes in the trie, the more optimization we achieve. Every time we add a word, or search a word, the best time complexity is O(L), where L is the length of the word (search in dictionary is O(1)). The worst case (no word share any prefix), we still need to traverse the entire tree.
