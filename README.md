@@ -420,6 +420,9 @@ In Python, you need to import heapq library, and use heapq.heappop(heap) and hea
 * [Valid Palindrome](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome.py)
 * [Valid Palindrome II](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome_ii.py)
 * [Greatest Common Divisor String](https://github.com/dengkliu/algorithms/blob/master/greatest_common_divisor_of_strings.py)
+* [2 Sum](https://github.com/dengkliu/algorithms/blob/master/two_sum.py)
+* [2 Sum - Sorted List](https://github.com/dengkliu/algorithms/blob/master/two_sum_ii.py)
+* [3 Sum](https://github.com/dengkliu/algorithms/blob/master/3_sum.py)
 * Factorization - https://www.lintcode.com/problem/652/
 * https://www.lintcode.com/problem/1877
 * meta - https://leetcode.com/problems/basic-calculator-ii/description/
