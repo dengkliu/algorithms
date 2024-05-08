@@ -43,6 +43,7 @@
 * [Minimum Height Trees](https://github.com/dengkliu/algorithms/blob/master/minimum_height_trees.py)
 * [Complete Binary Tree Insert](https://github.com/dengkliu/algorithms/blob/master/complete_binary_tree_insert.py)
 * [Check Completeness of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/check_completeness_of_a_binary_tree.py)
+* [Recover a Tree from Preorder Traversal](https://github.com/dengkliu/algorithms/blob/master/recover_a_tree_from_preorder_traversal.py)
 
 ### 1.2 Divide & Conquer
 * [Invert Binary Tree](https://github.com/dengkliu/algorithms/blob/master/invert_binary_tree.py)
@@ -129,9 +130,6 @@ Related coding questions
 * [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
 * [Word Search III](https://github.com/dengkliu/algorithms/blob/master/word_search_III.py)
   
-### 1.5 Other Tree Problem
-* [Recover a Tree from Preorder Traversal](https://github.com/dengkliu/algorithms/blob/master/recover_a_tree_from_preorder_traversal.py)
-
 ## 2. Breath-First Search
 
 [BFS Template](https://github.com/dengkliu/algorithms/blob/master/breadth_first_search.py)
