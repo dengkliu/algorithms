@@ -348,6 +348,8 @@ Two pointers start from the head of array and go to the end. 同向双指针只�
 * [2 Sum - Sorted List](https://github.com/dengkliu/algorithms/blob/master/two_sum_ii.py)
 * [3 Sum Smaller](https://github.com/dengkliu/algorithms/blob/master/3sum_smaller.py)
 * [3 Sum Closest](https://github.com/dengkliu/algorithms/blob/master/3_sum_closest.py)
+* [4 Sum](https://github.com/dengkliu/algorithms/blob/master/4_sum.py)
+  
 ### Back direction two pointers
 * [Shortest Palindrome](https://github.com/dengkliu/algorithms/blob/master/ShortestPalindrome.java) ✅ 
 
