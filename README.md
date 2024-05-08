@@ -17,6 +17,7 @@
 
 * [Binary Tree Preorder](https://github.com/dengkliu/algorithms/blob/master/pre_order_traversal_bst.py)
 * [Flatten Binary Tree To Linked List](https://github.com/dengkliu/algorithms/blob/master/flatten_binary_tree_to_linkedlist.py)
+* [Recover a Tree from Preorder Traversal with Dashes](https://github.com/dengkliu/algorithms/blob/master/recover_a_tree_from_preorder_traversal.py)
 * [Boundary of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/boundary_of_binary_tree.py)
 * [Binary Tree Inorder](https://github.com/dengkliu/algorithms/blob/master/inorder_traversal_bst.py)
 * [Range Sum of Binary Search Tree](https://github.com/dengkliu/algorithms/blob/master/range_sum_of_bst.py)
@@ -43,7 +44,6 @@
 * [Minimum Height Trees](https://github.com/dengkliu/algorithms/blob/master/minimum_height_trees.py)
 * [Complete Binary Tree Insert](https://github.com/dengkliu/algorithms/blob/master/complete_binary_tree_insert.py)
 * [Check Completeness of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/check_completeness_of_a_binary_tree.py)
-* [Recover a Tree from Preorder Traversal](https://github.com/dengkliu/algorithms/blob/master/recover_a_tree_from_preorder_traversal.py)
 
 ### 1.2 Divide & Conquer
 * [Invert Binary Tree](https://github.com/dengkliu/algorithms/blob/master/invert_binary_tree.py)
