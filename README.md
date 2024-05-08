@@ -343,10 +343,14 @@ Two pointers start from the head of array and go to the end. 同向双指针只�
 * [Grumpy Bookstore Owner](https://github.com/dengkliu/algorithms/blob/master/GrumpyBookStoreOwner.java) ✅ Slding window经典题，枚举终点，注意第一个初始状态window的位置，初始化的时候直接assume window在这个位置，求得一个解，然后移动window，打擂台。
 * [Pick Apples](https://github.com/dengkliu/algorithms/blob/master/PickApples.java) ✅ 典型的fixed size sliding window + 双字段问题。注意双字段问题可以用隔板法，隔板法用for loop,隔板位置从0到n-1，[0, i) [i, n-1], 在子函数里 start - end <= 0 或者 window size直接返回-1.
 
-### 8.3 Opposite direction two pointers 相向双指针
-* [Two Sim VII](https://github.com/dengkliu/algorithms/blob/master/TwoSumVII.java) ✅ two pointer的升级版，基本思路一样，只是需要找到start下一个更大的数和end上一个更小的数。
-### Back direction two pointers 背向双指针
-* [Shortest Palindrome](https://github.com/dengkliu/algorithms/blob/master/ShortestPalindrome.java) ✅ check palindrome 经典问题，每个位置注意check两种情况。
+### 8.3 Opposite direction two pointers
+* [Two Sim VII](https://github.com/dengkliu/algorithms/blob/master/TwoSumVII.java)
+* [2 Sum - Sorted List](https://github.com/dengkliu/algorithms/blob/master/two_sum_ii.py)
+* [3 Sum Smaller](https://github.com/dengkliu/algorithms/blob/master/3sum_smaller.py)
+* [3 Sum Closest](https://github.com/dengkliu/algorithms/blob/master/3_sum_closest.py)
+* 
+### Back direction two pointers
+* [Shortest Palindrome](https://github.com/dengkliu/algorithms/blob/master/ShortestPalindrome.java) ✅ 
 
 ## 9. Binary Search 二分查询
 
@@ -422,9 +426,8 @@ In Python, you need to import heapq library, and use heapq.heappop(heap) and hea
 * [Valid Palindrome II](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome_ii.py)
 * [Greatest Common Divisor String](https://github.com/dengkliu/algorithms/blob/master/greatest_common_divisor_of_strings.py)
 * [2 Sum](https://github.com/dengkliu/algorithms/blob/master/two_sum.py)
-* [2 Sum - Sorted List](https://github.com/dengkliu/algorithms/blob/master/two_sum_ii.py)
 * [3 Sum](https://github.com/dengkliu/algorithms/blob/master/3_sum.py)
-* [3 Sum Smaller](https://github.com/dengkliu/algorithms/blob/master/3sum_smaller.py)
+
 * Factorization - https://www.lintcode.com/problem/652/
 * https://www.lintcode.com/problem/1877
 * meta - https://leetcode.com/problems/basic-calculator-ii/description/
