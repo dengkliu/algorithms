@@ -1,4 +1,4 @@
-// https://www.lintcode.com/problem/89/
+// https://leetcode.com/problems/combination-sum-iv/
 
 // Given n distinct positive integers, integer k (k=n) and a number target.
 // Find k numbers where sum is target. Calculate how many solutions there are?
