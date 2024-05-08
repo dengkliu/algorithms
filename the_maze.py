@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/the-maze/
 # There is a ball in a maze with empty spaces (represented as 0) and walls (represented as 1). The ball can go through the empty spaces by rolling up, down, left or right, but it # won't stop rolling until hitting a wall. When the ball stops, it could choose the next direction.
 
 # Given the m x n maze, the ball's start position and the destination, where start = [startrow, startcol] and destination = [destinationrow, destinationcol], return true if the 
