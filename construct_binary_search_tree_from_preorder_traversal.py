@@ -39,6 +39,7 @@ class Solution(object):
             if pre_l == pre_r:
                 return root
 
+            # how to get the index of element from list
             root_index = inorder.index(root.val)
             num_nodes_l = root_index - in_l
 
