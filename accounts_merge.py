@@ -37,62 +37,46 @@
 #		['John', 'john00@mail.com', 'john_newyork@mail.com', 'johnsmith@mail.com']
 #	]
 #	is also acceptable.
-class UnionFind:
-
-    def __init__(self):
-        self.father = {}
-        self.elements_in_set = {}
-    
-    def add(self, x):
-        if x in self.father:
-            return
-        self.father[x] = None
-        self.elements_in_set[x] = [x]
-
-    def merge(self, x, y):
-        root_x = self.find(x)
-        root_y = self.find(y)
-        if root_x != root_y:
-            self.father[root_x] = root_y
-            self.elements_in_set[root_y] += self.elements_in_set[root_x]
-            del self.elements_in_set[root_x]
-            
-    def find(self, x):
-        root = x
-        while self.father[root] != None:
-            root = self.father[root]
-        return root
-
-class Solution:
-
-    def __init__(self):
-        self.uf = UnionFind()
-    """
-    @param accounts: List[List[str]]
-    @return: return a List[List[str]]
-    """
+class Solution(object):
     def accountsMerge(self, accounts):
+        """
+        :type accounts: List[List[str]]
+        :rtype: List[List[str]]
+        """
+        graph = collections.defaultdict(list)
 
-        if not accounts or len(accounts) == 0:
-            return []
-    
-        account_to_name = {}
-        # write your code here
+        # cache all unique emails. why do we need this set
+        # beyond the graph above?
+        emails = set()
+        email_to_name = {}
 
-        for i in range(len(accounts)):
-            row = accounts[i]
-            for j in range(1, len(row)):
-                account_to_name[row[j]] = row[0]
-                self.uf.add(row[j])
-                self.uf.merge(row[j], row[1])
-            
-        result = []
+        for account in accounts:
+            for x in range(1, len(account)):
+                email1 = account[x]
+                emails.add(email1)
+                email_to_name[email1] = account[0]
+                for y in range(x + 1, len(account)):
+                    email2 = account[y]
+                    graph[email1].append(email2)
+                    graph[email2].append(email1)
         
-        for key, value in self.uf.elements_in_set.items():
-            value.sort()
-            curr_person = []
-            curr_person.append(account_to_name[key])
-            curr_person += value
-            result.append(curr_person)
+        result = []
+        visited = set()
 
+        def dfs(email):
+            connected_emails = [email]
+            for next_email in graph[email]:
+                if next_email not in visited:
+                    visited.add(next_email)
+                    connected_emails += dfs(next_email)
+            return connected_emails
+
+        for email in emails:
+            if email not in visited:
+                visited.add(email)
+                connected_emails = dfs(email)
+                connected_emails.sort()
+                result.append([email_to_name[email]] + connected_emails)
+        
         return result
+                
