@@ -111,7 +111,7 @@ Related coding questions
   * [Graph Validate Tree I](https://github.com/dengkliu/algorithms/blob/master/graphy_valid_tree.py)
   * [Graph Validate Tree II](https://github.com/dengkliu/algorithms/blob/master/graph_valid_tree_II.py)
   * [Set Union](https://github.com/dengkliu/algorithms/blob/master/set_union.py)
-  * [Account Merge](https://github.com/dengkliu/algorithms/blob/master/account_merge.py)
+  * [Accounts Merge](https://github.com/dengkliu/algorithms/blob/master/accounts_merge.py)
   * [Maximum Connected Area](https://github.com/dengkliu/algorithms/blob/master/MaximumConnectedArea.java)
   * [Maximum Association Set](https://github.com/dengkliu/algorithms/blob/master/maximum_association_set.py)
   * [Number of Islands II](https://github.com/dengkliu/algorithms/blob/master/number_of_islands_II.py)
