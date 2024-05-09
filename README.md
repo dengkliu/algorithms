@@ -218,6 +218,7 @@ Find whether a solution exists or not; find a specific solution; find all soluti
 
 Find all combinations and permutations that meet a certain requirement. Find one combination and permutation that meets a certain requirement. Find the optimal combination and permutation.
 
+* [Combination Sum II](https://github.com/dengkliu/algorithms/blob/master/combination_sum_ii.py)
 * [K Sum](https://github.com/dengkliu/algorithms/blob/master/KSum.java)
 * [K Sum II](https://github.com/dengkliu/algorithms/blob/master/KSumII.java)
 * [Word Squares](https://github.com/dengkliu/algorithms/blob/master/word_squares.py)
