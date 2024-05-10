@@ -31,7 +31,7 @@ class Solution(object):
         all_combination_dict = collections.defaultdict(list)
 
         # Time - O(L * N)
-        # This is better than 26 * N
+        # This is better than 26 * L * N
         for word in wordList:
             for i in range(len(word)):
                 all_combination_dict[word[:i] + '*' + word[i+1:]].append(word)
