@@ -214,7 +214,6 @@ Find whether a solution exists or not; find a specific solution; find all soluti
 * [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
 * [Longest Increasing Sequence in 2D Matrix](https://github.com/dengkliu/algorithms/blob/master/longest_increasing_path_in_a_matrix.py)
 
-
 ### 3.3 Combination & Permutation
 
 Find all combinations and permutations that meet a certain requirement. Find one combination and permutation that meets a certain requirement. Find the optimal combination and permutation.
@@ -328,15 +327,16 @@ Two pointers are usually used when:
 * Subarray or substring problem (50%)
 * Palindrome problem (50%)
 
-### 8.1 [Same direction two pointers](https://github.com/dengkliu/algorithms/blob/master/same_direction_two_pointers.py) 同向双指针
-Two pointers start from the head of array and go to the end. 同向双指针只能用于一种条件，那就是解存在一种单调性，当起始指针右移的时候，终止指针不应该往回走，为了找到结，右指针只能继续往右走。底层逻辑就是-->如果一个子数组不满足条件，那么这个子数组的所有子数组均不满足条件。
+### 8.1 [Same direction two pointers](https://github.com/dengkliu/algorithms/blob/master/same_direction_two_pointers.py) 
+Two pointers start from the head of array and go to the end. 
 
+* [Validate word abbreviation](https://github.com/dengkliu/algorithms/blob/master/valid_word_abbreviation.py)
 * [Minimum Size Subarray Sum](https://github.com/dengkliu/algorithms/blob/master/minimum_size_of_subarray.py)
-* [Substring With At Least K Distinct Characters](https://github.com/dengkliu/algorithms/blob/master/substring_with_at_least_K_distinct_characters.py) ✅ 枚举起点，找到每个起点所有满足条件的情况
+* [Substring With At Least K Distinct Characters](https://github.com/dengkliu/algorithms/blob/master/substring_with_at_least_K_distinct_characters.py) 
 * [Minimum Window Substring](https://github.com/dengkliu/algorithms/blob/master/minimum_window_substring.py)
-* [Longest Substring Without Repeating Characters](https://github.com/dengkliu/algorithms/blob/master/longest_substring_without_repeating_characters.py) ✅ 枚举起点，找寻终点。Python set(iterable) 去查重
-* [Longest Substring With At Most K Distinct Characters](https://github.com/dengkliu/algorithms/blob/master/LongestSubstringWithAtMostKDistinctCharacters.java) ✅ 枚举起点，用dictionary记录characters出现次数，只有当次数为0时，才去掉这个character.
-* [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/subarray_sum_II.py) ✅ Prefix sum, 全部是postive number，所以可以用双指针。
+* [Longest Substring Without Repeating Characters](https://github.com/dengkliu/algorithms/blob/master/longest_substring_without_repeating_characters.py)
+* [Longest Substring With At Most K Distinct Characters](https://github.com/dengkliu/algorithms/blob/master/LongestSubstringWithAtMostKDistinctCharacters.java) 
+* [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/subarray_sum_II.py) 
 
 ### 8.2 Fixed Size Sliding Window 固定长度滑动窗口
 
