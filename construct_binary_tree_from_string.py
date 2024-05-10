@@ -24,7 +24,7 @@ class Solution(object):
     
         def dfs(s, index):
             if index[0] == len(s):
-                return None, index
+                return None
             
             def getVal(s):
             	# 1. Why do we need is_negative here
