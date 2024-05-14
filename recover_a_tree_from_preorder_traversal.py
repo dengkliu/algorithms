@@ -39,6 +39,7 @@ class Solution(object):
                 parent_level_nodes = depth_to_nodes[cur_depth - 1]
                 # why do we check if parent level nodes exist or not?
                 if parent_level_nodes:
+                    # why do we always get the last node?
                     parent = parent_level_nodes[-1]
                     if not parent.left:
                         parent.left = node
