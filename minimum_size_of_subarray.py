@@ -8,27 +8,27 @@
 
 # O(N) time complexity
 # O(1) space complexity
-class Solution:
-    """
-    @param nums: an array of integers
-    @param s: An integer
-    @return: an integer representing the minimum size of subarray
-    """
-    def minimumSize(self, nums, s):
+class Solution(object):
+    def minSubArrayLen(self, target, nums):
+        """
+        :type target: int
+        :type nums: List[int]
+        :rtype: int
+        """
         start, end = 0, 0
         result = float('inf')
         subarray_sum = 0
 
-        #   [2,3,1,2,4, 3]
+        #  [2,3,1,2,4, 3]
         #  0 2 5 6 8 12 15
         for start in range(0, len(nums)):           
-            while end < len(nums) and subarray_sum < s:
+            while end < len(nums) and subarray_sum < target:
                 subarray_sum += nums[end]
                 end += 1
                 
-            if subarray_sum >= s:
+            if subarray_sum >= target:
                 result = min(end - start, result)
                 
             subarray_sum -= nums[start]
         
-        return -1 if result == float('inf') else result
+        return 0 if result == float('inf') else result
