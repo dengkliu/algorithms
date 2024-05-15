@@ -422,7 +422,8 @@ In Python, you need to import heapq library, and use heapq.heappop(heap) and hea
 * [Minimum Cost to Hire_K_Workers](https://github.com/dengkliu/algorithms/blob/master/minimum_cost_to_hire_K_workers.py)
 
 ## 13. String, Math, and Others
-* [Math] [Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
+* [Dot Product of 2 Sparse Vector](https://github.com/dengkliu/algorithms/blob/master/dot_product_of_2_sparse_vectors.py)
+* [Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
 * [Merge Two Sorted Array In Place](https://github.com/dengkliu/algorithms/blob/master/merge_sorted_array.py)
 * [Valid Palindrome](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome.py)
 * [Valid Palindrome II](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome_ii.py)
