@@ -423,6 +423,7 @@ In Python, you need to import heapq library, and use heapq.heappop(heap) and hea
 
 ## 13. String, Math, and Others
 * [Dot Product of 2 Sparse Vector](https://github.com/dengkliu/algorithms/blob/master/dot_product_of_2_sparse_vectors.py)
+* [Product of 2 Run Length Encoded Arrays](https://github.com/dengkliu/algorithms/blob/master/product_of_two_run_length_encoded_arrays.py)
 * [Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
 * [Merge Two Sorted Array In Place](https://github.com/dengkliu/algorithms/blob/master/merge_sorted_array.py)
 * [Valid Palindrome](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome.py)
