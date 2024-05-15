@@ -1,14 +1,11 @@
-# Given an array of n positive integers and a positive integer s, 
-# find the minimal length of a subarray of which the sum ≥ s. If there isn't one, return -1 instead.
+# https://leetcode.com/problems/minimum-size-subarray-sum/
 
-# Input: [2,3,1,2,4,3], s = 7
+# Given an array of positive integers nums and a positive integer target, return the minimal length of a 
+# subarray whose sum is greater than or equal to target. If there is no such subarray, return 0 instead.
+# Input: [2,3,1,2,4,3], target = 7
 # Output: 2
 # Explanation: The subarray [4,3] has the minimal length under the problem constraint.
 
-# 因为都是正整数
-# 向右多加一个数 和一定增加
-# 向左多减一个数 和一定减少
-# 用同向的两个指针 来追踪所有以start为开头的满足条件的最小array
 # O(N) time complexity
 # O(1) space complexity
 class Solution:
