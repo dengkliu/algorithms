@@ -4,7 +4,6 @@
 // which is expressed as a pair: [0,1]
 // Given the total number of courses and a list of prerequisite pairs, 
 // return the number of different ways you can get all the lessons.
-
 // Input:
 // n = 2
 // prerequisites = [[1,0]]
