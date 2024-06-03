@@ -419,7 +419,7 @@ N is not a power of two, ensuring there is enough space in the array to represen
 * [Merge K Sorted Linked Lists](https://github.com/dengkliu/algorithms/blob/master/merge_k_sorted_list.py)
 
 ### 12.4 Stack
-* [Minimal Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
+* [Minimal Remove to Make Valid Parentheses](https://github.com/dengkliu/algorithms/blob/master/minimum_remove_to_make_valid_parentheses.py)
 * [Minimum Stack](https://leetcode.com/problems/min-stack/description/)
 
 ### 12.5 Heap (Priority Queue)
