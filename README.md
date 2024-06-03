@@ -354,6 +354,7 @@ Two pointers start from the head of array and go to the end.
 * [3 Sum Smaller](https://github.com/dengkliu/algorithms/blob/master/3sum_smaller.py)
 * [3 Sum Closest](https://github.com/dengkliu/algorithms/blob/master/3_sum_closest.py)
 * [4 Sum](https://github.com/dengkliu/algorithms/blob/master/4_sum.py)
+* [Valid Palindrome II](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome_ii.py)
   
 ### Back direction two pointers
 * [Shortest Palindrome](https://github.com/dengkliu/algorithms/blob/master/ShortestPalindrome.java) ✅ 
@@ -430,7 +431,6 @@ In Python, you need to import heapq library, and use heapq.heappop(heap) and hea
 * [Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
 * [Merge Two Sorted Array In Place](https://github.com/dengkliu/algorithms/blob/master/merge_sorted_array.py)
 * [Valid Palindrome](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome.py)
-* [Valid Palindrome II](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome_ii.py)
 * [Greatest Common Divisor String](https://github.com/dengkliu/algorithms/blob/master/greatest_common_divisor_of_strings.py)
 * [2 Sum](https://github.com/dengkliu/algorithms/blob/master/two_sum.py)
 * [3 Sum](https://github.com/dengkliu/algorithms/blob/master/3_sum.py)
