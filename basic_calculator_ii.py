@@ -18,43 +18,44 @@ class Solution(object):
             return 0
 
         stack = []
-        cur_num = 0
-        curr_operation = '+'
         index = 0
+        cur_operation = '+'
+        cur_num = 0
 
         while index < len(s):
-            letter = s[index]
-            if letter.isdigit():
-                cur_num = int(letter)
-                index = index + 1
+            if s[index].isspace():
+                index += 1
+            elif s[index].isdigit():
+                cur_num = int(s[index])
+                index += 1
                 while index < len(s) and s[index].isdigit():
                     cur_num = cur_num * 10 + int(s[index])
-                    index = index + 1
-                if curr_operation == '+':
+                    index += 1 
+                if cur_operation == '+':
                     stack.append(cur_num)
-                elif curr_operation == '-':
-                    stack.append(-cur_num)
-                elif curr_operation == '*':
-                    prev_num = stack.pop()
-                    stack.append(prev_num * cur_num)
-                elif curr_operation == '/':
-                    prev_num = stack.pop()
-                    # why do we need this?
-                    if prev_num < 0 and prev_num % cur_num != 0:
-                        stack.append(prev_num // cur_num + 1)
-                    else:
-                        stack.append(prev_num // cur_num)
-
-            elif letter.isspace():
+                else:
+                    stack.append(-cur_num)            
+            elif s[index] == '+' or s[index] == '-':
+                cur_operation = s[index]
                 index += 1
-            else:
-                curr_operation = letter
+            elif s[index] == '(':
+                stack.append(cur_operation)
+                cur_operation = '+'
                 index += 1
-            
+            elif s[index] == ')':
+                new_num = 0
+                while isinstance(stack[-1], int):
+                    new_num += stack.pop()
+                operation = stack.pop()
+                if operation == '+':
+                    stack.append(new_num)
+                else:
+                    stack.append(-new_num)
+                index += 1
+        
         result = 0
 
         while stack:
             result += stack.pop()
 
         return result
-        

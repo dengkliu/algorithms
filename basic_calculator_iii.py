@@ -1,0 +1,82 @@
+# https://leetcode.com/problems/basic-calculator-iii/
+
+# Implement a basic calculator to evaluate a simple expression string.
+
+# The expression string contains only non-negative integers, '+', '-', '*', '/' operators, and open '(' and closing parentheses ')'. The integer division should truncate toward zero.
+
+# You may assume that the given expression is always valid. All intermediate results will be in the range of [-231, 231 - 1].
+
+# Note: You are not allowed to use any built-in function which evaluates strings as mathematical expressions, such as eval().
+
+
+class Solution(object):
+    def calculate(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        stack = []
+        cur_operation = '+'
+        cur_num = 0
+        index = 0
+
+        # use while instead of for!!
+        while index < len(s):
+            letter = s[index]
+            if letter.isspace():
+                index += 1
+            elif letter.isdigit():
+                cur_num = int(letter)
+                index += 1
+                while index < len(s) and s[index].isdigit():
+                    cur_num = cur_num * 10 + int(s[index])
+                    index += 1
+                if cur_operation == '+':
+                    stack.append(cur_num)
+                elif cur_operation == '-':
+                    stack.append(-cur_num)
+                elif cur_operation == '*':
+                    pre_num = stack.pop()
+                    stack.append(pre_num * cur_num)
+                else:
+                    pre_num = stack.pop()
+                    ans = pre_num // cur_num
+                    if ans < 0 and pre_num % cur_num != 0:
+                        stack.append(ans + 1)
+                    else:
+                        stack.append(ans)
+            elif letter == '(':
+                stack.append(cur_operation)
+                # reset the cur_operation
+                cur_operation = '+'
+                index += 1
+            elif letter == ')':
+                new_num = 0
+                while isinstance(stack[-1], int):
+                    new_num += stack.pop()
+                operation = stack.pop()
+                if operation == '+':
+                    stack.append(new_num)
+                elif operation == '-':
+                    stack.append(-new_num)
+                elif operation == '*':
+                    pre_num = stack.pop()
+                    stack.append(pre_num * new_num)
+                else:
+                    pre_num = stack.pop()
+                    ans = pre_num // new_num
+                    if ans < 0 and pre_num % new_num != 0:
+                        stack.append(ans + 1)
+                    else:
+                        stack.append(ans)
+                cur_operation = '+'
+                index += 1
+            else:
+                cur_operation = letter
+                index += 1
+
+        result = 0
+        while stack:
+            result += stack.pop()
+        
+        return result
