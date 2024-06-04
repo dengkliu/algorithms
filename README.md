@@ -423,6 +423,7 @@ N is not a power of two, ensuring there is enough space in the array to represen
 ### 12.4 Stack
 * [Minimum Remove to Make Valid Parentheses](https://github.com/dengkliu/algorithms/blob/master/minimum_remove_to_make_valid_parentheses.py)
 * [Minimum Stack](https://leetcode.com/problems/min-stack/description/)
+* [Basic calculator II](https://github.com/dengkliu/algorithms/blob/master/basic_calculator_ii.py)
 
 ### 12.5 Heap (Priority Queue)
 In Python, you need to import heapq library, and use heapq.heappop(heap) and heap.heappush(heap, element) to do pop and push operation.
