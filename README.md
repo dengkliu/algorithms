@@ -417,6 +417,7 @@ N is not a power of two, ensuring there is enough space in the array to represen
 
 ### 12.3 Linked List
 * [Reverse Linked List](https://github.com/dengkliu/algorithms/blob/master/reverse_singly_linked_list.py)
+* [Insert into a Sorted Circular Linked List](https://github.com/dengkliu/algorithms/blob/master/insert_into_a_sorted_circular_linked_list.py)
 * [LRU Cache](https://github.com/dengkliu/algorithms/blob/master/lru_cache.py)
 * [Merge Two Sorted Linked Lists](https://github.com/dengkliu/algorithms/blob/master/merge_two_sorted_list.py)
 * [Merge K Sorted Linked Lists](https://github.com/dengkliu/algorithms/blob/master/merge_k_sorted_list.py)
