@@ -440,6 +440,7 @@ In Python, you need to import heapq library, and use heapq.heappop(heap) and hea
 * [Kth largest element in an array](https://github.com/dengkliu/algorithms/blob/master/kth_largest_element_in_an_array.py)
 
 ### 12.6 Dictionary
+Use python dictionary to achieve O(1) search time.
 * [2 Sum](https://github.com/dengkliu/algorithms/blob/master/two_sum.py)
 * [Custom Sort String](https://github.com/dengkliu/algorithms/blob/master/custom_sort_string.py)
 
