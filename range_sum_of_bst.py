@@ -33,3 +33,31 @@ class Solution(object):
                 if stack[-1].val > high:
                     break
         return range_sum
+
+
+# recursion version
+class Solution(object):
+    def rangeSumBST(self, root, low, high):
+        """
+        :type root: TreeNode
+        :type low: int
+        :type high: int
+        :rtype: int
+        """
+        result = [0]
+
+        def dfs(root):
+            if not root:
+                return 
+            if root.val >= low and root.val <= high:
+                result[0] += root.val
+                dfs(root.left)
+                dfs(root.right)
+            elif root.val < low:
+                dfs(root.right)
+            else:
+                dfs(root.left)
+
+        dfs(root)
+        
+        return result[0]
