@@ -423,7 +423,7 @@ N is not a power of two, ensuring there is enough space in the array to represen
 
 ### 12.4 Stack
 * [Minimum Remove to Make Valid Parentheses](https://github.com/dengkliu/algorithms/blob/master/minimum_remove_to_make_valid_parentheses.py)
-* [Minimum Stack](https://leetcode.com/problems/min-stack/description/)
+* [Min Stack](https://github.com/dengkliu/algorithms/blob/master/min_stack.py)
 * [Basic calculator](https://github.com/dengkliu/algorithms/blob/master/basic_calculator.py)
 * [Basic calculator II](https://github.com/dengkliu/algorithms/blob/master/basic_calculator_ii.py)
 * [Basic calculator III](https://github.com/dengkliu/algorithms/blob/master/basic_calculator_iii.py)
