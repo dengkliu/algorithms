@@ -407,7 +407,8 @@ Stack that is monotone decreasing can be used to find the first element that is 
 * [Tall Building](https://github.com/dengkliu/algorithms/blob/master/tall_buildings.py)
 * [Sliding Window Maximum](https://github.com/dengkliu/algorithms/blob/master/sliding_window_maximum.py)
 * [Shortest Subarray Sum At Least K](https://github.com/dengkliu/algorithms/blob/master/shortest_subarray_with_sum_at_least_K.py)
-* 
+* [Buildings With an Ocean View](https://github.com/dengkliu/algorithms/blob/master/buildings_with_an_ocean_view.py)
+
 ### 12.2 Segment Tree
 Here is the [implementation](https://github.com/dengkliu/algorithms/blob/master/segment_tree.py) of segment tree. For an array of size N, a practical upper estimate for the size of a segment tree array is about 4 * N, which safely covers the cases where 
 N is not a power of two, ensuring there is enough space in the array to represent the tree. 
@@ -423,7 +424,9 @@ N is not a power of two, ensuring there is enough space in the array to represen
 ### 12.4 Stack
 * [Minimum Remove to Make Valid Parentheses](https://github.com/dengkliu/algorithms/blob/master/minimum_remove_to_make_valid_parentheses.py)
 * [Minimum Stack](https://leetcode.com/problems/min-stack/description/)
+* [Basic calculator](https://github.com/dengkliu/algorithms/blob/master/basic_calculator.py)
 * [Basic calculator II](https://github.com/dengkliu/algorithms/blob/master/basic_calculator_ii.py)
+* [Basic calculator III](https://github.com/dengkliu/algorithms/blob/master/basic_calculator_iii.py)
 
 ### 12.5 Heap (Priority Queue)
 In Python, you need to import heapq library, and use heapq.heappop(heap) and heap.heappush(heap, element) to do pop and push operation.
