@@ -342,7 +342,8 @@ Two pointers start from the head of array and go to the end.
 * [Minimum Window Substring](https://github.com/dengkliu/algorithms/blob/master/minimum_window_substring.py)
 * [Longest Substring Without Repeating Characters](https://github.com/dengkliu/algorithms/blob/master/longest_substring_without_repeating_characters.py)
 * [Longest Substring With At Most K Distinct Characters](https://github.com/dengkliu/algorithms/blob/master/LongestSubstringWithAtMostKDistinctCharacters.java) 
-* [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/subarray_sum_II.py) 
+* [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/subarray_sum_II.py)
+* [Merge Two Sorted Array In Place](https://github.com/dengkliu/algorithms/blob/master/merge_sorted_array.py)
 
 ### 8.2 Fixed Size Sliding Window 固定长度滑动窗口
 
@@ -358,7 +359,7 @@ Two pointers start from the head of array and go to the end.
 * [Valid Palindrome II](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome_ii.py)
   
 ### Back direction two pointers
-* [Shortest Palindrome](https://github.com/dengkliu/algorithms/blob/master/ShortestPalindrome.java) ✅ 
+* [Shortest Palindrome](https://github.com/dengkliu/algorithms/blob/master/ShortestPalindrome.java) 
 
 ## 9. Binary Search 二分查询
 
@@ -438,15 +439,16 @@ In Python, you need to import heapq library, and use heapq.heappop(heap) and hea
 * [Minimum Cost to Hire_K_Workers](https://github.com/dengkliu/algorithms/blob/master/minimum_cost_to_hire_K_workers.py)
 * [Kth largest element in an array](https://github.com/dengkliu/algorithms/blob/master/kth_largest_element_in_an_array.py)
 
+### 12.6 Dictionary
+* [2 Sum](https://github.com/dengkliu/algorithms/blob/master/two_sum.py)
+* [Custom Sort String](https://github.com/dengkliu/algorithms/blob/master/custom_sort_string.py)
+
 ## 13. String, Math, and Others
 * [Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
-* [Merge Two Sorted Array In Place](https://github.com/dengkliu/algorithms/blob/master/merge_sorted_array.py)
 * [Valid Palindrome](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome.py)
 * [Greatest Common Divisor String](https://github.com/dengkliu/algorithms/blob/master/greatest_common_divisor_of_strings.py)
-* [2 Sum](https://github.com/dengkliu/algorithms/blob/master/two_sum.py)
-* [3 Sum](https://github.com/dengkliu/algorithms/blob/master/3_sum.py)
+
 
 * Factorization - https://www.lintcode.com/problem/652/
 * https://www.lintcode.com/problem/1877
-* meta - https://leetcode.com/problems/basic-calculator-ii/description/
 
