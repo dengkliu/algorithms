@@ -74,3 +74,39 @@ class Solution:
         lastNode.right = firstNode
 
         return result[0]
+
+
+
+# recurision solution
+class Solution(object):
+    def treeToDoublyList(self, root):
+        """
+        :type root: Node
+        :rtype: Node
+        """
+        inorder = []
+
+        if not root:
+            return None
+
+        def inorder_traversal(root):
+            if not root:
+                return
+            inorder_traversal(root.left)
+            inorder.append(root)
+            if len(inorder) >= 2:
+                prev = inorder[-2]
+                tail = inorder[-1]
+                prev.right = tail
+                tail.left = prev
+            inorder_traversal(root.right)
+
+        inorder_traversal(root)
+
+        head = inorder[0]
+        tail = inorder[-1]
+
+        head.left = tail
+        tail.right = head
+
+        return inorder[0]
