@@ -431,6 +431,7 @@ N is not a power of two, ensuring there is enough space in the array to represen
 ### 12.5 Heap (Priority Queue)
 In Python, you need to import heapq library, and use heapq.heappop(heap) and heap.heappush(heap, element) to do pop and push operation.
 * [Minimum Cost to Hire_K_Workers](https://github.com/dengkliu/algorithms/blob/master/minimum_cost_to_hire_K_workers.py)
+* [Kth largest element in an array](https://github.com/dengkliu/algorithms/blob/master/kth_largest_element_in_an_array.py)
 
 ## 13. String, Math, and Others
 * [Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
