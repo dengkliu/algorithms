@@ -216,6 +216,7 @@ Find whether a solution exists or not; find a specific solution; find all soluti
 * [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
 * [Longest Increasing Sequence in 2D Matrix](https://github.com/dengkliu/algorithms/blob/master/longest_increasing_path_in_a_matrix.py)
 * [Valid Palindrome III](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome_iii.py)
+* [Stickers to Spell Word](https://github.com/dengkliu/algorithms/blob/master/stickers_to_spell_word.py)
 
 ### 3.3 Combination & Permutation
 
