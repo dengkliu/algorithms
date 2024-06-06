@@ -17,25 +17,23 @@ class Solution(object):
         for i in range(1, len(w)):
             self.prefix_sum[i] += w[i] + self.prefix_sum[i - 1]
             
-    def _binary_search(self, arr, x):
+    def binary_search(self, arr, x):
         start, end = 0, len(arr) - 1
-        while start + 1 < end:
+        while start < end:
             mid = (start + end) // 2
             if arr[mid] < x:
-                start = mid
+                start = mid + 1
             else:
                 end = mid
-        if arr[start] < x:
-            return end
-        else:
-            return start
+
+        return start
 
     def pickIndex(self):
         """
         :rtype: int
         """
         x = random.randint(1, self.prefix_sum[-1])
-        index = self._binary_search(self.prefix_sum, x)
+        index = self.binary_search(self.prefix_sum, x)
         return index
 
 
