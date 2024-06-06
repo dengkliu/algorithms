@@ -41,4 +41,34 @@ class Solution(object):
                 break
             
         return result
+
+
+class Solution(object):
+    def closestValue(self, root, target):
+        """
+        :type root: TreeNode
+        :type target: float
+        :rtype: int
+        """
+        diff = [float('inf')]
+        result = [-1]
+
+        def inorder(root):
+            if root.left:
+                inorder(root.left)
+
+            if abs(root.val - target) < diff[0]:
+                diff[0] = abs(root.val - target)
+                result[0] = root.val
+            else:
+                return
+
+            if root.right:
+                inorder(root.right)
+
+
+        inorder(root)
+
+        return result[0]
+        
         
