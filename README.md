@@ -215,6 +215,8 @@ Find whether a solution exists or not; find a specific solution; find all soluti
 * [Word Search](https://github.com/dengkliu/algorithms/blob/master/word_search.py)
 * [Word Search II](https://github.com/dengkliu/algorithms/blob/master/word_search_II.py)
 * [Longest Increasing Sequence in 2D Matrix](https://github.com/dengkliu/algorithms/blob/master/longest_increasing_path_in_a_matrix.py)
+* [Word Break](https://github.com/dengkliu/algorithms/blob/master/word_break.py)
+* [Word Break II](https://github.com/dengkliu/algorithms/blob/master/word_break_ii.py)
 * [Valid Palindrome III](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome_iii.py)
 * [Stickers to Spell Word](https://github.com/dengkliu/algorithms/blob/master/stickers_to_spell_word.py)
 
@@ -450,8 +452,3 @@ Use python dictionary to achieve O(1) search time.
 * [Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
 * [Valid Palindrome](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome.py)
 * [Greatest Common Divisor String](https://github.com/dengkliu/algorithms/blob/master/greatest_common_divisor_of_strings.py)
-
-
-* Factorization - https://www.lintcode.com/problem/652/
-* https://www.lintcode.com/problem/1877
-
