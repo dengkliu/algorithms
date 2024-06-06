@@ -81,7 +81,7 @@
 #### 1.2.1 Tree's Height
 * [Minimum Depth of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/minimum_depth_of_binary_tree.py)
 * [Balanced Binary Tree](https://github.com/dengkliu/algorithms/blob/master/balanced_binary_tree.py)
-* [Diameter of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/DiameterOfBinaryTree.java)
+* [Diameter of Binary Tree](https://github.com/dengkliu/algorithms/blob/master/diameter_of_binary_tree.py)
 * [Diameter of N-ary Tree](https://github.com/dengkliu/algorithms/blob/master/diameter_of_n_ary_tree.py)
 * [Diameter of Undirected Tree](https://github.com/dengkliu/algorithms/blob/master/undirected_tree_diameter.py)
 * [Diameter of Undirected Tree with Edge Distances](https://github.com/dengkliu/algorithms/blob/master/diameter_of_n_ary_tree_with_edge_distances.py)
