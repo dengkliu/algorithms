@@ -453,6 +453,7 @@ Use python dictionary to achieve O(1) search time.
 * [Group Shifted String](https://github.com/dengkliu/algorithms/blob/master/group_shifted_strings.py)
 * [Maximum Swap](https://github.com/dengkliu/algorithms/blob/master/maximum_swap.py)
 * [Randmon Pick Indexes](https://github.com/dengkliu/algorithms/blob/master/random_pick_index.py)
+* [Toeplitz Matrix](https://github.com/dengkliu/algorithms/blob/master/toeplitz_matrix.py)
 
 ## 13. String, Math, and Others
 These are other problems related to plain string or mathematical problems.
