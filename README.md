@@ -1,3 +1,4 @@
+
 # Algorithms and Data Structures
 
 ## 0. General Tips
@@ -449,6 +450,7 @@ In Python, you need to import heapq library, and use heapq.heappop(heap) and hea
 Use python dictionary to achieve O(1) search time.
 * [2 Sum](https://github.com/dengkliu/algorithms/blob/master/two_sum.py)
 * [Custom Sort String](https://github.com/dengkliu/algorithms/blob/master/custom_sort_string.py)
+* [Group Shifted String](https://github.com/dengkliu/algorithms/blob/master/group_shifted_strings.py)
 
 ## 13. String, Math, and Others
 These are other problems related to plain string or mathematical problems.
