@@ -21,31 +21,24 @@ class Node(object):
 """
 
 class Solution(object):
+
+    old_to_new = {}
+
     def cloneGraph(self, node):
         """
         :type node: Node
         :rtype: Node
         """
+
+        if not node:
+
+        if node in self.old_to_new:
+            return self.old_to_new[node]
         
-        # what is shallow copy and what is deep copy 
-        def dfs(node, visited):
+        copy = Node(node.val)
+        self.old_to_new[node] = copy
 
-            if not node:
-                return None 
-            
-            # why do we need a map from node to copy node?
-            if node in visited:
-                return visited[node]
+        for nei in node.neighbors:
+            copy.neighbors.append(self.cloneGraph(nei))
 
-            copy = Node(node.val, [])
-            visited[node] = copy
-
-            for n in node.neighbors:
-                n_copy = dfs(n, visited)
-                copy.neighbors.append(n_copy)
-
-            return copy
-
-        visited = {}
-        
-        return dfs(node, visited)
+        return copy
