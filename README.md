@@ -390,6 +390,7 @@ Related coding problem -
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java) 
 * [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
 * [Random Pick with Weights](https://github.com/dengkliu/algorithms/blob/master/random_pick_with_weight.py)
+* [Pow(x, n)](https://github.com/dengkliu/algorithms/blob/master/powx_n.py)
 
 ## 10. Sorting
 * [Quick sort](https://github.com/dengkliu/algorithms/blob/master/quick_sort.py)
