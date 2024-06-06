@@ -445,6 +445,7 @@ In Python, you need to import heapq library, and use heapq.heappop(heap) and hea
 * [Minimum Cost to Hire_K_Workers](https://github.com/dengkliu/algorithms/blob/master/minimum_cost_to_hire_K_workers.py)
 * [Kth largest element in an array](https://github.com/dengkliu/algorithms/blob/master/kth_largest_element_in_an_array.py)
 * [K Closest Points to Origin](https://github.com/dengkliu/algorithms/blob/master/k_closest_points_to_origin.py)
+* [Topic K Frequent Elements](https://github.com/dengkliu/algorithms/blob/master/top_k_frequent_elements.py)
 
 ### 12.6 Dictionary
 Use python dictionary to achieve O(1) search time.
