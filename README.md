@@ -341,6 +341,7 @@ Two pointers start from the head of array and go to the end.
 * [Validate word abbreviation](https://github.com/dengkliu/algorithms/blob/master/valid_word_abbreviation.py)
 * [Interval List Intersections](https://github.com/dengkliu/algorithms/blob/master/interval_list_intersections.py)
 * [Dot Product of 2 Sparse Vector](https://github.com/dengkliu/algorithms/blob/master/dot_product_of_2_sparse_vectors.py)
+* [Subarray Product Less Than K](https://github.com/dengkliu/algorithms/blob/master/subarray_product_less_than_K.py)
 * [Product of 2 Run Length Encoded Arrays](https://github.com/dengkliu/algorithms/blob/master/product_of_two_run_length_encoded_arrays.py)
 * [Minimum Size Subarray Sum at Least Target](https://github.com/dengkliu/algorithms/blob/master/minimum_size_of_subarray_sum_no_less_than_target.py)
 * [Substring With At Least K Distinct Characters](https://github.com/dengkliu/algorithms/blob/master/substring_with_at_least_K_distinct_characters.py) 
