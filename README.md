@@ -457,9 +457,10 @@ Use python dictionary to achieve O(1) search time.
 * [Randmon Pick Indexes](https://github.com/dengkliu/algorithms/blob/master/random_pick_index.py)
 * [Toeplitz Matrix](https://github.com/dengkliu/algorithms/blob/master/toeplitz_matrix.py)
 
-## 13. String, Math, and Others
+## 13. String, Math, Array and Others
 These are other problems related to plain string or mathematical problems.
 * [Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
 * [Valid Palindrome](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome.py)
 * [Valid Number](https://github.com/dengkliu/algorithms/blob/master/valid_number.py)
 * [Greatest Common Divisor String](https://github.com/dengkliu/algorithms/blob/master/greatest_common_divisor_of_strings.py)
+* [Missing Ranges](https://github.com/dengkliu/algorithms/blob/master/missing_ranges.py)
