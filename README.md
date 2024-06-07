@@ -436,6 +436,7 @@ N is not a power of two, ensuring there is enough space in the array to represen
 * [Basic calculator II](https://github.com/dengkliu/algorithms/blob/master/basic_calculator_ii.py)
 * [Basic calculator III](https://github.com/dengkliu/algorithms/blob/master/basic_calculator_iii.py)
 * [Simplify Path](https://github.com/dengkliu/algorithms/blob/master/simplify_path.py)
+* [Exclusive Time of Functions](https://github.com/dengkliu/algorithms/blob/master/exclusive_time_of_executions.py)
 
 ### 12.4 FIFO queue
 * [Move Average from Data Stream](https://github.com/dengkliu/algorithms/blob/master/move_average_from_data_stream.py)
