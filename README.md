@@ -465,3 +465,4 @@ These are other problems related to plain string or mathematical problems.
 * [Valid Number](https://github.com/dengkliu/algorithms/blob/master/valid_number.py)
 * [Greatest Common Divisor String](https://github.com/dengkliu/algorithms/blob/master/greatest_common_divisor_of_strings.py)
 * [Missing Ranges](https://github.com/dengkliu/algorithms/blob/master/missing_ranges.py)
+* [Diagonal Order](https://github.com/dengkliu/algorithms/blob/master/diagonal_traverse.py)
