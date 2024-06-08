@@ -221,6 +221,7 @@ Find whether a solution exists or not; find a specific solution; find all soluti
 * [Word Break II](https://github.com/dengkliu/algorithms/blob/master/word_break_ii.py)
 * [Valid Palindrome III](https://github.com/dengkliu/algorithms/blob/master/valid_palindrome_iii.py)
 * [Stickers to Spell Word](https://github.com/dengkliu/algorithms/blob/master/stickers_to_spell_word.py)
+* [Remove Invalid Parentheses](https://github.com/dengkliu/algorithms/blob/master/remove_invalid_parentheses.py)
 
 ### 3.3 Combination & Permutation
 
