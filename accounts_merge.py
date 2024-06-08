@@ -43,13 +43,13 @@ class Solution(object):
         :type accounts: List[List[str]]
         :rtype: List[List[str]]
         """
-        graph = collections.defaultdict(list)
-
         # cache all unique emails. why do we need this set
         # beyond the graph above?
         emails = set()
         email_to_name = {}
 
+        # all emails connected to each other
+        graph = collections.defaultdict(list)
         for account in accounts:
             for x in range(1, len(account)):
                 email1 = account[x]
@@ -59,22 +59,32 @@ class Solution(object):
                     email2 = account[y]
                     graph[email1].append(email2)
                     graph[email2].append(email1)
-        
-        result = []
+
         visited = set()
 
-        def dfs(email):
-            connected_emails = [email]
-            for next_email in graph[email]:
-                if next_email not in visited:
-                    visited.add(next_email)
-                    connected_emails += dfs(next_email)
+        def bfs(email):
+            queue = collections.deque()
+            queue.append(email)
+            visited.add(email)
+            connected_emails = []
+            connected_emails.append(email)
+
+            while queue:
+                cur = queue.popleft()
+                for next_e in graph[cur]:
+                    if next_e not in visited:
+                        queue.append(next_e)
+                        visited.add(next_e)
+                        connected_emails.append(next_e)
+
             return connected_emails
+
+        result = []
 
         for email in emails:
             if email not in visited:
                 visited.add(email)
-                connected_emails = dfs(email)
+                connected_emails = bfs(email)
                 connected_emails.sort()
                 result.append([email_to_name[email]] + connected_emails)
         
