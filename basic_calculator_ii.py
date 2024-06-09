@@ -59,3 +59,55 @@ class Solution(object):
             result += stack.pop()
 
         return result
+
+
+# O(1) 空间优化版
+class Solution(object):
+    def calculate(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        if not s:
+            return 0
+
+        result = 0
+        cur_num = 0
+        last_num = 0
+        curr_operation = '+'
+        index = 0
+
+        # 3 + 2 * 2 
+        # 
+        # last = 0  result = 0 
+        # last = 2  result = 3
+        # last = 4  result = 3 
+        # 7
+        while index < len(s):
+            letter = s[index]
+            if letter.isdigit():
+                cur_num = int(letter)
+                index = index + 1
+                while index < len(s) and s[index].isdigit():
+                    cur_num = cur_num * 10 + int(s[index])
+                    index = index + 1
+                if curr_operation == '+' or curr_operation == '-':
+                    result += last_num
+                    last_num = cur_num if curr_operation == '+' else - cur_num
+                elif curr_operation == '*':
+                    last_num = last_num * cur_num
+                elif curr_operation == '/':
+                    division_num = last_num // cur_num
+                    if division_num < 0 and last_num % cur_num != 0:
+                        last_num = division_num + 1
+                    else:
+                        last_num = division_num
+            elif letter.isspace():
+                index += 1
+            else:
+                curr_operation = letter
+                cur_num = 0
+                index += 1
+                
+
+        return result + last_num
