@@ -469,3 +469,4 @@ These are other problems related to plain string or mathematical problems.
 * [Missing Ranges](https://github.com/dengkliu/algorithms/blob/master/missing_ranges.py)
 * [Diagonal Order](https://github.com/dengkliu/algorithms/blob/master/diagonal_traverse.py)
 * [String to Integer](https://github.com/dengkliu/algorithms/blob/master/string_to_integer.py)
+* [Merge Intervals](https://github.com/dengkliu/algorithms/blob/master/merge_intervals.py)
