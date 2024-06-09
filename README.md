@@ -396,6 +396,7 @@ Related coding problem -
 * [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
 * [Random Pick with Weights](https://github.com/dengkliu/algorithms/blob/master/random_pick_with_weight.py)
 * [Pow(x, n)](https://github.com/dengkliu/algorithms/blob/master/powx_n.py)
+* [Kth Missing Positive Number](https://github.com/dengkliu/algorithms/blob/master/kth_missing_positive_number.py)
 
 ## 10. Sorting
 * [Quick sort](https://github.com/dengkliu/algorithms/blob/master/quick_sort.py)
