@@ -8,57 +8,23 @@ class Solution(object):
         :type mat: List[List[int]]
         :rtype: List[int]
         """
-        # 0 - [0, 0]
-        # 1 -  [0, 1], [1, 0]
-        # 2 - [2, 0], [1, 1], [0, 2]
-        # 3 - [1, 2], [2, 1]
-        # 4 - [2, 2]
-
-        if not mat or not mat[0]:
+        if not mat:
             return []
 
-        # 1 - go up
-        # -1 - go down
-        DIRECTION = 1
+        groups = collections.defaultdict(list)
+        for row in range(len(mat) - 1, -1, -1):
+            for col in range(len(mat[0])):
+                diagnoal = row + col
+                groups[diagnoal].append(mat[row][col])
 
-        r = c = 0
-        m = len(mat)
-        n = len(mat[0])
-
-        res = []
-
-        while r in range(m) and c in range(n):
-            res.append(mat[r][c])
-
-            # we need to go up
-            if DIRECTION == 1:
-                while r - 1 in range(m) and c + 1 in range(n):
-                    res.append(mat[r - 1][c + 1])
-                    r = r - 1
-                    c = c + 1
-                # now we need to change and move to go down
-                # we move to right element if it exists
-                if c + 1 in range(n):
-                    c = c + 1
-                # we are at the last column
-                elif r + 1 in range(m):
-                    r = r + 1
-                else:
-                    return res
-                DIRECTION = 0
+        cur_diagnoal = 0
+        diagonal_order = []
+        while cur_diagnoal in groups:
+            if cur_diagnoal % 2 == 0:
+                diagonal_order.extend(groups[cur_diagnoal])
             else:
-                while r + 1 in range(m) and c - 1 in range(n):
-                    res.append(mat[r + 1][c - 1])
-                    r = r + 1
-                    c = c - 1
-                # now we need to change and move to go up
-                # we move down if possible
-                if r + 1 in range(m):
-                    r = r + 1
-                # otherwise we move right
-                elif c + 1 in range(n):
-                    c = c + 1
-                else:
-                    return res
-                DIRECTION = 1
+                diagonal_order.extend(groups[cur_diagnoal][::-1])
+            cur_diagnoal += 1
+        
+        return diagonal_order
     
