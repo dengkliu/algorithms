@@ -460,7 +460,8 @@ Use python dictionary to achieve O(1) search time.
 * [Maximum Swap](https://github.com/dengkliu/algorithms/blob/master/maximum_swap.py)
 * [Randmon Pick Indexes](https://github.com/dengkliu/algorithms/blob/master/random_pick_index.py)
 * [Toeplitz Matrix](https://github.com/dengkliu/algorithms/blob/master/toeplitz_matrix.py)
-
+* [Verifying Alien Dictionary](https://github.com/dengkliu/algorithms/blob/master/verifying_an_alien_dictionary.py)
+  
 ## 13. String, Math, Array and Others
 These are other problems related to plain string or mathematical problems.
 * [Nth Digit](https://github.com/dengkliu/algorithms/blob/master/nth_digit.py)
