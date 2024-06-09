@@ -44,3 +44,26 @@ class Solution(object):
                     queue.append(curr.right)
         
         return root
+
+class Solution(object):
+    def connect(self, root):
+        """
+        :type root: Node
+        :rtype: Node
+        """
+        if not root:
+            return root
+
+        leftmost = root
+
+        while leftmost.left:
+            head = leftmost
+            while head:
+                # we can do this because it is a perfect binary tree!
+                head.left.next = head.right
+                if head.next:
+                    head.right.next = head.next.left
+                head = head.next
+            leftmost = leftmost.left
+
+        return root
