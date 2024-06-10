@@ -16,25 +16,22 @@ class Solution(object):
         :type root: TreeNode
         :rtype: bool
         """
-        queue = collections.deque()
-        queue.append(root)
-        prev_right_null = False
+
+        def count_nodes(root):
+            if not root:
+                return 0
+            return 1 + count_nodes(root.left) + count_nodes(root.right)
+
+        total_nodes_cnt = count_nodes(root)
+
+        def dfs(root, index, total_nodes_cnt):
+            if not root:
+                return True
+            
+            if index >= total_nodes_cnt:
+                return False
+
+            return dfs(root.left, 2 * index + 1, total_nodes_cnt) and \
+               dfs(root.right, 2 * index + 2, total_nodes_cnt)
         
-        while queue:
-            size = len(queue)
-            for i in range(size):
-                node = queue.popleft()
-                # 1. Why do we need this check?
-                if prev_right_null and (node.right or node.left):
-                    return False
-                # 2. Why do we need this check?
-                if not node.left and node.right:
-                    return False
-                if node.left:
-                    queue.append(node.left)
-                if node.right:
-                    queue.append(node.right)
-                else:
-                    prev_right_null = True
-        
-        return True
+        return dfs(root, 0, total_nodes_cnt)
