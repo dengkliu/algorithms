@@ -353,6 +353,7 @@ Two pointers start from the head of array and go to the end.
 * [Longest Substring With At Most K Distinct Characters](https://github.com/dengkliu/algorithms/blob/master/LongestSubstringWithAtMostKDistinctCharacters.java) 
 * [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/subarray_sum_II.py)
 * [Merge Two Sorted Array In Place](https://github.com/dengkliu/algorithms/blob/master/merge_sorted_array.py)
+* [Merge Two Intervals](https://github.com/dengkliu/algorithms/blob/master/merge_two_interval_list.py)
 
 ### 8.2 Fixed Size Sliding Window 固定长度滑动窗口
 
