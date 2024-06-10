@@ -4,5 +4,25 @@
 
 
 def mergeInterval(self, A, B):
+	ptr1, ptr2 = 0, 0
+	merged_interval = []
+	while ptr1 < len(A) or pt2 < len(B):
+		if ptr1==len(A):
+			curr = B[ptr2]
+			ptr2 += 1
+		elif ptr2 == len(B):
+			curr = A[ptr1]
+			ptr1 += 1
+		elif A[ptr1][0] <= B[ptr1][0]:
+			curr = A[ptr1]
+			ptr1 += 1
+		else:
+			curr = B[ptr2]
+			ptr2 += 1
 
+		if merged_interval and merged_interval[-1][1] >= curr[0]:
+			merged_interval[-1][1] = max(merged_interval[-1][1], curr[1])
+		else:
+			merged_interval.append(curr)
 
+	return merged_interval
