@@ -311,16 +311,17 @@ The definition of prefix sum for 1D and 2D array.
 * [2 dimentional array](https://github.com/dengkliu/algorithms/blob/master/prefix_sum_two_dimension.py)
 
 Related coding problems.
-* [Maximum Subarray](https://github.com/dengkliu/algorithms/blob/master/maximum_subarray.py) ✅ 通过确定之前的区间最小值，来获取当前的区间最大值，打擂台。
-* [Shortest Subarray Sum Equals to K](https://github.com/dengkliu/algorithms/blob/master/shortest_subarray_sum_equal_k.py) ✅ 经典题，区间和问题！数组元素可正可负（排除双指针解法），而且是确定数值的区间和（map记录区间和to数组元素，因为是求最短，相同的sum，index直接覆盖之前的index）！），要找最短，枚举subarray的end, 打擂台。
-* [Subarray Sum Equals K](https://github.com/dengkliu/algorithms/blob/master/subarray_sum_equal_k.py) ✅ 确定数值的区间和问题，数组元素可正可负（排除双指针解法），枚举区间右端点，用map记录之前的和与位置，因为负数的存在，同一个和可能对应多个位置。
-* [Binary Subarrays With Sum](https://github.com/dengkliu/algorithms/blob/master/binary_subarrays_with_sum.py) ✅ 确定数值区间和的特例。
-* [Matrix Restoration](https://github.com/dengkliu/algorithms/blob/master/MatrixRestoration.java) ✅ 在二维数组上的Prefix sum应用
-* [Product of Array Except Itself](https://github.com/dengkliu/algorithms/blob/master/ProductOfArrayExceptSelf.java) ✅ Prefix product。从尾部开始处理。
+* [Maximum Subarray](https://github.com/dengkliu/algorithms/blob/master/maximum_subarray.py)
+* [Shortest Subarray Sum Equals to K](https://github.com/dengkliu/algorithms/blob/master/shortest_subarray_sum_equal_k.py) 
+* [Subarray Sum Equals K](https://github.com/dengkliu/algorithms/blob/master/subarray_sum_equal_k.py) 
+* [Binary Subarrays With Sum](https://github.com/dengkliu/algorithms/blob/master/binary_subarrays_with_sum.py) 
+* [Matrix Restoration](https://github.com/dengkliu/algorithms/blob/master/MatrixRestoration.java) 
+* [Product of Array Except Itself](https://github.com/dengkliu/algorithms/blob/master/ProductOfArrayExceptSelf.java)
 * [Maximum Average Subarray II](https://github.com/dengkliu/algorithms/blob/master/MaximumAverageSubarrayII.java)
-* [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/subarray_sum_II.py) ✅ Prefix sum, 全部是postive number，所以可以用双指针。
+* [Subarray Sum II](https://github.com/dengkliu/algorithms/blob/master/subarray_sum_II.py) 
 * [Random Pick with Weights](https://github.com/dengkliu/algorithms/blob/master/random_pick_with_weight.py)
 * [Continous Subarrary Sum Divisible By K](https://github.com/dengkliu/algorithms/blob/master/continous_subarray_sum.py)
+* [Path Sum III](https://github.com/dengkliu/algorithms/blob/master/path_sum_iii.py)
 
 ## 7. Scanning Line 扫描线
 
