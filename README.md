@@ -476,3 +476,4 @@ These are other problems related to plain string or mathematical problems.
 * [Diagonal Order](https://github.com/dengkliu/algorithms/blob/master/diagonal_traverse.py)
 * [String to Integer](https://github.com/dengkliu/algorithms/blob/master/string_to_integer.py)
 * [Merge Intervals](https://github.com/dengkliu/algorithms/blob/master/merge_intervals.py)
+* [First Missing Positive](https://github.com/dengkliu/algorithms/blob/master/first_missing_positive.py)
