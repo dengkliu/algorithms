@@ -433,6 +433,7 @@ N is not a power of two, ensuring there is enough space in the array to represen
 * [Merge Two Sorted Linked Lists](https://github.com/dengkliu/algorithms/blob/master/merge_two_sorted_list.py)
 * [Merge K Sorted Linked Lists](https://github.com/dengkliu/algorithms/blob/master/merge_k_sorted_list.py)
 * [Remove Kth Node from End of Linked List](https://github.com/dengkliu/algorithms/blob/master/remove_nth_node_from_end_of_list.py)
+* [Swapping Nodes in a Linked List](https://github.com/dengkliu/algorithms/blob/master/swapping_nodes_in_linked_list.py)
 
 ### 12.4 Stack
 * [Minimum Remove to Make Valid Parentheses](https://github.com/dengkliu/algorithms/blob/master/minimum_remove_to_make_valid_parentheses.py)
