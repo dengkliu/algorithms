@@ -69,3 +69,28 @@ class Solution(object):
             return result
 
         return dfs(nestedList, 1)
+
+
+    def depthSum(self, nestedList):
+        """
+        :type nestedList: List[NestedInteger]
+        :rtype: int
+        """
+        queue = collections.deque()
+        for nestedInteger in nestedList:
+            queue.append(nestedInteger)
+
+        depth = 1
+        total = 0
+
+        while len(queue) > 0:
+            n = len(queue)
+            for i in range(n):
+                nested = queue.popleft()
+                if nested.isInteger():
+                    total += nested.getInteger() * depth
+                else:
+                    queue.extend(nested.getList())
+            depth += 1
+
+        return total
