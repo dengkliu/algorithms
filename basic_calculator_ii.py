@@ -19,46 +19,40 @@ class Solution(object):
 
         stack = []
         index = 0
-        cur_operation = '+'
-        cur_num = 0
+        previous_operator = "+"
 
+        #  3 + 2 * 2
+        # [3, 4]
         while index < len(s):
-            if s[index].isspace():
+            c = s[index]
+            if c == " ":
                 index += 1
-            elif s[index].isdigit():
-                cur_num = int(s[index])
+            elif c.isdigit():
+                num = int(c)
                 index += 1
                 while index < len(s) and s[index].isdigit():
-                    cur_num = cur_num * 10 + int(s[index])
-                    index += 1 
-                if cur_operation == '+':
-                    stack.append(cur_num)
-                else:
-                    stack.append(-cur_num)            
-            elif s[index] == '+' or s[index] == '-':
-                cur_operation = s[index]
+                    num = num * 10 + int(s[index])
+                    index += 1
+                if previous_operator == "+":
+                    stack.append(num)
+                elif previous_operator == "-":
+                    stack.append(-num)
+                elif previous_operator == "*":
+                    prev_num = stack.pop()
+                    stack.append(prev_num * num)
+                elif previous_operator == "/":
+                    prev_num = stack.pop()
+                    division_num = prev_num // num
+                    if division_num < 0 and prev_num % num != 0:
+                        stack.append(division_num + 1)
+                    else:
+                        stack.append(division_num)
+            else:
+                previous_operator = c
                 index += 1
-            elif s[index] == '(':
-                stack.append(cur_operation)
-                cur_operation = '+'
-                index += 1
-            elif s[index] == ')':
-                new_num = 0
-                while isinstance(stack[-1], int):
-                    new_num += stack.pop()
-                operation = stack.pop()
-                if operation == '+':
-                    stack.append(new_num)
-                else:
-                    stack.append(-new_num)
-                index += 1
-        
-        result = 0
 
-        while stack:
-            result += stack.pop()
+        return sum(stack)
 
-        return result
 
 
 # O(1) 空间优化版
@@ -72,7 +66,6 @@ class Solution(object):
             return 0
 
         result = 0
-        cur_num = 0
         last_num = 0
         curr_operation = '+'
         index = 0
@@ -80,6 +73,7 @@ class Solution(object):
         # 3 + 2 * 2 
         # 
         # last = 0  result = 0 
+        # last = 3  result = 0
         # last = 2  result = 3
         # last = 4  result = 3 
         # 7
