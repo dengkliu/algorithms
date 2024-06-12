@@ -15,68 +15,59 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
+
+        def resolve_operation(operation, cur_num, pre_num):
+            if operation == '+':
+                return cur_num
+            elif operation == '-':
+                return -cur_num
+            elif operation == '*':
+                return pre_num * cur_num
+            else:
+                if pre_num // cur_num < 0 and pre_num % cur_num != 0:
+                    return pre_num // cur_num + 1
+                else:
+                    return pre_num // cur_num
+
         stack = []
         cur_operation = '+'
-        cur_num = 0
         index = 0
 
-        # use while instead of for!!
+        # 3 + (2 * 2 + 2)
         while index < len(s):
             letter = s[index]
             if letter.isspace():
                 index += 1
             elif letter.isdigit():
-                cur_num = int(letter)
+                num = int(letter)
                 index += 1
                 while index < len(s) and s[index].isdigit():
-                    cur_num = cur_num * 10 + int(s[index])
+                    num = num * 10 + int(s[index])
                     index += 1
-                if cur_operation == '+':
-                    stack.append(cur_num)
-                elif cur_operation == '-':
-                    stack.append(-cur_num)
-                elif cur_operation == '*':
-                    pre_num = stack.pop()
-                    stack.append(pre_num * cur_num)
+                if cur_operation == '+' or cur_operation == '-':
+                    stack.append(resolve_operation(cur_operation, num, 0))
                 else:
                     pre_num = stack.pop()
-                    ans = pre_num // cur_num
-                    if ans < 0 and pre_num % cur_num != 0:
-                        stack.append(ans + 1)
-                    else:
-                        stack.append(ans)
+                    stack.append(resolve_operation(cur_operation, num, pre_num))                
             elif letter == '(':
                 stack.append(cur_operation)
                 # reset the cur_operation
                 cur_operation = '+'
                 index += 1
             elif letter == ')':
-                new_num = 0
+                num = 0
                 while isinstance(stack[-1], int):
-                    new_num += stack.pop()
+                    num += stack.pop()
                 operation = stack.pop()
-                if operation == '+':
-                    stack.append(new_num)
-                elif operation == '-':
-                    stack.append(-new_num)
-                elif operation == '*':
-                    pre_num = stack.pop()
-                    stack.append(pre_num * new_num)
+                if operation == '+' or operation == '-':
+                    stack.append(resolve_operation(operation, num, 0))
                 else:
                     pre_num = stack.pop()
-                    ans = pre_num // new_num
-                    if ans < 0 and pre_num % new_num != 0:
-                        stack.append(ans + 1)
-                    else:
-                        stack.append(ans)
+                    stack.append(resolve_operation(operation, num, pre_num))    
                 cur_operation = '+'
                 index += 1
             else:
                 cur_operation = letter
                 index += 1
-
-        result = 0
-        while stack:
-            result += stack.pop()
         
-        return result
+        return sum(stack)
