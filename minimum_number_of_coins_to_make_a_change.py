@@ -14,13 +14,23 @@ class Solution(object):
         :rtype: int
         """
         # dp[amount + 1] - the minimum number of coins needed for amount 
+        # [0 1 2 3 4 5 6 7]
         dp = [float('inf')] * (amount + 1)
 
         dp[0] = 0
+        coin_cnt = {}
+        coin_cnt[0] = [0] * len(coins)
 
         for n in range(amount + 1):
-            for coin in coins:
+            for index, coin in enumerate(coins):
                 if coin <= n:
-                    dp[n] = min(dp[n], dp[n - coin] + 1)
-        
-        return dp[amount] if dp[amount] != float('inf') else -1
+                    # If using this coin can help
+                    if dp[n - coin] + 1 < dp[n]:
+                        dp[n] = dp[n - coin] + 1
+                        coin_cnt[n] = list(coin_cnt[n - coin])
+                        coin_cnt[n][index] += 1                      
+
+        if dp[amount] != float('inf'):
+            return dp[amount]
+        else:
+            return -1
