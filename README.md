@@ -465,6 +465,7 @@ Use python dictionary to achieve O(1) search time.
 * [Randmon Pick Indexes](https://github.com/dengkliu/algorithms/blob/master/random_pick_index.py)
 * [Toeplitz Matrix](https://github.com/dengkliu/algorithms/blob/master/toeplitz_matrix.py)
 * [Verifying Alien Dictionary](https://github.com/dengkliu/algorithms/blob/master/verifying_an_alien_dictionary.py)
+* [Log and Queries](https://github.com/dengkliu/algorithms/blob/master/log_and_queries.py)
   
 ## 13. String, Math, Array and Others
 These are other problems related to plain string or mathematical problems.
